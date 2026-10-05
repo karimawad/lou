@@ -1,0 +1,48 @@
+
+
+=== PAGE 1 ===
+ID:
+Office:
+UILC:
+CCA_2010032419233935
+------------------
+904.00-00
+Number:  201016072
+Release Date: 4/23/2010
+From:  --------------------
+Sent:  Wednesday, March 24, 2010 7:23:41 PM
+To:  -------------------
+Cc:
+Subject:  RE: FTC
+---------------
+Nice to hear from you. You are on the right track here. Compulsory payments of creditable foreign
+income taxes are eligible for credit in the year paid or accrued, according to the taxpayer's method of
+accounting for foreign taxes. However, under section 904, the credit may be claimed in that year only to
+the extent of the pre-credit US tax that would otherwise be due on the foreign source taxable income in
+the same section 904(d) separate category or "basket" to which the foreign tax is apportioned under the
+rules of Treas. Reg. 1.904-6. If the pre-credit US tax attributable to the taxpayer's separate basket
+income is less than the amount of creditable foreign tax paid or accrued in that year, then the excess
+credit may be carried back to the immediately preceding year and then carried forward to each of the
+following 10 years until the excess is absorbed or expired.
+The taxpayer's ability to use the excess credit in a carryback or carryforward year is limited in each year
+by the section 904 limitation. So if the taxpayer had foreign source taxable income in the general
+category in ------- but did not pay or accrue any foreign tax in ------- (and had no excess credits in the
+general category carried forward to ------- from prior years), then some or all of the general category
+excess foreign taxes paid or accrued in ------- may be carried back and used as a credit against the US
+tax on the general category foreign source income that was taxable in -------. The carryover and
+carryback rules help mitigate the economic double taxation that might otherwise occur if the US and the
+foreign country tax the same income in different taxable years.
+The fact that the taxpayer did not leave the US in ------- does not necessarily mean he had no foreign
+source income in that year. For example, he might have reported income on the cash basis for work
+performed abroad in ------- for which he was paid in -------. In addition, he might have paid or accrued
+foreign tax in ------- on income reported for US tax purposes in -------. The source of income is generally
+determined under Code sections 861-865 and the regulations thereunder. Compensation for services
+performed in a foreign country may be treated as foreign source income under these rules. In addition,
+certain tax treaties may give US taxpayers the option to recharacterize some types of US source income
+as foreign source income to the extent necessary to relieve double taxation, if the income may be taxed
+by the foreign treaty partner as well as by the US.
+When you get more information about the nature of the foreign source income reported by the taxpayer
+on his amended return for -------, please feel free to contact me if you have followup questions about how
+the income was sourced or how the section 904 limitation was computed for that year. Thanks.
+--------------------
+-----------------------

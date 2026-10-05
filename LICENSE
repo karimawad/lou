@@ -1,0 +1,33 @@
+Lou Source-Available License, version 1.0
+
+Copyright (c) 2026 Big Time Design and Communication Inc. All rights reserved.
+
+You may:
+  1. Read, study and audit this source code, including to verify that Lou keeps
+     tax information on the user's device.
+  2. Run Lou on your own computer for your own use or to prepare returns for your
+     family, and run a local copy to test changes.
+  3. Submit contributions (pull requests, issues, corrections) to the official
+     repository. By doing so you grant Big Time Design and Communication Inc. a
+     perpetual, worldwide, royalty-free license to use, modify and distribute
+     your contribution as part of Lou.
+
+You may not, without written permission from Big Time Design and Communication Inc.:
+  1. Host Lou, or a modified version of it, as a service for others, whether free
+     or paid.
+  2. Sell, sublicense or redistribute Lou or substantial parts of it.
+  3. Use the name "Lou" or "Big Time" to promote a product or service, or suggest
+     that a copy or modification is the official Lou.
+  4. Remove or change the notices, disclaimers and review reminders that Lou shows
+     with its output.
+
+Third-party software included in Lou is licensed under its own terms (see
+THIRD_PARTY.md). Official IRS forms and instructions are US government works in
+the public domain.
+
+DISCLAIMER. LOU IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
+PURPOSE AND NON-INFRINGEMENT. LOU IS SOFTWARE, NOT A TAX PREPARER, AND DOES NOT
+GIVE TAX ADVICE. TO THE FULLEST EXTENT THE LAW ALLOWS, THE AUTHORS AND COPYRIGHT
+HOLDER ARE NOT LIABLE FOR ANY CLAIM, DAMAGES, PENALTIES, TAX OR OTHER LIABILITY
+ARISING FROM THE USE OF LOU.

@@ -1,0 +1,131 @@
+1	Tx	Page1[0].Pg1Header[0].f1_01[0]	199,708			Department of the Treasury Internal Revenue Service For calendar year 20
+1	Tx	Page1[0].Pg1Header[0].f1_02[0]	295,708			epartment of the Treasury Internal Revenue Service For calendar year 20 or tax year beginning Attach to your tax return.
+1	Tx	Page1[0].Pg1Header[0].f1_03[0]	353,708			ment of the Treasury Internal Revenue Service For calendar year 20 or tax year beginning Attach to your tax return. , 20
+1	Tx	Page1[0].Pg1Header[0].f1_04[0]	414,708			reasury Internal Revenue Service For calendar year 20 or tax year beginning Attach to your tax return. , 20 , and ending
+1	Tx	Page1[0].Pg1Header[0].f1_05[0]	472,708			ry Internal Revenue Service For calendar year 20 or tax year beginning Attach to your tax return. , 20 , and ending , 20
+1	chk	Page1[0].c1_1[0]	296,695	1		If you have attached additional statements, check here
+1	Tx	Page1[0].f1_06[0]	490,694			If you have attached additional statements, check here Number of additional statements
+1	Tx	Page1[0].f1_07[0]	36,666			
+1	Tx	Page1[0].f1_08[0]	374,666			1 Name(s) shown on return
+1	chk	Page1[0].c1_2[0]	80,644	1	a	a
+1	chk	Page1[0].c1_2[1]	224,644	2	b	a Specified individual b
+1	chk	Page1[0].c1_2[2]	339,644	3	c	a Specified individual b Partnership c
+1	chk	Page1[0].c1_2[3]	455,644	4	d	a Specified individual b Partnership c Corporation d
+1	Tx	Page1[0].f1_09[0]	109,588			a Name
+1	Tx	Page1[0].f1_10[0]	457,588		b	a Name b TIN
+1	Tx	Page1[0].f1_11[0]	490,564			Part I 5 Number of deposit accounts (reported in Part V) Foreign Deposit and Custodial Accounts Summary … ▶
+1	Tx	Page1[0].f1_12[0]	500,552			5 6 Number of deposit accounts (reported in Part V) Maximum value of all deposit accounts … $
+1	Tx	Page1[0].f1_13[0]	490,540			6 7 Maximum value of all deposit accounts Number of custodial accounts (reported in Part V) … ▶ .
+1	Tx	Page1[0].f1_14[0]	500,528			7 8 Number of custodial accounts (reported in Part V) Maximum value of all custodial accounts … $
+1	chk	Page1[0].c1_3[0]	499,518	1		9 Were any foreign deposit or custodial accounts closed during the tax year? … .
+1	chk	Page1[0].c1_3[1]	542,518	2		9 Were any foreign deposit or custodial accounts closed during the tax year? … Yes
+1	Tx	Page1[0].f1_15[0]	490,492			Part II 10 Number of foreign assets (reported in Part Vl) Other Foreign Assets Summary … ▶
+1	Tx	Page1[0].f1_16[0]	500,480			10 11 Number of foreign assets (reported in Part Vl) Maximum value of all assets (reported in Part Vl) … $
+1	chk	Page1[0].c1_4[0]	499,470	1		12 Were any foreign assets acquired or sold during the tax year? … .
+1	chk	Page1[0].c1_4[1]	542,470	2		12 Were any foreign assets acquired or sold during the tax year? … Yes
+1	Tx	Page1[0].Table_Part3[0].BodyRow13a[0].f1_17[0]	274,420			13 Foreign deposit and a Interest $
+1	Tx	Page1[0].Table_Part3[0].BodyRow13a[0].f1_18[0]	368,420			13 Foreign deposit and a Interest $
+1	Tx	Page1[0].Table_Part3[0].BodyRow13a[0].f1_19[0]	476,420			13 Foreign deposit and a Interest $ (d) Form and line
+1	Tx	Page1[0].Table_Part3[0].BodyRow13b[0].f1_20[0]	274,408			13 Foreign deposit and custodial accounts a b Interest Dividends $ $
+1	Tx	Page1[0].Table_Part3[0].BodyRow13b[0].f1_21[0]	368,408			13 Foreign deposit and custodial accounts a b Interest Dividends $ $
+1	Tx	Page1[0].Table_Part3[0].BodyRow13b[0].f1_22[0]	476,408			13 Foreign deposit and custodial accounts a b Interest Dividends $ $
+1	Tx	Page1[0].Table_Part3[0].BodyRow13c[0].f1_23[0]	274,396			custodial accounts b c Dividends Royalties $ $
+1	Tx	Page1[0].Table_Part3[0].BodyRow13c[0].f1_24[0]	368,396			custodial accounts b c Dividends Royalties $ $
+1	Tx	Page1[0].Table_Part3[0].BodyRow13c[0].f1_25[0]	476,396			custodial accounts b c Dividends Royalties $ $
+1	Tx	Page1[0].Table_Part3[0].BodyRow13d[0].f1_26[0]	274,384			c d Royalties Other income $ $
+1	Tx	Page1[0].Table_Part3[0].BodyRow13d[0].f1_27[0]	368,384			c d Royalties Other income $ $
+1	Tx	Page1[0].Table_Part3[0].BodyRow13d[0].f1_28[0]	476,384			c d Royalties Other income $ $
+1	Tx	Page1[0].Table_Part3[0].BodyRow13e[0].f1_29[0]	274,372			d e Other income Gains (losses) $ $
+1	Tx	Page1[0].Table_Part3[0].BodyRow13e[0].f1_30[0]	368,372			d e Other income Gains (losses) $ $
+1	Tx	Page1[0].Table_Part3[0].BodyRow13e[0].f1_31[0]	476,372			d e Other income Gains (losses) $ $
+1	Tx	Page1[0].Table_Part3[0].BodyRow13f[0].f1_32[0]	274,360			e f Gains (losses) Deductions $ $
+1	Tx	Page1[0].Table_Part3[0].BodyRow13f[0].f1_33[0]	368,360			e f Gains (losses) Deductions $ $
+1	Tx	Page1[0].Table_Part3[0].BodyRow13f[0].f1_34[0]	476,360			e f Gains (losses) Deductions $ $
+1	Tx	Page1[0].Table_Part3[0].BodyRow13g[0].f1_35[0]	274,348			f g Deductions Credits $ $
+1	Tx	Page1[0].Table_Part3[0].BodyRow13g[0].f1_36[0]	368,348			f g Deductions Credits $ $
+1	Tx	Page1[0].Table_Part3[0].BodyRow13g[0].f1_37[0]	476,348			f g Deductions Credits $ $
+1	Tx	Page1[0].Table_Part3[0].BodyRow14a[0].f1_38[0]	274,336			14 Other foreign assets a Interest $ $
+1	Tx	Page1[0].Table_Part3[0].BodyRow14a[0].f1_39[0]	368,336			14 Other foreign assets a Interest $ $
+1	Tx	Page1[0].Table_Part3[0].BodyRow14a[0].f1_40[0]	476,336			14 Other foreign assets a Interest $ $
+1	Tx	Page1[0].Table_Part3[0].BodyRow14b[0].f1_41[0]	274,324			14 Other foreign assets a b Interest Dividends $ $
+1	Tx	Page1[0].Table_Part3[0].BodyRow14b[0].f1_42[0]	368,324			14 Other foreign assets a b Interest Dividends $ $
+1	Tx	Page1[0].Table_Part3[0].BodyRow14b[0].f1_43[0]	476,324			14 Other foreign assets a b Interest Dividends $ $
+1	Tx	Page1[0].Table_Part3[0].BodyRow14c[0].f1_44[0]	274,312			b c Dividends Royalties $ $
+1	Tx	Page1[0].Table_Part3[0].BodyRow14c[0].f1_45[0]	368,312			b c Dividends Royalties $ $
+1	Tx	Page1[0].Table_Part3[0].BodyRow14c[0].f1_46[0]	476,312			b c Dividends Royalties $ $
+1	Tx	Page1[0].Table_Part3[0].BodyRow14d[0].f1_47[0]	274,300			c d Royalties Other income $ $
+1	Tx	Page1[0].Table_Part3[0].BodyRow14d[0].f1_48[0]	368,300			c d Royalties Other income $ $
+1	Tx	Page1[0].Table_Part3[0].BodyRow14d[0].f1_49[0]	476,300			c d Royalties Other income $ $
+1	Tx	Page1[0].Table_Part3[0].BodyRow14e[0].f1_50[0]	274,288			d e Other income Gains (losses) $ $
+1	Tx	Page1[0].Table_Part3[0].BodyRow14e[0].f1_51[0]	368,288			d e Other income Gains (losses) $ $
+1	Tx	Page1[0].Table_Part3[0].BodyRow14e[0].f1_52[0]	476,288			d e Other income Gains (losses) $ $
+1	Tx	Page1[0].Table_Part3[0].BodyRow14f[0].f1_53[0]	274,276			e f Gains (losses) Deductions $ $
+1	Tx	Page1[0].Table_Part3[0].BodyRow14f[0].f1_54[0]	368,276			e f Gains (losses) Deductions $ $
+1	Tx	Page1[0].Table_Part3[0].BodyRow14f[0].f1_55[0]	476,276			e f Gains (losses) Deductions $ $
+1	Tx	Page1[0].Table_Part3[0].BodyRow14g[0].f1_56[0]	274,264			f g Deductions Credits $ $
+1	Tx	Page1[0].Table_Part3[0].BodyRow14g[0].f1_57[0]	368,264			f g Deductions Credits $ $
+1	Tx	Page1[0].Table_Part3[0].BodyRow14g[0].f1_58[0]	476,264			f g Deductions Credits $ $
+1	Tx	Page1[0].f1_59[0]	161,216			not need to include these assets on Form 8938 for the tax year. 15 Number of Forms 3520
+1	Tx	Page1[0].f1_60[0]	348,216			not need to include these assets on Form 8938 for the tax year. 15 Number of Forms 3520 16 Number of Forms 3520-A
+1	Tx	Page1[0].f1_61[0]	536,216			de these assets on Form 8938 for the tax year. 15 Number of Forms 3520 16 Number of Forms 3520-A 17 Number of Forms 5471
+1	Tx	Page1[0].f1_62[0]	161,204			15 18 Number of Forms 3520 Number of Forms 8621
+1	Tx	Page1[0].f1_63[0]	348,204			15 18 Number of Forms 3520 Number of Forms 8621 16 19 Number of Forms 3520-A Number of Forms 8865
+2	chk	Page2[0].Line20_ReadOrder[0].c2_1[0]	173,698	1	a	20 Type of account a
+2	chk	Page2[0].Line20_ReadOrder[0].c2_1[1]	173,686	2	b	b
+2	Tx	Page2[0].f2_01[0]	331,684			20 Type of account b a Deposit Custodial
+2	chk	Page2[0].c2_2[0]	173,674	1	a	22 Check all that apply a
+2	chk	Page2[0].c2_3[0]	346,674	1	b	22 Check all that apply a Account opened during tax year b
+2	chk	Page2[0].c2_4[0]	173,662	1	c	c
+2	chk	Page2[0].c2_5[0]	346,662	1	d	c Account jointly owned with spouse d
+2	Tx	Page2[0].f2_02[0]	500,648			23 Maximum value of account during tax year … $
+2	chk	Page2[0].c2_6[0]	499,638	1		24 Did you use a foreign currency exchange rate to convert the value of the account into U.S. dollars? . .
+2	chk	Page2[0].c2_6[1]	542,638	2		24 Did you use a foreign currency exchange rate to convert the value of the account into U.S. dollars? . . Yes
+2	Tx	Page2[0].f2_03[0]	65,588			
+2	Tx	Page2[0].f2_04[0]	216,588			
+2	Tx	Page2[0].f2_05[0]	368,588			
+2	Tx	Page2[0].f2_06[0]	65,564			26 a
+2	Tx	Page2[0].f2_07[0]	353,564			me of financial institution in which account is maintained b Global Intermediary Identification Number (GIIN) (Optional)
+2	Tx	Page2[0].f2_08[0]	396,564			 of financial institution in which account is maintained b Global Intermediary Identification Number (GIIN) (Optional) .
+2	Tx	Page2[0].f2_09[0]	439,564			f financial institution in which account is maintained b Global Intermediary Identification Number (GIIN) (Optional) . .
+2	Tx	Page2[0].f2_10[0]	461,564			financial institution in which account is maintained b Global Intermediary Identification Number (GIIN) (Optional) . . .
+2	Tx	Page2[0].f2_11[0]	65,540			27
+2	Tx	Page2[0].f2_12[0]	65,516			28
+2	Tx	Page2[0].f2_13[0]	65,468			29
+2	Tx	Page2[0].f2_14[0]	331,468			29 Description of asset
+2	Tx	Page2[0].f2_15[0]	477,444			tions for reporting of multiple acquisition or disposition dates. Date asset acquired during tax year, if applicable … .
+2	Tx	Page2[0].f2_16[0]	477,432			b a Date asset acquired during tax year, if applicable . Date asset disposed of during tax year, if applicable … .
+2	chk	Page2[0].c2_7[0]	65,422	1	c	c
+2	chk	Page2[0].c2_8[0]	295,422	1	d	c Check if asset jointly owned with spouse d
+2	chk	Page2[0].c2_9[0]	65,398	1	a	a
+2	chk	Page2[0].c2_9[1]	166,398	2	b	a $0–$50,000 b
+2	chk	Page2[0].c2_9[2]	295,398	3	c	a $0–$50,000 b $50,001–$100,000 c
+2	chk	Page2[0].c2_9[3]	432,398	4	d	a $0–$50,000 b $50,001–$100,000 c $100,001–$150,000 d
+2	Tx	Page2[0].f2_17[0]	500,384			 a If more than $200,000, list value $0–$50,000 b $50,001–$100,000 … c . . $100,001–$150,000 … d … $150,001–$200,000 … $
+2	chk	Page2[0].c2_10[0]	499,374	1		33 Did you use a foreign currency exchange rate to convert the value of the asset into U.S. dollars? . . .
+2	chk	Page2[0].c2_10[1]	542,374	2		33 Did you use a foreign currency exchange rate to convert the value of the asset into U.S. dollars? … Yes
+2	Tx	Page2[0].f2_18[0]	65,324			
+2	Tx	Page2[0].f2_19[0]	216,324			
+2	Tx	Page2[0].f2_20[0]	368,324			
+2	Tx	Page2[0].f2_21[0]	65,288			a
+2	Tx	Page2[0].f2_22[0]	353,288			a Name of foreign entity b GIIN (Optional)
+2	Tx	Page2[0].f2_23[0]	396,288			a Name of foreign entity b GIIN (Optional) .
+2	Tx	Page2[0].f2_24[0]	439,288			a Name of foreign entity b GIIN (Optional) . .
+2	Tx	Page2[0].f2_25[0]	461,288			a Name of foreign entity b GIIN (Optional) . . .
+2	chk	Page2[0].c2_11[0]	182,278	1	(1)	c Type of foreign entity (1)
+2	chk	Page2[0].c2_11[1]	276,278	2	(2)	c Type of foreign entity (1) Partnership (2)
+2	chk	Page2[0].c2_11[2]	369,278	3	(3)	c Type of foreign entity (1) Partnership (2) Corporation (3)
+2	chk	Page2[0].c2_11[3]	434,278	4	(4)	c Type of foreign entity (1) Partnership (2) Corporation (3) Trust (4)
+2	Tx	Page2[0].f2_26[0]	65,252			d
+2	Tx	Page2[0].f2_27[0]	65,228			e
+2	Tx	Page2[0].f2_28[0]	192,168			a Name of issuer or counterparty
+2	chk	Page2[0].c2_12[0]	182,158	1		Check if information is for
+2	chk	Page2[0].c2_12[1]	232,158	2		Check if information is for Issuer
+2	chk	Page2[0].c2_13[0]	81,134	1	(1)	(1)
+2	chk	Page2[0].c2_13[1]	175,134	2	(2)	(1) Individual (2)
+2	chk	Page2[0].c2_13[2]	276,134	3	(3)	(1) Individual (2) Partnership (3)
+2	chk	Page2[0].c2_13[3]	376,134	4	(4)	(1) Individual (2) Partnership (3) Corporation (4)
+2	chk	Page2[0].c2_13[4]	448,134	5	(5)	(1) Individual (2) Partnership (3) Corporation (4) Trust (5)
+2	chk	Page2[0].c2_14[0]	218,122	1		c Check if issuer or counterparty is a
+2	chk	Page2[0].c2_14[1]	290,122	2		c Check if issuer or counterparty is a U.S. person
+2	Tx	Page2[0].f2_29[0]	65,96			d
+2	Tx	Page2[0].f2_30[0]	65,72			e

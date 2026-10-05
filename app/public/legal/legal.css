@@ -1,0 +1,32 @@
+/* Styles for Lou's plain pages (terms, privacy, notices). Same tokens as the app, no web fonts. */
+:root {
+  --paper: oklch(0.982 0.006 85);
+  --line: oklch(0.885 0.009 85);
+  --ink: oklch(0.25 0.014 220);
+  --ink-2: oklch(0.42 0.013 220);
+  --accent: oklch(0.47 0.072 198);
+  --accent-hover: oklch(0.41 0.072 198);
+  --accent-soft: oklch(0.948 0.022 198);
+  --focus: oklch(0.58 0.12 198);
+  --font: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+*, *::before, *::after { box-sizing: border-box; }
+body { margin: 0; background: var(--paper); color: var(--ink); font: 1rem/1.6 var(--font); }
+.wrap { max-width: 44rem; margin: 0 auto; padding: 32px 16px 64px; }
+.top { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-bottom: 24px; border-bottom: 1px solid var(--line); margin-bottom: 32px; }
+.top a.brand { font-weight: 700; color: var(--ink); text-decoration: none; font-size: 1.25rem; }
+a { color: var(--accent); text-underline-offset: 2px; }
+a:hover { color: var(--accent-hover); }
+a:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; border-radius: 2px; }
+h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 8px; letter-spacing: -0.01em; }
+h2 { font-size: 1.25rem; margin: 40px 0 8px; }
+p, li { color: var(--ink-2); }
+p { margin: 0 0 12px; max-width: 65ch; }
+ul { margin: 0 0 12px; padding-left: 22px; max-width: 65ch; }
+li { margin-bottom: 6px; }
+.meta { color: var(--ink-2); font-size: 0.875rem; margin-bottom: 24px; }
+.summary { background: var(--accent-soft); border-radius: 10px; padding: 16px 20px; margin: 24px 0; }
+.summary p, .summary li { color: var(--ink); }
+.summary :last-child { margin-bottom: 0; }
+nav.legal-nav { display: flex; gap: 16px; flex-wrap: wrap; font-size: 0.875rem; margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--line); }
+@media print { .top a:not(.brand), nav.legal-nav { display: none; } }

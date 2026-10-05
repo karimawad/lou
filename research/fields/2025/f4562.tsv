@@ -1,0 +1,277 @@
+1	Tx	Page1[0].f1_1[0]	36,684			
+1	Tx	Page1[0].f1_2[0]	253,684			Name(s) shown on return
+1	Tx	Page1[0].f1_3[0]	482,684			Name(s) shown on return Business or activity to which this form relates
+1	Tx	Page1[0].f1_4[0]	504,648		1	1 Maximum amount (see instructions) … 1
+1	Tx	Page1[0].f1_5[0]	504,636		2	1 2 Maximum amount (see instructions) . Total cost of section 179 property placed in service (see instructions) … 1 2
+1	Tx	Page1[0].f1_6[0]	504,624		3	ervice (see instructions) Threshold cost of section 179 property before reduction in limitation (see instructions) … 2 3
+1	Tx	Page1[0].f1_7[0]	504,612		4	 in limitation (see instructions) Reduction in limitation. Subtract line 3 from line 2. If zero or less, enter -0- … 3 4
+1	Tx	Page1[0].f1_8[0]	504,588		5	or tax year. Subtract line 4 from line 1. If zero or less, enter -0-. If married filing separately, see instructions … 5
+1	Tx	Page1[0].Table_Ln6[0].BodyRow1[0].f1_9[0]	36,564			
+1	Tx	Page1[0].Table_Ln6[0].BodyRow1[0].f1_10[0]	281,564			6
+1	Tx	Page1[0].Table_Ln6[0].BodyRow1[0].f1_11[0]	382,564			6
+1	Tx	Page1[0].Table_Ln6[0].BodyRow2[0].f1_12[0]	36,552			
+1	Tx	Page1[0].Table_Ln6[0].BodyRow2[0].f1_13[0]	281,552			
+1	Tx	Page1[0].Table_Ln6[0].BodyRow2[0].f1_14[0]	382,552			
+1	Tx	Page1[0].f1_15[0]	382,540		7	7 Listed property. Enter the amount from line 29 … 7
+1	Tx	Page1[0].f1_16[0]	504,528		8	ter the amount from line 29 Total elected cost of section 179 property. Add amounts in column (c), lines 6 and 7 … 7 … 8
+1	Tx	Page1[0].f1_17[0]	504,516		9	 179 property. Add amounts in column (c), lines 6 and 7 Tentative deduction. Enter the smaller of line 5 or line 8 … 8 9
+1	Tx	Page1[0].f1_18[0]	504,504		10	on. Enter the Carryover of disallowed deduction from line 13 of your 2024 Form 4562 . smaller of line 5 or line 8 … 10 9
+1	Tx	Page1[0].f1_19[0]	504,492		11	usiness income limitation. Enter the smaller of business income (not less than zero) or line 5. See instructions … 10 11
+1	Tx	Page1[0].f1_20[0]	504,480		12	or line 5. See instructions Section 179 expense deduction. Add lines 9 and 10, but don’t enter more than line 11 … 11 12
+1	Tx	Page1[0].f1_21[0]	410,468		13	10, but don’t enter more than line 11 Carryover of disallowed deduction to 2026. Add lines 9 and 10, less line 12 . 13 .
+1	Tx	Page1[0].f1_22[0]	504,420		14	lowance for qualified property (other than listed property) placed in service during the tax year. See instructions … 14
+1	Tx	Page1[0].f1_23[0]	504,408		15	15 Property subject to section 168(f)(1) election . during the tax year. See instructions … 14 15
+1	Tx	Page1[0].f1_24[0]	504,396		16	15 16 Property subject to section 168(f)(1) election . Other depreciation (including ACRS) … 15 16
+1	Tx	Page1[0].f1_25[0]	504,360		17	17 MACRS deductions for assets placed in service in tax years beginning before 2025 Section A … 17
+1	chk	Page1[0].c1_1[0]	461,340	1		asset accounts, check here … .
+1	Tx	Page1[0].SectionBTable[0].Line19a[0].f1_26[0]	137,288			19a 3-year property
+1	Tx	Page1[0].SectionBTable[0].Line19a[0].f1_27[0]	194,288			19a 3-year property service
+1	Tx	Page1[0].SectionBTable[0].Line19a[0].f1_28[0]	281,288			19a 3-year property service only—see instructions)
+1	Tx	Page1[0].SectionBTable[0].Line19a[0].f1_29[0]	331,288			19a 3-year property service only—see instructions)
+1	Tx	Page1[0].SectionBTable[0].Line19a[0].f1_30[0]	396,288			19a 3-year property service only—see instructions)
+1	Tx	Page1[0].SectionBTable[0].Line19a[0].f1_31[0]	482,288			19a 3-year property service only—see instructions)
+1	Tx	Page1[0].SectionBTable[0].Line19b[0].f1_32[0]	137,276			19a b 3-year property 5-year property
+1	Tx	Page1[0].SectionBTable[0].Line19b[0].f1_33[0]	194,276			19a b 3-year property 5-year property
+1	Tx	Page1[0].SectionBTable[0].Line19b[0].f1_34[0]	281,276			19a b 3-year property 5-year property
+1	Tx	Page1[0].SectionBTable[0].Line19b[0].f1_35[0]	331,276			19a b 3-year property 5-year property
+1	Tx	Page1[0].SectionBTable[0].Line19b[0].f1_36[0]	396,276			19a b 3-year property 5-year property
+1	Tx	Page1[0].SectionBTable[0].Line19b[0].f1_37[0]	482,276			19a b 3-year property 5-year property
+1	Tx	Page1[0].SectionBTable[0].Line19c[0].f1_38[0]	137,264			b c 5-year property 7-year property
+1	Tx	Page1[0].SectionBTable[0].Line19c[0].f1_39[0]	194,264			b c 5-year property 7-year property
+1	Tx	Page1[0].SectionBTable[0].Line19c[0].f1_40[0]	281,264			b c 5-year property 7-year property
+1	Tx	Page1[0].SectionBTable[0].Line19c[0].f1_41[0]	331,264			b c 5-year property 7-year property
+1	Tx	Page1[0].SectionBTable[0].Line19c[0].f1_42[0]	396,264			b c 5-year property 7-year property
+1	Tx	Page1[0].SectionBTable[0].Line19c[0].f1_43[0]	482,264			b c 5-year property 7-year property
+1	Tx	Page1[0].SectionBTable[0].Line19d[0].f1_44[0]	137,252			d c 10-year property 7-year property
+1	Tx	Page1[0].SectionBTable[0].Line19d[0].f1_45[0]	194,252			d c 10-year property 7-year property
+1	Tx	Page1[0].SectionBTable[0].Line19d[0].f1_46[0]	281,252			d c 10-year property 7-year property
+1	Tx	Page1[0].SectionBTable[0].Line19d[0].f1_47[0]	331,252			d c 10-year property 7-year property
+1	Tx	Page1[0].SectionBTable[0].Line19d[0].f1_48[0]	396,252			d c 10-year property 7-year property
+1	Tx	Page1[0].SectionBTable[0].Line19d[0].f1_49[0]	482,252			d c 10-year property 7-year property
+1	Tx	Page1[0].SectionBTable[0].Line19e[0].f1_50[0]	137,240			d e 10-year property 15-year property
+1	Tx	Page1[0].SectionBTable[0].Line19e[0].f1_51[0]	194,240			d e 10-year property 15-year property
+1	Tx	Page1[0].SectionBTable[0].Line19e[0].f1_52[0]	281,240			d e 10-year property 15-year property
+1	Tx	Page1[0].SectionBTable[0].Line19e[0].f1_53[0]	331,240			d e 10-year property 15-year property
+1	Tx	Page1[0].SectionBTable[0].Line19e[0].f1_54[0]	396,240			d e 10-year property 15-year property
+1	Tx	Page1[0].SectionBTable[0].Line19e[0].f1_55[0]	482,240			d e 10-year property 15-year property
+1	Tx	Page1[0].SectionBTable[0].Line19f[0].f1_56[0]	137,228			e f 15-year property 20-year property
+1	Tx	Page1[0].SectionBTable[0].Line19f[0].f1_57[0]	194,228			e f 15-year property 20-year property
+1	Tx	Page1[0].SectionBTable[0].Line19f[0].f1_58[0]	281,228			e f 15-year property 20-year property
+1	Tx	Page1[0].SectionBTable[0].Line19f[0].f1_59[0]	331,228			e f 15-year property 20-year property
+1	Tx	Page1[0].SectionBTable[0].Line19f[0].f1_60[0]	396,228			e f 15-year property 20-year property
+1	Tx	Page1[0].SectionBTable[0].Line19f[0].f1_61[0]	482,228			e f 15-year property 20-year property
+1	Tx	Page1[0].SectionBTable[0].Line19g[0].f1_62[0]	137,216			g f 20-year property 25-year property
+1	Tx	Page1[0].SectionBTable[0].Line19g[0].f1_63[0]	194,216			g f 20-year property 25-year property
+1	Tx	Page1[0].SectionBTable[0].Line19g[0].f1_64[0]	330,216			g f 20-year property 25-year property 25 yrs.
+1	Tx	Page1[0].SectionBTable[0].Line19g[0].f1_65[0]	331,216			g f 20-year property 25-year property 25 yrs.
+1	Tx	Page1[0].SectionBTable[0].Line19g[0].f1_66[0]	481,216			g f 20-year property 25-year property 25 yrs. S/L
+1	Tx	Page1[0].SectionBTable[0].Line19g[0].f1_67[0]	482,216			g f 20-year property 25-year property 25 yrs. S/L
+1	Tx	Page1[0].SectionBTable[0].Line19h[0].f1_68[0]	137,204			g h 25-year property 50-year property
+1	Tx	Page1[0].SectionBTable[0].Line19h[0].f1_69[0]	194,204			g h 25-year property 50-year property
+1	Tx	Page1[0].SectionBTable[0].Line19h[0].f1_70[0]	330,204			g h 25-year property 50-year property 50 yrs.
+1	Tx	Page1[0].SectionBTable[0].Line19h[0].f1_71[0]	395,204			g h 25-year property 50-year property 50 yrs. MM
+1	Tx	Page1[0].SectionBTable[0].Line19h[0].f1_72[0]	481,204			g h 25-year property 50-year property 50 yrs. MM S/L
+1	Tx	Page1[0].SectionBTable[0].Line19h[0].f1_73[0]	482,204			g h 25-year property 50-year property 50 yrs. MM S/L
+1	Tx	Page1[0].SectionBTable[0].Line19i_1[0].f1_74[0]	137,192			h i Residential rental 50-year property
+1	Tx	Page1[0].SectionBTable[0].Line19i_1[0].f1_75[0]	194,192			h i Residential rental 50-year property
+1	Tx	Page1[0].SectionBTable[0].Line19i_1[0].f1_76[0]	330,192			h i Residential rental 50-year property 27.5 yrs.
+1	Tx	Page1[0].SectionBTable[0].Line19i_1[0].f1_77[0]	395,192			h i Residential rental 50-year property 27.5 yrs. MM
+1	Tx	Page1[0].SectionBTable[0].Line19i_1[0].f1_78[0]	481,192			h i Residential rental 50-year property 27.5 yrs. MM S/L
+1	Tx	Page1[0].SectionBTable[0].Line19i_1[0].f1_79[0]	482,192			h i Residential rental 50-year property 27.5 yrs. MM S/L
+1	Tx	Page1[0].SectionBTable[0].Line19i_2[0].f1_80[0]	137,180			i Residential rental property
+1	Tx	Page1[0].SectionBTable[0].Line19i_2[0].f1_81[0]	194,180			i Residential rental property
+1	Tx	Page1[0].SectionBTable[0].Line19i_2[0].f1_82[0]	330,180			i Residential rental property 27.5 yrs.
+1	Tx	Page1[0].SectionBTable[0].Line19i_2[0].f1_83[0]	395,180			i Residential rental property 27.5 yrs. MM
+1	Tx	Page1[0].SectionBTable[0].Line19i_2[0].f1_84[0]	481,180			i Residential rental property 27.5 yrs. MM S/L
+1	Tx	Page1[0].SectionBTable[0].Line19i_2[0].f1_85[0]	482,180			i Residential rental property 27.5 yrs. MM S/L
+1	Tx	Page1[0].SectionBTable[0].Line19j_1[0].f1_86[0]	137,168			j Nonresidential real
+1	Tx	Page1[0].SectionBTable[0].Line19j_1[0].f1_87[0]	194,168			j Nonresidential real
+1	Tx	Page1[0].SectionBTable[0].Line19j_1[0].f1_88[0]	330,168			j Nonresidential real 39 yrs.
+1	Tx	Page1[0].SectionBTable[0].Line19j_1[0].f1_89[0]	395,168			j Nonresidential real 39 yrs. MM
+1	Tx	Page1[0].SectionBTable[0].Line19j_1[0].f1_90[0]	481,168			j Nonresidential real 39 yrs. MM S/L
+1	Tx	Page1[0].SectionBTable[0].Line19j_1[0].f1_91[0]	482,168			j Nonresidential real 39 yrs. MM S/L
+1	Tx	Page1[0].SectionBTable[0].Line19j_2[0].f1_92[0]	137,156			j Nonresidential real property
+1	Tx	Page1[0].SectionBTable[0].Line19j_2[0].f1_93[0]	194,156			j Nonresidential real property
+1	Tx	Page1[0].SectionBTable[0].Line19j_2[0].f1_94[0]	281,156			j Nonresidential real property
+1	Tx	Page1[0].SectionBTable[0].Line19j_2[0].f1_95[0]	395,156			j Nonresidential real property MM
+1	Tx	Page1[0].SectionBTable[0].Line19j_2[0].f1_96[0]	481,156			j Nonresidential real property MM S/L
+1	Tx	Page1[0].SectionBTable[0].Line19j_2[0].f1_97[0]	482,156			j Nonresidential real property MM S/L
+1	Tx	Page1[0].SectionCTable[0].Line20a[0].f1_98[0]	137,132			20a Class life Section C—Assets Placed in Service During 2025 Tax Year Using the Alternative Depreciation System
+1	Tx	Page1[0].SectionCTable[0].Line20a[0].f1_99[0]	194,132			20a Class life Section C—Assets Placed in Service During 2025 Tax Year Using the Alternative Depreciation System
+1	Tx	Page1[0].SectionCTable[0].Line20a[0].f1_100[0]	281,132			20a Class life Section C—Assets Placed in Service During 2025 Tax Year Using the Alternative Depreciation System
+1	Tx	Page1[0].SectionCTable[0].Line20a[0].f1_101[0]	331,132			20a Class life Section C—Assets Placed in Service During 2025 Tax Year Using the Alternative Depreciation System
+1	Tx	Page1[0].SectionCTable[0].Line20a[0].f1_102[0]	481,132			20a Class life Section C—Assets Placed in Service During 2025 Tax Year Using the Alternative Depreciation System S/L
+1	Tx	Page1[0].SectionCTable[0].Line20a[0].f1_103[0]	482,132			20a Class life Section C—Assets Placed in Service During 2025 Tax Year Using the Alternative Depreciation System S/L
+1	Tx	Page1[0].SectionCTable[0].Line20b[0].f1_104[0]	137,120			20a b Class life 12-year
+1	Tx	Page1[0].SectionCTable[0].Line20b[0].f1_105[0]	194,120			20a b Class life 12-year
+1	Tx	Page1[0].SectionCTable[0].Line20b[0].f1_106[0]	330,120			20a b Class life 12-year 12 yrs.
+1	Tx	Page1[0].SectionCTable[0].Line20b[0].f1_107[0]	331,120			20a b Class life 12-year 12 yrs.
+1	Tx	Page1[0].SectionCTable[0].Line20b[0].f1_108[0]	481,120			20a b Class life 12-year 12 yrs. S/L
+1	Tx	Page1[0].SectionCTable[0].Line20b[0].f1_109[0]	482,120			20a b Class life 12-year 12 yrs. S/L
+1	Tx	Page1[0].SectionCTable[0].Line20c[0].f1_110[0]	137,108			b c 12-year 30-year
+1	Tx	Page1[0].SectionCTable[0].Line20c[0].f1_111[0]	194,108			b c 12-year 30-year
+1	Tx	Page1[0].SectionCTable[0].Line20c[0].f1_112[0]	330,108			b c 12-year 30-year 30 yrs.
+1	Tx	Page1[0].SectionCTable[0].Line20c[0].f1_113[0]	395,108			b c 12-year 30-year 30 yrs. MM
+1	Tx	Page1[0].SectionCTable[0].Line20c[0].f1_114[0]	481,108			b c 12-year 30-year 30 yrs. MM S/L
+1	Tx	Page1[0].SectionCTable[0].Line20c[0].f1_115[0]	482,108			b c 12-year 30-year 30 yrs. MM S/L
+1	Tx	Page1[0].SectionCTable[0].Line20d[0].f1_116[0]	137,96			d c 30-year 40-year
+1	Tx	Page1[0].SectionCTable[0].Line20d[0].f1_117[0]	194,96			d c 30-year 40-year
+1	Tx	Page1[0].SectionCTable[0].Line20d[0].f1_118[0]	330,96			d c 30-year 40-year 40 yrs.
+1	Tx	Page1[0].SectionCTable[0].Line20d[0].f1_119[0]	395,96			d c 30-year 40-year 40 yrs. MM
+1	Tx	Page1[0].SectionCTable[0].Line20d[0].f1_120[0]	481,96			d c 30-year 40-year 40 yrs. MM S/L
+1	Tx	Page1[0].SectionCTable[0].Line20d[0].f1_121[0]	482,96			d c 30-year 40-year 40 yrs. MM S/L
+1	Tx	Page1[0].SectionCTable[0].Line20e[0].f1_122[0]	137,84			d e 50-year 40-year
+1	Tx	Page1[0].SectionCTable[0].Line20e[0].f1_123[0]	194,84			d e 50-year 40-year
+1	Tx	Page1[0].SectionCTable[0].Line20e[0].f1_124[0]	330,84			d e 50-year 40-year 50 yrs.
+1	Tx	Page1[0].SectionCTable[0].Line20e[0].f1_125[0]	395,84			d e 50-year 40-year 50 yrs. MM
+1	Tx	Page1[0].SectionCTable[0].Line20e[0].f1_126[0]	481,84			d e 50-year 40-year 50 yrs. MM S/L
+1	Tx	Page1[0].SectionCTable[0].Line20e[0].f1_127[0]	482,84			d e 50-year 40-year 50 yrs. MM S/L
+2	Tx	Page2[0].f2_1[0]	504,720		21	Part IV 21 Listed property. Enter amount from line 28 Summary (See instructions.) … 21
+2	Tx	Page2[0].f2_2[0]	504,696		22	s—see instructions Add amounts from line 12, lines 14 through 17, lines 19 and 20 in column (g), and line 21. Enter . 22
+2	Tx	Page2[0].f2_3[0]	410,660		23a	under section 263A, enter the amount of the basis attributable to interest costs capitalized under section 263A(f) … 23a
+2	Tx	Page2[0].f2_4[0]	410,624		23b	s attributable to costs capitalized under section 263A other than interest costs capitalized under section 263A(f) . 23b
+2	chk	Page2[0].c2_1[0]	482,554	1		24 a Do you have evidence to support the business/investment use claimed? … .
+2	chk	Page2[0].c2_1[1]	533,554	2		24 a Do you have evidence to support the business/investment use claimed? … Yes
+2	chk	Page2[0].c2_2[0]	482,542	1		b If “Yes,” is the evidence written? … .
+2	chk	Page2[0].c2_2[1]	533,542	2		b If “Yes,” is the evidence written? … Yes
+2	chk	Page2[0].c2_3[0]	439,530	1		c Do you own, lease, or charter an aircraft? Check all that apply. See instructions … .
+2	chk	Page2[0].c2_3[1]	482,530	2		c Do you own, lease, or charter an aircraft? Check all that apply. See instructions … Own
+2	chk	Page2[0].c2_3[2]	533,530	3		c Do you own, lease, or charter an aircraft? Check all that apply. See instructions … Own Lease
+2	Tx	Page2[0].f2_5[0]	432,468		25	usiness use. See instructions Special depreciation allowance for qualified listed property placed in service during . 25
+2	Tx	Page2[0].Table_Ln26[0].BodyRow1[0].f2_6[0]	36,444			
+2	Tx	Page2[0].Table_Ln26[0].BodyRow1[0].f2_7[0]	108,444			26 Property used more than 50% in a qualified business use:
+2	Tx	Page2[0].Table_Ln26[0].BodyRow1[0].f2_8[0]	151,444			26 Property used more than 50% in a qualified business use:
+2	Tx	Page2[0].Table_Ln26[0].BodyRow1[0].f2_9[0]	194,444			26 Property used more than 50% in a qualified business use: %
+2	Tx	Page2[0].Table_Ln26[0].BodyRow1[0].f2_10[0]	267,444			26 Property used more than 50% in a qualified business use: %
+2	Tx	Page2[0].Table_Ln26[0].BodyRow1[0].f2_11[0]	338,444			26 Property used more than 50% in a qualified business use: %
+2	Tx	Page2[0].Table_Ln26[0].BodyRow1[0].f2_12[0]	383,444			26 Property used more than 50% in a qualified business use: %
+2	Tx	Page2[0].Table_Ln26[0].BodyRow1[0].f2_13[0]	432,444			26 Property used more than 50% in a qualified business use: %
+2	Tx	Page2[0].Table_Ln26[0].BodyRow1[0].f2_14[0]	504,444			26 Property used more than 50% in a qualified business use: %
+2	Tx	Page2[0].Table_Ln26[0].BodyRow2[0].f2_15[0]	36,432			
+2	Tx	Page2[0].Table_Ln26[0].BodyRow2[0].f2_16[0]	108,432			
+2	Tx	Page2[0].Table_Ln26[0].BodyRow2[0].f2_17[0]	151,432			
+2	Tx	Page2[0].Table_Ln26[0].BodyRow2[0].f2_18[0]	194,432			% %
+2	Tx	Page2[0].Table_Ln26[0].BodyRow2[0].f2_19[0]	267,432			% %
+2	Tx	Page2[0].Table_Ln26[0].BodyRow2[0].f2_20[0]	338,432			% %
+2	Tx	Page2[0].Table_Ln26[0].BodyRow2[0].f2_21[0]	383,432			% %
+2	Tx	Page2[0].Table_Ln26[0].BodyRow2[0].f2_22[0]	432,432			% %
+2	Tx	Page2[0].Table_Ln26[0].BodyRow2[0].f2_23[0]	504,432			% %
+2	Tx	Page2[0].Table_Ln26[0].BodyRow3[0].f2_24[0]	36,420			
+2	Tx	Page2[0].Table_Ln26[0].BodyRow3[0].f2_25[0]	108,420			
+2	Tx	Page2[0].Table_Ln26[0].BodyRow3[0].f2_26[0]	151,420			
+2	Tx	Page2[0].Table_Ln26[0].BodyRow3[0].f2_27[0]	194,420			% %
+2	Tx	Page2[0].Table_Ln26[0].BodyRow3[0].f2_28[0]	267,420			% %
+2	Tx	Page2[0].Table_Ln26[0].BodyRow3[0].f2_29[0]	338,420			% %
+2	Tx	Page2[0].Table_Ln26[0].BodyRow3[0].f2_30[0]	383,420			% %
+2	Tx	Page2[0].Table_Ln26[0].BodyRow3[0].f2_31[0]	432,420			% %
+2	Tx	Page2[0].Table_Ln26[0].BodyRow3[0].f2_32[0]	504,420			% %
+2	Tx	Page2[0].Table_Ln27[0].BodyRow1[0].f2_33[0]	36,396			
+2	Tx	Page2[0].Table_Ln27[0].BodyRow1[0].f2_34[0]	108,396			27 Property used 50% or less in a qualified business use:
+2	Tx	Page2[0].Table_Ln27[0].BodyRow1[0].f2_35[0]	151,396			27 Property used 50% or less in a qualified business use:
+2	Tx	Page2[0].Table_Ln27[0].BodyRow1[0].f2_36[0]	194,396			27 Property used 50% or less in a qualified business use: %
+2	Tx	Page2[0].Table_Ln27[0].BodyRow1[0].f2_37[0]	267,396			27 Property used 50% or less in a qualified business use: %
+2	Tx	Page2[0].Table_Ln27[0].BodyRow1[0].f2_38[0]	338,396			27 Property used 50% or less in a qualified business use: %
+2	Tx	Page2[0].Table_Ln27[0].BodyRow1[0].f2_39[0]	405,396			27 Property used 50% or less in a qualified business use: % S/L –
+2	Tx	Page2[0].Table_Ln27[0].BodyRow1[0].f2_40[0]	432,396			27 Property used 50% or less in a qualified business use: % S/L –
+2	Tx	Page2[0].Table_Ln27[0].BodyRow2[0].f2_41[0]	36,384			
+2	Tx	Page2[0].Table_Ln27[0].BodyRow2[0].f2_42[0]	108,384			
+2	Tx	Page2[0].Table_Ln27[0].BodyRow2[0].f2_43[0]	151,384			
+2	Tx	Page2[0].Table_Ln27[0].BodyRow2[0].f2_44[0]	194,384			% %
+2	Tx	Page2[0].Table_Ln27[0].BodyRow2[0].f2_45[0]	267,384			% %
+2	Tx	Page2[0].Table_Ln27[0].BodyRow2[0].f2_46[0]	338,384			% %
+2	Tx	Page2[0].Table_Ln27[0].BodyRow2[0].f2_47[0]	405,384			% % S/L –
+2	Tx	Page2[0].Table_Ln27[0].BodyRow2[0].f2_48[0]	432,384			% % S/L –
+2	Tx	Page2[0].Table_Ln27[0].BodyRow3[0].f2_49[0]	36,372			
+2	Tx	Page2[0].Table_Ln27[0].BodyRow3[0].f2_50[0]	108,372			
+2	Tx	Page2[0].Table_Ln27[0].BodyRow3[0].f2_51[0]	151,372			
+2	Tx	Page2[0].Table_Ln27[0].BodyRow3[0].f2_52[0]	194,372			% %
+2	Tx	Page2[0].Table_Ln27[0].BodyRow3[0].f2_53[0]	267,372			% %
+2	Tx	Page2[0].Table_Ln27[0].BodyRow3[0].f2_54[0]	338,372			% %
+2	Tx	Page2[0].Table_Ln27[0].BodyRow3[0].f2_55[0]	405,372			% % S/L –
+2	Tx	Page2[0].Table_Ln27[0].BodyRow3[0].f2_56[0]	432,372			% % S/L –
+2	Tx	Page2[0].f2_57[0]	432,360		28	28 Add amounts in column (h), lines 25 through 27. Enter here and on line 21 % … 28
+2	Tx	Page2[0].f2_58[0]	504,348		29	), lines 25 through 27. Enter here and on line 21 Add amounts in column (i), line 26. Enter here and on line 7 … 28 … 29
+2	Tx	Page2[0].Table_Ln30-33[0].Line30[0].f2_59[0]	230,276			30 the year ( Total business/investment miles driven during don’t include commuting miles) .
+2	Tx	Page2[0].Table_Ln30-33[0].Line30[0].f2_60[0]	288,276			30 the year ( Total business/investment miles driven during don’t include commuting miles) .
+2	Tx	Page2[0].Table_Ln30-33[0].Line30[0].f2_61[0]	346,276			30 the year ( Total business/investment miles driven during don’t include commuting miles) .
+2	Tx	Page2[0].Table_Ln30-33[0].Line30[0].f2_62[0]	403,276			30 the year ( Total business/investment miles driven during don’t include commuting miles) .
+2	Tx	Page2[0].Table_Ln30-33[0].Line30[0].f2_63[0]	461,276			30 the year ( Total business/investment miles driven during don’t include commuting miles) .
+2	Tx	Page2[0].Table_Ln30-33[0].Line30[0].f2_64[0]	518,276			30 the year ( Total business/investment miles driven during don’t include commuting miles) .
+2	Tx	Page2[0].Table_Ln30-33[0].Line31[0].f2_65[0]	230,264			31 Total commuting miles driven during the year
+2	Tx	Page2[0].Table_Ln30-33[0].Line31[0].f2_66[0]	288,264			31 Total commuting miles driven during the year
+2	Tx	Page2[0].Table_Ln30-33[0].Line31[0].f2_67[0]	346,264			31 Total commuting miles driven during the year
+2	Tx	Page2[0].Table_Ln30-33[0].Line31[0].f2_68[0]	403,264			31 Total commuting miles driven during the year
+2	Tx	Page2[0].Table_Ln30-33[0].Line31[0].f2_69[0]	461,264			31 Total commuting miles driven during the year
+2	Tx	Page2[0].Table_Ln30-33[0].Line31[0].f2_70[0]	518,264			31 Total commuting miles driven during the year
+2	Tx	Page2[0].Table_Ln30-33[0].Line32[0].f2_71[0]	230,240			32 Total miles driven other personal … (noncommuting) … .
+2	Tx	Page2[0].Table_Ln30-33[0].Line32[0].f2_72[0]	288,240			32 Total miles driven other personal … (noncommuting) … .
+2	Tx	Page2[0].Table_Ln30-33[0].Line32[0].f2_73[0]	346,240			32 Total miles driven other personal … (noncommuting) … .
+2	Tx	Page2[0].Table_Ln30-33[0].Line32[0].f2_74[0]	403,240			32 Total miles driven other personal … (noncommuting) … .
+2	Tx	Page2[0].Table_Ln30-33[0].Line32[0].f2_75[0]	461,240			32 Total miles driven other personal … (noncommuting) … .
+2	Tx	Page2[0].Table_Ln30-33[0].Line32[0].f2_76[0]	518,240			32 Total miles driven other personal … (noncommuting) … .
+2	Tx	Page2[0].Table_Ln30-33[0].Line33[0].f2_77[0]	230,216			33 Total miles driven during the year. Add lines 30 through 32 … .
+2	Tx	Page2[0].Table_Ln30-33[0].Line33[0].f2_78[0]	288,216			33 Total miles driven during the year. Add lines 30 through 32 … .
+2	Tx	Page2[0].Table_Ln30-33[0].Line33[0].f2_79[0]	346,216			33 Total miles driven during the year. Add lines 30 through 32 … .
+2	Tx	Page2[0].Table_Ln30-33[0].Line33[0].f2_80[0]	403,216			33 Total miles driven during the year. Add lines 30 through 32 … .
+2	Tx	Page2[0].Table_Ln30-33[0].Line33[0].f2_81[0]	461,216			33 Total miles driven during the year. Add lines 30 through 32 … .
+2	Tx	Page2[0].Table_Ln30-33[0].Line33[0].f2_82[0]	518,216			33 Total miles driven during the year. Add lines 30 through 32 … .
+2	chk	Page2[0].SectionBTable2[0].Line34[0].c2_4[0]	239,192	1		34 use during off-duty hours? . Was the vehicle available for personal … Yes
+2	chk	Page2[0].SectionBTable2[0].Line34[0].c2_4[1]	268,192	2		34 use during off-duty hours? . Was the vehicle available for personal … Yes No
+2	chk	Page2[0].SectionBTable2[0].Line34[0].c2_5[0]	296,192	1		34 use during off-duty hours? . Was the vehicle available for personal … Yes No Yes
+2	chk	Page2[0].SectionBTable2[0].Line34[0].c2_5[1]	325,192	2		34 use during off-duty hours? . Was the vehicle available for personal … Yes No Yes No
+2	chk	Page2[0].SectionBTable2[0].Line34[0].c2_6[0]	354,192	1		34 use during off-duty hours? . Was the vehicle available for personal … Yes No Yes No Yes
+2	chk	Page2[0].SectionBTable2[0].Line34[0].c2_6[1]	383,192	2		34 use during off-duty hours? . Was the vehicle available for personal … Yes No Yes No Yes No
+2	chk	Page2[0].SectionBTable2[0].Line34[0].c2_7[0]	412,192	1		34 use during off-duty hours? . Was the vehicle available for personal … Yes No Yes No Yes No Yes
+2	chk	Page2[0].SectionBTable2[0].Line34[0].c2_7[1]	440,192	2		34 use during off-duty hours? . Was the vehicle available for personal … Yes No Yes No Yes No Yes No
+2	chk	Page2[0].SectionBTable2[0].Line34[0].c2_8[0]	469,192	1		34 use during off-duty hours? . Was the vehicle available for personal … Yes No Yes No Yes No Yes No Yes
+2	chk	Page2[0].SectionBTable2[0].Line34[0].c2_8[1]	498,192	2		34 use during off-duty hours? . Was the vehicle available for personal … Yes No Yes No Yes No Yes No Yes No
+2	chk	Page2[0].SectionBTable2[0].Line34[0].c2_9[0]	527,192	1		34 use during off-duty hours? . Was the vehicle available for personal … Yes No Yes No Yes No Yes No Yes No Yes
+2	chk	Page2[0].SectionBTable2[0].Line34[0].c2_9[1]	556,192	2		34 use during off-duty hours? . Was the vehicle available for personal … Yes No Yes No Yes No Yes No Yes No Yes No
+2	chk	Page2[0].SectionBTable2[0].Line35[0].c2_10[0]	239,174	1		35 than 5% owner or related person? Was the vehicle used primarily by a more . .
+2	chk	Page2[0].SectionBTable2[0].Line35[0].c2_10[1]	268,174	2		35 than 5% owner or related person? Was the vehicle used primarily by a more . .
+2	chk	Page2[0].SectionBTable2[0].Line35[0].c2_11[0]	296,174	1		35 than 5% owner or related person? Was the vehicle used primarily by a more . .
+2	chk	Page2[0].SectionBTable2[0].Line35[0].c2_11[1]	325,174	2		35 than 5% owner or related person? Was the vehicle used primarily by a more . .
+2	chk	Page2[0].SectionBTable2[0].Line35[0].c2_12[0]	354,174	1		35 than 5% owner or related person? Was the vehicle used primarily by a more . .
+2	chk	Page2[0].SectionBTable2[0].Line35[0].c2_12[1]	383,174	2		35 than 5% owner or related person? Was the vehicle used primarily by a more . .
+2	chk	Page2[0].SectionBTable2[0].Line35[0].c2_13[0]	412,174	1		35 than 5% owner or related person? Was the vehicle used primarily by a more . .
+2	chk	Page2[0].SectionBTable2[0].Line35[0].c2_13[1]	440,174	2		35 than 5% owner or related person? Was the vehicle used primarily by a more . .
+2	chk	Page2[0].SectionBTable2[0].Line35[0].c2_14[0]	469,174	1		35 than 5% owner or related person? Was the vehicle used primarily by a more . .
+2	chk	Page2[0].SectionBTable2[0].Line35[0].c2_14[1]	498,174	2		35 than 5% owner or related person? Was the vehicle used primarily by a more . .
+2	chk	Page2[0].SectionBTable2[0].Line35[0].c2_15[0]	527,174	1		35 than 5% owner or related person? Was the vehicle used primarily by a more . .
+2	chk	Page2[0].SectionBTable2[0].Line35[0].c2_15[1]	556,174	2		35 than 5% owner or related person? Was the vehicle used primarily by a more . .
+2	chk	Page2[0].SectionBTable2[0].Line36[0].c2_16[0]	239,156	1		36 Is another vehicle available for personal use?
+2	chk	Page2[0].SectionBTable2[0].Line36[0].c2_16[1]	268,156	2		36 Is another vehicle available for personal use?
+2	chk	Page2[0].SectionBTable2[0].Line36[0].c2_17[0]	296,156	1		36 Is another vehicle available for personal use?
+2	chk	Page2[0].SectionBTable2[0].Line36[0].c2_17[1]	325,156	2		36 Is another vehicle available for personal use?
+2	chk	Page2[0].SectionBTable2[0].Line36[0].c2_18[0]	354,156	1		36 Is another vehicle available for personal use?
+2	chk	Page2[0].SectionBTable2[0].Line36[0].c2_18[1]	383,156	2		36 Is another vehicle available for personal use?
+2	chk	Page2[0].SectionBTable2[0].Line36[0].c2_19[0]	412,156	1		36 Is another vehicle available for personal use?
+2	chk	Page2[0].SectionBTable2[0].Line36[0].c2_19[1]	440,156	2		36 Is another vehicle available for personal use?
+2	chk	Page2[0].SectionBTable2[0].Line36[0].c2_20[0]	469,156	1		36 Is another vehicle available for personal use?
+2	chk	Page2[0].SectionBTable2[0].Line36[0].c2_20[1]	498,156	2		36 Is another vehicle available for personal use?
+2	chk	Page2[0].SectionBTable2[0].Line36[0].c2_21[0]	527,156	1		36 Is another vehicle available for personal use?
+2	chk	Page2[0].SectionBTable2[0].Line36[0].c2_21[1]	556,156	2		36 Is another vehicle available for personal use?
+3	chk	Page3[0].c3_1[0]	527,648	1		in a written policy statement that prohibits all personal use of vehicles, including commuting, by your employees? … Yes
+3	chk	Page3[0].c3_1[1]	556,648	2		a written policy statement that prohibits all personal use of vehicles, including commuting, by your employees? … Yes No
+3	chk	Page3[0].c3_2[0]	527,630	1		owners Do you maintain a written policy statement that prohibits personal use of vehicles, except commuting, by your . .
+3	chk	Page3[0].c3_2[1]	556,630	2		owners Do you maintain a written policy statement that prohibits personal use of vehicles, except commuting, by your . .
+3	chk	Page3[0].c3_3[0]	527,612	1		39 Do you treat all use of vehicles by employees as personal use? … .
+3	chk	Page3[0].c3_3[1]	556,612	2		39 Do you treat all use of vehicles by employees as personal use? … .
+3	chk	Page3[0].c3_4[0]	527,594	1		received? Do you provide more than five vehicles to your employees, obtain information from your employees about the … .
+3	chk	Page3[0].c3_4[1]	556,594	2		received? Do you provide more than five vehicles to your employees, obtain information from your employees about the … .
+3	chk	Page3[0].c3_5[0]	527,576	1		41 Do you meet the requirements concerning qualified automobile demonstration use? See instructions … .
+3	chk	Page3[0].c3_5[1]	556,576	2		41 Do you meet the requirements concerning qualified automobile demonstration use? See instructions … .
+3	Tx	Page3[0].PartVITable[0].BodyRow1[0].f3_1[0]	36,492			
+3	Tx	Page3[0].PartVITable[0].BodyRow1[0].f3_2[0]	180,492			
+3	Tx	Page3[0].PartVITable[0].BodyRow1[0].f3_3[0]	252,492			
+3	Tx	Page3[0].PartVITable[0].BodyRow1[0].f3_4[0]	353,492			
+3	Tx	Page3[0].PartVITable[0].BodyRow1[0].f3_5[0]	425,492			
+3	Tx	Page3[0].PartVITable[0].BodyRow1[0].f3_6[0]	482,492			
+3	Tx	Page3[0].PartVITable[0].BodyRow2[0].f3_7[0]	36,480			
+3	Tx	Page3[0].PartVITable[0].BodyRow2[0].f3_8[0]	180,480			
+3	Tx	Page3[0].PartVITable[0].BodyRow2[0].f3_9[0]	252,480			
+3	Tx	Page3[0].PartVITable[0].BodyRow2[0].f3_10[0]	353,480			
+3	Tx	Page3[0].PartVITable[0].BodyRow2[0].f3_11[0]	425,480			
+3	Tx	Page3[0].PartVITable[0].BodyRow2[0].f3_12[0]	482,480			
+3	Tx	Page3[0].f3_13[0]	482,468		43	43 Amortization of costs that began before your 2025 tax year … 43
+3	Tx	Page3[0].f3_14[0]	482,456		44	 that began before your 2025 tax year Total. Add amounts in column (f). See the instructions for where to report … 43 44

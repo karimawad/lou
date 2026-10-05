@@ -1,0 +1,105 @@
+1	Tx	Page1[0].Pg1Header[0].f1_1[0]	36,684			
+1	Tx	Page1[0].f1_2[0]	446,684			Name of proprietor
+1	Tx	Page1[0].f1_3[0]	36,660			
+1	Tx	Page1[0].BComb[0].f1_4[0]	461,660			
+1	Tx	Page1[0].f1_5[0]	36,636			
+1	Tx	Page1[0].DComb[0].f1_6[0]	446,636			C Business name. If no separate business name, leave blank.
+1	Tx	Page1[0].f1_7[0]	230,624			E Business address (including suite or room no.)
+1	Tx	Page1[0].f1_8[0]	230,612			E Business address (including suite or room no.) City, town or post office, state, and ZIP code
+1	chk	Page1[0].c1_1[0]	169,601	1	(1)	F Accounting method: (1)
+1	chk	Page1[0].c1_1[1]	234,601	2	(2)	F Accounting method: (1) Cash (2)
+1	chk	Page1[0].c1_1[2]	306,601	3	(3)	F Accounting method: (1) Cash (2) Accrual (3)
+1	Tx	Page1[0].f1_9[0]	374,600			F Accounting method: City, town or post office, state, and ZIP code (1) Cash (2) Accrual (3) Other (specify)
+1	chk	Page1[0].c1_2[0]	514,590	Yes		 “materially participate” in the operation of this business during 2023? If “No,” see instructions for limit on losses .
+1	chk	Page1[0].c1_2[1]	550,590	No		terially participate” in the operation of this business during 2023? If “No,” see instructions for limit on losses . Yes
+1	chk	Page1[0].c1_3[0]	514,578	1		H If you started or acquired this business during 2023, check here … .
+1	chk	Page1[0].c1_4[0]	514,566	Yes		I Did you make any payments in 2023 that would require you to file Form(s) 1099? See instructions … .
+1	chk	Page1[0].c1_4[1]	550,566	No		I Did you make any payments in 2023 that would require you to file Form(s) 1099? See instructions … Yes
+1	chk	Page1[0].c1_5[0]	514,554	Yes		J If “Yes,” did you or will you file required Form(s) 1099? … .
+1	chk	Page1[0].c1_5[1]	550,554	No		J If “Yes,” did you or will you file required Form(s) 1099? … Yes
+1	chk	Page1[0].c1_6[0]	434,518	1		ecked . Gross receipts or sales. See instructions for line 1 and check the box if this income was reported to you on … .
+1	Tx	Page1[0].f1_10[0]	475,516		1	ecked . Gross receipts or sales. See instructions for line 1 and check the box if this income was reported to you on … 1
+1	Tx	Page1[0].f1_11[0]	475,504		2	2 Form W-2 and the “Statutory employee” box on that form was checked . Returns and allowances … 1 2
+1	Tx	Page1[0].f1_12[0]	475,492		3	2 3 Returns and allowances Subtract line 2 from line 1 … 2 3
+1	Tx	Page1[0].f1_13[0]	475,480		4	3 4 Subtract line 2 from line 1 Cost of goods sold (from line 42) … 3 4
+1	Tx	Page1[0].f1_14[0]	475,468		5	4 5 Cost of goods sold (from line 42) Gross profit. Subtract line 4 from line 3 … 4 5
+1	Tx	Page1[0].f1_15[0]	475,456		6	, including federal and state gasoline or fuel tax credit or refund (see instructions) Subtract line 4 from line 3 … 5 6
+1	Tx	Page1[0].f1_16[0]	475,444		7	cluding federal and state gasoline or fuel tax credit or refund (see instructions) Gross income. Add lines 5 and 6 … 6 7
+1	Tx	Page1[0].Lines8-17[0].f1_17[0]	194,420		8	Part II 8 Advertising . Expenses… Enter expenses for business use of your home . . 8
+1	Tx	Page1[0].Lines8-17[0].f1_18[0]	194,396		9	9 (see instructions) Car and truck expenses … 9
+1	Tx	Page1[0].Lines8-17[0].f1_19[0]	194,384		10	10 (see instructions) Commissions and fees … 10 9
+1	Tx	Page1[0].Lines8-17[0].f1_20[0]	194,372		11	10 11 Commissions and fees Contract labor (see instructions) . 10 11
+1	Tx	Page1[0].Lines8-17[0].f1_21[0]	194,360		12	11 12 Contract labor (see instructions) Depletion … 11 12
+1	Tx	Page1[0].Lines8-17[0].f1_22[0]	194,324		13	instructions) included in Part . . III) . (see . 13
+1	Tx	Page1[0].Lines8-17[0].f1_23[0]	194,300		14	14 (other than on line 19) Employee benefit programs . 14
+1	Tx	Page1[0].Lines8-17[0].f1_24[0]	194,288		15	15 (other than on line 19) Insurance (other than health) . 14 15
+1	Tx	Page1[0].Lines8-17[0].f1_25[0]	194,264		16a	16 a Interest (see instructions): Mortgage (paid to banks, etc.) 16a
+1	Tx	Page1[0].Lines8-17[0].f1_26[0]	194,252		16b	a b Mortgage (paid to banks, etc.) Other … 16b 16a
+1	Tx	Page1[0].Lines8-17[0].f1_27[0]	194,240		17	17 b Other Legal and professional services … 16b 17
+1	Tx	Page1[0].Lines18-27[0].f1_28[0]	475,420		18	 Expenses… Enter expenses for business use of your home . . 8 18 Office expense (see instructions) . only on line 30. 18
+1	Tx	Page1[0].Lines18-27[0].f1_29[0]	475,408		19	tising . Car and truck . expenses … 8 18 19 Office expense (see instructions) . Pension and profit-sharing plans . 18 19
+1	Tx	Page1[0].Lines18-27[0].f1_30[0]	475,384		20a	 instructions) Commissions and fees … 10 9 20 a Rent or lease (see instructions): Vehicles, machinery, and equipment 20a
+1	Tx	Page1[0].Lines18-27[0].f1_31[0]	475,372		20b	 fees Contract labor (see instructions) . 10 11 a b Vehicles, machinery, and equipment Other business property … 20b 20a
+1	Tx	Page1[0].Lines18-27[0].f1_32[0]	475,360		21	11 12 Contract labor (see instructions) Depletion … 11 12 21 b Other business property Repairs and maintenance … 20b 21
+1	Tx	Page1[0].Lines18-27[0].f1_33[0]	475,348		22	13 Depletion Depreciation and section 179 … 12 21 22 Repairs and maintenance Supplies (not included in Part III) … 21 22
+1	Tx	Page1[0].Lines18-27[0].f1_34[0]	475,336		23	expense included in deduction Part III) (see (not 22 23 Supplies (not included in Part III) . Taxes and licenses … 22 23
+1	Tx	Page1[0].Lines18-27[0].f1_35[0]	475,312		24a	14 instructions) Employee benefit programs … 13 24 a Travel and meals: Travel … 24a
+1	Tx	Page1[0].Lines18-27[0].f1_36[0]	475,300		24b	14 (other than on line 19) Employee benefit programs . 14 a b Travel . Deductible meals (see instructions) … 24b 24a
+1	Tx	Page1[0].Lines18-27[0].f1_37[0]	475,288		25	other than on line 19) Insurance (other than health) . 14 15 25 b Deductible meals (see instructions) Utilities … 24b 25
+1	Tx	Page1[0].Lines18-27[0].f1_38[0]	475,276		26	16 Insurance (other than health) Interest (see instructions): 15 25 26 Utilities Wages (less employment credits) … 25 26
+1	Tx	Page1[0].Lines18-27[0].f1_39[0]	475,264		27a	ns): Mortgage (paid to banks, etc.) 16a 26 27 a Wages (less employment credits) Other expenses (from line 48) . . 27a 26
+1	Tx	Page1[0].Lines18-27[0].f1_40[0]	475,240		27b	 Other Legal and professional services … 16b 17 b Energy efficient commercial bldgs deduction (attach Form 7205) . . 27b
+1	Tx	Page1[0].f1_41[0]	475,228		28	otal expenses before expenses for business use of home. Add lines 8 through 27b 17 deduction (attach Form 7205) … 27b 28
+1	Tx	Page1[0].f1_42[0]	475,216		29	ofit or (loss). Subtract line 28 from line 7 . before expenses for business use of home. Add lines 8 through 27b … 28 29
+1	Tx	Page1[0].Line30_ReadOrder[0].f1_43[0]	353,180			thod filers only: unless using the simplified method. See instructions. Enter the total square footage of (a) your home:
+1	Tx	Page1[0].Line30_ReadOrder[0].f1_44[0]	238,168			and (b) the part of your home used for business:
+1	Tx	Page1[0].f1_45[0]	475,156		30	ed for business: Method Worksheet in the instructions to figure the amount to enter on line 30 … Use the Simplified … 30
+1	Tx	Page1[0].f1_46[0]	475,120		31	) Estates and trusts, enter on Schedule 1 (Form 1040), line 3, and on Schedule SE, line 2. Form 1041, line 3. (If you 31
+1	chk	Page1[0].c1_7[0]	475,74	1	32a	 line 1, see the line 31 instructions.) Schedule 1 (Form 1040), line 3, Estates and trusts, enter on and on Schedule 32a
+1	chk	Page1[0].c1_7[1]	475,62	2	32b	Form 1041, line 3. ( If you checked the box on line 1, see the line 31 instructions.) Estates and trusts, enter on } 32b
+2	chk	Page2[0].c2_1[0]	187,698	1	a	33 Method(s) used to value closing inventory: a
+2	chk	Page2[0].c2_2[0]	259,698	1	b	33 Method(s) used to value closing inventory: a Cost b
+2	chk	Page2[0].c2_3[0]	396,698	1	c	33 Method(s) used to value closing inventory: a Cost b Lower of cost or market c
+2	chk	Page2[0].c2_4[0]	482,675	1		 in determining quantities, costs, or valuations between opening and closing inventory? If “Yes,” attach explanation … .
+2	chk	Page2[0].c2_4[1]	540,675	2		n determining quantities, costs, or valuations between opening and closing inventory? If “Yes,” attach explanation … Yes
+2	Tx	Page2[0].f2_1[0]	468,648		35	35 Inventory at beginning of year. If different from last year’s closing inventory, attach explanation … 35
+2	Tx	Page2[0].f2_2[0]	468,624		36	36 Purchases less cost of items withdrawn for personal use … 36
+2	Tx	Page2[0].f2_3[0]	468,600		37	37 Cost of labor. Do not include any amounts paid to yourself … 37
+2	Tx	Page2[0].f2_4[0]	468,576		38	38 Materials and supplies … 38
+2	Tx	Page2[0].f2_5[0]	468,552		39	39 Other costs … 39
+2	Tx	Page2[0].f2_6[0]	468,528		40	40 Add lines 35 through 39 … 40
+2	Tx	Page2[0].f2_7[0]	468,504		41	41 Inventory at end of year … 41
+2	Tx	Page2[0].f2_8[0]	468,480		42	42 Cost of goods sold. Subtract line 41 from line 40. Enter the result here and on line 4 … 42
+2	Tx	Page2[0].f2_9[0]	374,420			43 When did you place your vehicle in service for business purposes? (month/day/year)
+2	Tx	Page2[0].f2_10[0]	407,420			43 When did you place your vehicle in service for business purposes? (month/day/year) /
+2	Tx	Page2[0].f2_11[0]	436,420			43 When did you place your vehicle in service for business purposes? (month/day/year) / /
+2	Tx	Page2[0].f2_12[0]	104,372			a Business
+2	Tx	Page2[0].f2_13[0]	332,372			a Business b Commuting (see instructions)
+2	Tx	Page2[0].f2_14[0]	468,372			a Business b Commuting (see instructions) c Other
+2	chk	Page2[0].c2_5[0]	490,350	1		45 Was your vehicle available for personal use during off-duty hours? … .
+2	chk	Page2[0].c2_5[1]	540,350	2		45 Was your vehicle available for personal use during off-duty hours? … Yes
+2	chk	Page2[0].c2_6[0]	490,326	1		46 Do you (or your spouse) have another vehicle available for personal use?… .
+2	chk	Page2[0].c2_6[1]	540,326	2		46 Do you (or your spouse) have another vehicle available for personal use?… Yes
+2	chk	Page2[0].c2_7[0]	490,302	1		47 a Do you have evidence to support your deduction? … .
+2	chk	Page2[0].c2_7[1]	540,302	2		47 a Do you have evidence to support your deduction? … Yes
+2	chk	Page2[0].c2_8[0]	490,278	1		b If “Yes,” is the evidence written? … .
+2	chk	Page2[0].c2_8[1]	540,278	2		b If “Yes,” is the evidence written? … Yes
+2	Tx	Page2[0].PartVTable[0].Item1[0].f2_15[0]	36,240			
+2	Tx	Page2[0].PartVTable[0].Item1[0].f2_16[0]	468,240			
+2	Tx	Page2[0].PartVTable[0].Item2[0].f2_17[0]	36,216			
+2	Tx	Page2[0].PartVTable[0].Item2[0].f2_18[0]	468,216			
+2	Tx	Page2[0].PartVTable[0].Item3[0].f2_19[0]	36,192			
+2	Tx	Page2[0].PartVTable[0].Item3[0].f2_20[0]	468,192			
+2	Tx	Page2[0].PartVTable[0].Item4[0].f2_21[0]	36,168			
+2	Tx	Page2[0].PartVTable[0].Item4[0].f2_22[0]	468,168			
+2	Tx	Page2[0].PartVTable[0].Item5[0].f2_23[0]	36,144			
+2	Tx	Page2[0].PartVTable[0].Item5[0].f2_24[0]	468,144			
+2	Tx	Page2[0].PartVTable[0].Item6[0].f2_25[0]	36,120			
+2	Tx	Page2[0].PartVTable[0].Item6[0].f2_26[0]	468,120			
+2	Tx	Page2[0].PartVTable[0].Item7[0].f2_27[0]	36,96			
+2	Tx	Page2[0].PartVTable[0].Item7[0].f2_28[0]	468,96			
+2	Tx	Page2[0].PartVTable[0].Item8[0].f2_29[0]	36,72			
+2	Tx	Page2[0].PartVTable[0].Item8[0].f2_30[0]	468,72			
+2	Tx	Page2[0].PartVTable[0].Item9[0].f2_31[0]	36,48			
+2	Tx	Page2[0].PartVTable[0].Item9[0].f2_32[0]	468,48			
+2	Tx	Page2[0].f2_33[0]	468,36		48	48 Total other expenses. Enter here and on line 27a … 48

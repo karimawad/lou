@@ -1,0 +1,73 @@
+1	Tx	Page1[0].f1_01[0]	36,684			
+1	Tx	Page1[0].f1_02[0]	446,684			Name(s) shown on Form 1040, 1040-SR, or 1040-NR
+1	Tx	Page1[0].f1_03[0]	482,660			, enter the amount reported to you on Form(s) 1099-K that was included in error or for personal items sold at a loss … .
+1	Tx	Page1[0].f1_04[0]	504,606		1	Part I 1 Taxable refunds, credits, or offsets of state and local income taxes . Additional Income … 1
+1	Tx	Page1[0].f1_05[0]	504,594		2a	1 2 a Taxable refunds, credits, or offsets of state and local income taxes . Alimony received … 2a 1
+1	Tx	Page1[0].f1_06[0]	338,582			2 a b Alimony received Date of original divorce or separation agreement (see instructions): … .
+1	Tx	Page1[0].f1_07[0]	504,570		3	 b Date of original divorce or separation agreement (see instructions): Business income or (loss). Attach Schedule C … 3
+1	chk	Page1[0].c1_1[0]	274,560	1		4 Other gains or (losses). Check if any from Form(s):
+1	chk	Page1[0].c1_2[0]	324,560	1		4 Other gains or (losses). Check if any from Form(s): 4797
+1	Tx	Page1[0].f1_08[0]	504,558		4	Business income or (loss). Attach Schedule C . Other gains or (losses). Check if any from Form(s): . . 4797 … 4684 … 3 4
+1	Tx	Page1[0].f1_09[0]	504,546		5	m Form(s): Rental real estate, royalties, partnerships, S corporations, trusts, etc. Attach Schedule E . 4797 4684 … 4 5
+1	Tx	Page1[0].f1_10[0]	504,534		6	royalties, partnerships, S corporations, trusts, etc. Attach Schedule E . Farm income or (loss). Attach Schedule F … 5 6
+1	chk	Page1[0].Line7_ReadOrder[0].c1_3[0]	449,524	1		7 Unemployment compensation. If you repaid a 2025 overpayment (see instructions), check here
+1	Tx	Page1[0].Line7_ReadOrder[0].f1_11[0]	151,510			7 Unemployment compensation. If you repaid a 2025 overpayment (see instructions), check here enter amount repaid:
+1	Tx	Page1[0].f1_12[0]	504,510		7	nemployment compensation. If you repaid a 2025 overpayment (see instructions), check here enter amount repaid: … and . 7
+1	Tx	Page1[0].Line8a_ReadOrder[0].f1_13[0]	414,486		8a	8 a Other income: Net operating loss … 8a (
+1	Tx	Page1[0].f1_14[0]	410,474		8b	a b Net operating loss Gambling … 8b 8a
+1	Tx	Page1[0].f1_15[0]	410,462		8c	b c Gambling . Cancellation of debt … 8b 8c
+1	Tx	Page1[0].f1_16[0]	414,450		8d	c d Cancellation of debt Foreign earned income exclusion from Form 2555 … 8d 8c (
+1	Tx	Page1[0].f1_17[0]	410,438		8e	d e Foreign earned income exclusion from Form 2555 Income from Form 8853 … 8d 8e
+1	Tx	Page1[0].f1_18[0]	410,426		8f	e f Income from Form 8853 Income from Form 8889 … 8e 8f
+1	Tx	Page1[0].f1_19[0]	410,414		8g	f g Income from Form 8889 Alaska Permanent Fund dividends … 8g 8f
+1	Tx	Page1[0].f1_20[0]	410,402		8h	g h Alaska Permanent Fund dividends Jury duty pay … 8g 8h
+1	Tx	Page1[0].f1_21[0]	410,390		8i	h i Jury duty pay Prizes and awards … 8h 8i
+1	Tx	Page1[0].f1_22[0]	410,378		8j	i j Prizes and awards . Activity not engaged in for profit income … 8j 8i
+1	Tx	Page1[0].f1_23[0]	410,366		8k	j k Activity not engaged in for profit income Stock options … 8k 8j
+1	Tx	Page1[0].f1_24[0]	410,342		8l	 the business of renting such property Income from the rental of personal property if you engaged in the rental for … 8l
+1	Tx	Page1[0].f1_25[0]	410,330		8m	m Olympic and Paralympic medals and USOC prize money (see instructions) . 8m 8l
+1	Tx	Page1[0].f1_26[0]	410,318		8n	lympic and Paralympic medals and USOC prize money (see instructions) Section 951(a) inclusion (see instructions) … 8m 8n
+1	Tx	Page1[0].f1_27[0]	410,306		8o	n o Section 951(a) inclusion (see instructions) Section 951A(a) inclusion (see instructions) … 8o 8n
+1	Tx	Page1[0].f1_28[0]	410,294		8p	o p Section 951A(a) inclusion (see instructions) . Section 461(l) excess business loss adjustment … 8o 8p
+1	Tx	Page1[0].f1_29[0]	410,282		8q	p q Section 461(l) excess business loss adjustment Taxable distributions from an ABLE account (see instructions) … 8p 8q
+1	Tx	Page1[0].f1_30[0]	410,270		8r	distributions from an ABLE account (see instructions) Scholarship and fellowship grants not reported on Form W-2 … 8q 8r
+1	Tx	Page1[0].f1_31[0]	414,246		8s	s Nontaxable amount of Medicaid waiver payments included on Form 1040, line 1a or 1d … 8s (
+1	Tx	Page1[0].f1_32[0]	410,222		8t	 Pension nongovernmental section 457 plan or annuity from a nonqualifed . . deferred … compensation … plan . . or . a 8t
+1	Tx	Page1[0].f1_33[0]	410,210		8u	u Wages earned while incarcerated … 8u 8t
+1	Tx	Page1[0].f1_34[0]	410,186		8v	v instructions Digital assets . received … as . ordinary … income … not . . reported … elsewhere… See . 8v
+1	Tx	Page1[0].Line8z_ReadOrder[0].f1_35[0]	65,150			z
+1	Tx	Page1[0].f1_36[0]	410,150		8z	8z
+1	Tx	Page1[0].f1_37[0]	504,138		9	9 Total other income. Add lines 8a through 8z … 8z … 9
+1	Tx	Page1[0].f1_38[0]	504,114		10	or 1040-NR, line 8 Combine lines 1 through 7 and 9. This is your … additional income … Enter here and on Form 1040, … 10
+2	Tx	Page2[0].f2_01[0]	504,720		11	11 Part II Educator expenses Adjustments to Income … 11
+2	Tx	Page2[0].f2_02[0]	504,696		12	2 Form 2106 Certain business expenses of reservists, performing artists, and fee-basis government officials. Attach … 12
+2	Tx	Page2[0].f2_03[0]	504,684		13	13 Health savings account deduction. Attach Form 8889 … 12 13
+2	chk	Page2[0].c2_1[0]	186,662	1		(see instructions), check here
+2	Tx	Page2[0].f2_04[0]	504,660		14	tions), check here Moving expenses for members of the Armed Forces. Attach Form 3903. If claiming only storage fees … 14
+2	Tx	Page2[0].f2_05[0]	504,648		15	15 (see instructions), check here Deductible part of self-employment tax. Attach Schedule SE … 14 15
+2	Tx	Page2[0].f2_06[0]	504,636		16	5 16 Deductible part of self-employment tax. Attach Schedule SE . Self-employed SEP, SIMPLE, and qualified plans … 15 16
+2	Tx	Page2[0].f2_07[0]	504,624		17	16 17 Self-employed SEP, SIMPLE, and qualified plans . Self-employed health insurance deduction … 16 17
+2	Tx	Page2[0].f2_08[0]	504,612		18	17 18 Self-employed health insurance deduction . Penalty on early withdrawal of savings … 17 18
+2	Tx	Page2[0].f2_09[0]	504,600		19a	18 19 a Penalty on early withdrawal of savings Alimony paid … 19a 18
+2	Tx	Page2[0].Line19b_CombField[0].f2_10[0]	403,588			19 a b Recipient’s SSN Alimony paid … .
+2	Tx	Page2[0].f2_11[0]	338,576			b c Recipient’s SSN Date of original divorce or separation agreement (see instructions): … .
+2	chk	Page2[0].c2_2[0]	186,554	1		(see instructions), check here
+2	Tx	Page2[0].f2_12[0]	504,552		20	u are married filing separately and lived apart from your spouse for the entire year (see instructions), check here … 20
+2	Tx	Page2[0].f2_13[0]	504,540		21	21 (see instructions), check here Student loan interest deduction … 20 21
+2	Tx	Page2[0].f2_14[0]	504,528		22	21 22 Student loan interest deduction Reserved for future use … 21 22
+2	Tx	Page2[0].f2_15[0]	504,516		23	22 23 Reserved for future use Archer MSA deduction … 22 23
+2	Tx	Page2[0].Line24a_ReadOrder[0].f2_16[0]	410,492		24a	24 a Other adjustments: Jury duty pay (see instructions) … 24a
+2	Tx	Page2[0].f2_17[0]	410,468		24b	ductible expenses related to income reported on line 8l from the rental of personal property engaged in for profit … 24b
+2	Tx	Page2[0].f2_18[0]	410,444		24c	c Nontaxable amount of the value of Olympic and Paralympic medals and USOC prize money reported on line 8m … 24c
+2	Tx	Page2[0].f2_19[0]	410,432		24d	d Reforestation amortization and expenses … 24d 24c
+2	Tx	Page2[0].f2_20[0]	410,408		24e	e 1974 Repayment of supplemental unemployment benefits under the Trade Act of … 24e
+2	Tx	Page2[0].f2_21[0]	410,396		24f	f Contributions to section 501(c)(18)(D) pension plans … 24e 24f
+2	Tx	Page2[0].f2_22[0]	410,384		24g	tributions to section 501(c)(18)(D) pension plans . Contributions by certain chaplains to section 403(b) plans … 24g 24f
+2	Tx	Page2[0].f2_23[0]	410,360		24h	ney discrimination claims (see instructions) fees and court costs for . actions … involving … certain … unlawful . . 24h
+2	Tx	Page2[0].f2_24[0]	410,336		24i	 in connection with an award from the IRS for information you provided that helped the IRS detect tax law violations 24i
+2	Tx	Page2[0].f2_25[0]	410,324		24j	j Housing deduction from Form 2555 … 24j 24i
+2	Tx	Page2[0].f2_26[0]	410,312		24k	j k Housing deduction from Form 2555 Excess deductions of section 67(e) expenses from Schedule K-1 (Form 1041) … 24k 24j
+2	Tx	Page2[0].Line24z_ReadOrder[0].f2_27[0]	65,276			z
+2	Tx	Page2[0].f2_28[0]	410,276		24z	24z
+2	Tx	Page2[0].f2_29[0]	504,264		25	25 Total other adjustments. Add lines 24a through 24z … 24z … 25
+2	Tx	Page2[0].f2_30[0]	504,240		26	rough 23 and 25. These are your 1040, 1040-SR, or 1040-NR, line 10 … adjustments to income … Enter here and on Form … 26

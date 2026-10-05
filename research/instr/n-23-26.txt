@@ -1,0 +1,236 @@
+
+
+=== PAGE 1 ===
+Determination of Housing Cost Amounts Eligible for Exclusion or Deduction for 2023
+Notice 2023-26
+SECTION 1. PURPOSE
+This notice provides adjustments to the limitation on housing expenses for
+purposes of section 911 of the Internal Revenue Code for specific locations for 2023.
+These adjustments are based on geographic differences in housing costs relative to
+housing costs in the United States.
+SECTION 2. BACKGROUND
+Section 911 allows a qualified individual to elect to exclude from gross income
+the foreign earned income and to exclude or deduct the housing cost amount of such
+individual.
+The term “housing cost amount” is generally the total of the housing expenses for
+the taxable year minus a base housing amount. See § 911(c)(1). For this purpose, the
+base housing amount for the taxable year is limited to an amount that is tied to the
+maximum foreign earned income exclusion amount of the qualified individual, which is
+$120,000 for 2023. See § 911(c)(1)(B). Specifically, the base housing amount is 16
+percent of the maximum foreign earned income exclusion amount (computed on a daily
+basis), multiplied by the number of days in the applicable period that fall within the
+
+=== PAGE 2 ===
+taxable year. Assuming that the entire taxable year of a qualified individual is within the
+applicable period, the base housing amount for 2023 is $19,200 ($120,000 x .16).
+Similarly, the housing expense amount is also limited, based on a percentage of
+the maximum foreign earned income exclusion amount. Specifically, the limit on such
+housing expenses generally equals 30 percent of the maximum foreign earned income
+exclusion amount (computed on a daily basis), multiplied by the number of days in the
+applicable period for which the taxpayer is a qualified individual. See § 911(c)(2)(A) and
+(d)(1). Thus, under this general limitation, a qualified individual whose entire taxable
+year is within the applicable period is limited to maximum housing expenses of $36,000
+($120,000 x .30) for 2023. However, section 911(c)(2)(B) authorizes the Secretary to
+issue regulations or other guidance to adjust the percentage under section
+911(c)(2)(A)(i) (which determines the limit on housing expenses) based on geographic
+differences in housing costs relative to housing costs in the United States. Pursuant to
+this authority, the Department of the Treasury (Treasury Department) and the Internal
+Revenue Service (IRS) have published annual notices concerning the limitation on the
+section 911 housing cost amounts since the 2006 taxable year.
+For more background on the foreign housing exclusion, see
+https://www.irs.gov/individuals/international-taxpayers/foreign-housing-exclusion-or-
+deduction .
+SECTION 3. TABLE OF ADJUSTED HOUSING LIMITATIONS FOR 2023
+The following table provides adjusted limitations on housing expenses (in lieu of
+the otherwise applicable limitation of $36,000) for 2023. All amounts are in U.S. dollars.
+
+=== PAGE 3 ===
+Country  Location
+Limitation on
+Housing Expenses
+(full year)
+Limitation on
+Housing Expenses
+(daily/365 days)
+Angola  Luanda  84,000  230.14
+Argentina  Buenos Aires  56,500  154.79
+Australia  Sydney  66,500  182.19
+Bahamas, The  Nassau  49,700  136.16
+Bahrain  Bahrain  48,300  132.33
+Barbados  Barbados and Bridgetown  37,700  103.29
+Belgium  Brussels  38,700  106.03
+Bermuda  Bermuda  90,000  246.58
+Brazil  Sao Paulo  56,600  155.07
+Canada  Calgary  38,600  105.75
+Canada  Montreal  52,600  144.11
+Canada  Ottawa  46,100  126.30
+Canada  Toronto  59,900  164.11
+Canada  Vancouver  56,800  155.62
+Canada  Victoria  41,300  113.15
+Cayman Islands  Grand Cayman  48,000  131.51
+China  Beijing  69,600  190.68
+China  Hong Kong  114,300  313.15
+China  Shanghai  57,001  156.17
+Colombia  Bogota  58,700  160.82
+Colombia  All cities other than Bogota  49,400  135.34
+
+=== PAGE 4 ===
+Costa Rica  San Jose  37,800  103.56
+Democratic Republic
+of the Congo
+Kinshasa  42,000  115.07
+Denmark  Copenhagen  43,704  119.74
+Dominican Republic  Santo Domingo  45,500  124.66
+Ecuador  Quito  38,200  104.66
+Estonia  Tallinn  46,600  127.67
+France  Garches, Paris, Sevres,
+Suresnes, and  Versailles
+66,400  181.92
+France  Lyon  36,700  100.55
+Germany  Berlin  39,800  109.04
+Germany  Boeblingen, Ludwigsburg,
+Nellingen, and Stuttgart
+39,600  108.49
+Germany  Bonn  42,000  115.07
+Germany  Cologne  56,200  153.97
+Germany  Gelnhausen and Hanau  41,000  112.33
+Germany  Ingolstadt  46,500  127.40
+Germany  Kaiserslautern, Landkreis,
+Pirmasens, Sembach, and
+Zweibrueken
+39,900  109.32
+Germany  Mainz and Wiesbanden  44,500  121.92
+Germany  Munich  46,500  127.40
+Germany  Wahn  42,000  115.07
+Guatemala  Guatemala City  42,000  115.07
+Guinea  Conakry  51,300  140.55
+Holy See, The  Holy See, The  44,200  121.10
+India  Mumbai  67,920  186.08
+
+=== PAGE 5 ===
+India  New Delhi  56,124  153.76
+Indonesia  Jakarta  37,776  103.50
+Ireland  Dublin  38,400  105.21
+Israel  Beer Sheva  58,000  158.90
+Israel  Jerusalem  49,000  134.25
+Israel  Tel Aviv  50,800  139.18
+Israel  West Bank  49,000  134.25
+Italy  Genoa  41,800  114.52
+Italy  La Spezia  40,400  110.68
+Italy  Milan  66,000  180.82
+Italy  Naples  45,300  124.11
+Italy  Rome  44,200  121.10
+Italy  Vicenza  36,900  101.10
+Jamaica  Kingston  41,200  112.88
+Japan  Gifu, Komaki, and Nagoya  74,300  203.56
+Japan  Okinawa Prefecture  47,200  129.32
+Japan  Osaka - Kobe  90,664  248.39
+Japan  Tokyo  77,000  210.96
+Japan  Yokohama  41,000  112.33
+Japan  Yokosuka  44,300  121.37
+Kazakhstan  Almaty  48,000  131.51
+Korea  Camp Colbern  54,200  148.49
+Korea  Camp Market, K - 16, Kimpo
+Airfield, Seoul, and Suwon
+48,600  133.15
+
+=== PAGE 6 ===
+Korea  Camp Mercer  54,200  148.49
+Kuwait  Kuwait City  64,400  176.44
+Kuwait  All cities other than  Kuwait
+City
+57,700  158.08
+Luxembourg  Luxembourg  36,200  99.18
+Malaysia  Kuala Lumpur  46,200  126.58
+Malta  Malta  55,100  150.96
+Mexico  Merida  37,900  103.84
+Mexico  Mexico City  47,900  131.23
+Mexico  All cities other than Ciudad
+Juarez, Cuernavaca,
+Guadalajara, Hermosillo,
+Matamoros, Mazatlan,
+Merida, Metapa, Mexico
+City, Monterrey, Nogales,
+Nuevo Laredo, Tijuana,
+and Veracruz
+39,400  107.95
+Mozambique  Maputo  39,500  108.22
+Netherlands  Amsterdam and Schiphol  52,900  144.93
+Netherlands  Aruba  39,300  107.67
+Netherlands  Hague, The  52,700  144.38
+Netherlands Antilles  Curacao  45,800  125.48
+Oman  Muscat  41,300  113.15
+Panama  Panama City  39,500  108.22
+Peru  Lima  39,100  107.12
+Poland  Warsaw  50,200  137.53
+Portugal  Alverca and Lisbon  40,400  110.68
+Qatar  Doha  45,888  125.72
+
+=== PAGE 7 ===
+Romania  Bucharest  41,200  112.88
+Russia  Moscow  108,000  295.89
+Russia  Saint Petersburg  60,000  164.38
+Saudi Arabia  Riyadh  40,000  109.59
+Singapore  Singapore  82,900  227.12
+Slovenia  Ljubljana  46,400  127.12
+South Africa  Pretoria  39,300  107.67
+Spain  Barcelona  40,600  111.23
+Spain  Madrid  53,900  147.67
+Switzerland  Bern  69,000  189.04
+Switzerland  Geneva  98,300  269.32
+Switzerland  Zurich  39,219  107.45
+Taiwan  Taipei  46,188  126.54
+Tanzania  Dar Es  Salaam  44,000  120.55
+Thailand  Bangkok  59,000  161.64
+Trinidad and Tobago  Port of Spain  54,500  149.32
+Ukraine  Kiev  72,000  197.26
+United Arab Emirates  Abu Dhabi  49,687  136.13
+United Arab Emirates  Dubai  57,174  156.64
+United Kingdom  Basingstoke  41,099  112.60
+United Kingdom  Bath  41,000  112.33
+United Kingdom  Bracknell, High Wycombe,
+and Reading
+62,100  170.14
+United Kingdom  Caversham  73,800  202.19
+
+=== PAGE 8 ===
+United Kingdom  Cheltenham  45,600  124.93
+United Kingdom  Farnborough  54,700  149.86
+United  Kingdom  Gibraltar  44,616  122.24
+United Kingdom  Lakenheath and Mildenhall  42,600  116.71
+United Kingdom  London  64,600  176.99
+United Kingdom  Loudwater  52,400  143.56
+United Kingdom  Southampton  44,200  121.10
+United Kingdom  Surrey  48,402  132.61
+Venezuela  Caracas  57,000  156.16
+Vietnam  Hanoi  46,800  128.22
+Vietnam  Ho Chi Minh City  42,000  115.07
+SECTION 4. OPTION TO APPLY 2023 ADJUSTED HOUSING LIMITATIONS TO 2022
+TAXABLE YEAR
+For some locations, the limitation on housing expenses provided in Section 3 of
+this notice may be higher than the limitation on housing expenses provided in the “Table
+of Adjusted Limitations for 2022” in Notice 2022-10, 2022-10 I.R.B. 815. A qualified
+individual incurring housing expenses in such a location during 2022 may apply the
+adjusted limitation on housing expenses provided in Section 3 of this notice for 2023 in
+lieu of the amounts provided in the "Table of Adjusted Limitations for 2022" in Notice
+2022-10 (and as set forth in the Instructions to Form 2555,  Foreign Earned Income , for
+2022).
+The Treasury Department and the IRS anticipate that future annual notices
+
+=== PAGE 9 ===
+providing adjustments to housing expense limitations will make a similar option
+available to qualified individuals that incur housing expenses in the immediately
+preceding year. For example, when adjusted housing expense limitations for 2024 are
+issued, it is expected that taxpayers will be permitted to apply those adjusted limitations
+to the 2023 taxable year.
+SECTION 5. EFFECT ON OTHER DOCUMENTS
+This notice supersedes Notice 2022-10, 2022-10 I.R.B. 815.
+SECTION 6. EFFECTIVE DATE
+This notice is effective for taxable years beginning on or after January 1, 2023.
+However, as provided in Section 4, taxpayers may apply the 2023 adjusted housing
+limitations contained in Section 3 of this notice to his or her taxable year beginning in
+2022.
+SECTION 7. DRAFTING INFORMATION
+The principal author of this notice is Kate Y. Hwa of the Office of Associate Chief
+Counsel (International). For further information regarding this notice contact Kate Y.
+Hwa at (202) 317-5001 (not a toll-free call).

@@ -1,0 +1,151 @@
+1	Tx	Page1[0].NameAddress[0].f1_1[0]	36,684			
+1	Tx	Page1[0].NameAddress[0].f1_2[0]	36,660			
+1	Tx	Page1[0].NameAddress[0].f1_3[0]	259,660			Number and street. If a P.O. box, see instructions.
+1	Tx	Page1[0].NameAddress[0].f1_4[0]	36,636			
+1	Tx	Page1[0].NameAddress[0].f1_5[0]	259,636			City or town
+1	Tx	Page1[0].NameAddress[0].f1_6[0]	374,636			City or town State or province
+1	Tx	Page1[0].NameAddress[0].f1_7[0]	482,636			City or town State or province Country
+1	Tx	Page1[0].NameAddress[0].ShareholderTaxYear[0].f1_9[0]	461,674			Number and street. If a P.O. box, see instructions. Room or suite no. Shareholder tax year: calendar year 20
+1	Tx	Page1[0].NameAddress[0].ShareholderTaxYear[0].f1_10[0]	374,661			beginning
+1	Tx	Page1[0].NameAddress[0].ShareholderTaxYear[0].f1_11[0]	432,661			beginning , 20
+1	Tx	Page1[0].NameAddress[0].ShareholderTaxYear[0].f1_12[0]	490,661			beginning , 20 and ending
+1	Tx	Page1[0].NameAddress[0].ShareholderTaxYear[0].f1_13[0]	547,661			beginning , 20 and ending , 20
+1	Tx	Page1[0].f1_8[0]	332,684			Name of shareholder
+1	chk	Page1[0].c1_1[0]	194,626	1		Check type of shareholder filing the return:
+1	chk	Page1[0].c1_1[1]	252,626	2		Check type of shareholder filing the return: Individual
+1	chk	Page1[0].c1_1[2]	317,626	3		Check type of shareholder filing the return: Individual Corporation
+1	chk	Page1[0].c1_1[3]	382,626	4		Check type of shareholder filing the return: Individual Corporation Partnership
+1	chk	Page1[0].c1_1[4]	454,626	5		Check type of shareholder filing the return: Individual Corporation Partnership S Corporation
+1	chk	Page1[0].c1_1[5]	533,626	6		Check type of shareholder filing the return: Individual Corporation Partnership S Corporation Nongrantor Trust
+1	chk	Page1[0].c1_2[0]	566,614	1		Check if any Excepted Specified Foreign Financial Assets are reported on this form. See instructions … .
+1	chk	Page1[0].c1_3[0]	566,591	1		tions . — I, a shareholder of stock of a foreign corporation, elect to treat such stock as the stock of a Qualifying … .
+1	Tx	Page1[0].NameAddress2[0].f1_14[0]	36,564			
+1	Tx	Page1[0].NameAddress2[0].f1_15[0]	36,504			
+1	Tx	Page1[0].f1_16[0]	361,564			Name of foreign corporation, passive foreign investment company (PFIC), or qualified electing fund (QEF)
+1	Tx	Page1[0].f1_17[0]	361,540			Address (Enter number, street, city or town, and country.)
+1	Tx	Page1[0].TaxYearOfPFIC[0].f1_18[0]	564,530			Tax year of foreign corporation, PFIC, or QEF: calendar year 20
+1	Tx	Page1[0].TaxYearOfPFIC[0].f1_19[0]	452,517			or other tax year beginning
+1	Tx	Page1[0].TaxYearOfPFIC[0].f1_20[0]	562,517			or other tax year beginning , 20
+1	Tx	Page1[0].TaxYearOfPFIC[0].f1_21[0]	403,505			and ending
+1	Tx	Page1[0].TaxYearOfPFIC[0].f1_22[0]	518,505			and ending , 20
+1	Tx	Page1[0].f1_23[0]	281,468			espect to all shares of the PFIC held by the shareholder: 1 Description of each class of shares held by the shareholder:
+1	chk	Page1[0].c1_4[0]	65,458	1		
+1	Tx	Page1[0].f1_24[0]	263,432			2 Date shares acquired during the tax year, if applicable:
+1	Tx	Page1[0].f1_25[0]	243,408			3 Number of shares held at the end of the tax year:
+1	chk	Page1[0].c1_5[0]	79,374	1		(a)
+1	chk	Page1[0].c1_5[1]	151,374	2		(a) $0–50,000 (b)
+1	chk	Page1[0].c1_5[2]	245,374	3		(a) $0–50,000 (b) $50,001–100,000 (c)
+1	chk	Page1[0].c1_5[3]	346,374	4		(a) $0–50,000 (b) $50,001–100,000 (c) $100,001–150,000 (d)
+1	Tx	Page1[0].f1_26[0]	199,360			(e) (a) If more than $200,000, list value: $0–50,000 (b) $50,001–100,000
+1	chk	Page1[0].c1_6[0]	79,314	1		(a)
+1	Tx	Page1[0].f1_27[0]	152,312			(a) Section 1291 $
+1	chk	Page1[0].c1_7[0]	79,302	1		(b)
+1	Tx	Page1[0].f1_28[0]	246,300			(b) (a) Section 1291 Section 1293 (Qualified Electing Fund) $
+1	chk	Page1[0].c1_8[0]	79,290	1		(c)
+1	Tx	Page1[0].f1_29[0]	217,288			(b) (c) Section 1293 (Qualified Electing Fund) Section 1296 (Mark to Market) $
+1	chk	Page1[0].c1_9[0]	52,266	1		A
+1	chk	Page1[0].c1_10[0]	52,251	1		B
+1	chk	Page1[0].c1_11[0]	52,206	1		C
+1	chk	Page1[0].c1_12[0]	52,182	1		D
+1	chk	Page1[0].c1_13[0]	52,158	1		E
+1	chk	Page1[0].c1_14[0]	52,128	1		F
+1	chk	Page1[0].c1_15[0]	52,98	1		G
+1	chk	Page1[0].c1_16[0]	52,63	1		H
+2	Tx	Page2[0].f2_1[0]	382,708		6a	6 a Enter your pro rata share of the ordinary earnings of the QEF … 6a
+2	Tx	Page2[0].f2_2[0]	382,684		6b	r the portion of line 6a that is included in income under section 951 or that may be excluded under section 1293(g) … 6b
+2	Tx	Page2[0].f2_3[0]	490,672		6c	 from line 6a. Enter this amount on your tax return as ordinary income . may be excluded under section 1293(g) … 6b … 6c
+2	Tx	Page2[0].f2_4[0]	382,660		7a	s amount on your tax return as ordinary income . Enter your pro rata share of the total net capital gain of the QEF … 7a
+2	Tx	Page2[0].f2_5[0]	382,636		7b	r the portion of line 7a that is included in income under section 951 or that may be excluded under section 1293(g) … 7b
+2	Tx	Page2[0].f2_6[0]	490,612		7c	ons Subtract line 7b from line 7a. This amount is a net long-term capital gain. Enter this amount in Part II of the … 7c
+2	Tx	Page2[0].f2_7[0]	490,588		8a	8 a Add lines 6c and 7c … 8a
+2	Tx	Page2[0].f2_8[0]	382,564		8b	value of other property distributed or deemed distributed to you during the tax year of the QEF. See instructions . . 8b
+2	Tx	Page2[0].f2_9[0]	382,540		8c	erred during the tax year Enter the portion of line 8a not already included in line 8b that is attributable to shares 8c
+2	Tx	Page2[0].f2_10[0]	490,528		8d	d in the QEF that you disposed of, pledged, or otherwise transferred during the tax year Add lines 8b and 8c … 8c … 8d
+2	Tx	Page2[0].f2_11[0]	490,516		8e	es 8b and 8c Subtract line 8d from line 8a, and enter the difference (if zero or less, enter amount in brackets) … 8d 8e
+2	Tx	Page2[0].f2_12[0]	382,480		9a	9 a Enter the total tax for the tax year. See instructions … 9a
+2	Tx	Page2[0].f2_13[0]	382,456		9b	b Enter the total tax for the tax year determined without regard to the amount entered on line 8e … 9b
+2	Tx	Page2[0].f2_14[0]	490,432		9c	 instructions Subtract line 9b from line 9a. This is the deferred tax, the time for payment of which is extended by … 9c
+2	Tx	Page2[0].f2_15[0]	490,408		10a	value of your PFIC stock at the end of the tax year Gain or (Loss) From Mark-to-Market Election (see instructions) … 10a
+2	Tx	Page2[0].f2_16[0]	490,396		10b	f your PFIC stock at the end of the tax year Enter your adjusted basis in the stock at the end of the tax year … 10b 10a
+2	Tx	Page2[0].f2_17[0]	490,372		10c	ot income on your tax return. If a loss, go to line 11 . complete lines 11 and 12. Include this amount as ordinary … 10c
+2	Tx	Page2[0].f2_18[0]	490,360		11	r any unreversed inclusions (as defined in section 1296(d)) income on your tax return. If a loss, go to line 11 … 10c 11
+2	Tx	Page2[0].f2_19[0]	490,336		12	 only to the extent of unreversed inclusions on line 11. Include this amount as an ordinary loss on your tax return … 12
+2	Tx	Page2[0].f2_20[0]	490,312		13a	see instructions) during the tax year: Enter the fair market value of the stock on the date of sale or disposition … 13a
+2	Tx	Page2[0].f2_21[0]	490,300		13b	ck on the date of sale or disposition Enter the adjusted basis of the stock on the date of sale or disposition … 13b 13a
+2	Tx	Page2[0].f2_22[0]	490,276		13c	, do not your tax return. If a loss, go to line 14 … complete line 14. Include this amount as ordinary income … on . 13c
+2	Tx	Page2[0].f2_23[0]	490,264		14a	14 a Enter any unreversed inclusions (as defined in section 1296(d)) your tax return. If a loss, go to line 14 … 13c 14a
+2	Tx	Page2[0].f2_24[0]	490,228		14b	. an ordinary loss on your tax return. If the loss on line 13c exceeds unreversed inclusions on line 14a, complete … 14b
+2	Tx	Page2[0].f2_25[0]	490,192		14c	r tax return according to the rules generally applicable for losses provided elsewhere in the Code and regulations … 14c
+3	Tx	Page3[0].f3_1[0]	490,708			Enter the three-letter currency code (see instructions) … .
+3	Tx	Page3[0].f3_2[0]	490,684		15a	ructions Enter your total distributions from the section 1291 fund during the current tax year with respect to the … 15a
+3	Tx	Page3[0].f3_3[0]	490,636		15b	each of the 3 years preceding the current tax year (or if shorter, the portion of the shareholder’s holding period … 15b
+3	Tx	Page3[0].f3_4[0]	490,624		15c	rent tax year) Divide line 15b by 3.0. (See instructions if the number of preceding tax years is less than 3.) … 15b 15c
+3	Tx	Page3[0].f3_5[0]	490,612		15d	 3.0. (See instructions if the number of preceding tax years is less than 3.) Multiply line 15c by 125% (1.25) … 15d 15c
+3	Tx	Page3[0].f3_6[0]	490,552			ent tax year. Also, see instructions for rules for reporting a nonexcess distribution on your income tax return … 15e(1)
+3	Tx	Page3[0].f3_7[0]	490,528			he amount on line 15e(1) is in a foreign currency, convert to U.S. dollars and enter here. If line 15e(1) is in … 15e(2)
+3	Tx	Page3[0].f3_8[0]	490,504		15f	 former section 1291 fund. If a gain, complete line 16. If a loss, show it in brackets and do not complete line 16 … 15f
+3	Tx	Page3[0].f3_9[0]	490,432		16b	he foreign corporation became a PFIC (pre-PFIC years). Enter these amounts on your income tax return as other income 16b
+3	Tx	Page3[0].f3_10[0]	490,408		16c	s) for each tax year in your holding period (other than the current tax year and pre-PFIC years). See instructions … 16c
+3	Tx	Page3[0].f3_11[0]	490,396		16d	d Foreign tax credit (see instructions) current tax year and pre-PFIC years). See instructions … 16d 16c
+3	Tx	Page3[0].f3_12[0]	490,384		16e	ract line 16d from line 16c. Enter this amount on your income tax return as “additional tax.” See instructions … 16d 16e
+3	Tx	Page3[0].f3_13[0]	490,360		16f	ine 16e using the rates and methods of section 6621. Enter the aggregate amount of interest here. See instructions … 16f
+4	Tx	Page4[0].Table_17-20[0].Row2[0].f4_1[0]	180,636			17 Tax year of outstanding election … .
+4	Tx	Page4[0].Table_17-20[0].Row2[0].f4_2[0]	245,636			17 Tax year of outstanding election … .
+4	Tx	Page4[0].Table_17-20[0].Row2[0].f4_3[0]	310,636			17 Tax year of outstanding election … .
+4	Tx	Page4[0].Table_17-20[0].Row2[0].f4_4[0]	374,636			17 Tax year of outstanding election … .
+4	Tx	Page4[0].Table_17-20[0].Row2[0].f4_5[0]	439,636			17 Tax year of outstanding election … .
+4	Tx	Page4[0].Table_17-20[0].Row2[0].f4_6[0]	504,636			17 Tax year of outstanding election … .
+4	Tx	Page4[0].Table_17-20[0].Row3[0].f4_7[0]	180,612			18 Undistributed earnings to which the election relates .
+4	Tx	Page4[0].Table_17-20[0].Row3[0].f4_8[0]	245,612			18 Undistributed earnings to which the election relates .
+4	Tx	Page4[0].Table_17-20[0].Row3[0].f4_9[0]	310,612			18 Undistributed earnings to which the election relates .
+4	Tx	Page4[0].Table_17-20[0].Row3[0].f4_10[0]	374,612			18 Undistributed earnings to which the election relates .
+4	Tx	Page4[0].Table_17-20[0].Row3[0].f4_11[0]	439,612			18 Undistributed earnings to which the election relates .
+4	Tx	Page4[0].Table_17-20[0].Row3[0].f4_12[0]	504,612			18 Undistributed earnings to which the election relates .
+4	Tx	Page4[0].Table_17-20[0].Row4[0].f4_13[0]	180,600			19 Deferred tax … .
+4	Tx	Page4[0].Table_17-20[0].Row4[0].f4_14[0]	245,600			19 Deferred tax … .
+4	Tx	Page4[0].Table_17-20[0].Row4[0].f4_15[0]	310,600			19 Deferred tax … .
+4	Tx	Page4[0].Table_17-20[0].Row4[0].f4_16[0]	374,600			19 Deferred tax … .
+4	Tx	Page4[0].Table_17-20[0].Row4[0].f4_17[0]	439,600			19 Deferred tax … .
+4	Tx	Page4[0].Table_17-20[0].Row4[0].f4_18[0]	504,600			19 Deferred tax … .
+4	Tx	Page4[0].Table_17-20[0].Row5[0].f4_19[0]	180,576			20 Interest accrued on deferred tax (line 19) as of the filing date
+4	Tx	Page4[0].Table_17-20[0].Row5[0].f4_20[0]	245,576			20 Interest accrued on deferred tax (line 19) as of the filing date
+4	Tx	Page4[0].Table_17-20[0].Row5[0].f4_21[0]	310,576			20 Interest accrued on deferred tax (line 19) as of the filing date
+4	Tx	Page4[0].Table_17-20[0].Row5[0].f4_22[0]	374,576			20 Interest accrued on deferred tax (line 19) as of the filing date
+4	Tx	Page4[0].Table_17-20[0].Row5[0].f4_23[0]	439,576			20 Interest accrued on deferred tax (line 19) as of the filing date
+4	Tx	Page4[0].Table_17-20[0].Row5[0].f4_24[0]	504,576			20 Interest accrued on deferred tax (line 19) as of the filing date
+4	Tx	Page4[0].Table_Lines21-24[0].Row2[0].f4_25[0]	180,516			21 Event terminating election .
+4	Tx	Page4[0].Table_Lines21-24[0].Row2[0].f4_26[0]	245,516			21 Event terminating election .
+4	Tx	Page4[0].Table_Lines21-24[0].Row2[0].f4_27[0]	310,516			21 Event terminating election .
+4	Tx	Page4[0].Table_Lines21-24[0].Row2[0].f4_28[0]	374,516			21 Event terminating election .
+4	Tx	Page4[0].Table_Lines21-24[0].Row2[0].f4_29[0]	439,516			21 Event terminating election .
+4	Tx	Page4[0].Table_Lines21-24[0].Row2[0].f4_30[0]	504,516			21 Event terminating election .
+4	Tx	Page4[0].Table_Lines21-24[0].Row3[0].f4_31[0]	180,480			deemed distributed during the tax year … .
+4	Tx	Page4[0].Table_Lines21-24[0].Row3[0].f4_32[0]	245,480			deemed distributed during the tax year … .
+4	Tx	Page4[0].Table_Lines21-24[0].Row3[0].f4_33[0]	310,480			deemed distributed during the tax year … .
+4	Tx	Page4[0].Table_Lines21-24[0].Row3[0].f4_34[0]	374,480			deemed distributed during the tax year … .
+4	Tx	Page4[0].Table_Lines21-24[0].Row3[0].f4_35[0]	439,480			deemed distributed during the tax year … .
+4	Tx	Page4[0].Table_Lines21-24[0].Row3[0].f4_36[0]	504,480			deemed distributed during the tax year … .
+4	Tx	Page4[0].Table_Lines21-24[0].Row4[0].f4_37[0]	180,456			23 Deferred tax due with this return … .
+4	Tx	Page4[0].Table_Lines21-24[0].Row4[0].f4_38[0]	245,456			23 Deferred tax due with this return … .
+4	Tx	Page4[0].Table_Lines21-24[0].Row4[0].f4_39[0]	310,456			23 Deferred tax due with this return … .
+4	Tx	Page4[0].Table_Lines21-24[0].Row4[0].f4_40[0]	374,456			23 Deferred tax due with this return … .
+4	Tx	Page4[0].Table_Lines21-24[0].Row4[0].f4_41[0]	439,456			23 Deferred tax due with this return … .
+4	Tx	Page4[0].Table_Lines21-24[0].Row4[0].f4_42[0]	504,456			23 Deferred tax due with this return … .
+4	Tx	Page4[0].Table_Lines21-24[0].Row5[0].f4_43[0]	180,432			24 Accrued interest due with this return… .
+4	Tx	Page4[0].Table_Lines21-24[0].Row5[0].f4_44[0]	245,432			24 Accrued interest due with this return… .
+4	Tx	Page4[0].Table_Lines21-24[0].Row5[0].f4_45[0]	310,432			24 Accrued interest due with this return… .
+4	Tx	Page4[0].Table_Lines21-24[0].Row5[0].f4_46[0]	374,432			24 Accrued interest due with this return… .
+4	Tx	Page4[0].Table_Lines21-24[0].Row5[0].f4_47[0]	439,432			24 Accrued interest due with this return… .
+4	Tx	Page4[0].Table_Lines21-24[0].Row5[0].f4_48[0]	504,432			24 Accrued interest due with this return… .
+4	Tx	Page4[0].Table_Lines25-26[0].Row2[0].f4_49[0]	180,336			partial termination of election. Subtract line 23 from line 19 .
+4	Tx	Page4[0].Table_Lines25-26[0].Row2[0].f4_50[0]	245,336			partial termination of election. Subtract line 23 from line 19 .
+4	Tx	Page4[0].Table_Lines25-26[0].Row2[0].f4_51[0]	310,336			partial termination of election. Subtract line 23 from line 19 .
+4	Tx	Page4[0].Table_Lines25-26[0].Row2[0].f4_52[0]	374,336			partial termination of election. Subtract line 23 from line 19 .
+4	Tx	Page4[0].Table_Lines25-26[0].Row2[0].f4_53[0]	439,336			partial termination of election. Subtract line 23 from line 19 .
+4	Tx	Page4[0].Table_Lines25-26[0].Row2[0].f4_54[0]	504,336			partial termination of election. Subtract line 23 from line 19 .
+4	Tx	Page4[0].Table_Lines25-26[0].Row3[0].f4_55[0]	180,300			termination of election. Subtract line 24 from line 20 .
+4	Tx	Page4[0].Table_Lines25-26[0].Row3[0].f4_56[0]	245,300			termination of election. Subtract line 24 from line 20 .
+4	Tx	Page4[0].Table_Lines25-26[0].Row3[0].f4_57[0]	310,300			termination of election. Subtract line 24 from line 20 .
+4	Tx	Page4[0].Table_Lines25-26[0].Row3[0].f4_58[0]	374,300			termination of election. Subtract line 24 from line 20 .
+4	Tx	Page4[0].Table_Lines25-26[0].Row3[0].f4_59[0]	439,300			termination of election. Subtract line 24 from line 20 .
+4	Tx	Page4[0].Table_Lines25-26[0].Row3[0].f4_60[0]	504,300			termination of election. Subtract line 24 from line 20 .

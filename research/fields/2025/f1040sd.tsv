@@ -1,0 +1,55 @@
+1	Tx	Page1[0].f1_1[0]	36,672			
+1	Tx	Page1[0].f1_2[0]	454,672			Name(s) shown on return
+1	chk	Page1[0].c1_1[0]	497,662	1		Did you dispose of any investment(s) in a qualified opportunity fund during the tax year? … .
+1	chk	Page1[0].c1_1[1]	540,662	2		Did you dispose of any investment(s) in a qualified opportunity fund during the tax year? … Yes
+1	Tx	Page1[0].Table_PartI[0].Row1a[0].f1_3[0]	288,504			leave this line blank and go to line 1b … .
+1	Tx	Page1[0].Table_PartI[0].Row1a[0].f1_4[0]	360,504			leave this line blank and go to line 1b … .
+1	Tx	Page1[0].Table_PartI[0].Row1a[0].f1_5[0]	432,504			leave this line blank and go to line 1b … .
+1	Tx	Page1[0].Table_PartI[0].Row1a[0].f1_6[0]	504,504			leave this line blank and go to line 1b … .
+1	Tx	Page1[0].Table_PartI[0].Row1b[0].f1_7[0]	288,480			1b Totals for all transactions reported on Form(s) 8949 with Box A or Box G checked … .
+1	Tx	Page1[0].Table_PartI[0].Row1b[0].f1_8[0]	360,480			1b Totals for all transactions reported on Form(s) 8949 with Box A or Box G checked … .
+1	Tx	Page1[0].Table_PartI[0].Row1b[0].f1_9[0]	432,480			1b Totals for all transactions reported on Form(s) 8949 with Box A or Box G checked … .
+1	Tx	Page1[0].Table_PartI[0].Row1b[0].f1_10[0]	504,480			1b Totals for all transactions reported on Form(s) 8949 with Box A or Box G checked … .
+1	Tx	Page1[0].Table_PartI[0].Row2[0].f1_11[0]	288,456			2 Totals for all transactions reported on Form(s) 8949 with Box B or Box H checked … .
+1	Tx	Page1[0].Table_PartI[0].Row2[0].f1_12[0]	360,456			2 Totals for all transactions reported on Form(s) 8949 with Box B or Box H checked … .
+1	Tx	Page1[0].Table_PartI[0].Row2[0].f1_13[0]	432,456			2 Totals for all transactions reported on Form(s) 8949 with Box B or Box H checked … .
+1	Tx	Page1[0].Table_PartI[0].Row2[0].f1_14[0]	504,456			2 Totals for all transactions reported on Form(s) 8949 with Box B or Box H checked … .
+1	Tx	Page1[0].Table_PartI[0].Row3[0].f1_15[0]	288,432			3 Totals for all transactions reported on Form(s) 8949 with Box C or Box I checked … .
+1	Tx	Page1[0].Table_PartI[0].Row3[0].f1_16[0]	360,432			3 Totals for all transactions reported on Form(s) 8949 with Box C or Box I checked … .
+1	Tx	Page1[0].Table_PartI[0].Row3[0].f1_17[0]	432,432			3 Totals for all transactions reported on Form(s) 8949 with Box C or Box I checked … .
+1	Tx	Page1[0].Table_PartI[0].Row3[0].f1_18[0]	504,432			3 Totals for all transactions reported on Form(s) 8949 with Box C or Box I checked … .
+1	Tx	Page1[0].f1_19[0]	504,420		4	4 Short-term gain from Form 6252 and short-term gain or (loss) from Forms 4684, 6781, and 8824 . . 4
+1	Tx	Page1[0].f1_20[0]	504,408		5	d 8824 Net short-term gain or (loss) from partnerships, S corporations, estates, and trusts from Schedule(s) K-1 . . 4 5
+1	Tx	Page1[0].f1_21[0]	507,384		6	e instructions carryover. Enter the . . amount, … if . any, . . from . . line . . 8 of . your . . Capital … Loss . . 6 (
+1	Tx	Page1[0].f1_22[0]	504,360		7	go to Part II below. Otherwise, go to Part III on the back Combine lines 1a through 6 in column (h). If you have any … 7
+1	Tx	Page1[0].Table_PartII[0].Row8a[0].f1_23[0]	288,216			leave this line blank and go to line 8b … .
+1	Tx	Page1[0].Table_PartII[0].Row8a[0].f1_24[0]	360,216			leave this line blank and go to line 8b … .
+1	Tx	Page1[0].Table_PartII[0].Row8a[0].f1_25[0]	432,216			leave this line blank and go to line 8b … .
+1	Tx	Page1[0].Table_PartII[0].Row8a[0].f1_26[0]	504,216			leave this line blank and go to line 8b … .
+1	Tx	Page1[0].Table_PartII[0].Row8b[0].f1_27[0]	288,192			8b Totals for all transactions reported on Form(s) 8949 with Box D or Box J checked … .
+1	Tx	Page1[0].Table_PartII[0].Row8b[0].f1_28[0]	360,192			8b Totals for all transactions reported on Form(s) 8949 with Box D or Box J checked … .
+1	Tx	Page1[0].Table_PartII[0].Row8b[0].f1_29[0]	432,192			8b Totals for all transactions reported on Form(s) 8949 with Box D or Box J checked … .
+1	Tx	Page1[0].Table_PartII[0].Row8b[0].f1_30[0]	504,192			8b Totals for all transactions reported on Form(s) 8949 with Box D or Box J checked … .
+1	Tx	Page1[0].Table_PartII[0].Row9[0].f1_31[0]	288,168			9 Totals for all transactions reported on Form(s) 8949 with Box E or Box K checked … .
+1	Tx	Page1[0].Table_PartII[0].Row9[0].f1_32[0]	360,168			9 Totals for all transactions reported on Form(s) 8949 with Box E or Box K checked … .
+1	Tx	Page1[0].Table_PartII[0].Row9[0].f1_33[0]	432,168			9 Totals for all transactions reported on Form(s) 8949 with Box E or Box K checked … .
+1	Tx	Page1[0].Table_PartII[0].Row9[0].f1_34[0]	504,168			9 Totals for all transactions reported on Form(s) 8949 with Box E or Box K checked … .
+1	Tx	Page1[0].Table_PartII[0].Row10[0].f1_35[0]	288,144			10 Totals for all transactions reported on Form(s) 8949 with Box F or Box L checked … .
+1	Tx	Page1[0].Table_PartII[0].Row10[0].f1_36[0]	360,144			10 Totals for all transactions reported on Form(s) 8949 with Box F or Box L checked … .
+1	Tx	Page1[0].Table_PartII[0].Row10[0].f1_37[0]	432,144			10 Totals for all transactions reported on Form(s) 8949 with Box F or Box L checked … .
+1	Tx	Page1[0].Table_PartII[0].Row10[0].f1_38[0]	504,144			10 Totals for all transactions reported on Form(s) 8949 with Box F or Box L checked … .
+1	Tx	Page1[0].f1_39[0]	504,120		11	4797, Part I; long-term gain from Forms 2439 and 6252; and long-term gain or (loss) from Forms 4684, 6781, and 8824 … 11
+1	Tx	Page1[0].f1_40[0]	504,108		12	oss) from partnerships, S corporations, estates, and trusts from Schedule(s) K-1 from Forms 4684, 6781, and 8824 … 11 12
+1	Tx	Page1[0].f1_41[0]	504,96		13	ships, S corporations, estates, and trusts from Schedule(s) K-1 Capital gain distributions. See the instructions … 12 13
+1	Tx	Page1[0].f1_42[0]	507,72		14	ng-term capital loss carryover. Enter the amount, if any, from line 13 of your in the instructions … Capital Loss … 14 (
+1	Tx	Page1[0].f1_43[0]	504,48		15	Net long-term capital gain or (loss). on the back … Combine lines 8a through 14 in column (h). Then, go to Part III … 15
+2	Tx	Page2[0].f2_1[0]	490,696		16	16 Combine lines 7 and 15 and enter the result … 16
+2	chk	Page2[0].c2_1[0]	67,578	1		
+2	chk	Page2[0].c2_1[1]	67,566	2		
+2	Tx	Page2[0].f2_2[0]	490,528		18	 complete the amount, if any, from line 7 of that worksheet 28% Rate Gain Worksheet … (see instructions), enter the … 18
+2	Tx	Page2[0].f2_3[0]	490,492		19	ne 18 of that worksheet If you are required to complete the Unrecaptured Section 1250 . . Gain . . Worksheet … (see . 19
+2	chk	Page2[0].c2_2[0]	67,458	1		
+2	chk	Page2[0].c2_2[1]	67,422	2		
+2	Tx	Page2[0].f2_4[0]	493,360		21	• The loss on line 16; or … 21 (
+2	chk	Page2[0].c2_3[0]	67,278	1		
+2	chk	Page2[0].c2_3[1]	67,242	2		

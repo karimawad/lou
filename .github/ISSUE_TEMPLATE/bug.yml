@@ -1,0 +1,19 @@
+name: Something is broken
+description: A screen, upload, or PDF does not work.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Please use made-up data. Never attach a real tax document.
+  - type: textarea
+    attributes:
+      label: What happened, and what you expected
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Steps to reproduce
+  - type: input
+    attributes:
+      label: Browser and device
+      placeholder: "Chrome 140 on Windows 11"

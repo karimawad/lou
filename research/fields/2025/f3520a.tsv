@@ -1,0 +1,386 @@
+1	Tx	Page1[0].f1_01[0]	115,684		20	Note: For calendar year All information must be in English. Show all amounts in U.S. dollars. 20
+1	Tx	Page1[0].f1_02[0]	216,684			Note: For calendar year All information must be in English. Show all amounts in U.S. dollars. 20 , or tax year beginning
+1	Tx	Page1[0].f1_03[0]	348,684			 For calendar year All information must be in English. Show all amounts in U.S. dollars. 20 , or tax year beginning , 20
+1	Tx	Page1[0].f1_04[0]	400,684			ndar year All information must be in English. Show all amounts in U.S. dollars. 20 , or tax year beginning , 20 , ending
+1	Tx	Page1[0].f1_05[0]	543,684			year All information must be in English. Show all amounts in U.S. dollars. 20 , or tax year beginning , 20 , ending , 20
+1	chk	Page1[0].c1_1[0]	144,674	1		Check appropriate boxes:
+1	chk	Page1[0].c1_2[0]	216,674	1		Check appropriate boxes: Initial return
+1	chk	Page1[0].c1_3[0]	288,674	1		Check appropriate boxes: Initial return Final return
+1	chk	Page1[0].c1_4[0]	374,674	1		Check appropriate boxes: Initial return Final return Amended return
+1	chk	Page1[0].c1_5[0]	461,674	1		Check appropriate boxes: Initial return Final return Amended return Extension filed
+1	chk	Page1[0].c1_6[0]	564,662	1		Check if any excepted specified foreign financial assets are reported on this form. See instructions … .
+1	Tx	Page1[0].f1_06[0]	36,612			
+1	Tx	Page1[0].f1_07[0]	433,612			
+1	Tx	Page1[0].f1_08[0]	36,576			
+1	Tx	Page1[0].f1_09[0]	433,576			
+1	Tx	Page1[0].f1_10[0]	36,540			
+1	Tx	Page1[0].f1_11[0]	195,540			
+1	Tx	Page1[0].f1_12[0]	332,540			
+1	Tx	Page1[0].f1_13[0]	433,540			
+1	chk	Page1[0].c1_7[0]	500,518	1		 appoint a U.S. agent (defined in the instructions) who can provide the IRS with all the relevant trust information? … .
+1	chk	Page1[0].c1_7[1]	543,518	2		ppoint a U.S. agent (defined in the instructions) who can provide the IRS with all the relevant trust information? … Yes
+1	Tx	Page1[0].f1_18[0]	504,504			 the Authorization of Agent form was last attached and skip lines 2a through 2e and go to line 3. trust information? … .
+1	chk	Page1[0].Table_Line2[0].Line2a[0].c1_9[0]	417,458	1		a Summary of all written and oral agreements and understandings relating to the trust . . .
+1	chk	Page1[0].Table_Line2[0].Line2a[0].c1_9[1]	453,458	2		a Summary of all written and oral agreements and understandings relating to the trust . . .
+1	chk	Page1[0].Table_Line2[0].Line2a[0].c1_9[2]	496,458	3		a Summary of all written and oral agreements and understandings relating to the trust . . .
+1	Tx	Page1[0].Table_Line2[0].Line2a[0].f1_19[0]	533,456			greements and understandings relating to the trust Are you attaching a copy of any of the following? … Yes No Previously
+1	chk	Page1[0].Table_Line2[0].Line2b[0].c1_10[0]	417,446	1		b The trust instrument … .
+1	chk	Page1[0].Table_Line2[0].Line2b[0].c1_10[1]	453,446	2		b The trust instrument … .
+1	chk	Page1[0].Table_Line2[0].Line2b[0].c1_10[2]	496,446	3		b The trust instrument … .
+1	Tx	Page1[0].Table_Line2[0].Line2b[0].f1_20[0]	533,444			a b Summary of all written and oral agreements and understandings relating to the trust The trust instrument … .
+1	chk	Page1[0].Table_Line2[0].Line2c[0].c1_11[0]	417,434	1		c Memoranda or letters of wishes … .
+1	chk	Page1[0].Table_Line2[0].Line2c[0].c1_11[1]	453,434	2		c Memoranda or letters of wishes … .
+1	chk	Page1[0].Table_Line2[0].Line2c[0].c1_11[2]	496,434	3		c Memoranda or letters of wishes … .
+1	Tx	Page1[0].Table_Line2[0].Line2c[0].f1_21[0]	533,432			b c The trust instrument Memoranda or letters of wishes … .
+1	chk	Page1[0].Table_Line2[0].Line2d[0].c1_12[0]	417,422	1		d Subsequent variances to original trust documents … .
+1	chk	Page1[0].Table_Line2[0].Line2d[0].c1_12[1]	453,422	2		d Subsequent variances to original trust documents … .
+1	chk	Page1[0].Table_Line2[0].Line2d[0].c1_12[2]	496,422	3		d Subsequent variances to original trust documents … .
+1	Tx	Page1[0].Table_Line2[0].Line2d[0].f1_22[0]	533,420			c d Memoranda or letters of wishes . Subsequent variances to original trust documents … .
+1	chk	Page1[0].Table_Line2[0].Line2e[0].c1_13[0]	417,410	1		e Organizational chart and other trust documents … .
+1	chk	Page1[0].Table_Line2[0].Line2e[0].c1_13[1]	453,410	2		e Organizational chart and other trust documents … .
+1	chk	Page1[0].Table_Line2[0].Line2e[0].c1_13[2]	496,410	3		e Organizational chart and other trust documents … .
+1	Tx	Page1[0].Table_Line2[0].Line2e[0].f1_23[0]	533,408			d e Subsequent variances to original trust documents Organizational chart and other trust documents … .
+1	Tx	Page1[0].f1_24[0]	36,372			
+1	Tx	Page1[0].f1_25[0]	433,372			
+1	Tx	Page1[0].f1_26[0]	36,336			
+1	Tx	Page1[0].f1_27[0]	36,300			
+1	Tx	Page1[0].f1_28[0]	195,300			
+1	Tx	Page1[0].f1_29[0]	332,300			
+1	Tx	Page1[0].f1_30[0]	433,300			
+1	Tx	Page1[0].f1_31[0]	36,264			
+1	Tx	Page1[0].f1_32[0]	433,264			
+1	Tx	Page1[0].f1_33[0]	36,228			
+1	Tx	Page1[0].f1_34[0]	36,192			
+1	Tx	Page1[0].f1_35[0]	195,192			
+1	Tx	Page1[0].f1_36[0]	332,192			
+1	Tx	Page1[0].f1_37[0]	433,192			
+1	Tx	Page1[0].f1_38[0]	497,177			5 Enter the number of Foreign Grantor Trust Owner Statements (pages 3 and 4) included with this Form 3520-A . .
+1	Tx	Page1[0].f1_39[0]	497,159			6 Enter the number of Foreign Grantor Trust Beneficiary Statements (page 5) included with this Form 3520-A . .
+1	Tx	Page1[0].f1_40[0]	288,120			Here
+1	Tx	Page1[0].f1_41[0]	80,84			Paid Preparer
+1	chk	Page1[0].c1_14[0]	464,96	1		Print/Type preparer’s name Preparer’s signature Date Check
+1	Tx	Page1[0].f1_42[0]	490,84			Paid Preparer Check self-employed if
+1	Tx	Page1[0].f1_43[0]	125,72			Use Only Preparer Firm’s name
+1	Tx	Page1[0].f1_44[0]	133,60			Use Only Firm’s name Firm’s address
+1	Tx	Page1[0].f1_45[0]	472,72			Use Only Preparer Firm’s name Firm’s EIN
+1	Tx	Page1[0].f1_46[0]	472,60			Use Only Firm’s name Firm’s address Firm’s EIN Phone no.
+2	Tx	Page2[0].f2_01[0]	497,708		1	1 Interest … 1
+2	Tx	Page2[0].f2_02[0]	497,696		2	1 2 Interest Dividends … 1 2
+2	Tx	Page2[0].f2_03[0]	497,684		3	2 3 Dividends Gross rents and royalties … 2 3
+2	Tx	Page2[0].f2_04[0]	497,672		4	3 4 Gross rents and royalties Income (loss) from partnerships and fiduciaries … 3 4
+2	Tx	Page2[0].f2_05[0]	497,648		5a	Income 5 a Capital gains: Net short-term capital gain (loss) … 5a
+2	Tx	Page2[0].f2_06[0]	497,636		5b	Income a b Net short-term capital gain (loss) Net long-term capital gain (loss) … 5b 5a
+2	Tx	Page2[0].f2_07[0]	497,624		6	6 b Ordinary gains (losses) Net long-term capital gain (loss) … 5b 6
+2	Tx	Page2[0].f2_08[0]	497,612		7	6 7 Ordinary gains (losses) Other income (attach statement) … 6 7
+2	Tx	Page2[0].f2_09[0]	497,600		8	7 8 Other income (attach statement) Total income (add lines 1 through 7) … 7 8
+2	Tx	Page2[0].f2_10[0]	497,588		9	8 9 Total income (add lines 1 through 7) Interest expense … 8 9
+2	Tx	Page2[0].f2_11[0]	497,576		10a	10 9 a Interest expense Foreign taxes (attach statement) … 10a 9
+2	Tx	Page2[0].f2_12[0]	497,564		10b	10 b a Foreign taxes (attach statement) State and local taxes … 10b 10a
+2	Tx	Page2[0].f2_13[0]	497,552		11	11 b State and local taxes Amortization and depreciation (depletion) … 10b 11
+2	Tx	Page2[0].f2_14[0]	497,540		12	11 12 Amortization and depreciation (depletion) Trustee and advisor fees … 11 12
+2	Tx	Page2[0].f2_15[0]	497,528		13	Expenses 12 13 Trustee and advisor fees Charitable contributions … 12 13
+2	Tx	Page2[0].f2_16[0]	497,516		14	13 14 Charitable contributions . Other expenses (attach statement) … 13 14
+2	Tx	Page2[0].f2_17[0]	497,504		15	14 15 Other expenses (attach statement) Total expenses (add lines 9 through 14) … 14 15
+2	Tx	Page2[0].f2_18[0]	497,492		16	15 16 Total expenses (add lines 9 through 14) Net income (loss) (subtract line 15 from line 8) … 15 16
+2	Tx	Page2[0].f2_19[0]	497,468		17a	directly or indirectly) from the trust to all persons, whether U.S. or foreign. Attach statement. See instructions … 17a
+2	Tx	Page2[0].Table_Line17b[0].Row1[0].f2_20[0]	51,432			
+2	Tx	Page2[0].Table_Line17b[0].Row1[0].f2_21[0]	210,432			
+2	Tx	Page2[0].Table_Line17b[0].Row1[0].f2_22[0]	332,432			
+2	Tx	Page2[0].Table_Line17b[0].Row1[0].f2_23[0]	455,432			
+2	Tx	Page2[0].Table_Line17b[0].Row2[0].f2_24[0]	51,420			
+2	Tx	Page2[0].Table_Line17b[0].Row2[0].f2_25[0]	210,420			
+2	Tx	Page2[0].Table_Line17b[0].Row2[0].f2_26[0]	332,420			
+2	Tx	Page2[0].Table_Line17b[0].Row2[0].f2_27[0]	455,420			
+2	Tx	Page2[0].Table_Line17c[0].Row1[0].f2_28[0]	51,384			
+2	Tx	Page2[0].Table_Line17c[0].Row1[0].f2_29[0]	210,384			
+2	Tx	Page2[0].Table_Line17c[0].Row1[0].f2_30[0]	332,384			
+2	Tx	Page2[0].Table_Line17c[0].Row1[0].f2_31[0]	455,384			
+2	Tx	Page2[0].Table_Line17c[0].Row2[0].f2_32[0]	51,372			
+2	Tx	Page2[0].Table_Line17c[0].Row2[0].f2_33[0]	210,372			
+2	Tx	Page2[0].Table_Line17c[0].Row2[0].f2_34[0]	332,372			
+2	Tx	Page2[0].Table_Line17c[0].Row2[0].f2_35[0]	455,372			
+2	Tx	Page2[0].Table_Line17c[0].Row3[0].f2_36[0]	51,360			
+2	Tx	Page2[0].Table_Line17c[0].Row3[0].f2_37[0]	210,360			
+2	Tx	Page2[0].Table_Line17c[0].Row3[0].f2_38[0]	332,360			
+2	Tx	Page2[0].Table_Line17c[0].Row3[0].f2_39[0]	455,360			
+2	Tx	Page2[0].Table_Part3[0].Line1[0].f2_40[0]	259,312			1 Cash … Assets … .
+2	Tx	Page2[0].Table_Part3[0].Line1[0].f2_41[0]	338,312			1 Cash … Assets … .
+2	Tx	Page2[0].Table_Part3[0].Line1[0].f2_42[0]	418,312			1 Cash … Assets … .
+2	Tx	Page2[0].Table_Part3[0].Line1[0].f2_43[0]	497,312			1 Cash … Assets … .
+2	Tx	Page2[0].Table_Part3[0].Line2[0].f2_44[0]	259,300			1 2 Cash Accounts receivable … .
+2	Tx	Page2[0].Table_Part3[0].Line2[0].f2_45[0]	338,300			1 2 Cash Accounts receivable … .
+2	Tx	Page2[0].Table_Part3[0].Line2[0].f2_46[0]	418,300			1 2 Cash Accounts receivable … .
+2	Tx	Page2[0].Table_Part3[0].Line2[0].f2_47[0]	497,300			1 2 Cash Accounts receivable … .
+2	Tx	Page2[0].Table_Part3[0].Line3[0].f2_48[0]	259,288			2 3 Accounts receivable Mortgages and notes receivable … .
+2	Tx	Page2[0].Table_Part3[0].Line3[0].f2_49[0]	338,288			2 3 Accounts receivable Mortgages and notes receivable … .
+2	Tx	Page2[0].Table_Part3[0].Line3[0].f2_50[0]	418,288			2 3 Accounts receivable Mortgages and notes receivable … .
+2	Tx	Page2[0].Table_Part3[0].Line3[0].f2_51[0]	497,288			2 3 Accounts receivable Mortgages and notes receivable … .
+2	Tx	Page2[0].Table_Part3[0].Line4[0].f2_52[0]	259,276			3 4 Mortgages and notes receivable Inventories … .
+2	Tx	Page2[0].Table_Part3[0].Line4[0].f2_53[0]	338,276			3 4 Mortgages and notes receivable Inventories … .
+2	Tx	Page2[0].Table_Part3[0].Line4[0].f2_54[0]	418,276			3 4 Mortgages and notes receivable Inventories … .
+2	Tx	Page2[0].Table_Part3[0].Line4[0].f2_55[0]	497,276			3 4 Mortgages and notes receivable Inventories … .
+2	Tx	Page2[0].Table_Part3[0].Line5[0].f2_56[0]	259,264			4 5 Inventories . Government obligations … .
+2	Tx	Page2[0].Table_Part3[0].Line5[0].f2_57[0]	338,264			4 5 Inventories . Government obligations … .
+2	Tx	Page2[0].Table_Part3[0].Line5[0].f2_58[0]	418,264			4 5 Inventories . Government obligations … .
+2	Tx	Page2[0].Table_Part3[0].Line5[0].f2_59[0]	497,264			4 5 Inventories . Government obligations … .
+2	Tx	Page2[0].Table_Part3[0].Line6[0].f2_60[0]	259,252			5 6 Government obligations Other marketable securities … .
+2	Tx	Page2[0].Table_Part3[0].Line6[0].f2_61[0]	338,252			5 6 Government obligations Other marketable securities … .
+2	Tx	Page2[0].Table_Part3[0].Line6[0].f2_62[0]	418,252			5 6 Government obligations Other marketable securities … .
+2	Tx	Page2[0].Table_Part3[0].Line6[0].f2_63[0]	497,252			5 6 Government obligations Other marketable securities … .
+2	Tx	Page2[0].Table_Part3[0].Line7[0].f2_64[0]	259,240			6 7 Other marketable securities Other nonmarketable securities … .
+2	Tx	Page2[0].Table_Part3[0].Line7[0].f2_65[0]	338,240			6 7 Other marketable securities Other nonmarketable securities … .
+2	Tx	Page2[0].Table_Part3[0].Line7[0].f2_66[0]	418,240			6 7 Other marketable securities Other nonmarketable securities … .
+2	Tx	Page2[0].Table_Part3[0].Line7[0].f2_67[0]	497,240			6 7 Other marketable securities Other nonmarketable securities … .
+2	Tx	Page2[0].Table_Part3[0].Line8a[0].f2_68[0]	259,228			7 8a Other nonmarketable securities . Depreciable (depletable) assets … .
+2	Tx	Page2[0].Table_Part3[0].Line8a[0].f2_69[0]	338,228			7 8a Other nonmarketable securities . Depreciable (depletable) assets … .
+2	Tx	Page2[0].Table_Part3[0].Line8a[0].f2_70[0]	418,228			7 8a Other nonmarketable securities . Depreciable (depletable) assets … .
+2	Tx	Page2[0].Table_Part3[0].Line8a[0].f2_71[0]	497,228			7 8a Other nonmarketable securities . Depreciable (depletable) assets … .
+2	Tx	Page2[0].Table_Part3[0].Line8b[0].f2_72[0]	259,216			8a b Depreciable (depletable) assets . Less: accumulated depreciation (depletion) … .
+2	Tx	Page2[0].Table_Part3[0].Line8b[0].f2_73[0]	338,216			8a b Depreciable (depletable) assets . Less: accumulated depreciation (depletion) … .
+2	Tx	Page2[0].Table_Part3[0].Line8b[0].f2_74[0]	418,216			8a b Depreciable (depletable) assets . Less: accumulated depreciation (depletion) … .
+2	Tx	Page2[0].Table_Part3[0].Line8b[0].f2_75[0]	497,216			8a b Depreciable (depletable) assets . Less: accumulated depreciation (depletion) … .
+2	Tx	Page2[0].Table_Part3[0].Line9[0].f2_76[0]	259,204			9 b Less: accumulated depreciation (depletion) Real property … .
+2	Tx	Page2[0].Table_Part3[0].Line9[0].f2_77[0]	338,204			9 b Less: accumulated depreciation (depletion) Real property … .
+2	Tx	Page2[0].Table_Part3[0].Line9[0].f2_78[0]	418,204			9 b Less: accumulated depreciation (depletion) Real property … .
+2	Tx	Page2[0].Table_Part3[0].Line9[0].f2_79[0]	497,204			9 b Less: accumulated depreciation (depletion) Real property … .
+2	Tx	Page2[0].Table_Part3[0].Line10[0].f2_80[0]	259,192			10 9 Real property Other assets (attach statement) … .
+2	Tx	Page2[0].Table_Part3[0].Line10[0].f2_81[0]	338,192			10 9 Real property Other assets (attach statement) … .
+2	Tx	Page2[0].Table_Part3[0].Line10[0].f2_82[0]	418,192			10 9 Real property Other assets (attach statement) … .
+2	Tx	Page2[0].Table_Part3[0].Line10[0].f2_83[0]	497,192			10 9 Real property Other assets (attach statement) … .
+2	Tx	Page2[0].Table_Part3[0].Line11[0].f2_84[0]	259,180			10 11 Other assets (attach statement) . Total assets (add lines 1 through 7 and 8b through 10) … .
+2	Tx	Page2[0].Table_Part3[0].Line11[0].f2_85[0]	338,180			10 11 Other assets (attach statement) . Total assets (add lines 1 through 7 and 8b through 10) … .
+2	Tx	Page2[0].Table_Part3[0].Line11[0].f2_86[0]	418,180			10 11 Other assets (attach statement) . Total assets (add lines 1 through 7 and 8b through 10) … .
+2	Tx	Page2[0].Table_Part3[0].Line11[0].f2_87[0]	497,180			10 11 Other assets (attach statement) . Total assets (add lines 1 through 7 and 8b through 10) … .
+2	Tx	Page2[0].Table_Part3[0].Line12[0].f2_88[0]	259,156			12 Accounts payable . Liabilities … .
+2	Tx	Page2[0].Table_Part3[0].Line12[0].f2_89[0]	338,156			12 Accounts payable . Liabilities … .
+2	Tx	Page2[0].Table_Part3[0].Line12[0].f2_90[0]	418,156			12 Accounts payable . Liabilities … .
+2	Tx	Page2[0].Table_Part3[0].Line12[0].f2_91[0]	497,156			12 Accounts payable . Liabilities … .
+2	Tx	Page2[0].Table_Part3[0].Line13[0].f2_92[0]	259,144			12 13 Accounts payable . Contributions, gifts, grants, etc., payable … .
+2	Tx	Page2[0].Table_Part3[0].Line13[0].f2_93[0]	338,144			12 13 Accounts payable . Contributions, gifts, grants, etc., payable … .
+2	Tx	Page2[0].Table_Part3[0].Line13[0].f2_94[0]	418,144			12 13 Accounts payable . Contributions, gifts, grants, etc., payable … .
+2	Tx	Page2[0].Table_Part3[0].Line13[0].f2_95[0]	497,144			12 13 Accounts payable . Contributions, gifts, grants, etc., payable … .
+2	Tx	Page2[0].Table_Part3[0].Line14[0].f2_96[0]	259,132			13 14 Contributions, gifts, grants, etc., payable Mortgages and notes payable … .
+2	Tx	Page2[0].Table_Part3[0].Line14[0].f2_97[0]	338,132			13 14 Contributions, gifts, grants, etc., payable Mortgages and notes payable … .
+2	Tx	Page2[0].Table_Part3[0].Line14[0].f2_98[0]	418,132			13 14 Contributions, gifts, grants, etc., payable Mortgages and notes payable … .
+2	Tx	Page2[0].Table_Part3[0].Line14[0].f2_99[0]	497,132			13 14 Contributions, gifts, grants, etc., payable Mortgages and notes payable … .
+2	Tx	Page2[0].Table_Part3[0].Line15[0].f2_100[0]	259,120			14 15 Mortgages and notes payable Other liabilities (attach statement) … .
+2	Tx	Page2[0].Table_Part3[0].Line15[0].f2_101[0]	338,120			14 15 Mortgages and notes payable Other liabilities (attach statement) … .
+2	Tx	Page2[0].Table_Part3[0].Line15[0].f2_102[0]	418,120			14 15 Mortgages and notes payable Other liabilities (attach statement) … .
+2	Tx	Page2[0].Table_Part3[0].Line15[0].f2_103[0]	497,120			14 15 Mortgages and notes payable Other liabilities (attach statement) … .
+2	Tx	Page2[0].Table_Part3[0].Line16[0].f2_104[0]	259,108			15 16 Other liabilities (attach statement) Total liabilities (add lines 12 through 15) … .
+2	Tx	Page2[0].Table_Part3[0].Line16[0].f2_105[0]	338,108			15 16 Other liabilities (attach statement) Total liabilities (add lines 12 through 15) … .
+2	Tx	Page2[0].Table_Part3[0].Line16[0].f2_106[0]	418,108			15 16 Other liabilities (attach statement) Total liabilities (add lines 12 through 15) … .
+2	Tx	Page2[0].Table_Part3[0].Line16[0].f2_107[0]	497,108			15 16 Other liabilities (attach statement) Total liabilities (add lines 12 through 15) … .
+2	Tx	Page2[0].Table_Part3[0].Line17[0].f2_108[0]	259,84			17 Contributions to trust corpus Net Worth … .
+2	Tx	Page2[0].Table_Part3[0].Line17[0].f2_109[0]	338,84			17 Contributions to trust corpus Net Worth … .
+2	Tx	Page2[0].Table_Part3[0].Line17[0].f2_110[0]	418,84			17 Contributions to trust corpus Net Worth … .
+2	Tx	Page2[0].Table_Part3[0].Line17[0].f2_111[0]	497,84			17 Contributions to trust corpus Net Worth … .
+2	Tx	Page2[0].Table_Part3[0].Line18[0].f2_112[0]	259,72			17 18 Contributions to trust corpus Accumulated trust income … .
+2	Tx	Page2[0].Table_Part3[0].Line18[0].f2_113[0]	338,72			17 18 Contributions to trust corpus Accumulated trust income … .
+2	Tx	Page2[0].Table_Part3[0].Line18[0].f2_114[0]	418,72			17 18 Contributions to trust corpus Accumulated trust income … .
+2	Tx	Page2[0].Table_Part3[0].Line18[0].f2_115[0]	497,72			17 18 Contributions to trust corpus Accumulated trust income … .
+2	Tx	Page2[0].Table_Part3[0].Line19[0].f2_116[0]	259,60			18 19 Accumulated trust income Other (attach statement) … .
+2	Tx	Page2[0].Table_Part3[0].Line19[0].f2_117[0]	338,60			18 19 Accumulated trust income Other (attach statement) … .
+2	Tx	Page2[0].Table_Part3[0].Line19[0].f2_118[0]	418,60			18 19 Accumulated trust income Other (attach statement) … .
+2	Tx	Page2[0].Table_Part3[0].Line19[0].f2_119[0]	497,60			18 19 Accumulated trust income Other (attach statement) … .
+2	Tx	Page2[0].Table_Part3[0].Line20[0].f2_120[0]	259,48			19 20 Other (attach statement) . Total net worth (add lines 17 through 19) … .
+2	Tx	Page2[0].Table_Part3[0].Line20[0].f2_121[0]	338,48			19 20 Other (attach statement) . Total net worth (add lines 17 through 19) … .
+2	Tx	Page2[0].Table_Part3[0].Line20[0].f2_122[0]	418,48			19 20 Other (attach statement) . Total net worth (add lines 17 through 19) … .
+2	Tx	Page2[0].Table_Part3[0].Line20[0].f2_123[0]	497,48			19 20 Other (attach statement) . Total net worth (add lines 17 through 19) … .
+2	Tx	Page2[0].Table_Part3[0].Line21[0].f2_124[0]	259,36			20 21 Total net worth (add lines 17 through 19) Total liabilities and net worth (add lines 16 and 20) . . .
+2	Tx	Page2[0].Table_Part3[0].Line21[0].f2_125[0]	338,36			20 21 Total net worth (add lines 17 through 19) Total liabilities and net worth (add lines 16 and 20) . . .
+2	Tx	Page2[0].Table_Part3[0].Line21[0].f2_126[0]	418,36			20 21 Total net worth (add lines 17 through 19) Total liabilities and net worth (add lines 16 and 20) . . .
+2	Tx	Page2[0].Table_Part3[0].Line21[0].f2_127[0]	497,36			20 21 Total net worth (add lines 17 through 19) Total liabilities and net worth (add lines 16 and 20) . . .
+3	Tx	Page3[0].f3_01[0]	173,732		20	20
+3	Tx	Page3[0].f3_02[0]	36,672			
+3	Tx	Page3[0].f3_03[0]	419,672			
+3	Tx	Page3[0].f3_04[0]	36,648			
+3	Tx	Page3[0].f3_05[0]	419,648			
+3	Tx	Page3[0].f3_06[0]	36,624			
+3	Tx	Page3[0].f3_07[0]	195,624			
+3	Tx	Page3[0].f3_08[0]	325,624			
+3	Tx	Page3[0].f3_09[0]	419,624			
+3	chk	Page3[0].c3_1[0]	500,602	1		the foreign trust appoint a U.S. agent (defined in the instructions) who can provide the IRS with all relevant trust … .
+3	chk	Page3[0].c3_1[1]	543,602	2		e foreign trust appoint a U.S. agent (defined in the instructions) who can provide the IRS with all relevant trust … Yes
+3	Tx	Page3[0].f3_10[0]	36,564			
+3	Tx	Page3[0].f3_11[0]	419,564			
+3	Tx	Page3[0].f3_12[0]	36,540			
+3	Tx	Page3[0].f3_13[0]	36,516			
+3	Tx	Page3[0].f3_14[0]	195,516			
+3	Tx	Page3[0].f3_15[0]	325,516			
+3	Tx	Page3[0].f3_16[0]	419,516			
+3	Tx	Page3[0].f3_17[0]	36,492			
+3	Tx	Page3[0].f3_18[0]	419,492			
+3	Tx	Page3[0].f3_19[0]	36,468			
+3	Tx	Page3[0].f3_20[0]	36,444			
+3	Tx	Page3[0].f3_21[0]	195,444			
+3	Tx	Page3[0].f3_22[0]	325,444			
+3	Tx	Page3[0].f3_23[0]	419,444			
+3	Tx	Page3[0].f3_24[0]	379,432			5 The first and last day of the tax year of the foreign trust to which this statement relates:
+3	Tx	Page3[0].f3_25[0]	36,408			
+3	Tx	Page3[0].f3_26[0]	419,408			
+3	Tx	Page3[0].f3_27[0]	36,384			
+3	Tx	Page3[0].f3_28[0]	36,360			
+3	Tx	Page3[0].f3_29[0]	195,360			
+3	Tx	Page3[0].f3_30[0]	325,360			
+3	Tx	Page3[0].f3_31[0]	419,360			
+3	Tx	Page3[0].f3_32[0]	65,312			8
+3	Tx	Page3[0].f3_33[0]	65,300			
+3	Tx	Page3[0].f3_34[0]	432,288			9 Gross value of the portion of the trust treated as owned by the U.S. owner … $
+3	Tx	Page3[0].Table_Line10[0].Row1[0].f3_35[0]	36,228			
+3	Tx	Page3[0].Table_Line10[0].Row1[0].f3_36[0]	102,228			
+3	Tx	Page3[0].Table_Line10[0].Row1[0].f3_37[0]	224,228			
+3	Tx	Page3[0].Table_Line10[0].Row1[0].f3_38[0]	332,228			
+3	Tx	Page3[0].Table_Line10[0].Row1[0].f3_39[0]	411,228			
+3	Tx	Page3[0].Table_Line10[0].Row1[0].f3_40[0]	476,228			
+3	Tx	Page3[0].Table_Line10[0].Row2[0].f3_41[0]	36,216			
+3	Tx	Page3[0].Table_Line10[0].Row2[0].f3_42[0]	102,216			
+3	Tx	Page3[0].Table_Line10[0].Row2[0].f3_43[0]	224,216			
+3	Tx	Page3[0].Table_Line10[0].Row2[0].f3_44[0]	332,216			
+3	Tx	Page3[0].Table_Line10[0].Row2[0].f3_45[0]	411,216			
+3	Tx	Page3[0].Table_Line10[0].Row2[0].f3_46[0]	476,216			
+3	Tx	Page3[0].Table_Line10[0].Row3[0].f3_47[0]	36,204			
+3	Tx	Page3[0].Table_Line10[0].Row3[0].f3_48[0]	102,204			
+3	Tx	Page3[0].Table_Line10[0].Row3[0].f3_49[0]	224,204			
+3	Tx	Page3[0].Table_Line10[0].Row3[0].f3_50[0]	332,204			
+3	Tx	Page3[0].Table_Line10[0].Row3[0].f3_51[0]	411,204			
+3	Tx	Page3[0].Table_Line10[0].Row3[0].f3_52[0]	476,204			
+3	Tx	Page3[0].Table_Line10[0].Row4[0].f3_53[0]	36,192			
+3	Tx	Page3[0].Table_Line10[0].Row4[0].f3_54[0]	102,192			
+3	Tx	Page3[0].Table_Line10[0].Row4[0].f3_55[0]	224,192			
+3	Tx	Page3[0].Table_Line10[0].Row4[0].f3_56[0]	332,192			
+3	Tx	Page3[0].Table_Line10[0].Row4[0].f3_57[0]	411,192			
+3	Tx	Page3[0].Table_Line10[0].Row4[0].f3_58[0]	476,192			
+3	Tx	Page3[0].Table_Line10[0].Row5[0].f3_59[0]	36,180			
+3	Tx	Page3[0].Table_Line10[0].Row5[0].f3_60[0]	102,180			
+3	Tx	Page3[0].Table_Line10[0].Row5[0].f3_61[0]	224,180			
+3	Tx	Page3[0].Table_Line10[0].Row5[0].f3_62[0]	332,180			
+3	Tx	Page3[0].Table_Line10[0].Row5[0].f3_63[0]	411,180			
+3	Tx	Page3[0].Table_Line10[0].Row5[0].f3_64[0]	476,180			
+3	Tx	Page3[0].Table_Line10[0].Row6[0].f3_65[0]	36,168			
+3	Tx	Page3[0].Table_Line10[0].Row6[0].f3_66[0]	102,168			
+3	Tx	Page3[0].Table_Line10[0].Row6[0].f3_67[0]	224,168			
+3	Tx	Page3[0].Table_Line10[0].Row6[0].f3_68[0]	332,168			
+3	Tx	Page3[0].Table_Line10[0].Row6[0].f3_69[0]	411,168			
+3	Tx	Page3[0].Table_Line10[0].Row6[0].f3_70[0]	476,168			
+3	Tx	Page3[0].Table_Line10[0].Row7[0].f3_71[0]	36,156			
+3	Tx	Page3[0].Table_Line10[0].Row7[0].f3_72[0]	102,156			
+3	Tx	Page3[0].Table_Line10[0].Row7[0].f3_73[0]	224,156			
+3	Tx	Page3[0].Table_Line10[0].Row7[0].f3_74[0]	332,156			
+3	Tx	Page3[0].Table_Line10[0].Row7[0].f3_75[0]	411,156			
+3	Tx	Page3[0].Table_Line10[0].Row7[0].f3_76[0]	476,156			
+3	Tx	Page3[0].Table_Line10[0].Row8[0].f3_77[0]	36,144			
+3	Tx	Page3[0].Table_Line10[0].Row8[0].f3_78[0]	102,144			
+3	Tx	Page3[0].Table_Line10[0].Row8[0].f3_79[0]	224,144			
+3	Tx	Page3[0].Table_Line10[0].Row8[0].f3_80[0]	332,144			
+3	Tx	Page3[0].Table_Line10[0].Row8[0].f3_81[0]	411,144			
+3	Tx	Page3[0].Table_Line10[0].Row8[0].f3_82[0]	476,144			
+3	Tx	Page3[0].f3_82[0]	482,132			Total … $
+4	Tx	Page4[0].f4_01[0]	123,732		20	20
+4	Tx	Page4[0].f4_02[0]	497,708		1a	1 a Taxable interest … 1a
+4	Tx	Page4[0].f4_03[0]	497,696		1b	1 a b Taxable interest Tax-exempt interest … 1b 1a
+4	Tx	Page4[0].f4_04[0]	497,684		2a	2 b a Total ordinary dividends . Tax-exempt interest … 1b 2a
+4	Tx	Page4[0].f4_05[0]	151,672			2 a b Total ordinary dividends . Qualified dividends
+4	Tx	Page4[0].f4_06[0]	497,660		3	3 b Gross rents and royalties Qualified dividends … 3
+4	Tx	Page4[0].f4_07[0]	497,648		4	Income 3 4 Gross rents and royalties Income from partnerships and fiduciaries … 3 4
+4	Tx	Page4[0].f4_08[0]	497,636		5	Income 4 5 Income from partnerships and fiduciaries . Capital gains (losses) … 4 5
+4	Tx	Page4[0].f4_09[0]	497,624		6	5 6 Capital gains (losses) Ordinary gains (losses) … 5 6
+4	Tx	Page4[0].f4_10[0]	497,612		7	6 7 Ordinary gains (losses) Other income (attach statement) … 6 7
+4	Tx	Page4[0].f4_11[0]	497,600		8	7 8 Other income (attach statement) Total income. Add lines 1a, 1b, 2a, and 3 through 7 … 7 8
+4	Tx	Page4[0].f4_12[0]	497,588		9	8 9 Total income. Interest expense Add lines 1a, 1b, 2a, and 3 through 7 … 8 9
+4	Tx	Page4[0].f4_13[0]	497,576		10a	10 9 a Interest expense Foreign taxes (attach statement) … 10a 9
+4	Tx	Page4[0].f4_14[0]	497,564		10b	10 b a Foreign taxes (attach statement) State and local taxes … 10b 10a
+4	Tx	Page4[0].f4_15[0]	497,552		11	11 b State and local taxes Amortization and depreciation (depletion) … 10b 11
+4	Tx	Page4[0].f4_16[0]	497,540		12	11 12 Amortization and depreciation (depletion) Trustee and advisor fees … 11 12
+4	Tx	Page4[0].f4_17[0]	497,528		13	Expenses 12 13 Trustee and advisor fees Charitable contributions … 12 13
+4	Tx	Page4[0].f4_18[0]	497,516		14	13 14 Charitable contributions . Other expenses (attach statement) … 13 14
+4	Tx	Page4[0].f4_19[0]	497,504		15	14 15 Other expenses (attach statement) Total expenses. Add lines 9 through 14 … 14 15
+4	Tx	Page4[0].f4_20[0]	288,456			
+5	Tx	Page5[0].f5_01[0]	173,732		20	20
+5	Tx	Page5[0].f5_02[0]	36,672			
+5	Tx	Page5[0].f5_03[0]	419,672			
+5	Tx	Page5[0].f5_04[0]	36,648			
+5	Tx	Page5[0].f5_05[0]	419,648			
+5	Tx	Page5[0].f5_06[0]	36,624			
+5	Tx	Page5[0].f5_07[0]	195,624			
+5	Tx	Page5[0].f5_08[0]	325,624			
+5	Tx	Page5[0].f5_09[0]	419,624			
+5	chk	Page5[0].c5_1[0]	500,602	1		the foreign trust appoint a U.S. agent (defined in the instructions) who can provide the IRS with all relevant trust … .
+5	chk	Page5[0].c5_1[1]	543,602	2		e foreign trust appoint a U.S. agent (defined in the instructions) who can provide the IRS with all relevant trust … Yes
+5	chk	Page5[0].c5_2[0]	500,560	1		s that are necessary to establish that the trust should be treated for U.S. tax purposes as owned by another person? … .
+5	chk	Page5[0].c5_2[1]	543,560	2		that are necessary to establish that the trust should be treated for U.S. tax purposes as owned by another person? … Yes
+5	Tx	Page5[0].f5_10[0]	36,534			
+5	Tx	Page5[0].f5_11[0]	419,534			
+5	Tx	Page5[0].f5_12[0]	36,510			
+5	Tx	Page5[0].f5_13[0]	36,486			
+5	Tx	Page5[0].f5_14[0]	195,486			
+5	Tx	Page5[0].f5_15[0]	325,486			
+5	Tx	Page5[0].f5_16[0]	419,486			
+5	Tx	Page5[0].f5_17[0]	36,462			
+5	Tx	Page5[0].f5_18[0]	419,462			
+5	Tx	Page5[0].f5_19[0]	36,438			
+5	Tx	Page5[0].f5_20[0]	36,414			
+5	Tx	Page5[0].f5_21[0]	195,414			
+5	Tx	Page5[0].f5_22[0]	325,414			
+5	Tx	Page5[0].f5_23[0]	419,414			
+5	Tx	Page5[0].f5_24[0]	376,402			5 The first and last day of the tax year of the foreign trust to which Form 3520-A applies:
+5	Tx	Page5[0].f5_25[0]	36,378			
+5	Tx	Page5[0].f5_26[0]	419,378			
+5	Tx	Page5[0].f5_27[0]	36,354			
+5	Tx	Page5[0].f5_28[0]	36,330			
+5	Tx	Page5[0].f5_29[0]	195,330			
+5	Tx	Page5[0].f5_30[0]	325,330			
+5	Tx	Page5[0].f5_31[0]	419,330			
+5	Tx	Page5[0].Table_Line7[0].Row1[0].f5_32[0]	36,240			
+5	Tx	Page5[0].Table_Line7[0].Row1[0].f5_33[0]	102,240			
+5	Tx	Page5[0].Table_Line7[0].Row1[0].f5_34[0]	224,240			
+5	Tx	Page5[0].Table_Line7[0].Row1[0].f5_35[0]	332,240			
+5	Tx	Page5[0].Table_Line7[0].Row1[0].f5_36[0]	411,240			
+5	Tx	Page5[0].Table_Line7[0].Row1[0].f5_37[0]	476,240			
+5	Tx	Page5[0].Table_Line7[0].Row2[0].f5_38[0]	36,228			
+5	Tx	Page5[0].Table_Line7[0].Row2[0].f5_39[0]	102,228			
+5	Tx	Page5[0].Table_Line7[0].Row2[0].f5_40[0]	224,228			
+5	Tx	Page5[0].Table_Line7[0].Row2[0].f5_41[0]	332,228			
+5	Tx	Page5[0].Table_Line7[0].Row2[0].f5_42[0]	411,228			
+5	Tx	Page5[0].Table_Line7[0].Row2[0].f5_43[0]	476,228			
+5	Tx	Page5[0].Table_Line7[0].Row3[0].f5_44[0]	36,216			
+5	Tx	Page5[0].Table_Line7[0].Row3[0].f5_45[0]	102,216			
+5	Tx	Page5[0].Table_Line7[0].Row3[0].f5_46[0]	224,216			
+5	Tx	Page5[0].Table_Line7[0].Row3[0].f5_47[0]	332,216			
+5	Tx	Page5[0].Table_Line7[0].Row3[0].f5_48[0]	411,216			
+5	Tx	Page5[0].Table_Line7[0].Row3[0].f5_49[0]	476,216			
+5	Tx	Page5[0].Table_Line7[0].Row4[0].f5_50[0]	36,204			
+5	Tx	Page5[0].Table_Line7[0].Row4[0].f5_51[0]	102,204			
+5	Tx	Page5[0].Table_Line7[0].Row4[0].f5_52[0]	224,204			
+5	Tx	Page5[0].Table_Line7[0].Row4[0].f5_53[0]	332,204			
+5	Tx	Page5[0].Table_Line7[0].Row4[0].f5_54[0]	411,204			
+5	Tx	Page5[0].Table_Line7[0].Row4[0].f5_55[0]	476,204			
+5	Tx	Page5[0].Table_Line7[0].Row5[0].f5_56[0]	36,192			
+5	Tx	Page5[0].Table_Line7[0].Row5[0].f5_57[0]	102,192			
+5	Tx	Page5[0].Table_Line7[0].Row5[0].f5_58[0]	224,192			
+5	Tx	Page5[0].Table_Line7[0].Row5[0].f5_59[0]	332,192			
+5	Tx	Page5[0].Table_Line7[0].Row5[0].f5_60[0]	411,192			
+5	Tx	Page5[0].Table_Line7[0].Row5[0].f5_61[0]	476,192			
+5	Tx	Page5[0].Table_Line7[0].Row6[0].f5_62[0]	36,180			
+5	Tx	Page5[0].Table_Line7[0].Row6[0].f5_63[0]	102,180			
+5	Tx	Page5[0].Table_Line7[0].Row6[0].f5_64[0]	224,180			
+5	Tx	Page5[0].Table_Line7[0].Row6[0].f5_65[0]	332,180			
+5	Tx	Page5[0].Table_Line7[0].Row6[0].f5_66[0]	411,180			
+5	Tx	Page5[0].Table_Line7[0].Row6[0].f5_67[0]	476,180			
+5	Tx	Page5[0].Table_Line7[0].Row7[0].f5_68[0]	36,168			
+5	Tx	Page5[0].Table_Line7[0].Row7[0].f5_69[0]	102,168			
+5	Tx	Page5[0].Table_Line7[0].Row7[0].f5_70[0]	224,168			
+5	Tx	Page5[0].Table_Line7[0].Row7[0].f5_71[0]	332,168			
+5	Tx	Page5[0].Table_Line7[0].Row7[0].f5_72[0]	411,168			
+5	Tx	Page5[0].Table_Line7[0].Row7[0].f5_73[0]	476,168			
+5	Tx	Page5[0].Table_Line7[0].Row8[0].f5_74[0]	36,156			
+5	Tx	Page5[0].Table_Line7[0].Row8[0].f5_75[0]	102,156			
+5	Tx	Page5[0].Table_Line7[0].Row8[0].f5_76[0]	224,156			
+5	Tx	Page5[0].Table_Line7[0].Row8[0].f5_77[0]	332,156			
+5	Tx	Page5[0].Table_Line7[0].Row8[0].f5_78[0]	411,156			
+5	Tx	Page5[0].Table_Line7[0].Row8[0].f5_79[0]	476,156			
+5	Tx	Page5[0].f5_80[0]	482,144			Total … $
+5	chk	Page5[0].c5_3[0]	230,110	1		9 Owner of the foreign trust is (check one):
+5	chk	Page5[0].c5_3[1]	302,110	2		9 Owner of the foreign trust is (check one): Individual
+5	chk	Page5[0].c5_3[2]	382,110	3		9 Owner of the foreign trust is (check one): Individual Partnership
+5	Tx	Page5[0].f5_81[0]	288,60			

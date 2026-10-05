@@ -1,0 +1,461 @@
+
+
+=== PAGE 1 ===
+LB&I Concept Unit
+Unit Name  Foreign Tax Credit - Categorization of Income and Taxes Into Proper Basket
+Primary UIL Code  9432.02-02  Categorization of Income and Foreign Taxes
+Library Level  Title
+Knowledge Base  International
+Shelf  Individual Outbound
+Book  Foreign Tax Credits Individual
+Chapter  Calculation of Amount of Allowable FTC
+Document Control Number (DCN)  INT-C-054 (formerly FTC/C/10_02-01)
+Date of Last Update  Revised: 05/15/23
+Note: This document is not an official pronouncement of law, and cannot be used, cited or relied upon as such. Further, this
+document may not contain a comprehensive discussion of all pertinent issues or law or the IRS's interpretation of current law.
+
+=== PAGE 2 ===
+DRAFT
+2
+Table of Contents
+(View this PowerPoint in “Presentation View” to click on the links below)
+General Overview
+Detailed Explanation of the Concept
+Index of Referenced Resources
+Training and Additional Resources
+Glossary of Terms and Acronyms
+Index of Related Practice Units
+
+=== PAGE 3 ===
+DRAFT
+3
+General Overview
+Foreign Tax Credit - Categorization of Income and Taxes Into Proper Basket
+Note:  This Practice Unit is revised to address changes from implementation of the Tax Cuts and Jobs Act (TCJA) and covers the
+appropriate identification of the types of foreign sourced income and taxes to determine assignment into their proper categories. This
+Practice Unit supersedes the December 1, 2016, Practice Unit titled “Categorization of Income and Taxes Into Proper Basket.”
+The Foreign Tax Credit (FTC) calculation must be applied separately to each category of income, sometimes referred to as income
+baskets. The foreign income and related taxes from one category cannot be combined with another category. This prevents averaging
+low- taxed income in one category with high-taxed income in another category which could overstate the FTC.
+The FTC limitation must be calculated separately for different categories of foreign source income according to Internal Revenue Code
+(IRC) 904(d). TCJA, effective for taxable years starting after 2017, increased the number of income baskets from five to seven by
+adding categories for IRC 951A category income and foreign branch category income. The remaining categories include passive
+category income, general category income, IRC 901(j) income, certain income resourced by treaty and lump-sum distributions.
+Passive and general categories of income are the most common.
+The limitation formula is based on the taxable income for each category. It is necessary to determine foreign source taxable income for
+each category of income. Taxable income for a particular FTC category is the gross income of that category, less any relevant
+expenses.
+Back to Table of Contents
+
+=== PAGE 4 ===
+DRAFT
+4
+General Overview (cont’d)
+Foreign Tax Credit - Categorization of Income and Taxes Into Proper Basket
+The limitation must be calculated for each separate category of foreign source income. The limit treats all foreign income and
+expenses in each separate category as a single unit and limits the credit to the United States (U.S.) income tax on the taxable income
+in that category from all sources outside the U.S.
+Summary of concept and how and where categorization fits into the FTC computation:
+  Foreign source income is included in each of the above categories, and a separate Form 1116 is prepared for each category. To
+prepare the separate Form 1116 for each category, the expenses, losses and deductions that are definitely related and not definitely
+related to that particular category of income must be determined, as well as the foreign taxes paid or accrued on the income in each
+category.
+  Form 1116, Part IV, lines 25-31 (for 2021) summarize the credits added from separate Forms 1116 Part III. The taxpayer completes
+Part IV on only one Form 1116 to summarize the credits they figured on all of  their separate Forms 1116. The form with the largest
+amount on line 24 is the form used to combine totals.
+CAUTION:  This unit provides a general overview of IRC 951A category income and foreign branch category income.
+Comprehensive matters of these categories are beyond the scope of this unit.
+!
+Back to Table of Contents
+
+=== PAGE 5 ===
+DRAFT
+5
+Detailed Explanation of the Concept
+Foreign Tax Credit - Categorization of Income and Taxes Into Proper Basket
+There are seven categories of income:  IRC 951A, Foreign Branch, Passive, General. Section 901(j), Certain income resourced by
+treaty, lump sum distributions.  Each will be discussed below.
+Analysis  Resources
+1.  IRC  951A Category Income
+  IRC 951A category income is a new category added by the 2017 TCJA. Beginning in 2018,
+a U.S. shareholder who directly or indirectly owns 10% of the vote or value of the stock of a
+controlled foreign corporation (CFC) must include global intangible low-taxed income
+(GILTI) in their income (other than GILTI that is passive category income).
+  Generally, individual U.S. shareholders are not eligible for the GILTI deduction under IRC
+250 or foreign tax credits for taxes deemed paid for GILTI under IRC 960.
+  However, there is an option to allow an individual U.S. shareholder to make an IRC 962
+election. This election allows an individual to pay the GILTI tax as if the individual was a
+U.S. corporation (at the reduced corporate tax rate of 21%).
+  Computations for inclusion of IRC 951A category income are reported on Form 8992,  U.S.
+Shareholder Calculation of Global Intangible Low-Taxed Income (GILTI)  and Form 1118,
+Foreign Tax Credit - Corporations  to claim foreign tax credits for taxes with respect to GILTI.
+  IRC 951A
+  Treas. Reg. 1.904-4(g)
+  IRC 250
+  IRC 960
+  IRC 962
+  Treas. Reg. 1.962-1
+  Form 1116 Instructions
+  Form 8992
+  Form 1118
+Back to Table of Contents
+
+=== PAGE 6 ===
+DRAFT
+6
+Detailed Explanation of the Concept (cont’d)
+Foreign Tax Credit - Categorization of Income and Taxes Into Proper Basket
+Analysis  Resources
+1.  IRC  951A Category Income (cont’d)
+  If an individual U.S. shareholder does not make an IRC 962 election, they would report IRC
+951A income on Form 8992 and Form 1116 but would not be able to claim foreign tax
+credits for taxes with respect to GILTI or claim the IRC 250 deduction.
+  No excess FTC carryovers or carrybacks are allowed for foreign taxes paid or accrued on
+IRC 951A category income.
+  IRC 904(c)
+Back to Table of Contents
+
+=== PAGE 7 ===
+DRAFT
+7
+Detailed Explanation of the Concept (cont’d) 2
+Foreign Tax Credit - Categorization of Income and Taxes Into Proper Basket
+Analysis  Resources
+2.  Foreign Branch Category Income
+  Foreign branch category income, is another new category beginning in 2018. It is defined by
+reference to the definition of a qualified business unit (QBU). It includes the income of a
+U.S. person that is:
+−  income attributable to the foreign branch,
+−  a distributive share of partnership income attributable to a foreign branch and
+−  income of other pass-through entities attributable to a foreign branch.
+Pass-through entities cannot have foreign branch category income, but their non-pass-
+through U.S. owners can.
+  Foreign branch category income does not include any passive category income.
+  Special rules for carryforwards of pre-2018 unused foreign taxes:
+−  Unused foreign taxes in the pre-2018 separate category for general income carried
+forward are generally allocated to post-2017 separate category for general income.
+−  However, these foreign taxes can be allocated to the post-2017 separate category for
+foreign branch category income to the extent the unused foreign taxes would have been
+allocated to post-2017 separate category for foreign branch category income and would
+have been unused foreign taxes with respect to that separate category if that separate
+category had applied in the year or years the unused foreign taxes arose.
+−  A simplified safe harbor is also available for determining the portion of the unused
+foreign taxes that may be allocated to the post-2017 separate category for foreign
+branch category income.
+  Pub. 514 -  Foreign Tax Credit for
+Individuals
+  IRC 904(d)(1)(B)
+  IRC 904(d)(2)(J)
+  Treas. Reg. 1.904-4(f)
+  Treas. Reg. 1.904-2(j)(1)(iii)
+Back to Table of Contents
+
+=== PAGE 8 ===
+DRAFT
+8
+Detailed Explanation of the Concept (cont’d) 3
+Foreign Tax Credit - Categorization of Income and Taxes Into Proper Basket
+Analysis  Resources
+3.  Passive Category Income
+This category includes passive income and specified passive category income.
+  Passive income includes :
+−  Interest.
+−  Dividends.
+−  Rents.
+−  Royalties.
+−  Gains from sale of real or personal property.
+−  Income inclusions relating to passive foreign investment companies (PFICs), which are
+qualifying electing funds (QEFs).
+  Look-through rules address income received by U.S. persons having ownership of a CFC
+and noncontrolled IRC 902 corporations and treats this income as one of the separate
+categories.
+  In general, limited partners who own less than 10 percent of the value in a partnership will
+treat their distributive share of partnership income from the partnership as passive income.
+  IRC 904(d)(2)(A)(i)
+  IRC 904(d)(2)(B)
+  Treas. Reg. 1.904-4(b)(2)
+  IRC 1293
+  Treas. Reg. 1.904-4(b)(2)(i)(B)
+  Treas. Reg. 1.904-5
+  Treas. Reg. 1.904-4(n)(ii)
+Back to Table of Contents
+
+=== PAGE 9 ===
+DRAFT
+9
+Detailed Explanation of the Concept (cont’d) 4
+Foreign Tax Credit - Categorization of Income and Taxes Into Proper Basket
+Analysis  Resources
+3.  Passive Category Income (cont’d)
+  Specified passive category income includes:
+−  Dividends from a domestic international sales corporation (DISC) or former DISC.
+−  Distributions from a former foreign sales corporation (FSC).
+Note: The above specified passive categories of income are not common to individual
+taxpayers and are beyond the scope of this Practice Unit.
+The following items are not passive income:
+  Passive income does not include export financing interest (EFI).
+  Passive income generally does not include high-taxed income. This exception is also
+referred to as the “high tax kick-out,” and treats what would normally be considered passive
+income as general category income. Passive income is high-taxed income if, after allocating
+to income the U.S. person’s expenses, losses and other deductions, the sum of the foreign
+income taxes paid, accrued, or deemed paid or accrued on the income, exceeds the highest
+U.S. tax that can be imposed on the income. The look-through rules are applied before the
+high U.S. tax kick-out computation. High-taxed income is determined before adjustments for
+capital gains and the application of the loss recapture rules.
+  IRC 904(d)(2)(B)(v)
+  Treas. Reg. 1.904-4(b)(3)
+  IRC 904(d)(2)(B)(v)(I)
+  IRC 904(d)(2)(B)(v)(II)
+  IRC 904(d)(2)(B)(iii)
+  IRC 904(d)(2)(F)
+  Treas. Reg. 1.904-4(c)
+Back to Table of Contents
+
+=== PAGE 10 ===
+DRAFT
+10
+Detailed Explanation of the Concept (cont’d) 5
+Foreign Tax Credit - Categorization of Income and Taxes Into Proper Basket
+Analysis  Resources
+3.  Passive Category Income (cont’d)
+  Passive income generally does not include recharacterized passive income under the look-
+through rules of IRC 904(d)(3), (d)(4), and (d)(6)(C). This income is treated as general
+category income
+  Active business rents and royalties are excluded from the passive income category and are
+treated as general category income.
+  Passive income generally does not include items resourced under treaties. If an item is of a
+type that is usually passive income, but is resourced under a treaty, the item is treated as
+certain income resourced by treaty.
+  Any income defined in another separate limit category is not passive income.
+  Treas. Reg. 1.904-4(b)(2)(ii)
+  IRC 904(d)(3)
+  IRC 904(d)(4)
+  IRC 904(d)(6)(C)
+  Treas. Reg. 1.904-4(b)(2)(iii)
+  IRC 904(d)(6)
+Back to Table of Contents
+
+=== PAGE 11 ===
+DRAFT
+11
+Detailed Explanation of the Concept (cont’d) 6
+Foreign Tax Credit - Categorization of Income and Taxes Into Proper Basket
+Analysis  Resources
+4.  General Category Income
+IRC 904 defines general category income as income other than IRC 951A category income,
+foreign branch category income, or passive category income. It also includes income that
+does not fall into one of the other separate categories. In effect, it is a general catch-all
+category.
+General category income includes:
+  Wages, salary, other compensation and overseas allowances of an individual as an
+employee.
+  Income earned in the active conduct of a trade or business.
+  Gains from the sale of inventory or depreciable property used in a trade or business.
+  Financial services income derived by a financial services entity.
+  IRC 904(d)(2)(A)(ii)
+  IRC 904(d)(2)(C)
+  IRC 904(d)(2)(D)
+Back to Table of Contents
+
+=== PAGE 12 ===
+DRAFT
+12
+Detailed Explanation of the Concept (cont’d) 7
+Foreign Tax Credit - Categorization of Income and Taxes Into Proper Basket
+Analysis  Resources
+5.  IRC 901(j) Income
+This is income from activities conducted in sanctioned countries. No FTC is allowed for taxes
+paid or accrued to certain countries if the taxes are attributable to a period in which the
+country satisfies one or more criteria. IRS Publication 514 lists sanctioned countries
+designated by the Secretary of State.
+Key factors of this code section are:
+  Income from each sanctioned country must still be subjected to a separate FTC limitation.
+  Form 1116 for this category would be completed only through line 17.
+  Presidential waiver may be provided by the President of the United States.
+  Applies to any foreign country which:
+−  The U.S. does not recognize, unless such government is otherwise eligible to purchase
+defense articles or services under the Arms Export Control Act,
+−  The U.S. has severed diplomatic relations,
+−  The U.S. has not severed diplomatic relations but does not conduct such relations, or
+−  The Secretary of State has, pursuant to Section 6(j) of the Export Administration Act of
+1979, as amended, designated as a foreign country which repeatedly provides support
+for acts of international terrorism.
+  IRC 901(j)
+  Treas. Reg. 1.904–4(m)
+  IRM 4.61.10.4.4
+  Pub. 514 -  Foreign Tax Credit for
+Individuals
+Back to Table of Contents
+
+=== PAGE 13 ===
+DRAFT
+13
+Detailed Explanation of the Concept (cont’d) 8
+Foreign Tax Credit - Categorization of Income and Taxes Into Proper Basket
+Analysis  Resources
+5.  IRC 901(j) Income (cont’d)
+Income from a sanctioned country is a separate category of foreign income unless a
+Presidential waiver is granted.  A separate Form 1116 must be prepared for this type of
+income.
+If a sanction period ends (or a Presidential waiver is granted) during the tax year and the
+actual income and taxes for that period cannot be determined, then allocate amounts to that
+period based on the number of days in the period that fall in the tax year. Multiply the income
+or taxes for the year by the following fraction to determine the amounts allocable to that
+period.
+  Pub. 514 -  Foreign Tax Credit for
+Individuals
+  Rev. Rul. 92-62
+IRS Publication 514 discusses the countries for which sanctions have ended or for which a
+Presidential waiver has been granted. For any of these countries, an FTC can be claimed for
+the taxes paid or accrued to that country on the income for the period that begins after the
+end date.
+Back to Table of Contents
+
+=== PAGE 14 ===
+DRAFT
+14
+Detailed Explanation of the Concept (cont’d) 9
+Foreign Tax Credit - Categorization of Income and Taxes Into Proper Basket
+Analysis  Resources
+5.  IRC 901(j) Income (cont’d)
+  The following countries are sanctioned countries for 2021:
+−  Iran.
+−  Libya (see below).
+−  North Korea.
+−  Sudan.
+−  Syria.
+  Income taxes paid or accrued to these countries in 2020, except Libya, do not qualify for the
+credit.
+  Pub. 514 -  Foreign Tax Credit for
+Individuals
+Back to Table of Contents
+
+=== PAGE 15 ===
+DRAFT
+15
+Detailed Explanation of the Concept (cont’d) 10
+Foreign Tax Credit - Categorization of Income and Taxes Into Proper Basket
+Analysis  Resources
+6.  Certain Income Re-sourced by Treaty
+The U.S. is a party to tax treaties designed to prevent double taxation of the same income by
+the U.S. and the treaty country.
+If a sourcing rule in an applicable income tax treaty grants the right to tax income to a
+contracting state, the income is usually treated as being from sources in that state,
+notwithstanding how the code might source the income.
+The taxpayer must compute a separate foreign tax credit limitation for any such income for
+which the taxpayer claims benefits under a treaty, generally using a separate Form 1116 for
+each treaty. Form 8833 is used by the taxpayer to elect or disclose a treaty-based return
+position.
+TREATY IMPLICATION:  Look to the applicable treaty which provides for any special
+sourcing rules.
+  IRC 904(d)(6)
+  Treas. Reg. 1.904-5(m)(7)
+  Pub. 901 -  U.S. Tax Treaties
+  Form 8833 -  Treaty-Based Return
+Position Disclosure Under Section
+6114 or 7701(b)
+  IRS.gov -  Tax Treaty Tables
+  IRS.gov -  United States Income Tax
+Treaties - A to Z
+T
+Back to Table of Contents
+
+=== PAGE 16 ===
+DRAFT
+16
+Detailed Explanation of the Concept (cont’d) 11
+Foreign Tax Credit - Categorization of Income and Taxes Into Proper Basket
+Analysis  Resources
+7.  Lump-sum Distributions
+  FTC is allowed for taxes paid or accrued on a foreign source lump-sum distribution from a
+pension plan.
+  Special formulas may be used to figure a separate tax on a qualified lump-sum distribution
+for the year in which the distribution is received.
+  Elect by checking Form 1116 box g above Part I. Skip Part I. Complete Part II showing only
+foreign taxes that are attributable to the lump-sum distribution .
+  Form 1116 Instructions
+  Pub. 575 -  Pension and Annuity
+Income
+  Form 4972
+  IRC 402(d)
+Back to Table of Contents
+
+=== PAGE 17 ===
+17
+Index of Referenced Resources
+Foreign Tax Credit -  Categorization of Income and Taxes Into Proper Basket
+Form 1116 Instructions
+Form 1118
+Form 4972
+Form 8833
+Form 8992
+IRC 250
+IRC 402(d)
+IRC 901(j)
+IRC 904
+IRC 951A
+IRC 960
+IRC 962
+IRC 1293
+IRM 4.61.10.4.4
+Back to Table of Contents
+
+=== PAGE 18 ===
+18
+Index of Referenced Resources (cont’d)
+Foreign Tax Credit - Categorization of Income and Taxes Into Proper Basket
+IRS.gov -  Tax Treaty Tables
+IRS.gov -  United States Income Tax Treaties - A to Z
+Pub. 514
+Pub. 575
+Pub. 901
+Treas. Reg. 1.904-2(j)(1)(iii)
+Treas. Reg. 1.904-4
+Treas. Reg. 1.904-5
+Treas. Reg. 1.962-1
+Rev. Rul. 92-62
+Back to Table of Contents
+
+=== PAGE 19 ===
+DRAFT
+19
+Training and Additional Resources
+Foreign Tax Credit - Categorization of Income and Taxes Into Proper Basket
+Type of Resource  Description(s)
+Saba Meeting Sessions    How To Audit FTC-FTC Concepts-IIC FY15 CPE  Saba Meeting
+Databases / Research Tools  •  BNA Tax Management Portfolio - Foreign Income Series : 900-2
+nd  
+Sec. III
+•  BNA Tax Management Portfolio - Foreign Income Series : 6060-1
+st  
+Sec. VI
+Back to Table of Contents
+
+=== PAGE 20 ===
+DRAFT
+20
+Glossary of Terms and Acronyms
+Term/Acronym  Definition
+CFC  Controlled Foreign Corporation
+DISC  Domestic International Sales Corporation
+EFI  Export Financing Interest
+FSC  Foreign Sales Corporation
+FTC  Foreign Tax Credit
+GILTI  Global Intangible Low-Taxed Income
+IRC  Internal Revenue Code
+PFIC  Passive Foreign Investment Company
+QBU  Qualified Business Unit
+QEF  Qualified Electing Fund
+TCJA  Tax Cuts and Jobs Act
+U.S.  United States
+Back to Table of Contents
+
+=== PAGE 21 ===
+21
+Index of Related Practice Units
+Associated UIL(s)  Related Practice Unit
+9412  Concepts of Global Intangible Low-Taxed Income under IRC 951A
+9432  FTC General Principles
+9432  Sourcing of Salary and Compensation
+9470  Overview of Qualified Business Units (QBUs)
+Back to Table of Contents

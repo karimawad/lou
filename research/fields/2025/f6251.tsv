@@ -1,0 +1,62 @@
+1	Tx	Page1[0].f1_1[0]	36,684			
+1	Tx	Page1[0].f1_2[0]	446,684			Name(s) shown on Form 1040, 1040-SR, or 1040-NR
+1	Tx	Page1[0].f1_3[0]	410,648		1a	tract 1040-NR, line 14 . Schedule . 1-A . (Form . . 1040), … line . 37, . . from . . Form . . 1040, . . 1040-SR, … or 1a
+1	Tx	Page1[0].f1_4[0]	504,624		1b	b amount) Subtract line 1a from Form 1040, 1040-SR, or 1040-NR, line 11b (if less than zero, enter as a negative … 1b
+1	Tx	Page1[0].f1_5[0]	504,600		2a	ine 12e If filing Schedule A (Form 1040), enter the taxes from Schedule A, line 7; otherwise, enter the amount from … 2a
+1	Tx	Page1[0].f1_6[0]	508,588		2b	b Form 1040 or 1040-SR, line 12e Tax refund from Schedule 1 (Form 1040), line 1 or line 8z … 2b 2a (
+1	Tx	Page1[0].f1_7[0]	504,576		2c	m Schedule 1 (Form 1040), line 1 or line 8z Investment interest expense (difference between regular tax and AMT) … 2b 2c
+1	Tx	Page1[0].f1_8[0]	504,564		2d	ent interest expense (difference between regular tax and AMT) Depletion (difference between regular tax and AMT) … 2d 2c
+1	Tx	Page1[0].f1_9[0]	504,552		2e	lar tax and AMT) . Net operating loss deduction from Schedule 1 (Form 1040), line 8a. Enter as a positive amount … 2d 2e
+1	Tx	Page1[0].f1_10[0]	508,540		2f	 from Schedule 1 (Form 1040), line 8a. Enter as a positive amount Alternative tax net operating loss deduction … 2e 2f (
+1	Tx	Page1[0].f1_11[0]	504,528		2g	tive tax net operating loss deduction Interest from specified private activity bonds exempt from the regular tax … 2g 2f
+1	Tx	Page1[0].f1_12[0]	504,516		2h	om specified private activity bonds exempt from the regular tax Qualified small business stock, see instructions … 2g 2h
+1	Tx	Page1[0].f1_13[0]	504,504		2i	iness stock, see instructions Exercise of incentive stock options (excess of AMT income over regular tax income) … 2h 2i
+1	Tx	Page1[0].f1_14[0]	504,492		2j	 AMT income over regular tax income) . Estates and trusts (amount from Schedule K-1 (Form 1041), box 12, code A) … 2j 2i
+1	Tx	Page1[0].f1_15[0]	504,480		2k	e K-1 (Form 1041), box 12, code A) Disposition of property (difference between AMT and regular tax gain or loss) … 2k 2j
+1	Tx	Page1[0].f1_16[0]	504,468		2l	tax gain or loss) . Depreciation on assets placed in service after 1986 (difference between regular tax and AMT) … 2k 2l
+1	Tx	Page1[0].f1_17[0]	504,456		2m	erence between regular tax and AMT) . Passive activities (difference between AMT and regular tax income or loss) … 2m 2l
+1	Tx	Page1[0].f1_18[0]	504,444		2n	een AMT and regular tax income or loss) Loss limitations (difference between AMT and regular tax income or loss) … 2m 2n
+1	Tx	Page1[0].f1_19[0]	504,432		2o	ifference between AMT and regular tax income or loss) Circulation costs (difference between regular tax and AMT) … 2o 2n
+1	Tx	Page1[0].f1_20[0]	504,420		2p	sts (difference between regular tax and AMT) Long-term contracts (difference between AMT and regular tax income) … 2o 2p
+1	Tx	Page1[0].f1_21[0]	504,408		2q	ontracts (difference between AMT and regular tax income) . Mining costs (difference between regular tax and AMT) … 2p 2q
+1	Tx	Page1[0].f1_22[0]	504,396		2r	fference between regular tax and AMT) . Research and experimental costs (difference between regular tax and AMT) … 2q 2r
+1	Tx	Page1[0].f1_23[0]	508,384		2s	al costs (difference between regular tax and AMT) Income from certain installment sales before January 1, 1987 … 2s 2r (
+1	Tx	Page1[0].f1_24[0]	504,372		2t	s t Income from certain installment sales before January 1, 1987 . Intangible drilling costs preference … 2s 2t
+1	Tx	Page1[0].f1_25[0]	504,360		3	3 t Intangible drilling costs preference Other adjustments, including income-based related adjustments … 2t 3
+1	Tx	Page1[0].f1_26[0]	504,336		4	me. more than $900,350, see instructions.) . Combine lines 1b through 3. (If married filing separately and line 4 is … 4
+1	Tx	Page1[0].f1_27[0]	504,264		5	ied filing jointly or qualifying surviving spouse Married filing separately … 1,252,700 626,350 … 137,000 68,500 } . . 5
+1	Tx	Page1[0].f1_28[0]	504,228		6	ine 4. If more than zero, go to line 7. If zero or less, enter -0- here and on lines 7, 9, and 11, and go to line 10 … 6
+1	Tx	Page1[0].f1_29[0]	504,180		7	rm 1040) (as refigured for the AMT, if necessary), complete Part III on the or you had a gain on both lines 15 and . . 7
+1	Tx	Page1[0].f1_30[0]	504,120		8	8 Alternative minimum tax foreign tax credit (see instructions) … 8
+1	Tx	Page1[0].f1_31[0]	504,108		9	9 Alternative minimum tax foreign tax credit (see instructions) Tentative minimum tax. Subtract line 8 from line 7 … 8 9
+1	Tx	Page1[0].f1_32[0]	504,48		10	 1040 or 1040-SR, line 16, refigure that tax without using Schedule J before completing this line. See instructions … 10
+1	Tx	Page1[0].f1_33[0]	504,36		11	11 AMT. Subtract line 10 from line 9. If zero or less, enter -0-. Enter here and on Schedule 2 (Form 1040), line 2 10 11
+2	Tx	Page2[0].f2_1[0]	504,696		12	, line 6. If you are filing Form 2555, enter the amount from line 3 of the worksheet in the instructions for line 7 … 12
+2	Tx	Page2[0].f2_2[0]	504,648		13	er . D (Form 1040), whichever applies (as refigured for the AMT, if necessary). See instructions. If you are filing … 13
+2	Tx	Page2[0].f2_3[0]	504,624		14	amount to enter Enter the amount from Schedule D (Form 1040), line 19 (as refigured for the AMT, if necessary). See … 14
+2	Tx	Page2[0].f2_4[0]	504,576		15	eet (as refigured for the AMT, if necessary). If you are filing Form 2555, see instructions for the amount to enter … 15
+2	Tx	Page2[0].f2_5[0]	504,564		16	16 Enter the smaller of line 12 or line 15 … 15 16
+2	Tx	Page2[0].f2_6[0]	504,552		17	16 17 Enter the Subtract line 16 from line 12 smaller of line 12 or line 15 … 16 17
+2	Tx	Page2[0].f2_7[0]	504,528		18	. Otherwise, multiply line 17 by 28% (0.28) and subtract $4,782 ($2,391 if married filing separately) from the result 18
+2	Tx	Page2[0].f2_8[0]	504,492		19	 if married filing jointly or qualifying surviving spouse, • $48,350 if single or married filing separately, or } . . 19
+2	Tx	Page2[0].f2_9[0]	504,432		20	o enter complete either worksheet for the regular tax, enter the amount from Form 1040 or 1040-SR, line 15; if zero … 20
+2	Tx	Page2[0].f2_10[0]	504,420		21	21 Subtract line 20 from line 19. If zero or less, enter -0- … 20 21
+2	Tx	Page2[0].f2_11[0]	504,408		22	21 22 Subtract line 20 from line 19. If zero or less, enter -0- Enter the smaller of line 12 or line 13 … 21 22
+2	Tx	Page2[0].f2_12[0]	504,396		23	2 23 Enter the Enter the smaller smaller of line 12 or line 13 of line 21 or line 22. This amount is taxed at 0% … 22 23
+2	Tx	Page2[0].f2_13[0]	504,384		24	23 24 Enter the Subtract line 23 from line 22 smaller of line 21 or line 22. This amount is taxed at 0% … 23 24
+2	Tx	Page2[0].f2_14[0]	504,348		25	• $533,400 if single, • $300,000 if married filing separately, . . 25
+2	Tx	Page2[0].f2_15[0]	504,312		26	26 Enter the amount from line 21 . • $566,700 if head of household… 26
+2	Tx	Page2[0].f2_16[0]	504,264		27	o enter complete either worksheet for the regular tax, enter the amount from Form 1040 or 1040-SR, line 15; if zero … 27
+2	Tx	Page2[0].f2_17[0]	504,252		28	28 Add line 26 and line 27 … 27 28
+2	Tx	Page2[0].f2_18[0]	504,240		29	28 29 Add line 26 and line 27 . Subtract line 28 from line 25. If zero or less, enter -0- … 28 29
+2	Tx	Page2[0].f2_19[0]	504,228		30	29 30 Subtract line 28 from line 25. If zero or less, enter -0- Enter the smaller of line 24 or line 29 … 29 30
+2	Tx	Page2[0].f2_20[0]	504,216		31	30 31 Enter the smaller of line 24 or line 29 Multiply line 30 by 15% (0.15) … 30 31
+2	Tx	Page2[0].f2_21[0]	504,204		32	31 32 Multiply line 30 by 15% (0.15) . Add lines 23 and 30 … 31 32
+2	Tx	Page2[0].f2_22[0]	504,180		33	2 from line 22 If lines 32 and 12 are the same, skip lines 33 through 37 and go to line 38. Otherwise, go to line 33… 33
+2	Tx	Page2[0].f2_23[0]	504,168		34	33 34 Subtract line 32 from line 22 Multiply line 33 by 20% (0.20) … 33 34
+2	Tx	Page2[0].f2_24[0]	504,144		35	14 is zero or blank, skip lines 35 through 37 and go to line 38. Otherwise, go to line 35. Add lines 17, 32, and 33 … 35
+2	Tx	Page2[0].f2_25[0]	504,132		36	35 36 Add lines 17, 32, and 33 Subtract line 35 from line 12 … 35 36
+2	Tx	Page2[0].f2_26[0]	504,120		37	36 37 Subtract line 35 from line 12 Multiply line 36 by 25% (0.25) … 36 37
+2	Tx	Page2[0].f2_27[0]	504,108		38	37 38 Multiply line 36 by 25% (0.25) Add lines 18, 31, 34, and 37 … 37 38
+2	Tx	Page2[0].f2_28[0]	504,84		39	. Otherwise, multiply line 12 by 28% (0.28) and subtract $4,782 ($2,391 if married filing separately) from the result 39
+2	Tx	Page2[0].f2_29[0]	504,60		40	r line 7 Enter the smaller of line 38 or line 39 here and on line 7. If you are filing Form 2555, do not enter this … 40

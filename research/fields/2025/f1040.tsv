@@ -1,0 +1,199 @@
+1	Tx	Page1[0].f1_01[0]	229,733			For the year Jan. 1–Dec. 31, 2025, or other tax year beginning
+1	Tx	Page1[0].f1_02[0]	366,733			For the year Jan. 1–Dec. 31, 2025, or other tax year beginning , 2025, ending
+1	Tx	Page1[0].f1_03[0]	469,733			For the year Jan. 1–Dec. 31, 2025, or other tax year beginning , 2025, ending , 20
+1	chk	Page1[0].c1_1[0]	36,722	1		
+1	chk	Page1[0].c1_2[0]	155,722	1		Filed pursuant to section 301.9100-2
+1	Tx	Page1[0].f1_04[0]	210,721			Filed pursuant to section 301.9100-2 Combat zone
+1	chk	Page1[0].c1_3[0]	375,722	1		Filed pursuant to section 301.9100-2 Combat zone
+1	Tx	Page1[0].f1_05[0]	418,721			Filed pursuant to section 301.9100-2 Combat zone Deceased
+1	Tx	Page1[0].f1_06[0]	439,721			Filed pursuant to section 301.9100-2 Combat zone Deceased MM /
+1	Tx	Page1[0].f1_07[0]	461,721			Filed pursuant to section 301.9100-2 Combat zone Deceased MM / DD /
+1	Tx	Page1[0].f1_08[0]	511,721			Filed pursuant to section 301.9100-2 Combat zone Deceased MM / DD / YYYY Spouse
+1	Tx	Page1[0].f1_09[0]	533,721			Filed pursuant to section 301.9100-2 Combat zone Deceased MM / DD / YYYY Spouse MM /
+1	Tx	Page1[0].f1_10[0]	554,721			Filed pursuant to section 301.9100-2 Combat zone Deceased MM / DD / YYYY Spouse MM / DD /
+1	chk	Page1[0].c1_4[0]	36,710	1		
+1	Tx	Page1[0].f1_11[0]	68,709			Other
+1	Tx	Page1[0].f1_12[0]	239,709			Other
+1	Tx	Page1[0].f1_13[0]	411,709			Other
+1	Tx	Page1[0].f1_14[0]	36,684			
+1	Tx	Page1[0].f1_15[0]	253,684			Your first name and middle initial
+1	Tx	Page1[0].f1_16[0]	469,684			Your first name and middle initial Last name
+1	Tx	Page1[0].f1_17[0]	36,660			
+1	Tx	Page1[0].f1_18[0]	253,660			If joint return, spouse’s first name and middle initial
+1	Tx	Page1[0].f1_19[0]	469,660			If joint return, spouse’s first name and middle initial Last name
+1	Tx	Page1[0].Address_ReadOrder[0].f1_20[0]	36,636			
+1	Tx	Page1[0].Address_ReadOrder[0].f1_21[0]	419,636			Home address (number and street). If you have a P.O. box, see instructions.
+1	Tx	Page1[0].Address_ReadOrder[0].f1_22[0]	36,612			
+1	Tx	Page1[0].Address_ReadOrder[0].f1_23[0]	332,612			City, town, or post office. If you have a foreign address, also complete spaces below.
+1	Tx	Page1[0].Address_ReadOrder[0].f1_24[0]	397,612			City, town, or post office. If you have a foreign address, also complete spaces below. State
+1	Tx	Page1[0].Address_ReadOrder[0].f1_25[0]	36,588			
+1	Tx	Page1[0].Address_ReadOrder[0].f1_26[0]	224,588			Foreign country name
+1	Tx	Page1[0].Address_ReadOrder[0].f1_27[0]	397,588			Foreign country name Foreign province/state/county
+1	chk	Page1[0].c1_5[0]	568,637	1		spouse’s if filing a joint return, was in the U.S. for more than half of 2025.
+1	chk	Page1[0].c1_6[0]	482,590	1		will not change your tax or refund.
+1	chk	Page1[0].c1_7[0]	526,590	1		will not change your tax or refund. You
+1	chk	Page1[0].Checkbox_ReadOrder[0].c1_8[0]	98,578	1		Filing Status
+1	chk	Page1[0].Checkbox_ReadOrder[0].c1_8[1]	98,566	2		Filing Status Check only
+1	chk	Page1[0].Checkbox_ReadOrder[0].c1_8[2]	98,554	3		Check only one box.
+1	Tx	Page1[0].Checkbox_ReadOrder[0].f1_28[0]	180,540			Married filing separately (MFS). Enter spouse’s SSN above and full name here:
+1	chk	Page1[0].c1_8[0]	350,578	4		Filing Status Single
+1	chk	Page1[0].c1_8[1]	350,566	5		Filing Status Check only Married filing jointly (even if only one had income)
+1	Tx	Page1[0].f1_29[0]	362,534			and full name here:
+1	chk	Page1[0].c1_9[0]	98,526	1		
+1	Tx	Page1[0].f1_30[0]	313,514			esident for the entire tax year, check the box and enter their name (see instructions and attach statement if required):
+1	chk	Page1[0].c1_10[0]	518,497	1		 exchange, or otherwise dispose of a digital asset (or a financial interest in a digital asset)? (See instructions.) . .
+1	chk	Page1[0].c1_10[1]	554,497	2		hange, or otherwise dispose of a digital asset (or a financial interest in a digital asset)? (See instructions.) . . Yes
+1	chk	Page1[0].Dependents_ReadOrder[0].c1_11[0]	80,416	1		and check here . .
+1	Tx	Page1[0].Table_Dependents[0].Row1[0].f1_31[0]	145,471			Dependents (see instructions) (1) First name
+1	Tx	Page1[0].Table_Dependents[0].Row1[0].f1_32[0]	253,471			Dependents (see instructions) (1) First name
+1	Tx	Page1[0].Table_Dependents[0].Row1[0].f1_33[0]	361,471			Dependents (see instructions) (1) First name
+1	Tx	Page1[0].Table_Dependents[0].Row1[0].f1_34[0]	469,471			Dependents (see instructions) (1) First name
+1	Tx	Page1[0].Table_Dependents[0].Row2[0].f1_35[0]	145,459			(see instructions) If more (2) Last name
+1	Tx	Page1[0].Table_Dependents[0].Row2[0].f1_36[0]	253,459			(see instructions) If more (2) Last name
+1	Tx	Page1[0].Table_Dependents[0].Row2[0].f1_37[0]	361,459			(see instructions) If more (2) Last name
+1	Tx	Page1[0].Table_Dependents[0].Row2[0].f1_38[0]	469,459			(see instructions) If more (2) Last name
+1	Tx	Page1[0].Table_Dependents[0].Row3[0].f1_39[0]	145,447			If more than four (3) SSN
+1	Tx	Page1[0].Table_Dependents[0].Row3[0].f1_40[0]	253,447			If more than four (3) SSN
+1	Tx	Page1[0].Table_Dependents[0].Row3[0].f1_41[0]	361,447			If more than four (3) SSN
+1	Tx	Page1[0].Table_Dependents[0].Row3[0].f1_42[0]	469,447			If more than four (3) SSN
+1	Tx	Page1[0].Table_Dependents[0].Row4[0].f1_43[0]	145,435			than four dependents, (4) Relationship
+1	Tx	Page1[0].Table_Dependents[0].Row4[0].f1_44[0]	253,435			than four dependents, (4) Relationship
+1	Tx	Page1[0].Table_Dependents[0].Row4[0].f1_45[0]	361,435			than four dependents, (4) Relationship
+1	Tx	Page1[0].Table_Dependents[0].Row4[0].f1_46[0]	469,435			than four dependents, (4) Relationship
+1	chk	Page1[0].Table_Dependents[0].Row5[0].Dependent1[0].c1_12[0]	170,425	1		see instructions and check (5) Check if lived (a)
+1	chk	Page1[0].Table_Dependents[0].Row5[0].Dependent1[0].c1_13[0]	170,413	1		and check here . . than half of 2025 with you more (b)
+1	chk	Page1[0].Table_Dependents[0].Row5[0].Dependent2[0].c1_14[0]	278,425	1		see instructions and check (5) Check if lived (a) Yes (a)
+1	chk	Page1[0].Table_Dependents[0].Row5[0].Dependent2[0].c1_15[0]	278,413	1		and check here . . than half of 2025 with you more (b) And in the U.S. (b)
+1	chk	Page1[0].Table_Dependents[0].Row5[0].Dependent3[0].c1_16[0]	386,425	1		see instructions and check (5) Check if lived (a) Yes (a) Yes (a)
+1	chk	Page1[0].Table_Dependents[0].Row5[0].Dependent3[0].c1_17[0]	386,413	1		and check here . . than half of 2025 with you more (b) And in the U.S. (b) And in the U.S. (b)
+1	chk	Page1[0].Table_Dependents[0].Row5[0].Dependent4[0].c1_18[0]	494,425	1		see instructions and check (5) Check if lived (a) Yes (a) Yes (a) Yes (a)
+1	chk	Page1[0].Table_Dependents[0].Row5[0].Dependent4[0].c1_19[0]	494,413	1		and check here . . than half of 2025 with you more (b) And in the U.S. (b) And in the U.S. (b) And in the U.S. (b)
+1	chk	Page1[0].Table_Dependents[0].Row6[0].Dependent1[0].c1_20[0]	148,401	1		(6) Check if
+1	chk	Page1[0].Table_Dependents[0].Row6[0].Dependent1[0].c1_21[0]	198,401	1		(6) Check if Full-time student
+1	chk	Page1[0].Table_Dependents[0].Row6[0].Dependent2[0].c1_22[0]	256,401	1		(6) Check if Full-time student Permanently and totally
+1	chk	Page1[0].Table_Dependents[0].Row6[0].Dependent2[0].c1_23[0]	306,401	1		(6) Check if Full-time student Permanently and totally Full-time student
+1	chk	Page1[0].Table_Dependents[0].Row6[0].Dependent3[0].c1_24[0]	364,401	1		(6) Check if Full-time student Permanently and totally Full-time student Permanently and totally
+1	chk	Page1[0].Table_Dependents[0].Row6[0].Dependent3[0].c1_25[0]	414,401	1		(6) Check if Full-time student Permanently and totally Full-time student Permanently and totally Full-time student
+1	chk	Page1[0].Table_Dependents[0].Row6[0].Dependent4[0].c1_26[0]	472,401	1		time student Permanently and totally Full-time student Permanently and totally Full-time student Permanently and totally
+1	chk	Page1[0].Table_Dependents[0].Row6[0].Dependent4[0].c1_27[0]	522,401	1		nently and totally Full-time student Permanently and totally Full-time student Permanently and totally Full-time student
+1	chk	Page1[0].Table_Dependents[0].Row7[0].Dependent1[0].c1_28[0]	148,380	1		(7) Credits
+1	chk	Page1[0].Table_Dependents[0].Row7[0].Dependent1[0].c1_28[1]	198,380	2		(7) Credits Child tax credit
+1	chk	Page1[0].Table_Dependents[0].Row7[0].Dependent2[0].c1_29[0]	256,380	1		(7) Credits Child tax credit Credit for other
+1	chk	Page1[0].Table_Dependents[0].Row7[0].Dependent2[0].c1_29[1]	306,380	2		(7) Credits Child tax credit Credit for other Child tax credit
+1	chk	Page1[0].Table_Dependents[0].Row7[0].Dependent3[0].c1_30[0]	364,380	1		(7) Credits Child tax credit Credit for other Child tax credit Credit for other
+1	chk	Page1[0].Table_Dependents[0].Row7[0].Dependent3[0].c1_30[1]	414,380	2		(7) Credits Child tax credit Credit for other Child tax credit Credit for other Child tax credit
+1	chk	Page1[0].Table_Dependents[0].Row7[0].Dependent4[0].c1_31[0]	472,380	1		(7) Credits Child tax credit Credit for other Child tax credit Credit for other Child tax credit Credit for other
+1	chk	Page1[0].Table_Dependents[0].Row7[0].Dependent4[0].c1_31[1]	522,380	2		s Child tax credit Credit for other Child tax credit Credit for other Child tax credit Credit for other Child tax credit
+1	chk	Page1[0].c1_32[0]	96,360	1		
+1	Tx	Page1[0].f1_47[0]	504,330		1a	ve in the same household as your spouse at the end of 2025. Total amount from Form(s) W-2, box 1 (see instructions) … 1a
+1	Tx	Page1[0].f1_48[0]	504,318		1b	a b Total amount from Form(s) W-2, box 1 (see instructions) Household employee wages not reported on Form(s) W-2 … 1b 1a
+1	Tx	Page1[0].f1_49[0]	504,306		1c	b c Household employee wages not reported on Form(s) W-2 . Tip income not reported on line 1a (see instructions) … 1b 1c
+1	Tx	Page1[0].f1_50[0]	504,294		1d	t reported on line 1a (see instructions) Medicaid waiver payments not reported on Form(s) W-2 (see instructions) … 1d 1c
+1	Tx	Page1[0].f1_51[0]	504,282		1e	 payments not reported on Form(s) W-2 (see instructions) Taxable dependent care benefits from Form 2441, line 26 … 1d 1e
+1	Tx	Page1[0].f1_52[0]	504,270		1f	able dependent care benefits from Form 2441, line 26 Employer-provided adoption benefits from Form 8839, line 31 … 1e 1f
+1	Tx	Page1[0].f1_53[0]	504,258		1g	 did not get a Form f g Employer-provided adoption benefits from Form 8839, line 31 Wages from Form 8919, line 6 … 1g 1f
+1	Tx	Page1[0].f1_54[0]	344,247			2, see instructions. g h Wages from Form 8919, line 6 Other earned income (see instructions). Enter type and amount: … .
+1	Tx	Page1[0].f1_55[0]	504,246		1h	ee instructions. g h Wages from Form 8919, line 6 Other earned income (see instructions). Enter type and amount: … 1g 1h
+1	Tx	Page1[0].f1_56[0]	410,234		1i	 i Other earned income (see instructions). Enter type and amount: Nontaxable combat pay election (see instructions) … 1i
+1	Tx	Page1[0].f1_57[0]	504,222		1z	i z Nontaxable combat pay election (see instructions) Add lines 1a through 1h … 1i … 1z
+1	Tx	Page1[0].f1_58[0]	252,210		2a	Attach Sch. B 2a z Add lines 1a through 1h Tax-exempt interest … 2a .
+1	Tx	Page1[0].f1_59[0]	504,210		2b	Attach Sch. B 2a z Add lines 1a through 1h Tax-exempt interest … 2a … b Taxable interest … 2b 1z
+1	Tx	Page1[0].f1_60[0]	252,198		3a	Attach Sch. B if required. 2a 3a Tax-exempt interest Qualified dividends … 2a 3a
+1	Tx	Page1[0].f1_61[0]	504,198		3b	ch. B if required. 2a 3a Tax-exempt interest Qualified dividends … 2a 3a b b Taxable interest Ordinary dividends … 2b 3b
+1	chk	Page1[0].c1_33[0]	284,188	1	1	c Check if your child’s dividends are included in 1
+1	chk	Page1[0].c1_34[0]	363,188	1	2	c Check if your child’s dividends are included in 1 Line 3a 2
+1	Tx	Page1[0].f1_62[0]	252,174		4a	4 c a Check if your child’s dividends are included in IRA distributions … 4a
+1	Tx	Page1[0].f1_63[0]	504,174		4b	4 c a Check if your child’s dividends are included in IRA distributions … 4a 1 Line 3a b Taxable amount . 2 Line 3b … 4b
+1	chk	Page1[0].c1_35[0]	284,164	1	1	c Check if (see instructions) … 1
+1	chk	Page1[0].c1_36[0]	363,164	1	2	c Check if (see instructions) … 1 Rollover 2
+1	chk	Page1[0].c1_37[0]	428,164	1	3	c Check if (see instructions) … 1 Rollover 2 QCD 3
+1	Tx	Page1[0].f1_64[0]	439,162		3	4 c a IRA distributions Check if (see instructions) … 4a … 1 Rollover b Taxable amount . 2 QCD 3 . .
+1	Tx	Page1[0].f1_65[0]	252,150		5a	5 c a Check if (see instructions) Pensions and annuities … 5a .
+1	Tx	Page1[0].f1_66[0]	504,150		5b	5 c a Check if (see instructions) Pensions and annuities … 5a … 1 Rollover b Taxable amount . 2 QCD 3 … 5b
+1	chk	Page1[0].c1_38[0]	284,140	1	1	c Check if (see instructions) … 1
+1	chk	Page1[0].c1_39[0]	363,140	1	2	c Check if (see instructions) … 1 Rollover 2
+1	chk	Page1[0].c1_40[0]	428,140	1	3	c Check if (see instructions) … 1 Rollover 2 PSO 3
+1	Tx	Page1[0].f1_67[0]	439,138		3	5 c a Pensions and annuities Check if (see instructions) … 5a … 1 Rollover b Taxable amount . 2 PSO 3 . .
+1	Tx	Page1[0].f1_68[0]	252,126		6a	6 c a Check if (see instructions) Social security benefits … 6a .
+1	Tx	Page1[0].f1_69[0]	504,126		6b	6 c a Check if (see instructions) Social security benefits … 6a … 1 Rollover b Taxable amount . 2 PSO 3 … 6b
+1	chk	Page1[0].c1_41[0]	467,116	1		c If you elect to use the lump-sum election method, check here (see instructions) … .
+1	chk	Page1[0].c1_42[0]	467,104	1		d If you are married filing separately and lived apart from your spouse the entire year (see inst.), check here
+1	Tx	Page1[0].f1_70[0]	504,90		7a	part from your spouse the entire year (see inst.), check here Capital gain or (loss). Attach Schedule D if required … 7a
+1	chk	Page1[0].c1_43[0]	153,80	1		b Check if:
+1	chk	Page1[0].c1_44[0]	261,80	1		b Check if: Schedule D not required
+1	Tx	Page1[0].f1_71[0]	403,78			n or (loss). Attach Schedule D if required Check if: Schedule D not required Includes child’s capital gain or (loss) … .
+1	Tx	Page1[0].f1_72[0]	504,66		8	Check if: Additional income from Schedule 1, line 10 Schedule D not required Includes child’s capital gain or (loss) … 8
+1	Tx	Page1[0].f1_73[0]	504,54		9	dditional income from Schedule 1, line 10 Add lines 1z, 2b, 3b, 4b, 5b, 6b, 7a, and 8. This is your … total income … 8 9
+1	Tx	Page1[0].f1_74[0]	504,42		10	nts to income from Schedule 1, line 26 Add lines 1z, 2b, 3b, 4b, 5b, 6b, 7a, and 8. This is your . . total income … 10 9
+1	Tx	Page1[0].f1_75[0]	504,30		11a	Adjustments to income from Schedule 1, line 26 Subtract line 10 from line 9. This is your adjusted gross income … 11a 10
+2	Tx	Page2[0].f2_01[0]	504,744		11b	Tax and 11 b Amount from line 11a (adjusted gross income) … 11b
+2	chk	Page2[0].c2_1[0]	204,734	1		Credits 12 a Someone can claim
+2	chk	Page2[0].c2_2[0]	304,734	1		Credits 12 a Someone can claim You as a dependent
+2	chk	Page2[0].c2_3[0]	115,722	1	b	b
+2	chk	Page2[0].c2_4[0]	304,722	1	c	b Spouse itemizes on a separate return c
+2	chk	Page2[0].c2_5[0]	153,710	1		d You:
+2	chk	Page2[0].c2_6[0]	312,710	1		d You: Were born before January 2, 1961
+2	chk	Page2[0].c2_7[0]	153,698	1		Spouse:
+2	chk	Page2[0].c2_8[0]	312,698	1		Spouse: Was born before January 2, 1961
+2	Tx	Page2[0].f2_02[0]	504,684		12e	— e Spouse: Standard deduction Was born before January 2, 1961 or itemized deductions (from Schedule A) . Is blind … 12e
+2	Tx	Page2[0].f2_03[0]	504,672		13a	ess income deduction from Form 8995 or Form 8995-A Standard deduction or itemized deductions (from Schedule A) … 12e 13a
+2	Tx	Page2[0].f2_04[0]	504,660		13b	ified business income deduction from Form 8995 or Form 8995-A Additional deductions from Schedule 1-A, line 38 … 13b 13a
+2	Tx	Page2[0].f2_05[0]	504,648		14	separately, $15,750 14 b Add lines 12e, 13a, and 13b Additional deductions from Schedule 1-A, line 38 … 13b 14
+2	Tx	Page2[0].f2_06[0]	504,636		15	ines 12e, 13a, and 13b Subtract line 14 from line 11b. If zero or less, enter -0-. This is your … taxable income … 14 15
+2	chk	Page2[0].c2_9[0]	313,626	1	1	Qualifying 16 Tax (see instructions). Check if any from Form(s): 1
+2	chk	Page2[0].c2_10[0]	370,626	1	2	Qualifying 16 Tax (see instructions). Check if any from Form(s): 1 8814 2
+2	chk	Page2[0].c2_11[0]	428,626	1	3	Qualifying 16 Tax (see instructions). Check if any from Form(s): 1 8814 2 4972 3
+2	Tx	Page2[0].f2_07[0]	439,624		3	 zero or less, enter -0-. This is your (see instructions). Check if any from Form(s): 1 8814 taxable income 2 4972 3 . .
+2	Tx	Page2[0].f2_08[0]	504,624		16	o or less, enter -0-. This is your (see instructions). Check if any from Form(s): 1 8814 taxable income 2 4972 3 … 15 16
+2	Tx	Page2[0].f2_09[0]	504,612		17	17 Tax Amount from Schedule 2, line 3 (see instructions). Check if any from Form(s): … 1 . . 8814 … 2 . 4972 … 3 … 16 17
+2	Tx	Page2[0].f2_10[0]	504,600		18	• Head of spouse, $31,500 17 18 Amount from Schedule 2, line 3 Add lines 16 and 17 … 17 18
+2	Tx	Page2[0].f2_11[0]	504,588		19	 Head of household, 18 19 Add lines 16 and 17 Child tax credit or credit for other dependents from Schedule 8812 … 18 19
+2	Tx	Page2[0].f2_12[0]	504,576		20	 $23,625 19 20 Child tax credit or credit for other dependents from Schedule 8812 Amount from Schedule 3, line 8 … 19 20
+2	Tx	Page2[0].f2_13[0]	504,564		21	• If you checked a box on line 20 21 Amount from Schedule 3, line 8 Add lines 19 and 20 … 20 21
+2	Tx	Page2[0].f2_14[0]	504,552		22	ox on line or 12d, see inst. 21 22 Add lines 19 and 20 Subtract line 21 from line 18. If zero or less, enter -0- … 21 22
+2	Tx	Page2[0].f2_15[0]	504,540		23	21 from line 18. If zero or less, enter -0- Other taxes, including self-employment tax, from Schedule 2, line 21 … 22 23
+2	Tx	Page2[0].f2_16[0]	504,528		24	Other taxes, including self-employment tax, from Schedule 2, line 21 Add lines 22 and 23. This is your total tax … 23 24
+2	Tx	Page2[0].f2_17[0]	410,504		25a	Payments and 25 a Federal income tax withheld from: Form(s) W-2 … 25a
+2	Tx	Page2[0].f2_18[0]	410,492		25b	and Refundable a b Form(s) W-2 Form(s) 1099 … 25b 25a
+2	Tx	Page2[0].f2_19[0]	410,480		25c	Credits b c Form(s) 1099 Other forms (see instructions) … 25b 25c
+2	Tx	Page2[0].f2_20[0]	504,468		25d	c d Other forms (see instructions) Add lines 25a through 25c … 25c … 25d
+2	Tx	Page2[0].f2_21[0]	504,456		26	26 d 2025 estimated tax payments and amount applied from 2024 return . Add lines 25a through 25c … 25d 26
+2	Tx	Page2[0].SSN_ReadOrder[0].f2_22[0]	238,432			If you have a If you made estimated tax payments with your former spouse in 2025, enter their SSN (see instructions):
+2	Tx	Page2[0].f2_23[0]	410,420		27a	qualifying child, you may need to 27 a Earned income credit (EIC) … 27a
+2	chk	Page2[0].c2_12[0]	467,410	1		you may need to attach Sch. EIC. b Clergy filing Schedule SE (see instructions) … .
+2	chk	Page2[0].c2_13[0]	467,398	1		c If you do not want to claim the EIC, check here … .
+2	chk	Page2[0].Line28_ReadOrder[0].c2_14[0]	374,374	1		28 to claim the ACTC, check here . Additional child tax credit (ACTC) from Schedule 8812. If you do not want … .
+2	Tx	Page2[0].f2_24[0]	410,372		28	28 to claim the ACTC, check here . Additional child tax credit (ACTC) from Schedule 8812. If you do not want … 28
+2	Tx	Page2[0].f2_25[0]	410,360		29	29 American opportunity credit from Form 8863, line 8 … 28 29
+2	Tx	Page2[0].f2_26[0]	410,348		30	29 30 American opportunity credit from Form 8863, line 8 . Refundable adoption credit from Form 8839, line 13 … 29 30
+2	Tx	Page2[0].f2_27[0]	410,336		31	30 31 Refundable adoption credit from Form 8839, line 13 Amount from Schedule 3, line 15 … 30 31
+2	Tx	Page2[0].f2_28[0]	504,324		32	ule 3, line 15 Add lines 27a, 28, 29, 30, and 31. These are your … total other payments and refundable credits … 31 . 32
+2	Tx	Page2[0].f2_29[0]	504,312		33	se are your Add lines 25d, 26, and 32. These are your total payments total other payments and refundable credits … 32 33
+2	Tx	Page2[0].f2_30[0]	504,300		34	If line 33 is more than line 24, subtract line 24 from line 33. This is the amount you total payments … overpaid … 33 34
+2	chk	Page2[0].c2_15[0]	467,290	1		Refund 35 a Amount of line 34 you want refunded to you . If Form 8888 is attached, check here … .
+2	Tx	Page2[0].f2_31[0]	504,288		35a	is is the amount you Amount of line 34 you want refunded to you . If Form 8888 is attached, check here overpaid … 35a 34
+2	Tx	Page2[0].RoutingNo[0].f2_32[0]	180,277			Direct deposit? 35 b a Amount of line 34 you want Routing number
+2	chk	Page2[0].c2_16[0]	377,278	1		Direct deposit? b Routing number c Type:
+2	chk	Page2[0].c2_16[1]	435,278	2		Direct deposit? b Routing number c Type: Checking
+2	Tx	Page2[0].AccountNo[0].f2_33[0]	180,265			See instructions. b d Routing number Account number
+2	Tx	Page2[0].f2_34[0]	410,252		36	36 d Account number Amount of line 34 you want applied to your 2026 estimated tax … 36
+2	Tx	Page2[0].f2_35[0]	504,228		37	 from line 24. This is the For details on how to pay, go to www.irs.gov/Payments amount you owe or see instructions … 37
+2	Tx	Page2[0].f2_36[0]	410,216		38	You Owe 38 Estimated tax penalty (see instructions) … 38
+2	chk	Page2[0].c2_17[0]	432,206	1		Third Party Do you want to allow another person to discuss this return with the IRS? See instructions.
+2	chk	Page2[0].c2_17[1]	540,206	2		rd Party Do you want to allow another person to discuss this return with the IRS? See instructions. Yes. Complete below.
+2	Tx	Page2[0].f2_37[0]	130,180			Designee Designee’s name
+2	Tx	Page2[0].f2_38[0]	324,180			Designee Designee’s name Phone no.
+2	Tx	Page2[0].f2_39[0]	504,181			Designee Designee’s name Phone no. Personal identification number (PIN)
+2	Tx	Page2[0].f2_40[0]	325,126			Your signature Date
+2	Tx	Page2[0].f2_41[0]	504,126			Protection PIN, enter it here (see inst.)
+2	Tx	Page2[0].f2_42[0]	325,96			See instructions. Keep a copy for your records. Spouse’s signature. If a joint return, both must sign. Date
+2	Tx	Page2[0].f2_43[0]	504,96			Keep a copy for your records. Identity Protection PIN, enter it here (see inst.)
+2	Tx	Page2[0].f2_44[0]	128,84			your records. Phone no.
+2	Tx	Page2[0].f2_45[0]	324,84			your records. Phone no. Email address
+2	Tx	Page2[0].f2_46[0]	92,60			Paid Preparer
+2	Tx	Page2[0].f2_47[0]	455,60			Paid Preparer Preparer’s name Preparer’s signature Date
+2	chk	Page2[0].c2_18[0]	518,64	1		Paid Preparer
+2	Tx	Page2[0].f2_48[0]	135,48			Preparer Use Only Firm’s name
+2	Tx	Page2[0].f2_49[0]	495,48			Preparer Use Only Firm’s name Phone no.
+2	Tx	Page2[0].f2_50[0]	143,36			Firm’s address
+2	Tx	Page2[0].f2_51[0]	495,36			Firm’s address Firm’s EIN

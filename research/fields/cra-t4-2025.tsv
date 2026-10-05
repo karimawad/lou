@@ -1,0 +1,86 @@
+1	btn	form1[0].#pageSet[0].Page1[0].ClearData_EN[0]	515,775			
+1	Tx	form1[0].Page1[0].Slip1[0].EmployersName[0].Slip1EmployersName[0]	49,701			
+1	Tx	form1[0].Page1[0].Slip1[0].Year[0].Slip1Year[0]	295,739			Année Year
+1	Tx	form1[0].Page1[0].Slip1[0].EmployersAccount[0].Slip1Box54[0]	59,670			54
+1	Tx	form1[0].Page1[0].Slip1[0].Box12[0].Slip1Box12[0]	59,630		12	une fois rempli 12
+1	chk	form1[0].Page1[0].Slip1[0].Box28[0].CPP_CheckBox[0].Slip1CPP[0]	206,630	1	28	une fois rempli 12 28
+1	chk	form1[0].Page1[0].Slip1[0].Box28[0].EI_CheckBox[0].Slip1EI[0]	228,630	1	28	une fois rempli 12 28
+1	chk	form1[0].Page1[0].Slip1[0].Box28[0].PPIP_CheckBox[0].Slip1PPIP[0]	250,630	1		une fois rempli 12 28
+1	Ch	form1[0].Page1[0].Slip1[0].Box45[0].DropDownList[0]	291,689		45	45
+1	Ch	form1[0].Page1[0].Slip1[0].Box10[0].Slip1Box10[0]	291,654		10	Social insurance number Exempt – Exemption 10
+1	Ch	form1[0].Page1[0].Slip1[0].Box29[0].Slip1Box29[0]	291,617		29	une fois rempli RPC/RRQ AE RPAP 29
+1	Tx	form1[0].Page1[0].Slip1[0].Box14[0].Slip1Box14[0]	352,703		14	offertes par l'employeur Prestations dentaires 14
+1	Tx	form1[0].Page1[0].Slip1[0].Box22[0].Slip1Box22[0]	475,703		22	offertes par l'employeur Prestations dentaires 14 22
+1	Tx	form1[0].Page1[0].Slip1[0].Box16[0].Slip1Box16[0]	352,669		16	54 Employer's account number / Numéro de compte de l'employeur Province of employment Province d'emploi 16
+1	Tx	form1[0].Page1[0].Slip1[0].Box17[0].Slip1Box17[0]	486,669		17	54 Employer's account number / Numéro de compte de l'employeur Province of employment Province d'emploi 16 17
+1	Tx	form1[0].Page1[0].Slip1[0].Box16A[0].Slip1Box16A[0]	352,631			une fois rempli 12 Numéro d'assurance sociale 28 EI PPIP Employment code Code d'emploi 16A
+1	Tx	form1[0].Page1[0].Slip1[0].Box17A[0].Slip1Box17A[0]	486,631			une fois rempli 12 Numéro d'assurance sociale 28 EI PPIP Employment code Code d'emploi 16A 17A
+1	Tx	form1[0].Page1[0].Slip1[0].Box24[0].Slip1Box24[0]	353,599		24	Employee's name and address – Nom et adresse de l'employé 24
+1	Tx	form1[0].Page1[0].Slip1[0].Box26[0].Slip1Box26[0]	486,599		26	Employee's name and address – Nom et adresse de l'employé 24 Gains assurables d'AE 26
+1	Tx	form1[0].Page1[0].Slip1[0].Box18[0].Slip1Box18[0]	352,567		18	/ Protégé B ◄ 18
+1	Tx	form1[0].Page1[0].Slip1[0].Box44[0].Slip1Box44[0]	486,567		44	/ Protégé B ◄ 18 Cotisations de l'employé à l'AE 44
+1	Tx	form1[0].Page1[0].Slip1[0].Box20[0].Slip1Box20[0]	352,535		20	20
+1	Tx	form1[0].Page1[0].Slip1[0].Box46[0].Slip1Box46[0]	486,535		46	20 46
+1	Tx	form1[0].Page1[0].Slip1[0].Box52[0].Slip1Box52[0]	352,503		52	when completed 52
+1	Tx	form1[0].Page1[0].Slip1[0].Box50[0].Slip1Box50[0]	486,503		50	when completed 52 Facteur d'équivalence 50
+1	Tx	form1[0].Page1[0].Slip1[0].Box55[0].Slip1Box55[0]	352,470		55	55
+1	Tx	form1[0].Page1[0].Slip1[0].Box56[0].Slip1Box56[0]	486,470		56	55 56
+1	Tx	form1[0].Page1[0].Slip1[0].Employee[0].LastName[0].Slip1LastName[0]	59,571			/ Protégé B
+1	Tx	form1[0].Page1[0].Slip1[0].Employee[0].FirstName[0].Slip1FirstName[0]	199,571			/ Protégé B ◄
+1	Tx	form1[0].Page1[0].Slip1[0].Employee[0].Initial[0].Slip1Initial[0]	295,571			/ Protégé B ◄
+1	Tx	form1[0].Page1[0].Slip1[0].Employee[0].Slip1Address[0]	48,487			when completed
+1	Ch	form1[0].Page1[0].Slip1[0].OtherInformation[0].Box1[0].Slip1Box1[0]	111,438			Protected B Other information (see over) Box
+1	Tx	form1[0].Page1[0].Slip1[0].OtherInformation[0].Amount1[0].Slip1Amount1[0]	147,438			Protected B Other information (see over) Box – Case
+1	Ch	form1[0].Page1[0].Slip1[0].OtherInformation[0].Box2[0].Slip1Box2[0]	275,438			Protected B Other information (see over) Box – Case Amount – Montant Box
+1	Tx	form1[0].Page1[0].Slip1[0].OtherInformation[0].Amount2[0].Slip1Amount2[0]	311,438			Protected B Other information (see over) Box – Case Amount – Montant Box – Case
+1	Ch	form1[0].Page1[0].Slip1[0].OtherInformation[0].Box3[0].Slip1Box3[0]	439,438			Protected B Other information (see over) Box – Case Amount – Montant Box – Case Amount – Montant Box
+1	Tx	form1[0].Page1[0].Slip1[0].OtherInformation[0].Amount3[0].Slip1Amount3[0]	475,438			Protected B Other information (see over) Box – Case Amount – Montant Box – Case Amount – Montant Box – Case
+1	Ch	form1[0].Page1[0].Slip1[0].OtherInformation[0].Box4[0].Slip1Box4[0]	111,410			Autres renseignements (voir au verso)
+1	Tx	form1[0].Page1[0].Slip1[0].OtherInformation[0].Amount4[0].Slip1Amount4[0]	147,410			Autres renseignements (voir au verso)
+1	Ch	form1[0].Page1[0].Slip1[0].OtherInformation[0].Box5[0].Slip1Box5[0]	275,410			Autres renseignements (voir au verso)
+1	Tx	form1[0].Page1[0].Slip1[0].OtherInformation[0].Amount5[0].Slip1Amount5[0]	311,410			Autres renseignements (voir au verso)
+1	Ch	form1[0].Page1[0].Slip1[0].OtherInformation[0].Box6[0].Slip1Box6[0]	439,410			Autres renseignements (voir au verso)
+1	Tx	form1[0].Page1[0].Slip1[0].OtherInformation[0].Amount6[0].Slip1Amount6[0]	475,410			Autres renseignements (voir au verso)
+1	Tx	form1[0].Page1[0].Slip2[0].EmployersName[0].Slip1EmployersName[0]	49,313			
+1	Tx	form1[0].Page1[0].Slip2[0].Year[0].Slip1Year[0]	295,352			Année Year
+1	Tx	form1[0].Page1[0].Slip2[0].EmployersAccount[0].Slip1Box54[0]	59,282			54
+1	Tx	form1[0].Page1[0].Slip2[0].Box12[0].Slip1Box12[0]	59,243		12	une fois rempli 12
+1	chk	form1[0].Page1[0].Slip2[0].Box28[0].CPP_CheckBox[0].Slip1CPP[0]	206,243	1	28	une fois rempli 12 28
+1	chk	form1[0].Page1[0].Slip2[0].Box28[0].EI_CheckBox[0].Slip1EI[0]	228,243	1	28	une fois rempli 12 28
+1	chk	form1[0].Page1[0].Slip2[0].Box28[0].PPIP_CheckBox[0].Slip1PPIP[0]	250,243	1		une fois rempli 12 28
+1	Tx	form1[0].Page1[0].Slip2[0].Employee[0].LastName[0].Slip1LastName[0]	59,183			/ Protégé B
+1	Tx	form1[0].Page1[0].Slip2[0].Employee[0].FirstName[0].Slip1FirstName[0]	199,183			/ Protégé B ◄
+1	Tx	form1[0].Page1[0].Slip2[0].Employee[0].Initial[0].Slip1Initial[0]	295,183			/ Protégé B ◄
+1	Tx	form1[0].Page1[0].Slip2[0].Employee[0].Slip1Address[0]	48,99			when completed
+1	Ch	form1[0].Page1[0].Slip2[0].Box45[0].DropDownList[0]	291,301		45	Employer's account number / Numéro de compte de l'employeur 45
+1	Ch	form1[0].Page1[0].Slip2[0].Box10[0].Slip1Box10[0]	291,266		10	Social insurance number Exempt – Exemption 10
+1	Ch	form1[0].Page1[0].Slip2[0].Box29[0].Slip1Box29[0]	291,229		29	une fois rempli RPC/RRQ AE RPAP 29
+1	Tx	form1[0].Page1[0].Slip2[0].Box14[0].Slip1Box14[0]	352,315		14	offertes par l'employeur Prestations dentaires 14
+1	Tx	form1[0].Page1[0].Slip2[0].Box22[0].Slip1Box22[0]	475,315		22	offertes par l'employeur Prestations dentaires 14 22
+1	Tx	form1[0].Page1[0].Slip2[0].Box16[0].Slip1Box16[0]	352,281		16	54 Employer's account number / Numéro de compte de l'employeur Province of employment Province d'emploi 16
+1	Tx	form1[0].Page1[0].Slip2[0].Box17[0].Slip1Box17[0]	486,281		17	54 Employer's account number / Numéro de compte de l'employeur Province of employment Province d'emploi 16 17
+1	Tx	form1[0].Page1[0].Slip2[0].Box16A[0].Slip1Box16A[0]	352,244			une fois rempli 12 Numéro d'assurance sociale 28 Employment code Code d'emploi 16A
+1	Tx	form1[0].Page1[0].Slip2[0].Box17A[0].Slip1Box17A[0]	486,244			une fois rempli 12 Numéro d'assurance sociale 28 Employment code Code d'emploi 16A 17A
+1	Tx	form1[0].Page1[0].Slip2[0].Box24[0].Slip1Box24[0]	353,211		24	Employee's name and address – Nom et adresse de l'employé 24
+1	Tx	form1[0].Page1[0].Slip2[0].Box26[0].Slip1Box26[0]	486,212		26	Employee's name and address – Nom et adresse de l'employé 24 Gains assurables d'AE 26
+1	Tx	form1[0].Page1[0].Slip2[0].Box18[0].Slip1Box18[0]	352,180		18	/ Protégé B ◄ 18
+1	Tx	form1[0].Page1[0].Slip2[0].Box44[0].Slip1Box44[0]	486,180		44	/ Protégé B ◄ 18 Cotisations de l'employé à l'AE 44
+1	Tx	form1[0].Page1[0].Slip2[0].Box20[0].Slip1Box20[0]	352,147		20	20
+1	Tx	form1[0].Page1[0].Slip2[0].Box46[0].Slip1Box46[0]	486,147		46	20 46
+1	Tx	form1[0].Page1[0].Slip2[0].Box52[0].Slip1Box52[0]	352,115		52	when completed 52
+1	Tx	form1[0].Page1[0].Slip2[0].Box50[0].Slip1Box50[0]	486,115		50	when completed 52 Facteur d'équivalence 50
+1	Tx	form1[0].Page1[0].Slip2[0].Box55[0].Slip1Box55[0]	352,82		55	55
+1	Tx	form1[0].Page1[0].Slip2[0].Box56[0].Slip1Box56[0]	486,82		56	55 56
+1	Ch	form1[0].Page1[0].Slip2[0].OtherInformation[0].Box1[0].Slip1Box1[0]	111,50			Protected B Other information (see over) Box
+1	Tx	form1[0].Page1[0].Slip2[0].OtherInformation[0].Amount1[0].Slip1Amount1[0]	147,50			Protected B Other information (see over) Box – Case
+1	Ch	form1[0].Page1[0].Slip2[0].OtherInformation[0].Box2[0].Slip1Box2[0]	275,50			Protected B Other information (see over) Box – Case Amount – Montant Box
+1	Tx	form1[0].Page1[0].Slip2[0].OtherInformation[0].Amount2[0].Slip1Amount2[0]	311,50			Protected B Other information (see over) Box – Case Amount – Montant Box – Case
+1	Ch	form1[0].Page1[0].Slip2[0].OtherInformation[0].Box3[0].Slip1Box3[0]	439,50			Protected B Other information (see over) Box – Case Amount – Montant Box – Case Amount – Montant Box
+1	Tx	form1[0].Page1[0].Slip2[0].OtherInformation[0].Amount3[0].Slip1Amount3[0]	475,50			Protected B Other information (see over) Box – Case Amount – Montant Box – Case Amount – Montant Box – Case
+1	Ch	form1[0].Page1[0].Slip2[0].OtherInformation[0].Box4[0].Slip1Box4[0]	111,23			Autres renseignements (voir au verso)
+1	Tx	form1[0].Page1[0].Slip2[0].OtherInformation[0].Amount4[0].Slip1Amount4[0]	147,23			Autres renseignements (voir au verso)
+1	Ch	form1[0].Page1[0].Slip2[0].OtherInformation[0].Box5[0].Slip1Box5[0]	275,23			Autres renseignements (voir au verso)
+1	Tx	form1[0].Page1[0].Slip2[0].OtherInformation[0].Amount5[0].Slip1Amount5[0]	311,23			Autres renseignements (voir au verso)
+1	Ch	form1[0].Page1[0].Slip2[0].OtherInformation[0].Box6[0].Slip1Box6[0]	439,23			Autres renseignements (voir au verso)
+1	Tx	form1[0].Page1[0].Slip2[0].OtherInformation[0].Amount6[0].Slip1Amount6[0]	475,23			Autres renseignements (voir au verso)
+2	btn	form1[0].#pageSet[0].Page1[1].ClearData_EN[0]	515,775			

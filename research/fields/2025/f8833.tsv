@@ -1,0 +1,41 @@
+1	Tx	Page1[0].f1_1[0]	36,660			
+1	Tx	Page1[0].f1_2[0]	302,660			
+1	Tx	Page1[0].f1_3[0]	418,660			
+1	Tx	Page1[0].f1_4[0]	36,612			
+1	Tx	Page1[0].f1_5[0]	303,612			
+1	chk	Page1[0].BulletedList1[0].Bullet1[0].c1_1[0]	564,591	1		• The taxpayer is disclosing a treaty-based return position as required by section 6114 … .
+1	chk	Page1[0].BulletedList1[0].Bullet2[0].c1_2[0]	564,567	1		Regulations section 301.7701(b)-7 … .
+1	chk	Page1[0].c1_3[0]	564,518	1		Check this box if the taxpayer is a U.S. citizen or resident or is incorporated in the United States … .
+1	Tx	Page1[0].Lines1-2_ReadOrder[0].f1_6[0]	127,492			1 a Enter the specific treaty position relied on: Treaty country
+1	Tx	Page1[0].Lines1-2_ReadOrder[0].f1_7[0]	127,480			a b Treaty country Article(s)
+1	Tx	Page1[0].f1_8[0]	65,444			modified by the treaty-based return position
+1	Tx	Page1[0].f1_9[0]	303,444			2 b modified by the treaty-based return position Article(s) List the Internal Revenue Code provision(s) overruled or
+1	Tx	Page1[0].f1_10[0]	137,420			mitation on benefits article (if any) in the treaty that the taxpayer relies on to qualify for benefits under the treaty
+1	chk	Page1[0].c1_4[0]	513,398	1		to Regulations section 301.6114-1(b)? … .
+1	chk	Page1[0].c1_4[1]	549,398	2		to Regulations section 301.6114-1(b)? … Yes
+1	Tx	Page1[0].f1_11[0]	511,384			n 301.6114-1(b)? If “Yes,” enter the specific subsection(s) of Regulations section 301.6114-1(b) requiring reporting … .
+1	Tx	Page1[0].f1_12[0]	324,336			nd amount (or a reasonable estimate) of gross receipts, each separate gross payment, each separate gross income item, or
+1	Tx	Page1[0].f1_13[0]	65,324			other item (as applicable) for which the treaty benefit is claimed
+1	Tx	Page1[0].f1_14[0]	65,312			
+1	Tx	Page1[0].f1_15[0]	65,300			
+1	Tx	Page1[0].f1_16[0]	65,288			
+1	Tx	Page1[0].f1_17[0]	65,276			
+1	Tx	Page1[0].f1_18[0]	65,264			
+1	Tx	Page1[0].f1_19[0]	65,252			
+1	Tx	Page1[0].f1_20[0]	65,240			
+1	Tx	Page1[0].f1_21[0]	65,228			
+1	Tx	Page1[0].f1_22[0]	65,216			
+1	Tx	Page1[0].f1_23[0]	65,204			
+1	Tx	Page1[0].f1_24[0]	65,192			
+1	Tx	Page1[0].f1_25[0]	65,180			
+1	Tx	Page1[0].f1_26[0]	65,168			
+1	Tx	Page1[0].f1_27[0]	65,156			
+1	Tx	Page1[0].f1_28[0]	65,144			
+1	Tx	Page1[0].f1_29[0]	65,132			
+1	Tx	Page1[0].f1_30[0]	65,120			
+1	Tx	Page1[0].f1_31[0]	65,108			
+1	Tx	Page1[0].f1_32[0]	65,96			
+1	Tx	Page1[0].f1_33[0]	65,84			
+1	Tx	Page1[0].f1_34[0]	65,72			
+1	Tx	Page1[0].f1_35[0]	65,60			
+1	Tx	Page1[0].f1_36[0]	65,48			

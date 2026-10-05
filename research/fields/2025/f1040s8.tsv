@@ -1,0 +1,41 @@
+1	Tx	Page1[0].f1_1[0]	36,672			
+1	Tx	Page1[0].f1_2[0]	462,672			Name(s) shown on return
+1	Tx	Page1[0].f1_3[0]	504,648		1	r the amount from line 11a of your Form 1040, 1040-SR, or 1040-NR . Child Tax Credit and Credit for Other Dependents … 1
+1	Tx	Page1[0].f1_4[0]	410,636		2a	e amount from line 11a of your Form 1040, 1040-SR, or 1040-NR . Enter income from Puerto Rico that you excluded … 2a . .
+1	Tx	Page1[0].f1_5[0]	410,624		2b	2 a b Enter income from Puerto Rico that you excluded Enter the amounts from lines 45 and 50 of your Form 2555 … 2b 2a
+1	Tx	Page1[0].f1_6[0]	410,612		2c	b c Enter the amounts from lines 45 and 50 of your Form 2555 Enter the amount from line 15 of your Form 4563 … 2b 2c
+1	Tx	Page1[0].f1_7[0]	504,600		2d	c d Enter the amount from line 15 of your Form 4563 Add lines 2a through 2c … 2c … 2d
+1	Tx	Page1[0].f1_8[0]	504,588		3	3 d Add lines 2a through 2c . Add lines 1 and 2d … 2d 3
+1	Tx	Page1[0].f1_9[0]	410,576		4	3 4 Add lines 1 and 2d Number of qualifying children under age 17 with the required social security number … 4 .
+1	Tx	Page1[0].f1_10[0]	504,564		5	 5 Number of qualifying children under age 17 with the required social security number Multiply line 4 by $2,200 … 4 … 5
+1	Tx	Page1[0].Line6ReadOrder[0].f1_11[0]	410,540		6	s, including any qualifying children who are not under age 17 or who do not have the required social security number … 6
+1	Tx	Page1[0].f1_12[0]	504,504		7	7 Multiply line 6 by $500 … 7
+1	Tx	Page1[0].f1_13[0]	504,492		8	7 8 Multiply line 6 by $500 Add lines 5 and 7 … 7 8
+1	Tx	Page1[0].f1_14[0]	504,456		9	• Married filing jointly—$400,000 • All other filing statuses—$200,000 } … 9
+1	Tx	Page1[0].f1_15[0]	504,408		10	multiple of $1,000. For example, if the result is $425, enter $1,000; if the result is $1,025, enter $2,000, etc. } … 10
+1	Tx	Page1[0].f1_16[0]	504,396		11	11 Multiply line 10 by 5% (0.05) … 10 11
+1	Tx	Page1[0].f1_17[0]	504,384		12	11 12 Multiply line 10 by 5% (0.05) Is the amount on line 8 more than the amount on line 11? … 11 12
+1	chk	Page1[0].c1_1[0]	65,374	1		
+1	chk	Page1[0].c1_1[1]	65,362	2		
+1	Tx	Page1[0].f1_18[0]	504,348		13	13 Enter the amount from Yes. Subtract line 11 from line 8. Enter the result. Credit Limit Worksheet A … 13
+1	Tx	Page1[0].f1_19[0]	504,336		14	er of line 12 or line 13. Credit Limit Worksheet A This is your child tax credit and credit for other dependents … 13 14
+2	Tx	Page2[0].f2_1[0]	504,708		15	15 Reserved for future use … 15
+2	Tx	Page2[0].f2_2[0]	504,696		16a	ure use Subtract line 14 from line 12. If zero, … stop here … ; you cannot take the additional child tax credit … 16a 15
+2	Tx	Page2[0].f2_3[0]	376,684			ldren under age 17 with the required social security number: stop here ; you cannot take the additional child tax credit
+2	Tx	Page2[0].f2_4[0]	504,672		16b	security number: Enter the result. If zero, stop here ; you cannot claim the additional child tax credit … x $1,700… 16b
+2	Tx	Page2[0].f2_5[0]	504,648		17	en you use for this line is the same as the number of children you used for line 4. smaller of line 16a or line 16b … 17
+2	Tx	Page2[0].f2_6[0]	410,636		18a	17 18 a Enter the Earned income (see instructions) smaller of line 16a or line 16b … 18a . .
+2	Tx	Page2[0].f2_7[0]	317,624		18b	18 a b Earned income (see instructions) Nontaxable combat pay (see instructions) … 18b . .
+2	chk	Page2[0].c2_1[0]	67,602	1		
+2	chk	Page2[0].c2_1[1]	67,590	2		
+2	Tx	Page2[0].f2_8[0]	410,588		19	o. Yes. Leave line 19 blank and enter -0- on line 20. Subtract $2,500 from the amount on line 18a. Enter the result … 19
+2	Tx	Page2[0].f2_9[0]	504,576		20	 line 19 by 15% (0.15) and enter the result Yes. Subtract $2,500 from the amount on line 18a. Enter the result … 19 … 20
+2	chk	Page2[0].c2_2[0]	67,554	1		
+2	chk	Page2[0].c2_2[1]	67,530	2		
+2	Tx	Page2[0].f2_10[0]	410,456		21	d Additional Medicare Tax or tier 1 RRTA taxes, or if you are a bona fide resident of Puerto Rico, see instructions … 21
+2	Tx	Page2[0].f2_11[0]	410,432		22	1040), line 15; Schedule 2 (Form 1040), line 5; Schedule 2 (Form 1040), line 6; and Schedule 2 (Form 1040), line 13 . 22
+2	Tx	Page2[0].f2_12[0]	410,420		23	23 Add lines 21 and 22 1040), line 5; Schedule 2 (Form 1040), line 6; and Schedule 2 (Form 1040), line 13 … 22 23
+2	Tx	Page2[0].f2_13[0]	410,372		24	1040-NR filers: Enter the amount from Schedule 3 (Form 1040), line 11. } 24
+2	Tx	Page2[0].f2_14[0]	504,360		25	Subtract line 24 from line 23. If zero or less, enter -0- Enter the amount from Schedule 3 (Form 1040), line 11… 24 … 25
+2	Tx	Page2[0].f2_15[0]	504,348		26	25 26 Subtract line 24 from line 23. If zero or less, enter -0- Enter the larger of line 20 or line 25 … 25 26
+2	Tx	Page2[0].f2_16[0]	504,312		27	tional child tax credit. Enter this amount on Form 1040, 1040-SR, or 1040-NR, line 28 Additional Child Tax Credit . . 27

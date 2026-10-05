@@ -1,0 +1,222 @@
+1	Tx	Page1[0].Pg1Header[0].f1_01[0]	232,546			(Form 1116) For calendar year 20
+1	Tx	Page1[0].Pg1Header[0].f1_02[0]	356,546			(Form 1116) For calendar year 20 , or other tax year beginning
+1	Tx	Page1[0].Pg1Header[0].f1_03[0]	448,546			(Form 1116) For calendar year 20 , or other tax year beginning , 20
+1	Tx	Page1[0].Pg1Header[0].f1_04[0]	516,546			(Form 1116) For calendar year 20 , or other tax year beginning , 20 , and ending
+1	Tx	Page1[0].Pg1Header[0].f1_05[0]	606,546			(Form 1116) For calendar year 20 , or other tax year beginning , 20 , and ending , 20
+1	Tx	Page1[0].f1_06[0]	36,486			
+1	Tx	Page1[0].f1_07[0]	648,486			
+1	chk	Page1[0].CheckboxA-B_ReadOrder[0].c1_01[0]	58,452	1	a	a
+1	chk	Page1[0].CheckboxA-B_ReadOrder[0].c1_01[1]	58,440	2	b	b
+1	chk	Page1[0].CheckboxC-D_ReadOrder[0].c1_01[0]	238,452	3	c	a Reserved for future use c
+1	chk	Page1[0].CheckboxC-D_ReadOrder[0].c1_01[1]	238,440	4	d	b Foreign branch category income d
+1	chk	Page1[0].CheckboxE-F_ReadOrder[0].c1_01[0]	389,452	5	e	a Reserved for future use c Passive category income e
+1	chk	Page1[0].CheckboxE-F_ReadOrder[0].c1_01[1]	389,440	6	f	b Foreign branch category income d General category income f
+1	chk	Page1[0].c1_01[0]	583,452	7	g	a Reserved for future use c Passive category income e Section 901(j) income g
+1	Tx	Page1[0].f1_08[0]	655,426			try. See instructions Foreign branch category income d General category income f Certain income re-sourced by treaty … .
+1	Tx	Page1[0].f1_09[0]	655,414			y country. See instructions If box e is checked, enter the country code for the sanctioned country. See instructions … .
+1	Tx	Page1[0].Table_Page1[0].Line1[0].f1_10[0]	202,330			columns of line 8 of the prior year Schedule B (see instructions))
+1	Tx	Page1[0].Table_Page1[0].Line1[0].f1_11[0]	281,330			columns of line 8 of the prior year Schedule B (see instructions))
+1	Tx	Page1[0].Table_Page1[0].Line1[0].f1_12[0]	360,330			columns of line 8 of the prior year Schedule B (see instructions))
+1	Tx	Page1[0].Table_Page1[0].Line1[0].f1_13[0]	439,330			columns of line 8 of the prior year Schedule B (see instructions))
+1	Tx	Page1[0].Table_Page1[0].Line1[0].f1_14[0]	518,330			columns of line 8 of the prior year Schedule B (see instructions))
+1	Tx	Page1[0].Table_Page1[0].Line1[0].f1_15[0]	598,330			columns of line 8 of the prior year Schedule B (see instructions))
+1	Tx	Page1[0].Table_Page1[0].Line1[0].f1_16[0]	677,330			columns of line 8 of the prior year Schedule B (see instructions))
+1	Tx	Page1[0].Table_Page1[0].Line2a[0].f1_17[0]	202,294			a Carryback adjustment (see instructions)
+1	Tx	Page1[0].Table_Page1[0].Line2a[0].f1_18[0]	281,294			a Carryback adjustment (see instructions)
+1	Tx	Page1[0].Table_Page1[0].Line2a[0].f1_19[0]	360,294			a Carryback adjustment (see instructions)
+1	Tx	Page1[0].Table_Page1[0].Line2a[0].f1_20[0]	439,294			a Carryback adjustment (see instructions)
+1	Tx	Page1[0].Table_Page1[0].Line2a[0].f1_21[0]	518,294			a Carryback adjustment (see instructions)
+1	Tx	Page1[0].Table_Page1[0].Line2a[0].f1_22[0]	598,294			a Carryback adjustment (see instructions)
+1	Tx	Page1[0].Table_Page1[0].Line2a[0].f1_23[0]	677,294			a Carryback adjustment (see instructions)
+1	Tx	Page1[0].Table_Page1[0].Line2b[0].f1_24[0]	202,270			b Adjustments for section 905(c) redeterminations (see instructions)
+1	Tx	Page1[0].Table_Page1[0].Line2b[0].f1_25[0]	281,270			b Adjustments for section 905(c) redeterminations (see instructions)
+1	Tx	Page1[0].Table_Page1[0].Line2b[0].f1_26[0]	360,270			b Adjustments for section 905(c) redeterminations (see instructions)
+1	Tx	Page1[0].Table_Page1[0].Line2b[0].f1_27[0]	439,270			b Adjustments for section 905(c) redeterminations (see instructions)
+1	Tx	Page1[0].Table_Page1[0].Line2b[0].f1_28[0]	518,270			b Adjustments for section 905(c) redeterminations (see instructions)
+1	Tx	Page1[0].Table_Page1[0].Line2b[0].f1_29[0]	598,270			b Adjustments for section 905(c) redeterminations (see instructions)
+1	Tx	Page1[0].Table_Page1[0].Line2b[0].f1_30[0]	677,270			b Adjustments for section 905(c) redeterminations (see instructions)
+1	Tx	Page1[0].Table_Page1[0].Line2c[0].f1_31[0]	58,258		c	c
+1	Tx	Page1[0].Table_Page1[0].Line2c[0].f1_32[0]	202,258			c
+1	Tx	Page1[0].Table_Page1[0].Line2c[0].f1_33[0]	281,258			c
+1	Tx	Page1[0].Table_Page1[0].Line2c[0].f1_34[0]	360,258			c
+1	Tx	Page1[0].Table_Page1[0].Line2c[0].f1_35[0]	439,258			c
+1	Tx	Page1[0].Table_Page1[0].Line2c[0].f1_36[0]	518,258			c
+1	Tx	Page1[0].Table_Page1[0].Line2c[0].f1_37[0]	598,258			c
+1	Tx	Page1[0].Table_Page1[0].Line2c[0].f1_38[0]	677,258			c
+1	Tx	Page1[0].Table_Page1[0].Line2d[0].f1_39[0]	58,246		d	d
+1	Tx	Page1[0].Table_Page1[0].Line2d[0].f1_40[0]	202,246			d
+1	Tx	Page1[0].Table_Page1[0].Line2d[0].f1_41[0]	281,246			d
+1	Tx	Page1[0].Table_Page1[0].Line2d[0].f1_42[0]	360,246			d
+1	Tx	Page1[0].Table_Page1[0].Line2d[0].f1_43[0]	439,246			d
+1	Tx	Page1[0].Table_Page1[0].Line2d[0].f1_44[0]	518,246			d
+1	Tx	Page1[0].Table_Page1[0].Line2d[0].f1_45[0]	598,246			d
+1	Tx	Page1[0].Table_Page1[0].Line2d[0].f1_46[0]	677,246			d
+1	Tx	Page1[0].Table_Page1[0].Line2e[0].f1_47[0]	58,234		e	e
+1	Tx	Page1[0].Table_Page1[0].Line2e[0].f1_48[0]	202,234			e
+1	Tx	Page1[0].Table_Page1[0].Line2e[0].f1_49[0]	281,234			e
+1	Tx	Page1[0].Table_Page1[0].Line2e[0].f1_50[0]	360,234			e
+1	Tx	Page1[0].Table_Page1[0].Line2e[0].f1_51[0]	439,234			e
+1	Tx	Page1[0].Table_Page1[0].Line2e[0].f1_52[0]	518,234			e
+1	Tx	Page1[0].Table_Page1[0].Line2e[0].f1_53[0]	598,234			e
+1	Tx	Page1[0].Table_Page1[0].Line2e[0].f1_54[0]	677,234			e
+1	Tx	Page1[0].Table_Page1[0].Line2f[0].f1_55[0]	58,222		f	f
+1	Tx	Page1[0].Table_Page1[0].Line2f[0].f1_56[0]	202,222			f
+1	Tx	Page1[0].Table_Page1[0].Line2f[0].f1_57[0]	281,222			f
+1	Tx	Page1[0].Table_Page1[0].Line2f[0].f1_58[0]	360,222			f
+1	Tx	Page1[0].Table_Page1[0].Line2f[0].f1_59[0]	439,222			f
+1	Tx	Page1[0].Table_Page1[0].Line2f[0].f1_60[0]	518,222			f
+1	Tx	Page1[0].Table_Page1[0].Line2f[0].f1_61[0]	598,222			f
+1	Tx	Page1[0].Table_Page1[0].Line2f[0].f1_62[0]	677,222			f
+1	Tx	Page1[0].Table_Page1[0].Line2g[0].f1_63[0]	58,210		g	g
+1	Tx	Page1[0].Table_Page1[0].Line2g[0].f1_64[0]	202,210			g
+1	Tx	Page1[0].Table_Page1[0].Line2g[0].f1_65[0]	281,210			g
+1	Tx	Page1[0].Table_Page1[0].Line2g[0].f1_66[0]	360,210			g
+1	Tx	Page1[0].Table_Page1[0].Line2g[0].f1_67[0]	439,210			g
+1	Tx	Page1[0].Table_Page1[0].Line2g[0].f1_68[0]	518,210			g
+1	Tx	Page1[0].Table_Page1[0].Line2g[0].f1_69[0]	598,210			g
+1	Tx	Page1[0].Table_Page1[0].Line2g[0].f1_70[0]	677,210			g
+1	Tx	Page1[0].Table_Page1[0].Line3[0].f1_71[0]	202,186			3 Adjusted foreign tax carryover from prior tax year (combine lines 1 and 2)
+1	Tx	Page1[0].Table_Page1[0].Line3[0].f1_72[0]	281,186			3 Adjusted foreign tax carryover from prior tax year (combine lines 1 and 2)
+1	Tx	Page1[0].Table_Page1[0].Line3[0].f1_73[0]	360,186			3 Adjusted foreign tax carryover from prior tax year (combine lines 1 and 2)
+1	Tx	Page1[0].Table_Page1[0].Line3[0].f1_74[0]	439,186			3 Adjusted foreign tax carryover from prior tax year (combine lines 1 and 2)
+1	Tx	Page1[0].Table_Page1[0].Line3[0].f1_75[0]	518,186			3 Adjusted foreign tax carryover from prior tax year (combine lines 1 and 2)
+1	Tx	Page1[0].Table_Page1[0].Line3[0].f1_76[0]	598,186			3 Adjusted foreign tax carryover from prior tax year (combine lines 1 and 2)
+1	Tx	Page1[0].Table_Page1[0].Line3[0].f1_77[0]	677,186			3 Adjusted foreign tax carryover from prior tax year (combine lines 1 and 2)
+1	Tx	Page1[0].Table_Page1[0].Line4[0].f1_78[0]	202,162			4 Foreign tax carryover used in current tax year (enter as a negative number)
+1	Tx	Page1[0].Table_Page1[0].Line4[0].f1_79[0]	281,162			4 Foreign tax carryover used in current tax year (enter as a negative number)
+1	Tx	Page1[0].Table_Page1[0].Line4[0].f1_80[0]	360,162			4 Foreign tax carryover used in current tax year (enter as a negative number)
+1	Tx	Page1[0].Table_Page1[0].Line4[0].f1_81[0]	439,162			4 Foreign tax carryover used in current tax year (enter as a negative number)
+1	Tx	Page1[0].Table_Page1[0].Line4[0].f1_82[0]	518,162			4 Foreign tax carryover used in current tax year (enter as a negative number)
+1	Tx	Page1[0].Table_Page1[0].Line4[0].f1_83[0]	598,162			4 Foreign tax carryover used in current tax year (enter as a negative number)
+1	Tx	Page1[0].Table_Page1[0].Line4[0].f1_84[0]	677,162			4 Foreign tax carryover used in current tax year (enter as a negative number)
+1	Tx	Page1[0].Table_Page1[0].Line5[0].f1_85[0]	202,132			in current tax year (enter as a negative number)
+1	Tx	Page1[0].Table_Page1[0].Line5[0].f1_86[0]	281,132			in current tax year (enter as a negative number)
+1	Tx	Page1[0].Table_Page1[0].Line5[0].f1_87[0]	360,132			in current tax year (enter as a negative number)
+1	Tx	Page1[0].Table_Page1[0].Line5[0].f1_88[0]	439,132			in current tax year (enter as a negative number)
+1	Tx	Page1[0].Table_Page1[0].Line5[0].f1_89[0]	518,132			in current tax year (enter as a negative number)
+1	Tx	Page1[0].Table_Page1[0].Line5[0].f1_90[0]	598,132			in current tax year (enter as a negative number)
+1	Tx	Page1[0].Table_Page1[0].Line5[0].f1_91[0]	677,132			in current tax year (enter as a negative number)
+1	Tx	Page1[0].Table_Page1[0].Line6[0].f1_92[0]	202,108			6 Foreign tax carryover generated in current tax year
+1	Tx	Page1[0].Table_Page1[0].Line6[0].f1_93[0]	281,108			6 Foreign tax carryover generated in current tax year
+1	Tx	Page1[0].Table_Page1[0].Line6[0].f1_94[0]	360,108			6 Foreign tax carryover generated in current tax year
+1	Tx	Page1[0].Table_Page1[0].Line6[0].f1_95[0]	439,108			6 Foreign tax carryover generated in current tax year
+1	Tx	Page1[0].Table_Page1[0].Line6[0].f1_96[0]	518,108			6 Foreign tax carryover generated in current tax year
+1	Tx	Page1[0].Table_Page1[0].Line6[0].f1_97[0]	598,108			6 Foreign tax carryover generated in current tax year
+1	Tx	Page1[0].Table_Page1[0].Line6[0].f1_98[0]	677,108			6 Foreign tax carryover generated in current tax year
+1	Tx	Page1[0].Table_Page1[0].Line7[0].f1_99[0]	202,78			to be carried back to prior tax year (enter as a negative number)
+1	Tx	Page1[0].Table_Page1[0].Line7[0].f1_100[0]	281,78			to be carried back to prior tax year (enter as a negative number)
+1	Tx	Page1[0].Table_Page1[0].Line7[0].f1_101[0]	360,78			to be carried back to prior tax year (enter as a negative number)
+1	Tx	Page1[0].Table_Page1[0].Line7[0].f1_102[0]	439,78			to be carried back to prior tax year (enter as a negative number)
+1	Tx	Page1[0].Table_Page1[0].Line7[0].f1_103[0]	518,78			to be carried back to prior tax year (enter as a negative number)
+1	Tx	Page1[0].Table_Page1[0].Line7[0].f1_104[0]	598,78			to be carried back to prior tax year (enter as a negative number)
+1	Tx	Page1[0].Table_Page1[0].Line7[0].f1_105[0]	677,78			to be carried back to prior tax year (enter as a negative number)
+1	Tx	Page1[0].Table_Page1[0].Line8[0].f1_106[0]	280,54			8 Foreign tax carryover to the following tax year. Combine lines 3 through 7. -0-
+1	Tx	Page1[0].Table_Page1[0].Line8[0].f1_107[0]	281,54			8 Foreign tax carryover to the following tax year. Combine lines 3 through 7. -0-
+1	Tx	Page1[0].Table_Page1[0].Line8[0].f1_108[0]	360,54			8 Foreign tax carryover to the following tax year. Combine lines 3 through 7. -0-
+1	Tx	Page1[0].Table_Page1[0].Line8[0].f1_109[0]	439,54			8 Foreign tax carryover to the following tax year. Combine lines 3 through 7. -0-
+1	Tx	Page1[0].Table_Page1[0].Line8[0].f1_110[0]	518,54			8 Foreign tax carryover to the following tax year. Combine lines 3 through 7. -0-
+1	Tx	Page1[0].Table_Page1[0].Line8[0].f1_111[0]	598,54			8 Foreign tax carryover to the following tax year. Combine lines 3 through 7. -0-
+1	Tx	Page1[0].Table_Page1[0].Line8[0].f1_112[0]	677,54			8 Foreign tax carryover to the following tax year. Combine lines 3 through 7. -0-
+2	Tx	Page2[0].Table_Page2[0].Line1[0].f2_01[0]	202,486			columns of line 8 of the prior year Schedule B (see instructions))
+2	Tx	Page2[0].Table_Page2[0].Line1[0].f2_02[0]	281,486			columns of line 8 of the prior year Schedule B (see instructions))
+2	Tx	Page2[0].Table_Page2[0].Line1[0].f2_03[0]	360,486			columns of line 8 of the prior year Schedule B (see instructions))
+2	Tx	Page2[0].Table_Page2[0].Line1[0].f2_04[0]	439,486			columns of line 8 of the prior year Schedule B (see instructions))
+2	Tx	Page2[0].Table_Page2[0].Line1[0].f2_05[0]	518,486			columns of line 8 of the prior year Schedule B (see instructions))
+2	Tx	Page2[0].Table_Page2[0].Line1[0].f2_06[0]	598,486			columns of line 8 of the prior year Schedule B (see instructions))
+2	Tx	Page2[0].Table_Page2[0].Line1[0].f2_07[0]	677,486			columns of line 8 of the prior year Schedule B (see instructions))
+2	Tx	Page2[0].Table_Page2[0].Line2a[0].f2_08[0]	202,450			a Carryback adjustment (see instructions)
+2	Tx	Page2[0].Table_Page2[0].Line2a[0].f2_09[0]	281,450			a Carryback adjustment (see instructions)
+2	Tx	Page2[0].Table_Page2[0].Line2a[0].f2_10[0]	360,450			a Carryback adjustment (see instructions)
+2	Tx	Page2[0].Table_Page2[0].Line2a[0].f2_11[0]	439,450			a Carryback adjustment (see instructions)
+2	Tx	Page2[0].Table_Page2[0].Line2a[0].f2_12[0]	518,450			a Carryback adjustment (see instructions)
+2	Tx	Page2[0].Table_Page2[0].Line2a[0].f2_13[0]	598,450			a Carryback adjustment (see instructions)
+2	Tx	Page2[0].Table_Page2[0].Line2a[0].f2_14[0]	677,450			a Carryback adjustment (see instructions)
+2	Tx	Page2[0].Table_Page2[0].Line2b[0].f2_15[0]	202,426			b Adjustments for section 905(c) redeterminations (see instructions)
+2	Tx	Page2[0].Table_Page2[0].Line2b[0].f2_16[0]	281,426			b Adjustments for section 905(c) redeterminations (see instructions)
+2	Tx	Page2[0].Table_Page2[0].Line2b[0].f2_17[0]	360,426			b Adjustments for section 905(c) redeterminations (see instructions)
+2	Tx	Page2[0].Table_Page2[0].Line2b[0].f2_18[0]	439,426			b Adjustments for section 905(c) redeterminations (see instructions)
+2	Tx	Page2[0].Table_Page2[0].Line2b[0].f2_19[0]	518,426			b Adjustments for section 905(c) redeterminations (see instructions)
+2	Tx	Page2[0].Table_Page2[0].Line2b[0].f2_20[0]	598,426			b Adjustments for section 905(c) redeterminations (see instructions)
+2	Tx	Page2[0].Table_Page2[0].Line2b[0].f2_21[0]	677,426			b Adjustments for section 905(c) redeterminations (see instructions)
+2	Tx	Page2[0].Table_Page2[0].Line2c[0].f2_22[0]	58,414		c	c
+2	Tx	Page2[0].Table_Page2[0].Line2c[0].f2_23[0]	202,414			c
+2	Tx	Page2[0].Table_Page2[0].Line2c[0].f2_24[0]	281,414			c
+2	Tx	Page2[0].Table_Page2[0].Line2c[0].f2_25[0]	360,414			c
+2	Tx	Page2[0].Table_Page2[0].Line2c[0].f2_26[0]	439,414			c
+2	Tx	Page2[0].Table_Page2[0].Line2c[0].f2_27[0]	518,414			c
+2	Tx	Page2[0].Table_Page2[0].Line2c[0].f2_28[0]	598,414			c
+2	Tx	Page2[0].Table_Page2[0].Line2c[0].f2_29[0]	677,414			c
+2	Tx	Page2[0].Table_Page2[0].Line2d[0].f2_30[0]	58,402		d	d
+2	Tx	Page2[0].Table_Page2[0].Line2d[0].f2_31[0]	202,402			d
+2	Tx	Page2[0].Table_Page2[0].Line2d[0].f2_32[0]	281,402			d
+2	Tx	Page2[0].Table_Page2[0].Line2d[0].f2_33[0]	360,402			d
+2	Tx	Page2[0].Table_Page2[0].Line2d[0].f2_34[0]	439,402			d
+2	Tx	Page2[0].Table_Page2[0].Line2d[0].f2_35[0]	518,402			d
+2	Tx	Page2[0].Table_Page2[0].Line2d[0].f2_36[0]	598,402			d
+2	Tx	Page2[0].Table_Page2[0].Line2d[0].f2_37[0]	677,402			d
+2	Tx	Page2[0].Table_Page2[0].Line2e[0].f2_38[0]	58,390		e	e
+2	Tx	Page2[0].Table_Page2[0].Line2e[0].f2_39[0]	202,390			e
+2	Tx	Page2[0].Table_Page2[0].Line2e[0].f2_40[0]	281,390			e
+2	Tx	Page2[0].Table_Page2[0].Line2e[0].f2_41[0]	360,390			e
+2	Tx	Page2[0].Table_Page2[0].Line2e[0].f2_42[0]	439,390			e
+2	Tx	Page2[0].Table_Page2[0].Line2e[0].f2_43[0]	518,390			e
+2	Tx	Page2[0].Table_Page2[0].Line2e[0].f2_44[0]	598,390			e
+2	Tx	Page2[0].Table_Page2[0].Line2e[0].f2_45[0]	677,390			e
+2	Tx	Page2[0].Table_Page2[0].Line2f[0].f2_46[0]	58,378		f	f
+2	Tx	Page2[0].Table_Page2[0].Line2f[0].f2_47[0]	202,378			f
+2	Tx	Page2[0].Table_Page2[0].Line2f[0].f2_48[0]	281,378			f
+2	Tx	Page2[0].Table_Page2[0].Line2f[0].f2_49[0]	360,378			f
+2	Tx	Page2[0].Table_Page2[0].Line2f[0].f2_50[0]	439,378			f
+2	Tx	Page2[0].Table_Page2[0].Line2f[0].f2_51[0]	518,378			f
+2	Tx	Page2[0].Table_Page2[0].Line2f[0].f2_52[0]	598,378			f
+2	Tx	Page2[0].Table_Page2[0].Line2f[0].f2_53[0]	677,378			f
+2	Tx	Page2[0].Table_Page2[0].Line2g[0].f2_54[0]	58,366		g	g
+2	Tx	Page2[0].Table_Page2[0].Line2g[0].f2_55[0]	202,366			g
+2	Tx	Page2[0].Table_Page2[0].Line2g[0].f2_56[0]	281,366			g
+2	Tx	Page2[0].Table_Page2[0].Line2g[0].f2_57[0]	360,366			g
+2	Tx	Page2[0].Table_Page2[0].Line2g[0].f2_58[0]	439,366			g
+2	Tx	Page2[0].Table_Page2[0].Line2g[0].f2_59[0]	518,366			g
+2	Tx	Page2[0].Table_Page2[0].Line2g[0].f2_60[0]	598,366			g
+2	Tx	Page2[0].Table_Page2[0].Line2g[0].f2_61[0]	677,366			g
+2	Tx	Page2[0].Table_Page2[0].Line3[0].f2_62[0]	202,324			Include the column (xiv) total on the current year Form 1116, Part III, line 10.
+2	Tx	Page2[0].Table_Page2[0].Line3[0].f2_63[0]	281,324			Include the column (xiv) total on the current year Form 1116, Part III, line 10.
+2	Tx	Page2[0].Table_Page2[0].Line3[0].f2_64[0]	360,324			Include the column (xiv) total on the current year Form 1116, Part III, line 10.
+2	Tx	Page2[0].Table_Page2[0].Line3[0].f2_65[0]	439,324			Include the column (xiv) total on the current year Form 1116, Part III, line 10.
+2	Tx	Page2[0].Table_Page2[0].Line3[0].f2_66[0]	518,324			Include the column (xiv) total on the current year Form 1116, Part III, line 10.
+2	Tx	Page2[0].Table_Page2[0].Line3[0].f2_67[0]	598,324			Include the column (xiv) total on the current year Form 1116, Part III, line 10.
+2	Tx	Page2[0].Table_Page2[0].Line3[0].f2_68[0]	677,324			Include the column (xiv) total on the current year Form 1116, Part III, line 10.
+2	Tx	Page2[0].Table_Page2[0].Line4[0].f2_69[0]	202,300			4 Foreign tax carryover used in current tax year (enter as a negative number)
+2	Tx	Page2[0].Table_Page2[0].Line4[0].f2_70[0]	281,300			4 Foreign tax carryover used in current tax year (enter as a negative number)
+2	Tx	Page2[0].Table_Page2[0].Line4[0].f2_71[0]	360,300			4 Foreign tax carryover used in current tax year (enter as a negative number)
+2	Tx	Page2[0].Table_Page2[0].Line4[0].f2_72[0]	439,300			4 Foreign tax carryover used in current tax year (enter as a negative number)
+2	Tx	Page2[0].Table_Page2[0].Line4[0].f2_73[0]	518,300			4 Foreign tax carryover used in current tax year (enter as a negative number)
+2	Tx	Page2[0].Table_Page2[0].Line4[0].f2_74[0]	598,300			4 Foreign tax carryover used in current tax year (enter as a negative number)
+2	Tx	Page2[0].Table_Page2[0].Line4[0].f2_75[0]	677,300			4 Foreign tax carryover used in current tax year (enter as a negative number)
+2	Tx	Page2[0].Table_Page2[0].Line5[0].f2_76[0]	202,270			in current tax year (enter as a negative number)
+2	Tx	Page2[0].Table_Page2[0].Line5[0].f2_77[0]	281,270			in current tax year (enter as a negative number)
+2	Tx	Page2[0].Table_Page2[0].Line5[0].f2_78[0]	360,270			in current tax year (enter as a negative number)
+2	Tx	Page2[0].Table_Page2[0].Line5[0].f2_79[0]	439,270			in current tax year (enter as a negative number)
+2	Tx	Page2[0].Table_Page2[0].Line5[0].f2_80[0]	518,270			in current tax year (enter as a negative number)
+2	Tx	Page2[0].Table_Page2[0].Line5[0].f2_81[0]	598,270			in current tax year (enter as a negative number)
+2	Tx	Page2[0].Table_Page2[0].Line5[0].f2_82[0]	677,270			in current tax year (enter as a negative number)
+2	Tx	Page2[0].Table_Page2[0].Line6[0].f2_83[0]	202,246			6 Foreign tax carryover generated in current tax year
+2	Tx	Page2[0].Table_Page2[0].Line6[0].f2_84[0]	281,246			6 Foreign tax carryover generated in current tax year
+2	Tx	Page2[0].Table_Page2[0].Line6[0].f2_85[0]	360,246			6 Foreign tax carryover generated in current tax year
+2	Tx	Page2[0].Table_Page2[0].Line6[0].f2_86[0]	439,246			6 Foreign tax carryover generated in current tax year
+2	Tx	Page2[0].Table_Page2[0].Line6[0].f2_87[0]	518,246			6 Foreign tax carryover generated in current tax year
+2	Tx	Page2[0].Table_Page2[0].Line6[0].f2_88[0]	598,246			6 Foreign tax carryover generated in current tax year
+2	Tx	Page2[0].Table_Page2[0].Line6[0].f2_89[0]	677,246			6 Foreign tax carryover generated in current tax year
+2	Tx	Page2[0].Table_Page2[0].Line7[0].f2_90[0]	202,216			to be carried back to prior tax year (enter as a negative number)
+2	Tx	Page2[0].Table_Page2[0].Line7[0].f2_91[0]	281,216			to be carried back to prior tax year (enter as a negative number)
+2	Tx	Page2[0].Table_Page2[0].Line7[0].f2_92[0]	360,216			to be carried back to prior tax year (enter as a negative number)
+2	Tx	Page2[0].Table_Page2[0].Line7[0].f2_93[0]	439,216			to be carried back to prior tax year (enter as a negative number)
+2	Tx	Page2[0].Table_Page2[0].Line7[0].f2_94[0]	518,216			to be carried back to prior tax year (enter as a negative number)
+2	Tx	Page2[0].Table_Page2[0].Line7[0].f2_95[0]	598,216			to be carried back to prior tax year (enter as a negative number)
+2	Tx	Page2[0].Table_Page2[0].Line7[0].f2_96[0]	677,216			to be carried back to prior tax year (enter as a negative number)
+2	Tx	Page2[0].Table_Page2[0].Line8[0].f2_97[0]	202,192			8 Foreign tax carryover to the following tax year. Combine lines 3 through 7.
+2	Tx	Page2[0].Table_Page2[0].Line8[0].f2_98[0]	281,192			8 Foreign tax carryover to the following tax year. Combine lines 3 through 7.
+2	Tx	Page2[0].Table_Page2[0].Line8[0].f2_99[0]	360,192			8 Foreign tax carryover to the following tax year. Combine lines 3 through 7.
+2	Tx	Page2[0].Table_Page2[0].Line8[0].f2_100[0]	439,192			8 Foreign tax carryover to the following tax year. Combine lines 3 through 7.
+2	Tx	Page2[0].Table_Page2[0].Line8[0].f2_101[0]	518,192			8 Foreign tax carryover to the following tax year. Combine lines 3 through 7.
+2	Tx	Page2[0].Table_Page2[0].Line8[0].f2_102[0]	598,192			8 Foreign tax carryover to the following tax year. Combine lines 3 through 7.
+2	Tx	Page2[0].Table_Page2[0].Line8[0].f2_103[0]	677,192			8 Foreign tax carryover to the following tax year. Combine lines 3 through 7.

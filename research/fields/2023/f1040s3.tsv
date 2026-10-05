@@ -1,0 +1,38 @@
+1	Tx	Page1[0].f1_01[0]	36,684			
+1	Tx	Page1[0].f1_02[0]	447,684			Name(s) shown on Form 1040, 1040-SR, or 1040-NR
+1	Tx	Page1[0].f1_03[0]	504,648		1	1 Foreign tax credit. Attach Form 1116 if required … 1
+1	Tx	Page1[0].f1_04[0]	504,618		2	Form 2441 … 2
+1	Tx	Page1[0].f1_05[0]	504,600		3	3 Education credits from Form 8863, line 19 … 3
+1	Tx	Page1[0].f1_06[0]	504,582		4	4 Retirement savings contributions credit. Attach Form 8880 … 4
+1	Tx	Page1[0].f1_07[0]	504,564		5a	5 a Residential clean energy credit from Form 5695, line 15 … 5a
+1	Tx	Page1[0].f1_08[0]	504,546		5b	b Energy efficient home improvement credit from Form 5695, line 32 … 5b
+1	Tx	Page1[0].f1_09[0]	410,510		6a	a General business credit. Attach Form 3800 … 6a
+1	Tx	Page1[0].f1_10[0]	410,492		6b	b Credit for prior year minimum tax. Attach Form 8801 … 6b
+1	Tx	Page1[0].f1_11[0]	410,474		6c	c Adoption credit. Attach Form 8839 … 6c
+1	Tx	Page1[0].f1_12[0]	410,456		6d	d Credit for the elderly or disabled. Attach Schedule R … 6d
+1	Tx	Page1[0].f1_13[0]	410,438		6e	e Reserved for future use … 6e
+1	Tx	Page1[0].f1_14[0]	410,420		6f	f Clean vehicle credit. Attach Form 8936 … 6f
+1	Tx	Page1[0].f1_15[0]	410,402		6g	g Mortgage interest credit. Attach Form 8396 … 6g
+1	Tx	Page1[0].f1_16[0]	410,384		6h	h District of Columbia first-time homebuyer credit. Attach Form 8859 6h
+1	Tx	Page1[0].f1_17[0]	410,366		6i	i Qualified electric vehicle credit. Attach Form 8834 … 6i
+1	Tx	Page1[0].f1_18[0]	410,348		6j	j Alternative fuel vehicle refueling property credit. Attach Form 8911 6j
+1	Tx	Page1[0].f1_19[0]	410,330		6k	k Credit to holders of tax credit bonds. Attach Form 8912 … 6k
+1	Tx	Page1[0].f1_20[0]	410,312		6l	l Amount on Form 8978, line 14. See instructions … 6l
+1	Tx	Page1[0].f1_21[0]	410,294		6m	m Credit for previously owned clean vehicles. Attach Form 8936 . 6m
+1	Tx	Page1[0].Line6z_ReadOrder[0].f1_22[0]	320,276			z Other nonrefundable credits. List type and amount:
+1	Tx	Page1[0].Line6z_ReadOrder[0].f1_23[0]	65,258			
+1	Tx	Page1[0].f1_24[0]	410,258		6z	6z
+1	Tx	Page1[0].f1_25[0]	504,240		7	7 Total other nonrefundable credits. Add lines 6a through 6z … 7
+1	Tx	Page1[0].f1_26[0]	504,210		8	1040-NR, line 20 … 8
+2	Tx	Page2[0].f2_01[0]	504,708		9	9 Net premium tax credit. Attach Form 8962 … 9
+2	Tx	Page2[0].f2_02[0]	504,690		10	10 Amount paid with request for extension to file (see instructions) … 10
+2	Tx	Page2[0].f2_03[0]	504,672		11	11 Excess social security and tier 1 RRTA tax withheld … 11
+2	Tx	Page2[0].f2_04[0]	504,654		12	12 Credit for federal tax on fuels. Attach Form 4136 … 12
+2	Tx	Page2[0].Line13_ReadOrder[0].f2_05[0]	410,618		13a	a Form 2439 … 13a
+2	Tx	Page2[0].f2_07[0]	410,558		13c	6, column (i) … 13c
+2	Tx	Page2[0].f2_08[0]	410,588		13b	years … 13b
+2	Tx	Page2[0].f2_10[0]	410,540		13d	d Deferred amount of net 965 tax liability (see instructions) … 13d
+2	Tx	Page2[0].Line13z_ReadOrder[0].f2_14[0]	65,504			
+2	Tx	Page2[0].f2_15[0]	410,504		13z	13z
+2	Tx	Page2[0].f2_16[0]	504,486		14	14 Total other payments or refundable credits. Add lines 13a through 13z … 14
+2	Tx	Page2[0].f2_17[0]	504,456		15	line 31 … 15

@@ -1,0 +1,72 @@
+1	btn	form1[0].#pageSet[0].Page1[0].ClearData_EN[0]	515,991			
+1	Tx	form1[0].Page1[0].Slip1[0].Year[0].Slip1Year[0]	372,973			T5 Statement of Investment Income État des revenus de placement
+1	Tx	form1[0].Page1[0].Slip1[0].Box24[0].Slip1Box24[0]	58,937			
+1	Tx	form1[0].Page1[0].Slip1[0].Box25[0].Slip1Box25[0]	166,937			
+1	Tx	form1[0].Page1[0].Slip1[0].Box26[0].Slip1Box26[0]	267,937			
+1	Tx	form1[0].Page1[0].Slip1[0].Box13[0].Slip1Box13[0]	369,937			dividends
+1	Tx	form1[0].Page1[0].Slip1[0].Box18[0].Slip1Box18[0]	471,937			dividends
+1	Tx	form1[0].Page1[0].Slip1[0].Box10[0].Slip1Box10[0]	58,901			
+1	Tx	form1[0].Page1[0].Slip1[0].Box11[0].Slip1Box11[0]	166,901			other than eligible dividends
+1	Tx	form1[0].Page1[0].Slip1[0].Box12[0].Slip1Box12[0]	267,901			other than eligible dividends other than eligible dividends
+1	Tx	form1[0].Page1[0].Slip1[0].Box21[0].Slip1Box21[0]	381,901			other than eligible dividends other than eligible dividends other than eligible dividends
+1	Tx	form1[0].Page1[0].Slip1[0].Box22[0].Slip1Box22[0]	420,900			other than eligible dividends other than eligible dividends other than eligible dividends
+1	Tx	form1[0].Page1[0].Slip1[0].Box23[0].Slip1Box23[0]	534,901			other than eligible dividends other than eligible dividends other than eligible dividends
+1	Tx	form1[0].Page1[0].Slip1[0].OtherInformation[0].Box1[0].Slip1Box1[0]	153,867			Autres renseignements (see the back)
+1	Tx	form1[0].Page1[0].Slip1[0].OtherInformation[0].Amount1[0].Slip1Amount1[0]	189,867			Autres renseignements (see the back)
+1	Tx	form1[0].Page1[0].Slip1[0].OtherInformation[0].Box2[0].Slip1Box2[0]	297,867			Autres renseignements (see the back)
+1	Tx	form1[0].Page1[0].Slip1[0].OtherInformation[0].Amount2[0].Slip1Amount3[0]	333,867			Autres renseignements (see the back)
+1	Tx	form1[0].Page1[0].Slip1[0].OtherInformation[0].Box3[0].Slip1Box3[0]	441,867			Autres renseignements (see the back)
+1	Tx	form1[0].Page1[0].Slip1[0].OtherInformation[0].Amount3[0].Slip1Amount2[0]	477,867			Autres renseignements (see the back)
+1	Tx	form1[0].Page1[0].Slip1[0].RecipientsName[0].Slip1RecipientNameAdd[0]	55,768			
+1	Tx	form1[0].Page1[0].Slip1[0].PayersName[0].Slip1PayersName[0]	318,769			
+1	Tx	form1[0].Page1[0].Slip1[0].Box27[0].Slip1Box27[0]	185,751		27	Currency and identification codes Codes de devise et d'identification ◄ 27
+1	Tx	form1[0].Page1[0].Slip1[0].Box28[0].Slip1Box28[0]	243,751		28	Currency and identification codes Codes de devise et d'identification ◄ 27 28
+1	Tx	form1[0].Page1[0].Slip1[0].Box29[0].Slip1Box29[0]	336,751		29	Currency and identification codes Codes de devise et d'identification ◄ 27 28 29
+1	Tx	form1[0].Page1[0].Slip2[0].Year[0].Slip1Year[0]	372,689			T5 Statement of Investment Income État des revenus de placement
+1	Tx	form1[0].Page1[0].Slip2[0].Box24[0].Slip1Box24[0]	58,654			
+1	Tx	form1[0].Page1[0].Slip2[0].Box25[0].Slip1Box25[0]	166,654			
+1	Tx	form1[0].Page1[0].Slip2[0].Box26[0].Slip1Box26[0]	267,654			
+1	Tx	form1[0].Page1[0].Slip2[0].Box13[0].Slip1Box13[0]	369,654			dividends
+1	Tx	form1[0].Page1[0].Slip2[0].Box18[0].Slip1Box18[0]	471,654			dividends
+1	Tx	form1[0].Page1[0].Slip2[0].Box10[0].Slip1Box10[0]	58,618			
+1	Tx	form1[0].Page1[0].Slip2[0].Box11[0].Slip1Box11[0]	166,618			other than eligible dividends
+1	Tx	form1[0].Page1[0].Slip2[0].Box12[0].Slip1Box12[0]	267,618			other than eligible dividends other than eligible dividends
+1	Tx	form1[0].Page1[0].Slip2[0].Box21[0].Slip1Box21[0]	381,618			other than eligible dividends other than eligible dividends other than eligible dividends
+1	Tx	form1[0].Page1[0].Slip2[0].Box22[0].Slip1Box22[0]	421,617			
+1	Tx	form1[0].Page1[0].Slip2[0].Box23[0].Slip1Box23[0]	534,618			other than eligible dividends other than eligible dividends other than eligible dividends
+1	Tx	form1[0].Page1[0].Slip2[0].OtherInformation[0].Box1[0].Slip1Box1[0]	153,584			Autres renseignements (see the back)
+1	Tx	form1[0].Page1[0].Slip2[0].OtherInformation[0].Amount1[0].Slip1Amount1[0]	189,584			Autres renseignements (see the back)
+1	Tx	form1[0].Page1[0].Slip2[0].OtherInformation[0].Box2[0].Slip1Box2[0]	297,584			Autres renseignements (see the back)
+1	Tx	form1[0].Page1[0].Slip2[0].OtherInformation[0].Amount2[0].Slip1Amount2[0]	477,584			Autres renseignements (see the back)
+1	Tx	form1[0].Page1[0].Slip2[0].OtherInformation[0].Box3[0].Slip1Box3[0]	441,584			Autres renseignements (see the back)
+1	Tx	form1[0].Page1[0].Slip2[0].OtherInformation[0].Amount3[0].Slip1Amount3[0]	333,584			Autres renseignements (see the back)
+1	Tx	form1[0].Page1[0].Slip2[0].RecipientsName[0].Slip1RecipientNameAdd[0]	55,484			
+1	Tx	form1[0].Page1[0].Slip2[0].PayersName[0].Slip1PayersName[0]	318,484			
+1	Tx	form1[0].Page1[0].Slip2[0].Box27[0].Slip1Box27[0]	185,468		27	Currency and identification codes Codes de devise et d'identification ◄ 27
+1	Tx	form1[0].Page1[0].Slip2[0].Box28[0].Slip1Box28[0]	243,468		28	Currency and identification codes Codes de devise et d'identification ◄ 27 28
+1	Tx	form1[0].Page1[0].Slip2[0].Box29[0].Slip1Box29[0]	336,468		29	Currency and identification codes Codes de devise et d'identification ◄ 27 28 29
+1	Tx	form1[0].Page1[0].Slip3[0].Year[0].Slip1Year[0]	372,401			T5 Statement of Investment Income État des revenus de placement
+1	Tx	form1[0].Page1[0].Slip3[0].Box24[0].Slip1Box24[0]	58,366			
+1	Tx	form1[0].Page1[0].Slip3[0].Box25[0].Slip1Box25[0]	166,366			
+1	Tx	form1[0].Page1[0].Slip3[0].Box26[0].Slip1Box26[0]	267,366			
+1	Tx	form1[0].Page1[0].Slip3[0].Box13[0].Slip1Box13[0]	369,366			dividends
+1	Tx	form1[0].Page1[0].Slip3[0].Box18[0].Slip1Box18[0]	471,366			dividends
+1	Tx	form1[0].Page1[0].Slip3[0].Box10[0].Slip1Box10[0]	58,330			
+1	Tx	form1[0].Page1[0].Slip3[0].Box11[0].Slip1Box11[0]	166,330			other than eligible dividends
+1	Tx	form1[0].Page1[0].Slip3[0].Box12[0].Slip1Box12[0]	267,330			other than eligible dividends other than eligible dividends
+1	Tx	form1[0].Page1[0].Slip3[0].Box21[0].Slip1Box21[0]	381,330			other than eligible dividends other than eligible dividends other than eligible dividends
+1	Tx	form1[0].Page1[0].Slip3[0].Box22[0].Slip1Box22[0]	421,329			
+1	Tx	form1[0].Page1[0].Slip3[0].Box23[0].Slip1Box23[0]	534,330			other than eligible dividends other than eligible dividends other than eligible dividends
+1	Tx	form1[0].Page1[0].Slip3[0].OtherInformation[0].Box1[0].Slip1Box1[0]	153,296			Autres renseignements (see the back)
+1	Tx	form1[0].Page1[0].Slip3[0].OtherInformation[0].Amount1[0].Slip1Amount1[0]	189,296			Autres renseignements (see the back)
+1	Tx	form1[0].Page1[0].Slip3[0].OtherInformation[0].Box2[0].Slip1Box2[0]	297,296			Autres renseignements (see the back)
+1	Tx	form1[0].Page1[0].Slip3[0].OtherInformation[0].Amount2[0].Slip1Amount2[0]	477,296			Autres renseignements (see the back)
+1	Tx	form1[0].Page1[0].Slip3[0].OtherInformation[0].Box3[0].Slip1Box3[0]	441,296			Autres renseignements (see the back)
+1	Tx	form1[0].Page1[0].Slip3[0].OtherInformation[0].Amount3[0].Slip1Amount3[0]	333,296			Autres renseignements (see the back)
+1	Tx	form1[0].Page1[0].Slip3[0].RecipientsName[0].Slip1RecipientNameAdd[0]	55,196			
+1	Tx	form1[0].Page1[0].Slip3[0].PayersName[0].Slip1PayersName[0]	318,196			
+1	Tx	form1[0].Page1[0].Slip3[0].Box27[0].Slip1Box27[0]	185,180		27	Currency and identification codes Codes de devise et d'identification ◄ 27
+1	Tx	form1[0].Page1[0].Slip3[0].Box28[0].Slip1Box28[0]	243,180		28	Currency and identification codes Codes de devise et d'identification ◄ 27 28
+1	Tx	form1[0].Page1[0].Slip3[0].Box29[0].Slip1Box29[0]	336,180		29	Currency and identification codes Codes de devise et d'identification ◄ 27 28 29
+2	btn	form1[0].#pageSet[0].Page2[0].ClearData_EN[0]	821,595			
+2	btn	form1[0].#pageSet[0].Page2[0].Guide_EN[0]	911,595			

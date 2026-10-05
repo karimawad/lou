@@ -1,0 +1,72 @@
+1	Tx	Page1[0].f1_01[0]	36,684			
+1	Tx	Page1[0].f1_02[0]	468,684			Name(s) shown on return
+1	Tx	Page1[0].Line1_ReadOrder[0].f1_03[0]	130,636			(See instructions interest first. Also, show that buyer’s social security number and address:
+1	Tx	Page1[0].f1_04[0]	490,636			(See instructions interest first. Also, show that buyer’s social security number and address:
+1	Tx	Page1[0].f1_05[0]	130,624			and the Instructions for
+1	Tx	Page1[0].f1_06[0]	490,624			and the Instructions for
+1	Tx	Page1[0].f1_07[0]	130,612			Instructions for Form 1040,
+1	Tx	Page1[0].f1_08[0]	490,612			Instructions for Form 1040,
+1	Tx	Page1[0].f1_09[0]	130,600			Form 1040, line 2b.)
+1	Tx	Page1[0].f1_10[0]	490,600			Form 1040, line 2b.)
+1	Tx	Page1[0].f1_11[0]	130,588			Note: If you
+1	Tx	Page1[0].f1_12[0]	490,588			Note: If you
+1	Tx	Page1[0].f1_13[0]	130,576			received a Form 1099-INT,
+1	Tx	Page1[0].f1_14[0]	490,576			received a Form 1099-INT, 1
+1	Tx	Page1[0].f1_15[0]	130,564			Form Form 1099-INT, 1099-OID,
+1	Tx	Page1[0].f1_16[0]	490,564		1	Form Form 1099-INT, 1099-OID, 1
+1	Tx	Page1[0].f1_17[0]	130,552			Form or substitute 1099-OID,
+1	Tx	Page1[0].f1_18[0]	490,552			Form or substitute 1099-OID,
+1	Tx	Page1[0].f1_19[0]	130,540			statement from a brokerage firm,
+1	Tx	Page1[0].f1_20[0]	490,540			statement from a brokerage firm,
+1	Tx	Page1[0].f1_21[0]	130,528			a brokerage firm, list the firm’s
+1	Tx	Page1[0].f1_22[0]	490,528			a brokerage firm, list the firm’s
+1	Tx	Page1[0].f1_23[0]	130,516			list the firm’s name as the
+1	Tx	Page1[0].f1_24[0]	490,516			list the firm’s name as the
+1	Tx	Page1[0].f1_25[0]	130,504			payer and enter the total interest
+1	Tx	Page1[0].f1_26[0]	490,504			payer and enter the total interest
+1	Tx	Page1[0].f1_27[0]	130,492			the total interest shown on that
+1	Tx	Page1[0].f1_28[0]	490,492			the total interest shown on that
+1	Tx	Page1[0].f1_29[0]	130,480			form.
+1	Tx	Page1[0].f1_30[0]	490,480			form.
+1	Tx	Page1[0].f1_31[0]	490,468		2	2 Add the amounts on line 1 … 2
+1	Tx	Page1[0].f1_32[0]	490,444		3	3 Attach Form 8815 . Excludable interest on series EE and I U.S. savings bonds issued after 1989… 3
+1	Tx	Page1[0].f1_33[0]	490,432		4	4 Attach Form 8815 . Subtract line 3 from line 2. Enter the result here and on Form 1040 or 1040-SR, line 2b … 3 4
+1	Tx	Page1[0].ReadOrderControl[0].f1_34[0]	202,408			Part II 5 List name of payer:
+1	Tx	Page1[0].f1_35[0]	490,408			Part II 5 List name of payer:
+1	Tx	Page1[0].f1_36[0]	130,396			Part II 5
+1	Tx	Page1[0].f1_37[0]	490,396			Part II 5 List name of payer:
+1	Tx	Page1[0].f1_38[0]	130,384			Ordinary
+1	Tx	Page1[0].f1_39[0]	490,384			Ordinary
+1	Tx	Page1[0].f1_40[0]	130,372			Dividends
+1	Tx	Page1[0].f1_41[0]	490,372			Dividends
+1	Tx	Page1[0].f1_42[0]	130,360			(See instructions
+1	Tx	Page1[0].f1_43[0]	490,360			(See instructions
+1	Tx	Page1[0].f1_44[0]	130,348			and the Instructions for
+1	Tx	Page1[0].f1_45[0]	490,348			and the Instructions for
+1	Tx	Page1[0].f1_46[0]	130,336			Instructions for Form 1040,
+1	Tx	Page1[0].f1_47[0]	490,336			Instructions for Form 1040,
+1	Tx	Page1[0].f1_48[0]	130,324			Form 1040, line 3b.)
+1	Tx	Page1[0].f1_49[0]	490,324		5	Form 1040, line 3b.) 5
+1	Tx	Page1[0].f1_50[0]	130,312			Note: If you
+1	Tx	Page1[0].f1_51[0]	490,312			Note: If you
+1	Tx	Page1[0].f1_52[0]	130,300			received a Form 1099-DIV
+1	Tx	Page1[0].f1_53[0]	490,300			received a Form 1099-DIV
+1	Tx	Page1[0].f1_54[0]	130,288			Form 1099-DIV or substitute
+1	Tx	Page1[0].f1_55[0]	490,288			Form 1099-DIV or substitute
+1	Tx	Page1[0].f1_56[0]	130,276			or substitute statement from
+1	Tx	Page1[0].f1_57[0]	490,276			or substitute statement from
+1	Tx	Page1[0].f1_58[0]	130,264			a brokerage firm, list the firm’s
+1	Tx	Page1[0].f1_59[0]	490,264			a brokerage firm, list the firm’s
+1	Tx	Page1[0].f1_60[0]	130,252			list the firm’s name as the
+1	Tx	Page1[0].f1_61[0]	490,252			list the firm’s name as the
+1	Tx	Page1[0].f1_62[0]	130,240			name as the payer and enter
+1	Tx	Page1[0].f1_63[0]	490,240			name as the payer and enter
+1	Tx	Page1[0].f1_64[0]	490,228		6	the ordinary dividends shown 6 Add the amounts on line 5. Enter the total here and on Form 1040 or 1040-SR, line 3b 6
+1	chk	Page1[0].c1_1[0]	539,133	1		ry? See instructions account (such as a bank account, securities account, or brokerage account) located in a foreign … .
+1	chk	Page1[0].c1_1[1]	561,133	2		ry? See instructions account (such as a bank account, securities account, or brokerage account) located in a foreign … .
+1	chk	Page1[0].c1_2[0]	539,97	1		penalties. and its instructions for filing requirements and exceptions to those requirements … .
+1	chk	Page1[0].c1_2[1]	561,97	2		penalties. and its instructions for filing requirements and exceptions to those requirements … .
+1	Tx	Page1[0].f1_65[0]	274,72			) is (are) located: If you are required to file FinCEN Form 114, list the name(s) of the foreign country(-ies) where the
+1	Tx	Page1[0].f1_66[0]	130,60			Statement of Specified Foreign financial account(s) is (are) located:
+1	chk	Page1[0].c1_3[0]	539,37	1		re you the grantor of, or transferor to, a foreign trust? If “Yes,” you may have to file Form 3520. See instructions … .
+1	chk	Page1[0].c1_3[1]	561,37	2		re you the grantor of, or transferor to, a foreign trust? If “Yes,” you may have to file Form 3520. See instructions … .

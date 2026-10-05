@@ -1,0 +1,27 @@
+name: A number or rule looks wrong
+description: Lou's result does not match an official form, table or instruction.
+labels: [tax-accuracy]
+body:
+  - type: markdown
+    attributes:
+      value: Please use made-up numbers. Never paste a real SSN, SIN, account number or document.
+  - type: input
+    attributes:
+      label: Tax year
+      placeholder: "2025"
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Form and line
+      placeholder: "Form 1116, line 20"
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: What Lou shows, and what you expected
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Official source (form, instructions, publication, page)

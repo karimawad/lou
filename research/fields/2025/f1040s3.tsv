@@ -1,0 +1,37 @@
+1	Tx	Page1[0].f1_01[0]	36,684			
+1	Tx	Page1[0].f1_02[0]	447,684			Name(s) shown on Form 1040, 1040-SR, or 1040-NR
+1	Tx	Page1[0].f1_03[0]	504,660		1	Part I 1 Foreign tax credit. Attach Form 1116 if required Nonrefundable Credits … 1
+1	Tx	Page1[0].f1_04[0]	504,648		2	ttach Form 1116 if required Credit for child and dependent care expenses from Form 2441, line 11. Attach Form 2441 … 1 2
+1	Tx	Page1[0].f1_05[0]	504,636		3	ld and dependent care expenses from Form 2441, line 11. Attach Form 2441 Education credits from Form 8863, line 19 … 2 3
+1	Tx	Page1[0].f1_06[0]	504,624		4	3 4 Education credits from Form 8863, line 19 Retirement savings contributions credit. Attach Form 8880 … 3 4
+1	Tx	Page1[0].f1_07[0]	504,612		5a	Retirement savings contributions credit. Attach Form 8880 Residential clean energy credit from Form 5695, line 15 … 5a 4
+1	Tx	Page1[0].f1_08[0]	504,600		5b	ial clean energy credit from Form 5695, line 15 Energy efficient home improvement credit from Form 5695, line 32 … 5b 5a
+1	Tx	Page1[0].Line6a_ReadOrder[0].f1_09[0]	410,576		6a	6 a Other nonrefundable credits: General business credit. Attach Form 3800 … 6a
+1	Tx	Page1[0].f1_10[0]	410,564		6b	a b General business credit. Attach Form 3800 . Credit for prior year minimum tax. Attach Form 8801 … 6b 6a
+1	Tx	Page1[0].f1_11[0]	410,552		6c	b c Credit for prior year minimum tax. Attach Form 8801 Adoption credit. Attach Form 8839 … 6b 6c
+1	Tx	Page1[0].f1_12[0]	410,540		6d	c d Adoption credit. Attach Form 8839 Credit for the elderly or disabled. Attach Schedule R … 6d 6c
+1	Tx	Page1[0].f1_13[0]	410,528		6e	d e Credit for the elderly or disabled. Attach Schedule R Reserved for future use … 6d 6e
+1	Tx	Page1[0].f1_14[0]	410,516		6f	e f Reserved for future use Clean vehicle credit. Attach Form 8936 … 6e 6f
+1	Tx	Page1[0].f1_15[0]	410,504		6g	f g Clean vehicle credit. Attach Form 8936 Mortgage interest credit. Attach Form 8396 … 6g 6f
+1	Tx	Page1[0].f1_16[0]	410,492		6h	 h Mortgage interest credit. Attach Form 8396 District of Columbia first-time homebuyer credit. Attach Form 8859 … 6g 6h
+1	Tx	Page1[0].f1_17[0]	410,480		6i	 of Columbia first-time homebuyer credit. Attach Form 8859 . Qualified electric vehicle credit. Attach Form 8834 … 6h 6i
+1	Tx	Page1[0].f1_18[0]	410,468		6j	d electric vehicle credit. Attach Form 8834 Alternative fuel vehicle refueling property credit. Attach Form 8911 … 6j 6i
+1	Tx	Page1[0].f1_19[0]	410,456		6k	el vehicle refueling property credit. Attach Form 8911 . Credit to holders of tax credit bonds. Attach Form 8912 … 6k 6j
+1	Tx	Page1[0].f1_20[0]	410,444		6l	k l Credit to holders of tax credit bonds. Attach Form 8912 Amount on Form 8978, line 14. See instructions … 6k 6l
+1	Tx	Page1[0].f1_21[0]	410,432		6m	l m Amount on Form 8978, line 14. See instructions Credit for previously owned clean vehicles. Attach Form 8936 … 6m 6l
+1	Tx	Page1[0].Line6z_ReadOrder[0].f2_22[0]	65,396			z
+1	Tx	Page1[0].f1_23[0]	410,396		6z	6z
+1	Tx	Page1[0].f1_24[0]	504,384		7	7 Total other nonrefundable credits. Add lines 6a through 6z … 6z … 7
+1	Tx	Page1[0].f1_25[0]	504,372		8	ines 6a through 6z Add lines 1 through 4, 5a, 5b, and 7. Enter here and on Form 1040, 1040-SR, or 1040-NR, line 20 … 7 8
+1	Tx	Page1[0].f1_26[0]	504,348		9	Part II 9 Net premium tax credit. Attach Form 8962 Other Payments and Refundable Credits … 9
+1	Tx	Page1[0].f1_27[0]	504,336		10	10 9 Net premium tax credit. Attach Form 8962 Amount paid with request for extension to file (see instructions) … 10 9
+1	Tx	Page1[0].f1_28[0]	504,324		11	t paid with request for extension to file (see instructions) Excess social security and tier 1 RRTA tax withheld … 10 11
+1	Tx	Page1[0].f1_29[0]	504,312		12	11 12 Excess social security and tier 1 RRTA tax withheld . Credit for federal tax on fuels. Attach Form 4136 … 11 12
+1	Tx	Page1[0].Line13_ReadOrder[0].f1_30[0]	410,288		13a	13 a Other payments or refundable credits: Form 2439 … 13a
+1	Tx	Page1[0].f1_31[0]	410,264		13b	b years Section 1341 credit for repayment of amounts included in income from earlier … 13b
+1	Tx	Page1[0].f1_32[0]	410,252		13c	c Net elective payment election amount from Form 3800, Part III, line 6, column (j) 13b 13c
+1	Tx	Page1[0].f1_33[0]	410,240		13d	mount from Form 3800, Part III, line 6, column (j) Deferred amount of net 965 tax liability (see instructions) … 13d 13c
+1	Tx	Page1[0].Line13z_ReadOrder[0].f1_34[0]	65,204			z
+1	Tx	Page1[0].f1_35[0]	410,204		13z	13z
+1	Tx	Page1[0].f1_36[0]	504,192		14	14 Total other payments or refundable credits. Add lines 13a through 13z … 13z … 14
+1	Tx	Page1[0].f1_37[0]	504,180		15	d lines 13a through 13z Add lines 9 through 12 and 14. Enter here and on Form 1040, 1040-SR, or 1040-NR, line 31 … 14 15

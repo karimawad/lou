@@ -1,0 +1,242 @@
+
+
+=== PAGE 1 ===
+Part III - Administrative, Procedural, and Miscellaneous
+Determination of Housing Cost Amounts Eligible for Exclusion or Deduction for 2025
+Notice 2025-16
+SECTION 1. PURPOSE
+This notice provides adjustments to the limitation on housing expenses for
+purposes of section 911 of the Internal Revenue Code for specific locations for 2025.
+These adjustments are based on geographic differences in housing costs relative to
+housing costs in the United States.
+SECTION 2. BACKGROUND
+Section 911 allows a qualified individual to elect to exclude from gross income
+the foreign earned income and to exclude or deduct the housing cost amount of such
+individual.
+The term “housing cost amount” is generally the total of the housing expenses for
+the taxable year minus a base housing amount. See § 911(c)(1). For this purpose, the
+base housing amount for the taxable year is limited to an amount that is tied to the
+maximum foreign earned income exclusion amount of the qualified individual, which is
+
+=== PAGE 2 ===
+$130,000 for 2025. See § 911(c)(1)(B). Specifically, the base housing amount is 16
+percent of the maximum foreign earned income exclusion amount (computed on a daily
+basis), multiplied by the number of days in the applicable period that fall within the
+taxable year. Assuming that the entire taxable year of a qualified individual is within the
+applicable period, the base housing amount for 2025 is $20,800 ($130,000 x .16).
+Similarly, the housing expense amount is also limited, based on a percentage of
+the maximum foreign earned income exclusion amount. Specifically, the limit on such
+housing expenses generally equals 30 percent of the maximum foreign earned income
+exclusion amount (computed on a daily basis), multiplied by the number of days in the
+applicable period for which the taxpayer is a qualified individual. See § 911(c)(2)(A) and
+(d)(1). Thus, under this general limitation, a qualified individual whose entire taxable
+year is within the applicable period is limited to maximum housing expenses of $39,000
+($130,000 x .30) for 2025. However, section 911(c)(2)(B) authorizes the Secretary to
+issue regulations or other guidance to adjust the percentage under section
+911(c)(2)(A)(i) (which determines the limit on housing expenses) based on geographic
+differences in housing costs relative to housing costs in the United States. Pursuant to
+this authority, the Department of the Treasury (Treasury Department) and the Internal
+Revenue Service (IRS) have published annual notices concerning the limitation on the
+section 911 housing cost amounts since the 2006 taxable year.
+For more background on the foreign housing exclusion, see
+https://www.irs.gov/individuals/international-taxpayers/foreign-housing-exclusion-or-
+deduction .
+
+=== PAGE 3 ===
+SECTION 3. TABLE OF ADJUSTED HOUSING LIMITATIONS FOR 2025
+The following table provides adjusted limitations on housing expenses (in lieu of
+the otherwise applicable limitation of $39,000) for 2025. All amounts are in U.S. dollars.
+Country  Location
+Limitation on Housing
+Expenses (full year)
+Limitation on Housing
+Expenses (daily/365 days)
+Angola  Luanda  84,000  230.14
+Argentina  Buenos  Aires  56,500  154.79
+Aruba  Oranjestad  46,200  126.58
+Aruba  Other  46,200  126.58
+Australia  Sydney  62,300  170.68
+Australia  Wollongong  43,700  119.73
+Bahamas,  The  Nassau  49,700  136.16
+Bahrain  Bahrain  48,300  132.33
+Bermuda  Bermuda  90,000  246.58
+Brazil  Sao  Paulo  56,600  155.07
+Canada  Calgary  43,400  118.90
+Canada  Montreal  50,100  137.26
+Canada  Ottawa  46,800  128.22
+Canada  Toronto  57,400  157.26
+Canada  Vancouver  56,600  155.07
+Canada  Victoria  39,200  107.40
+Cayman  Islands  Grand  Cayman  48,000  131.51
+China  Beijing  66,600  182.47
+China  Hong  Kong  114,300  313.15
+China  Shanghai  57,001  156.17
+Colombia  Bogota  58,700  160.82
+Colombia  All  cities  other  than
+Bogota  
+49,400  135.34
+Democratic Republic
+of the Congo
+Kinshasa  42,000  115.07
+Denmark  Copenhagen  43,704  119.74
+Dominican Republic  Santo Domingo  45,500  124.66
+Estonia  Tallinn  46,600  127.67
+France  Garches  65,700  180.00
+France  Paris  65,700  180.00
+
+=== PAGE 4 ===
+France  Sevres  65,700  180.00
+France  Suresnes  65,700  180.00
+France  Versailles  65,700  180.00
+Germany  Berlin  39,300  107.67
+Germany  Boeblingen  41,200  112.88
+Germany  Bonn  42,000  115.07
+Germany  Cologne  56,200  153.97
+Germany  Gelnhausen  40,600  111.23
+Germany  Hanau  40,600  111.23
+Germany  Ingolstadt  46,000  126.03
+Germany  Kaiserslautern,  Landkreis  39,500  108.22
+Germany  Ludwigsburg  41,200  112.88
+Germany  Mainz  44,000  120.55
+Germany  Munich  46,000  126.03
+Germany  Nellingen  41,200  112.88
+Germany  Pirmasens  39,500  108.22
+Germany  Sembach  39,500  108.22
+Germany  Stuttgart  41,200  112.88
+Germany  Wahn  42,000  115.07
+Germany  Wiesbaden  44,000  120.55
+Germany  Zweibrucken  39,500  108.22
+Guatemala  Guatemala  City  42,000  115.07
+Guinea  Conakry  51,300  140.55
+Holy  See,  The  Holy  See,  The  43,700  119.73
+India  Mumbai  67,920  186.08
+India  New  Delhi  56,124  153.76
+Israel  Beer  Sheva  55,300  151.51
+Israel  Jerusalem  49,000  134.25
+Israel  Tel  Aviv  50,800  139.18
+Israel  West  Bank  49,000  134.25
+Italy  Genoa  41,800  114.52
+Italy  La  Spezia  40,400  110.68
+Italy  Milan  65,300  178.90
+Italy  Naples  44,900  123.01
+Italy  Rome  43,700  119.73
+Jamaica  Kingston  41,200  112.88
+
+=== PAGE 5 ===
+Japan  Gifu  74,300  203.56
+Japan  Komaki  74,300  203.56
+
+=== PAGE 6 ===
+Japan  Nagoya  74,300  203.56
+Japan  Okinawa  Prefecture  41,600  113.97
+Japan  Osaka - Kobe  90,664  248.39
+Japan  Tokyo  67,700  185.48
+Kazakhstan  Almaty  48,000  131.51
+Korea  Camp  Colbern  54,200  148.49
+Korea  Camp  Mercer  54,200  148.49
+Korea  K - 16  44,500  121.92
+Korea  Kimpo  Airfield  44,500  121.92
+Korea  Seoul  44,500  121.92
+Korea  Suwon  44,500  121.92
+Kuwait  Kuwait  City  64,400  176.44
+Kuwait  All  cities  other  than
+Kuwait City  
+57,700  158.08
+Luxembourg  Luxembourg  51,700  141.64
+Malaysia  Kuala Lumpur  46,200  126.58
+Malta  Malta  55,100  150.96
+Mexico  Mexico City  47,900  131.23
+Mexico  All cities other than
+Ciudad Juarez,
+Cuernavaca,
+Guadalajara, Hermosillo,
+Matamoros, Mazatlan,
+Merida, Mexico City,
+Monterrey, Nogales,
+Nuevo Laredo, Tijuana,
+and Veracruz
+39,400  107.95
+Mozambique  Maputo  39,500  108.22
+Netherlands  Amsterdam  52,900  144.93
+Netherlands  Hague, The  52,100  142.74
+Netherlands  Schiphol  52,900  144.93
+Netherlands Antilles  Curacao  45,800  125.48
+Oman  Muscat  41,300  113.15
+Panama  Panama City  39,500  108.22
+Peru  Lima  39,100  107.12
+Poland  Warsaw  55,000  150.68
+Portugal  Alverca  40,000  109.59
+Portugal  Lisbon  40,000  109.59
+Qatar  Doha  45,888  125.72
+Romania  Bucharest  41,200  112.88
+
+=== PAGE 7 ===
+Russia  Moscow  108,000  295.89
+Russia  Saint  Petersburg  60,000  164.38
+Saudi  Arabia  Riyadh  40,000  109.59
+Singapore  Singapore  82,900  227.12
+Slovenia  Ljubljana  45,900  125.75
+South  Africa  Pretoria  39,300  107.67
+Spain  Barcelona  40,600  111.23
+Spain  Madrid  53,300  146.03
+Switzerland  Bern  72,100  197.53
+Switzerland  Geneva  102,600  281.10
+Switzerland  Zurich  39,219  107.45
+Taiwan  Taipei  46,188  126.54
+Tanzania  Dar  Es  Salaam  44,000  120.55
+Thailand  Bangkok  59,000  161.64
+Trinidad and Tobago  Port of Spain  54,500  149.32
+Ukraine  Kiev  72,000  197.26
+United Arab Emirates  Abu Dhabi  49,687  136.13
+United Arab Emirates  Dubai  57,174  156.64
+United Kingdom  Basingstoke  41,099  112.60
+United Kingdom  Bath  41,000  112.33
+United Kingdom  Bracknell  62,100  170.14
+United Kingdom  Caversham  73,800  202.19
+United Kingdom  Cheltenham  47,300  129.59
+United Kingdom  Croughton  43,100  118.08
+United Kingdom  Farnborough  54,700  149.86
+United Kingdom  Gibraltar  44,616  122.24
+United Kingdom  Harrogate  42,300  115.89
+United Kingdom  High Wycombe  62,100  170.14
+United Kingdom  Lakenheath  43,300  118.63
+United Kingdom  London  67,000  183.56
+United Kingdom  Loudwater  54,300  148.77
+United Kingdom  Menwith Hill  42,300  115.89
+United Kingdom  Mildenhall  43,300  118.63
+United Kingdom  Reading  62,100  170.14
+United Kingdom  Southampton  44,200  121.10
+United Kingdom  Surrey  48,402  132.61
+Venezuela  Caracas  57,000  156.16
+
+=== PAGE 8 ===
+Vietnam  Hanoi  46,800  128.22
+Vietnam  Ho  Chi  Minh  City  42,000  115.07
+SECTION 4. OPTION TO APPLY 2025 ADJUSTED HOUSING LIMITATIONS TO 2024
+TAXABLE YEAR
+For some locations, the limitation on housing expenses provided in Section 3 of
+this notice may be higher than the limitation on housing expenses provided in the “Table
+of Adjusted Limitations for 2024” in Notice 2024-31, 2024-15 I.R.B. 869. A qualified
+individual incurring housing expenses in such a location during 2024 may apply the
+adjusted limitation on housing expenses provided in Section 3 of this notice for 2025
+(prorated over 366 days rather than 365) in lieu of the amounts provided in the “Table of
+Adjusted Limitations for 2024” in Notice 2024-31 (and as set forth in the Instructions to
+Form 2555,  Foreign Earned Income , for 2024).
+The Treasury Department and the IRS anticipate that future annual notices
+providing adjustments to housing expense limitations will make a similar option
+available to qualified individuals that incur housing expenses in the immediately
+preceding year. For example, when adjusted housing expense limitations for 2026 are
+issued, it is expected that taxpayers will be permitted to apply those adjusted limitations
+to the 2025 taxable year.
+SECTION 5. EFFECT ON OTHER DOCUMENTS
+This notice supersedes Notice 2024-31, 2024-15 I.R.B. 869.
+SECTION 6. EFFECTIVE DATE
+This notice is effective for taxable years beginning on or after January 1, 2025.
+
+=== PAGE 9 ===
+However, as provided in Section 4, taxpayers may apply the 2025 adjusted housing
+limitations contained in Section 3 of this notice to the taxable year beginning in 2024.
+SECTION 7. DRAFTING INFORMATION
+The principal author of this notice is Kate Y. Hwa of the Office of Associate Chief
+Counsel (International). For further information regarding this notice, contact Ms. Hwa
+at (202) 317-5001 (not a toll-free call).

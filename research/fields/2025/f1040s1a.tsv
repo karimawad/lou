@@ -1,0 +1,54 @@
+1	Tx	form1[0].Page1[0].f1_01[0]	36,684			
+1	Tx	form1[0].Page1[0].f1_02[0]	447,684			Name(s) shown on Form 1040, 1040-SR, or 1040-NR
+1	Tx	form1[0].Page1[0].f1_03[0]	504,660		1	Part I 1 Enter the amount from Form 1040, 1040-SR, or 1040-NR, line 11b Modified Adjusted Gross Income (MAGI) Amount … 1
+1	Tx	form1[0].Page1[0].f1_04[0]	410,648		2a	er the amount from Form 1040, 1040-SR, or 1040-NR, line 11b Enter any income from Puerto Rico that you excluded … 2a . .
+1	Tx	form1[0].Page1[0].f1_05[0]	410,636		2b	2 a b Enter any income from Puerto Rico that you excluded Enter the amount from Form 2555, line 45 … 2b 2a
+1	Tx	form1[0].Page1[0].f1_06[0]	410,624		2c	b c Enter the amount from Form 2555, line 45 Enter the amount from Form 2555, line 50 … 2b 2c
+1	Tx	form1[0].Page1[0].f1_07[0]	410,612		2d	c d Enter the amount from Form 2555, line 50 Enter the amount from Form 4563, line 15 … 2d 2c
+1	Tx	form1[0].Page1[0].f1_08[0]	504,600		2e	d e Enter the amount from Form 4563, line 15 Add lines 2a, 2b, 2c, and 2d … 2d … 2e
+1	Tx	form1[0].Page1[0].f1_09[0]	504,588		3	3 e Add lines 2a, 2b, 2c, and 2d Add lines 1 and 2e … 2e 3
+1	Tx	form1[0].Page1[0].f1_10[0]	410,456		4a	rm W-2, box 5 is more than $176,100 or you received tips that are not subject to social security and Medicare taxes … 4a
+1	Tx	form1[0].Page1[0].f1_11[0]	410,432		4b	b not filed, enter -0- Qualified tips included on Form 4137, line 1, row A, column (c). If Form 4137 is … 4b
+1	Tx	form1[0].Page1[0].f1_12[0]	504,396		4c	amount to enter on line 4c. If you received tips as an employee in more than one occupation, see the instructions . . 4c
+1	Tx	form1[0].Page1[0].f1_13[0]	504,348		5	nstructions box 1a. Do not enter more than the net profit from the trade or business. If you received qualified tips . 5
+1	Tx	form1[0].Page1[0].f1_14[0]	504,336		6	6 Add lines 4c and 5 … 5 6
+1	Tx	form1[0].Page1[0].f1_15[0]	504,324		7	6 7 Add lines 4c and 5 . Enter the smaller of the amount on line 6 or $25,000 … 6 7
+1	Tx	form1[0].Page1[0].f1_16[0]	504,312		8	7 8 Enter the smaller of the amount on line 6 or $25,000 . Enter the amount from line 3 … 7 8
+1	Tx	form1[0].Page1[0].f1_17[0]	504,300		9	8 9 Enter the amount from line 3 Enter $150,000 ($300,000 if married filing jointly) … 8 9
+1	Tx	form1[0].Page1[0].f1_18[0]	504,288		10	 if married filing jointly) Subtract line 9 from line 8. If zero or less, enter the amount from line 7 on line 13 … 10 9
+1	Tx	form1[0].Page1[0].f1_19[0]	504,264		11	mber, decrease the result to the next lower whole number. (For example, decrease 1.5 to 1, and decrease 0.05 to 0.) … 11
+1	Tx	form1[0].Page1[0].f1_20[0]	504,252		12	12 Multiply line 11 by $100 … 11 12
+1	Tx	form1[0].Page1[0].f1_21[0]	504,240		13	13 Multiply line 11 by $100 Qualified tips deduction. . Subtract line 12 from line 7. If zero or less, enter -0- … 12 13
+1	Tx	form1[0].Page1[0].f1_22[0]	410,168		14a	n Form W-2, box 1. If you received qualified overtime compensation not reported on Form W-2, box 1, see instructions 14a
+1	Tx	form1[0].Page1[0].f1_23[0]	410,144		14b	b Qualified overtime compensation included in Form 1099-NEC, box 1, or Form 1099-MISC, box 3 (see instructions) … 14b
+1	Tx	form1[0].Page1[0].f1_24[0]	504,132		14c	c Add lines 14a and 14b … 14b … 14c
+1	Tx	form1[0].Page1[0].f1_25[0]	504,120		15	dd lines 14a and 14b Enter the smaller of the amount on line 14c or $12,500 ($25,000 if married filing jointly) … 14c 15
+1	Tx	form1[0].Page1[0].f1_26[0]	504,108		16	he smaller of the amount on line 14c or $12,500 ($25,000 if married filing jointly) Enter the amount from line 3 … 15 16
+1	Tx	form1[0].Page1[0].f1_27[0]	504,96		17	16 17 Enter the amount from line 3 Enter $150,000 ($300,000 if married filing jointly) … 16 17
+1	Tx	form1[0].Page1[0].f1_28[0]	504,84		18	married filing jointly) Subtract line 17 from line 16. If zero or less, enter the amount from line 15 on line 21 … 17 18
+1	Tx	form1[0].Page1[0].f1_29[0]	504,60		19	mber, decrease the result to the next lower whole number. (For example, decrease 1.5 to 1, and decrease 0.05 to 0.) … 19
+1	Tx	form1[0].Page1[0].f1_30[0]	504,48		20	20 Multiply line 19 by $100 … 19 20
+1	Tx	form1[0].Page1[0].f1_31[0]	504,36		21	 19 by $100 Qualified overtime compensation deduction… Subtract line 20 from line 15. If zero or less, enter -0- … 20 21
+2	Tx	form1[0].Page2[0].Table_Line22[0].Line22a[0].VIN-1_Comb[0].f2_01[0]	108,621			a
+2	Tx	form1[0].Page2[0].Table_Line22[0].Line22a[0].f2_02[0]	432,618			a
+2	Tx	form1[0].Page2[0].Table_Line22[0].Line22a[0].f2_03[0]	504,618			a
+2	Tx	form1[0].Page2[0].Table_Line22[0].Line22b[0].VIN-2_Comb[0].f2_04[0]	108,603			b
+2	Tx	form1[0].Page2[0].Table_Line22[0].Line22b[0].f2_05[0]	432,600			b
+2	Tx	form1[0].Page2[0].Table_Line22[0].Line22b[0].f2_06[0]	504,600			b
+2	Tx	form1[0].Page2[0].f2_07[0]	504,588		23	23 Add lines 22a and 22b, column (iii) … 23
+2	Tx	form1[0].Page2[0].f2_08[0]	504,576		24	23 24 Add lines 22a and 22b, column (iii) Enter the smaller of the amount on line 23 or $10,000 … 23 24
+2	Tx	form1[0].Page2[0].f2_09[0]	504,564		25	24 25 Enter the smaller of the amount on line 23 or $10,000 Enter the amount from line 3 … 24 25
+2	Tx	form1[0].Page2[0].f2_10[0]	504,552		26	25 26 Enter the amount from line 3 Enter $100,000 ($200,000 if married filing jointly) … 25 26
+2	Tx	form1[0].Page2[0].f2_11[0]	504,540		27	married filing jointly) Subtract line 26 from line 25. If zero or less, enter the amount from line 24 on line 30 … 26 27
+2	Tx	form1[0].Page2[0].f2_12[0]	504,516		28	0.05 to 1.) Divide line 27 by $1,000. If the resulting number isn’t a whole number, increase the result to the next … 28
+2	Tx	form1[0].Page2[0].f2_13[0]	504,504		29	29 Multiply line 28 by $200 … 28 29
+2	Tx	form1[0].Page2[0].f2_14[0]	504,480		30	30 enter -0- Qualified passenger vehicle loan interest deduction… Subtract line 29 from line 24. If zero or less, … 30
+2	Tx	form1[0].Page2[0].f2_15[0]	504,432		31	31 Enter the amount from line 3 … 31
+2	Tx	form1[0].Page2[0].f2_16[0]	504,420		32	31 32 Enter the amount from line 3 Enter $75,000 ($150,000 if married filing jointly) … 31 32
+2	Tx	form1[0].Page2[0].f2_17[0]	504,408		33	000 ($150,000 if married filing jointly) Subtract line 32 from line 31. If zero or less, enter $6,000 on line 35 … 32 33
+2	Tx	form1[0].Page2[0].f2_18[0]	504,396		34	33 34 Subtract line 32 from line 31. If zero or less, enter $6,000 on line 35 Multiply line 33 by 6% (0.06) … 33 34
+2	Tx	form1[0].Page2[0].f2_19[0]	504,384		35	34 35 Multiply line 33 by 6% (0.06) Subtract line 34 from $6,000. If zero or less, enter -0- … 34 35
+2	Tx	form1[0].Page2[0].f2_20[0]	504,360		36a	t from line 35 If you have a valid social security number (see instructions) and were born before January 2, 1961, … 36a
+2	Tx	form1[0].Page2[0].f2_21[0]	504,336		36b	 line 35 If you are married filing jointly, your spouse has a valid social security number (see instructions), and … 36b
+2	Tx	form1[0].Page2[0].f2_22[0]	504,324		37	37 Enhanced deduction for seniors. Add lines 36a and 36b … 36b 37
+2	Tx	form1[0].Page2[0].f2_23[0]	504,288		38	38 Add lines 13, 21, 30, and 37. Enter here and on Form 1040 or 1040-SR, line 13b, or on Form 1040-NR, line 13c … 38

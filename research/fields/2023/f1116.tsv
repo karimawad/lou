@@ -1,0 +1,120 @@
+1	Tx	Page1[0].f1_1[0]	36,684			
+1	Tx	Page1[0].f1_2[0]	382,684			Name
+1	chk	Page1[0].c1_1[0]	43,649	1	a	a
+1	chk	Page1[0].c1_1[1]	43,637	2	b	b
+1	chk	Page1[0].c1_1[2]	194,649	3	c	a Section 951A category income c
+1	chk	Page1[0].c1_1[3]	194,637	4	d	b Foreign branch category income d
+1	chk	Page1[0].c1_1[4]	324,649	5	e	a Section 951A category income c Passive category income e
+1	chk	Page1[0].c1_1[5]	324,637	6	f	b Foreign branch category income d General category income f
+1	chk	Page1[0].c1_1[6]	475,649	7	g	a Section 951A category income c Passive category income e Section 901(j) income g
+1	Tx	Page1[0].f1_3[0]	168,612			h Resident of (name of country)
+1	Tx	Page1[0].Part1Table[0].LineI[0].f1_4[0]	267,540			i possession Enter the name of the foreign country or U.S… .
+1	Tx	Page1[0].Part1Table[0].LineI[0].f1_5[0]	339,540			i possession Enter the name of the foreign country or U.S… .
+1	Tx	Page1[0].Part1Table[0].LineI[0].f1_6[0]	411,540			i possession Enter the name of the foreign country or U.S… .
+1	Tx	Page1[0].Part1Table[0].Line1a[0].Line1a[0].f1_7[0]	115,504			instructions): above and
+1	Tx	Page1[0].Part1Table[0].Line1a[0].Line1a[0].f1_8[0]	65,492			
+1	Tx	Page1[0].Part1Table[0].Line1a[0].Line1a[0].f1_9[0]	65,480			
+1	Tx	Page1[0].Part1Table[0].Line1a[0].Line1aColA[0].f1_10[0]	266,480			
+1	Tx	Page1[0].Part1Table[0].Line1a[0].Line1aColB[0].f1_11[0]	338,480			
+1	Tx	Page1[0].Part1Table[0].Line1a[0].Line1aColC[0].f1_12[0]	410,480			
+1	Tx	Page1[0].Part1Table[0].Line1a[0].Ln1aTotal[0].f1_13[0]	504,480		1a	1a
+1	chk	Page1[0].Part1Table[0].Line1b[0].Line1BText[0].c1_2[0]	251,434	Yes		determine its source. See instructions more, and you used an alternative basis to . . .
+1	Tx	Page1[0].Part1Table[0].Line2[0].f1_14[0]	266,396			2 1a (attach statement) Expenses definitely related . . to the income on line … .
+1	Tx	Page1[0].Part1Table[0].Line2[0].f1_15[0]	338,396			2 1a (attach statement) Expenses definitely related . . to the income on line … .
+1	Tx	Page1[0].Part1Table[0].Line2[0].f1_16[0]	410,396			2 1a (attach statement) Expenses definitely related . . to the income on line … .
+1	Tx	Page1[0].Part1Table[0].Line3a[0].f1_17[0]	266,348			a Certain itemized deductions or standard deduction (see instructions) … .
+1	Tx	Page1[0].Part1Table[0].Line3a[0].f1_18[0]	338,348			a Certain itemized deductions or standard deduction (see instructions) … .
+1	Tx	Page1[0].Part1Table[0].Line3a[0].f1_19[0]	410,348			a Certain itemized deductions or standard deduction (see instructions) … .
+1	Tx	Page1[0].Part1Table[0].Line3b[0].f1_20[0]	266,336			b Other deductions (attach statement) … .
+1	Tx	Page1[0].Part1Table[0].Line3b[0].f1_21[0]	338,336			b Other deductions (attach statement) … .
+1	Tx	Page1[0].Part1Table[0].Line3b[0].f1_22[0]	410,336			b Other deductions (attach statement) … .
+1	Tx	Page1[0].Part1Table[0].Line3c[0].f1_23[0]	266,324			b c Other deductions (attach statement) . Add lines 3a and 3b … .
+1	Tx	Page1[0].Part1Table[0].Line3c[0].f1_24[0]	338,324			b c Other deductions (attach statement) . Add lines 3a and 3b … .
+1	Tx	Page1[0].Part1Table[0].Line3c[0].f1_25[0]	410,324			b c Other deductions (attach statement) . Add lines 3a and 3b … .
+1	Tx	Page1[0].Part1Table[0].Line3d[0].f1_26[0]	266,312			c d Add lines 3a and 3b . Gross foreign source income (see instructions) … .
+1	Tx	Page1[0].Part1Table[0].Line3d[0].f1_27[0]	338,312			c d Add lines 3a and 3b . Gross foreign source income (see instructions) … .
+1	Tx	Page1[0].Part1Table[0].Line3d[0].f1_28[0]	410,312			c d Add lines 3a and 3b . Gross foreign source income (see instructions) … .
+1	Tx	Page1[0].Part1Table[0].Line3e[0].f1_29[0]	266,300			d e Gross foreign source income (see instructions) Gross income from all sources (see instructions) . .
+1	Tx	Page1[0].Part1Table[0].Line3e[0].f1_30[0]	338,300			d e Gross foreign source income (see instructions) Gross income from all sources (see instructions) . .
+1	Tx	Page1[0].Part1Table[0].Line3e[0].f1_31[0]	410,300			d e Gross foreign source income (see instructions) Gross income from all sources (see instructions) . .
+1	Tx	Page1[0].Part1Table[0].Line3f[0].f1_32[0]	266,288			e f Gross income from all sources (see instructions) . Divide line 3d by line 3e (see instructions) . . .
+1	Tx	Page1[0].Part1Table[0].Line3f[0].f1_33[0]	338,288			e f Gross income from all sources (see instructions) . Divide line 3d by line 3e (see instructions) . . .
+1	Tx	Page1[0].Part1Table[0].Line3f[0].f1_34[0]	410,288			e f Gross income from all sources (see instructions) . Divide line 3d by line 3e (see instructions) . . .
+1	Tx	Page1[0].Part1Table[0].Line3g[0].f1_35[0]	266,276			f g Divide line 3d by line 3e (see instructions) Multiply line 3c by line 3f … .
+1	Tx	Page1[0].Part1Table[0].Line3g[0].f1_36[0]	338,276			f g Divide line 3d by line 3e (see instructions) Multiply line 3c by line 3f … .
+1	Tx	Page1[0].Part1Table[0].Line3g[0].f1_37[0]	410,276			f g Divide line 3d by line 3e (see instructions) Multiply line 3c by line 3f … .
+1	Tx	Page1[0].Part1Table[0].Line4a[0].f1_38[0]	266,240			a Home Mortgage Interest in the instructions) Home mortgage interest (use the Worksheet for . .
+1	Tx	Page1[0].Part1Table[0].Line4a[0].f1_39[0]	338,240			a Home Mortgage Interest in the instructions) Home mortgage interest (use the Worksheet for . .
+1	Tx	Page1[0].Part1Table[0].Line4a[0].f1_40[0]	410,240			a Home Mortgage Interest in the instructions) Home mortgage interest (use the Worksheet for . .
+1	Tx	Page1[0].Part1Table[0].Line4b[0].f1_41[0]	266,228			b Other interest expense … .
+1	Tx	Page1[0].Part1Table[0].Line4b[0].f1_42[0]	338,228			b Other interest expense … .
+1	Tx	Page1[0].Part1Table[0].Line4b[0].f1_43[0]	410,228			b Other interest expense … .
+1	Tx	Page1[0].Part1Table[0].Line5[0].f1_44[0]	266,216			5 b Other interest expense . Losses from foreign sources … .
+1	Tx	Page1[0].Part1Table[0].Line5[0].f1_45[0]	338,216			5 b Other interest expense . Losses from foreign sources … .
+1	Tx	Page1[0].Part1Table[0].Line5[0].f1_46[0]	410,216			5 b Other interest expense . Losses from foreign sources … .
+1	Tx	Page1[0].Part1Table[0].Line6[0].f1_47[0]	266,204			5 6 Losses from foreign sources Add lines 2, 3g, 4a, 4b, and 5 … .
+1	Tx	Page1[0].Part1Table[0].Line6[0].f1_48[0]	338,204			5 6 Losses from foreign sources Add lines 2, 3g, 4a, 4b, and 5 … .
+1	Tx	Page1[0].Part1Table[0].Line6[0].f1_49[0]	410,204			5 6 Losses from foreign sources Add lines 2, 3g, 4a, 4b, and 5 … .
+1	Tx	Page1[0].Part1Table[0].Line6[0].f1_50[0]	504,204		6	5 6 Losses from foreign sources Add lines 2, 3g, 4a, 4b, and 5 … 6
+1	Tx	Page1[0].f1_51[0]	504,192		7	7 Subtract line 6 from line 1a. Enter the result here and on line 15, page 2 … 6 7
+1	chk	Page1[0].Part2TableHeader[0].ColumnJ[0].CreditClaimedCheckboxes[0].c1_3[0]	81,146	Paid		(j)
+1	chk	Page1[0].Part2TableHeader[0].ColumnJ[0].CreditClaimedCheckboxes[0].c1_3[1]	81,134	Accrued		(k)
+1	Tx	Page1[0].Part2TableBody[0].RowA[0].f1_52[0]	50,96			A
+1	Tx	Page1[0].Part2TableBody[0].RowA[0].f1_53[0]	137,96			A
+1	Tx	Page1[0].Part2TableBody[0].RowA[0].f1_54[0]	180,96			A
+1	Tx	Page1[0].Part2TableBody[0].RowA[0].f1_55[0]	230,96			A
+1	Tx	Page1[0].Part2TableBody[0].RowA[0].f1_56[0]	274,96			A
+1	Tx	Page1[0].Part2TableBody[0].RowA[0].f1_57[0]	317,96			A
+1	Tx	Page1[0].Part2TableBody[0].RowA[0].f1_58[0]	367,96			A
+1	Tx	Page1[0].Part2TableBody[0].RowA[0].f1_59[0]	410,96			A
+1	Tx	Page1[0].Part2TableBody[0].RowA[0].f1_60[0]	454,96			A
+1	Tx	Page1[0].Part2TableBody[0].RowA[0].f1_61[0]	504,96			A
+1	Tx	Page1[0].Part2TableBody[0].RowB[0].f1_62[0]	50,84			B A
+1	Tx	Page1[0].Part2TableBody[0].RowB[0].f1_63[0]	137,84			B A
+1	Tx	Page1[0].Part2TableBody[0].RowB[0].f1_64[0]	180,84			B A
+1	Tx	Page1[0].Part2TableBody[0].RowB[0].f1_65[0]	230,84			B A
+1	Tx	Page1[0].Part2TableBody[0].RowB[0].f1_66[0]	274,84			B A
+1	Tx	Page1[0].Part2TableBody[0].RowB[0].f1_67[0]	317,84			B A
+1	Tx	Page1[0].Part2TableBody[0].RowB[0].f1_68[0]	367,84			B A
+1	Tx	Page1[0].Part2TableBody[0].RowB[0].f1_69[0]	410,84			B A
+1	Tx	Page1[0].Part2TableBody[0].RowB[0].f1_70[0]	454,84			B A
+1	Tx	Page1[0].Part2TableBody[0].RowB[0].f1_71[0]	504,84			B A
+1	Tx	Page1[0].Part2TableBody[0].RowC[0].f1_72[0]	50,72			C B
+1	Tx	Page1[0].Part2TableBody[0].RowC[0].f1_73[0]	137,72			C B
+1	Tx	Page1[0].Part2TableBody[0].RowC[0].f1_74[0]	180,72			C B
+1	Tx	Page1[0].Part2TableBody[0].RowC[0].f1_75[0]	230,72			C B
+1	Tx	Page1[0].Part2TableBody[0].RowC[0].f1_76[0]	274,72			C B
+1	Tx	Page1[0].Part2TableBody[0].RowC[0].f1_77[0]	317,72			C B
+1	Tx	Page1[0].Part2TableBody[0].RowC[0].f1_78[0]	367,72			C B
+1	Tx	Page1[0].Part2TableBody[0].RowC[0].f1_79[0]	410,72			C B
+1	Tx	Page1[0].Part2TableBody[0].RowC[0].f1_80[0]	454,72			C B
+1	Tx	Page1[0].Part2TableBody[0].RowC[0].f1_81[0]	504,72			C B
+1	Tx	Page1[0].f1_82[0]	504,60		8	C 8 Add lines A through C, column (u). Enter the total here and on line 9, page 2 … 8
+2	Tx	Page2[0].f2_1[0]	353,708		9	 the category of income checked above Part I Enter the amount from line 8. These are your total foreign taxes paid . . 9
+2	chk	Page2[0].c2_1[0]	312,662	Accrued		Schedule B, check here (see instructions) … .
+2	Tx	Page2[0].f2_2[0]	353,660		10	Schedule B, check here (see instructions) you enter an amount on line 10 and you don’t need to attach … 10
+2	Tx	Page2[0].f2_3[0]	353,624		11	11 Add lines 9 and 10 … 11
+2	Tx	Page2[0].f2_4[0]	357,600		12	12 Reduction in foreign taxes (see instructions) … 12 (
+2	Tx	Page2[0].f2_5[0]	353,576		13	13 Taxes reclassified under high tax kickout (see instructions) . . 13
+2	Tx	Page2[0].f2_6[0]	475,552		14	14 Combine lines 11, 12, and 13. This is the total amount of foreign taxes available for credit … 14
+2	Tx	Page2[0].f2_7[0]	353,516		15	es outside the United States (before adjustments) for the category of income checked above Part I. See instructions … 15
+2	Tx	Page2[0].f2_8[0]	353,504		16	16 Adjustments to line 15 (see instructions) of income checked above Part I. See instructions … 15 16
+2	Tx	Page2[0].f2_9[0]	353,444		17	one Form 1116, you must complete line 20.) Part I. Skip lines 18 through 24. However, if you are filing more than … 17
+2	Tx	Page2[0].f2_10[0]	353,408		18	1040-SR, income without the deduction for your exemption or 1040-NR. Estates and trusts: Enter . your . . taxable . . 18
+2	Tx	Page2[0].f2_11[0]	475,372		19	19 instructions. Divide line 17 by line 18. If line 17 is more than line 18, enter “1” … 19
+2	Tx	Page2[0].f2_12[0]	475,324		20	structions . total of Form 990-T, Part II, lines 2, 3, 4, and 6. Foreign estates and trusts should enter the amount … 20
+2	Tx	Page2[0].f2_13[0]	475,276		21	21 Multiply line 20 by line 19 (maximum amount of credit) … 21
+2	Tx	Page2[0].f2_14[0]	475,252		22	22 Increase in limitation (section 960(c)) (see instructions) … 22
+2	Tx	Page2[0].f2_15[0]	475,228		23	23 Add lines 21 and 22 … 23
+2	Tx	Page2[0].f2_16[0]	475,192		24	through 32 and enter this amount on line 33. Otherwise, complete the appropriate line in Part IV. See instructions … 24
+2	Tx	Page2[0].f2_17[0]	353,168		25	 Credit for taxes on section 951A category income Summary of Credits From Separate Parts III … (see instructions) . . 25
+2	Tx	Page2[0].f2_18[0]	353,156		26	25 26 Credit for taxes on section 951A category income Credit for taxes on foreign branch category income … 25 26
+2	Tx	Page2[0].f2_19[0]	353,144		27	26 27 Credit for taxes on foreign branch category income Credit for taxes on passive category income … 26 27
+2	Tx	Page2[0].f2_20[0]	353,132		28	27 28 Credit for taxes on passive category income Credit for taxes on general category income … 27 28
+2	Tx	Page2[0].f2_21[0]	353,120		29	28 29 Credit for taxes on general category income Credit for taxes on section 901(j) income … 28 29
+2	Tx	Page2[0].f2_22[0]	353,108		30	29 30 Credit for taxes on section 901(j) income Credit for taxes on certain income re-sourced by treaty … 29 30
+2	Tx	Page2[0].f2_23[0]	353,96		31	30 31 Credit for taxes on certain income re-sourced by treaty . Credit for taxes on lump-sum distributions … 30 31
+2	Tx	Page2[0].f2_24[0]	475,84		32	31 32 Credit for taxes on lump-sum distributions . Add lines 25 through 31 … 31 … 32
+2	Tx	Page2[0].f2_25[0]	475,72		33	32 33 Add lines 25 through 31 Enter the smaller of line 20 or line 32 … 32 33
+2	Tx	Page2[0].f2_26[0]	475,60		34	ction of credit for international boycott operations. See instructions for line 12 smaller of line 20 or line 32 … 33 34
+2	Tx	Page2[0].f2_27[0]	475,36		35	rt III, line 1a Subtract line 34 from line 33. This is your foreign tax credit . Enter here and on Schedule 3 (Form … 35

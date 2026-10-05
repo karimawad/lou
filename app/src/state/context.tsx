@@ -1,0 +1,64 @@
+import { createContext, useCallback, useContext, useEffect, useRef, useState, type ReactNode } from 'react';
+import { clearAllData, initialState, loadState, putBlob, saveState, switchYear, type AppState, type StepId } from './store';
+import type { TaxYear } from '../tax/years';
+import { loadFolder, useFolderAutosave } from './folderSync';
+
+interface Ctx {
+  state: AppState;
+  update: (fn: (s: AppState) => AppState) => void;
+  go: (step: StepId) => void;
+  /** Switch the active tax year (the other year's data is kept). */
+  openYear: (year: TaxYear) => void;
+  reset: () => Promise<void>;
+  /** Replaces everything with a restored backup (page images first, then the state). */
+  restore: (state: AppState, blobs: { key: string; blob: Blob }[]) => Promise<void>;
+}
+
+const AppCtx = createContext<Ctx | null>(null);
+
+export function AppProvider({ children }: { children: ReactNode }) {
+  const [state, setState] = useState<AppState>(() => loadState());
+  const timer = useRef<number | undefined>(undefined);
+
+  // Auto-save shortly after each change.
+  useEffect(() => {
+    window.clearTimeout(timer.current);
+    timer.current = window.setTimeout(() => saveState(state), 300);
+    return () => window.clearTimeout(timer.current);
+  }, [state]);
+
+  // Chrome/Edge: also save to the folder the user chose, if any.
+  useFolderAutosave(state);
+
+  const update = useCallback((fn: (s: AppState) => AppState) => setState((s) => fn(s)), []);
+  const go = useCallback((step: StepId) => {
+    setState((s) => ({ ...s, step }));
+    window.scrollTo({ top: 0 });
+    requestAnimationFrame(() => document.getElementById('main-heading')?.focus());
+  }, []);
+  const openYear = useCallback((year: TaxYear) => {
+    setState((s) => switchYear(s, year));
+    window.scrollTo({ top: 0 });
+  }, []);
+  const reset = useCallback(async () => {
+    await clearAllData();
+    setState(initialState());
+    void loadFolder();
+  }, []);
+
+  const restore = useCallback(async (next: AppState, blobs: { key: string; blob: Blob }[]) => {
+    await clearAllData();
+    for (const b of blobs) await putBlob(b.key, b.blob);
+    saveState(next);
+    setState(next);
+    window.scrollTo({ top: 0 });
+  }, []);
+
+  return <AppCtx.Provider value={{ state, update, go, openYear, reset, restore }}>{children}</AppCtx.Provider>;
+}
+
+export function useApp(): Ctx {
+  const ctx = useContext(AppCtx);
+  if (!ctx) throw new Error('useApp outside AppProvider');
+  return ctx;
+}

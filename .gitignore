@@ -1,0 +1,16 @@
+node_modules
+dist
+*.local
+.env
+.env.*
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+.idea
+logs
+*.log
+
+# Local checking output (screenshots of filled test returns)
+research/render_check/
+# CRA slip PDFs: Crown copyright, kept out of the public repo. Re-download from canada.ca to rebuild templates.
+research/cra/

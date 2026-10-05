@@ -1,0 +1,23 @@
+# Hosting rules for Cloudflare Pages and Netlify (other hosts: set the same headers in their settings).
+# The page and the service worker must always be checked for a new version, or updates reach people late.
+/sw.js
+  Cache-Control: no-cache
+/index.html
+  Cache-Control: no-cache
+/
+  Cache-Control: no-cache
+/manifest.webmanifest
+  Content-Type: application/manifest+json
+  Cache-Control: no-cache
+# Built files have a content hash in their name: they never change, so they can be kept a long time.
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Security headers for every response (the CSP in index.html cannot set frame-ancestors; this can).
+/*
+  Strict-Transport-Security: max-age=31536000; includeSubDomains
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: no-referrer
+  X-Frame-Options: DENY
+  Permissions-Policy: camera=(self), microphone=(), geolocation=(), payment=()
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'wasm-unsafe-eval'; worker-src 'self' blob:; connect-src 'self' blob: data:; img-src 'self' blob: data:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; object-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'

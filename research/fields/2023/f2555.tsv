@@ -1,0 +1,160 @@
+1	Tx	Page1[0].f1_1[0]	36,672			
+1	Tx	Page1[0].f1_2[0]	454,672			Name shown on Form 1040 or 1040-SR
+1	Tx	Page1[0].f1_3[0]	36,636			
+1	Tx	Page1[0].f1_4[0]	455,636			1 Your foreign address (including country)
+1	Tx	Page1[0].f1_5[0]	137,624			3 Employer’s name
+1	Tx	Page1[0].f1_6[0]	166,612			3 4 a Employer’s name Employer’s U.S. address
+1	Tx	Page1[0].f1_7[0]	180,600			4 a b Employer’s U.S. address Employer’s foreign address
+1	chk	Page1[0].c1_1[0]	176,590	1	a	5 Employer is (check a
+1	chk	Page1[0].c1_2[0]	377,590	1	b	5 Employer is (check a A foreign entity b
+1	chk	Page1[0].c1_3[0]	507,590	1	c	5 Employer is (check a A foreign entity b A U.S. company c
+1	chk	Page1[0].c1_4[0]	176,578	1	d	any that apply): d
+1	chk	Page1[0].c1_5[0]	377,578	1	e	any that apply): d A foreign affiliate of a U.S. company e
+1	Tx	Page1[0].f1_8[0]	461,576			is (check any that apply): d a A foreign entity A foreign affiliate of a U.S. company b e A U.S. company Other (specify)
+1	Tx	Page1[0].f1_9[0]	425,564			 2555 or Form 2555-EZ, enter the last year you filed the form. d A foreign affiliate of a U.S. company e Other (specify)
+1	chk	Page1[0].c1_6[0]	471,554	1		b If you didn’t previously file Form 2555 or Form 2555-EZ to claim either of the exclusions, check here
+1	chk	Page1[0].c1_7[0]	504,542	1		c Have you ever revoked either of the exclusions? … .
+1	chk	Page1[0].c1_7[1]	540,542	2		c Have you ever revoked either of the exclusions? … Yes
+1	Tx	Page1[0].f1_10[0]	497,528			xclusions? If you answered “Yes,” enter the type of exclusion and the tax year for which the revocation was effective… .
+1	Tx	Page1[0].f1_11[0]	238,516			e type of exclusion and the tax year for which the revocation was effective. Of what country are you a citizen/national?
+1	chk	Page1[0].c1_9[0]	504,494	1		tax home? See Second foreign household in the instructions … .
+1	chk	Page1[0].c1_9[1]	540,494	2		tax home? See Second foreign household in the instructions … Yes
+1	Tx	Page1[0].f1_12[0]	266,468			” enter city and country of the separate foreign residence. Also, enter the number of days during your tax year that you
+1	Tx	Page1[0].f1_13[0]	331,456			9 maintained a second household at that address. List your tax home(s) during your tax year and date(s) established.
+1	Tx	Page1[0].f1_14[0]	65,444			9
+1	Tx	Page1[0].f1_15[0]	194,360			10 Date bona fide residence began test. See instructions.
+1	Tx	Page1[0].f1_16[0]	396,360			10 Date bona fide residence began test. See instructions. , and ended
+1	chk	Page1[0].c1_11[0]	248,350	1	a	11 Kind of living quarters in foreign country: a
+1	chk	Page1[0].c1_11[1]	356,350	2	b	11 Kind of living quarters in foreign country: a Purchased house b
+1	chk	Page1[0].c1_11[2]	507,350	3	c	11 Kind of living quarters in foreign country: a Purchased house b Rented house or apartment c
+1	chk	Page1[0].c1_11[3]	248,338	4	d	d
+1	chk	Page1[0].c1_15[0]	504,326	1		12 a Did any of your family live with you abroad during any part of the tax year? … .
+1	chk	Page1[0].c1_15[1]	540,326	2		12 a Did any of your family live with you abroad during any part of the tax year? … Yes
+1	Tx	Page1[0].f1_17[0]	209,312			12 a b Did any of your family live with you abroad during any part of the tax year? If “Yes,” who and for what period?
+1	chk	Page1[0].c1_17[0]	504,290	1		residence that you aren’t a resident of that country? See instructions … .
+1	chk	Page1[0].c1_17[1]	540,290	2		residence that you aren’t a resident of that country? See instructions … Yes
+1	chk	Page1[0].c1_19[0]	504,278	1		b Are you required to pay income tax to the country where you claim bona fide residence? See instructions .
+1	chk	Page1[0].c1_19[1]	540,278	2		b Are you required to pay income tax to the country where you claim bona fide residence? See instructions . Yes
+1	Tx	Page1[0].Table1_Line14[0].BodyRow1[0].f1_18[0]	36,192			
+1	Tx	Page1[0].Table1_Line14[0].BodyRow1[0].f1_19[0]	101,192			
+1	Tx	Page1[0].Table1_Line14[0].BodyRow1[0].f1_20[0]	166,192			
+1	Tx	Page1[0].Table1_Line14[0].BodyRow1[0].f1_21[0]	223,192			on business
+1	Tx	Page1[0].Table1_Line14[0].BodyRow2[0].f1_22[0]	36,180			
+1	Tx	Page1[0].Table1_Line14[0].BodyRow2[0].f1_23[0]	101,180			
+1	Tx	Page1[0].Table1_Line14[0].BodyRow2[0].f1_24[0]	166,180			
+1	Tx	Page1[0].Table1_Line14[0].BodyRow2[0].f1_25[0]	223,180			
+1	Tx	Page1[0].Table1_Line14[0].BodyRow3[0].f1_26[0]	36,168			
+1	Tx	Page1[0].Table1_Line14[0].BodyRow3[0].f1_27[0]	101,168			
+1	Tx	Page1[0].Table1_Line14[0].BodyRow3[0].f1_28[0]	166,168			
+1	Tx	Page1[0].Table1_Line14[0].BodyRow3[0].f1_29[0]	223,168			
+1	Tx	Page1[0].Table1_Line14[0].BodyRow4[0].f1_30[0]	36,156			
+1	Tx	Page1[0].Table1_Line14[0].BodyRow4[0].f1_31[0]	101,156			
+1	Tx	Page1[0].Table1_Line14[0].BodyRow4[0].f1_32[0]	166,156			
+1	Tx	Page1[0].Table1_Line14[0].BodyRow4[0].f1_33[0]	223,156			
+1	Tx	Page1[0].Table2_Line14[0].BodyRow5[0].f1_34[0]	310,192			on business (attach computation)
+1	Tx	Page1[0].Table2_Line14[0].BodyRow5[0].f1_35[0]	374,192			on business (attach computation)
+1	Tx	Page1[0].Table2_Line14[0].BodyRow5[0].f1_36[0]	439,192			on business (attach computation)
+1	Tx	Page1[0].Table2_Line14[0].BodyRow5[0].f1_37[0]	497,192			on business (attach computation) business
+1	Tx	Page1[0].Table2_Line14[0].BodyRow6[0].f1_38[0]	310,180			
+1	Tx	Page1[0].Table2_Line14[0].BodyRow6[0].f1_39[0]	374,180			
+1	Tx	Page1[0].Table2_Line14[0].BodyRow6[0].f1_40[0]	439,180			
+1	Tx	Page1[0].Table2_Line14[0].BodyRow6[0].f1_41[0]	497,180			
+1	Tx	Page1[0].Table2_Line14[0].BodyRow7[0].f1_42[0]	310,168			
+1	Tx	Page1[0].Table2_Line14[0].BodyRow7[0].f1_43[0]	374,168			
+1	Tx	Page1[0].Table2_Line14[0].BodyRow7[0].f1_44[0]	439,168			
+1	Tx	Page1[0].Table2_Line14[0].BodyRow7[0].f1_45[0]	497,168			
+1	Tx	Page1[0].Table2_Line14[0].BodyRow8[0].f1_46[0]	310,156			
+1	Tx	Page1[0].Table2_Line14[0].BodyRow8[0].f1_47[0]	374,156			
+1	Tx	Page1[0].Table2_Line14[0].BodyRow8[0].f1_48[0]	439,156			
+1	Tx	Page1[0].Table2_Line14[0].BodyRow8[0].f1_49[0]	497,156			
+1	Tx	Page1[0].f1_50[0]	454,144			15 a List any contractual terms or other conditions relating to the length of your employment abroad.
+1	Tx	Page1[0].f1_51[0]	65,132			15 a
+1	Tx	Page1[0].f1_52[0]	338,120			b Enter the type of visa under which you entered the foreign country.
+1	chk	Page1[0].c1_21[0]	504,110	1		c Did your visa limit the length of your stay or employment in a foreign country? If “Yes,” attach explanation .
+1	chk	Page1[0].c1_21[1]	540,110	2		c Did your visa limit the length of your stay or employment in a foreign country? If “Yes,” attach explanation . Yes
+1	chk	Page1[0].c1_23[0]	504,98	1		d Did you maintain a home in the United States while living abroad? … .
+1	chk	Page1[0].c1_23[1]	540,98	2		d Did you maintain a home in the United States while living abroad? … Yes
+1	Tx	Page1[0].f1_53[0]	101,72			 If “Yes,” enter address of your home, whether it was rented, the names of the occupants, and their relationship to you.
+1	Tx	Page1[0].f1_54[0]	65,60			
+2	Tx	Page2[0].f2_1[0]	331,708			st is based on the 12-month period from Note: U.S. citizens and all resident aliens can use this test. See instructions.
+2	Tx	Page2[0].f2_2[0]	482,708			sed on the 12-month period from Note: U.S. citizens and all resident aliens can use this test. See instructions. through
+2	Tx	Page2[0].f2_3[0]	331,696			ical presence test is based on the 12-month period from Enter your principal country of employment during your tax year.
+2	Tx	Page2[0].Table_Line18[0].BodyRow1[0].f2_4[0]	36,612			
+2	Tx	Page2[0].Table_Line18[0].BodyRow1[0].f2_5[0]	245,612			
+2	Tx	Page2[0].Table_Line18[0].BodyRow1[0].f2_6[0]	317,612			
+2	Tx	Page2[0].Table_Line18[0].BodyRow1[0].f2_7[0]	389,612			
+2	Tx	Page2[0].Table_Line18[0].BodyRow1[0].f2_8[0]	439,612			country
+2	Tx	Page2[0].Table_Line18[0].BodyRow1[0].f2_9[0]	490,612			country on business
+2	Tx	Page2[0].Table_Line18[0].BodyRow2[0].f2_10[0]	36,600			
+2	Tx	Page2[0].Table_Line18[0].BodyRow2[0].f2_11[0]	245,600			
+2	Tx	Page2[0].Table_Line18[0].BodyRow2[0].f2_12[0]	317,600			
+2	Tx	Page2[0].Table_Line18[0].BodyRow2[0].f2_13[0]	389,600			
+2	Tx	Page2[0].Table_Line18[0].BodyRow2[0].f2_14[0]	439,600			
+2	Tx	Page2[0].Table_Line18[0].BodyRow2[0].f2_15[0]	490,600			
+2	Tx	Page2[0].Table_Line18[0].BodyRow3[0].f2_16[0]	36,588			
+2	Tx	Page2[0].Table_Line18[0].BodyRow3[0].f2_17[0]	245,588			
+2	Tx	Page2[0].Table_Line18[0].BodyRow3[0].f2_18[0]	317,588			
+2	Tx	Page2[0].Table_Line18[0].BodyRow3[0].f2_19[0]	389,588			
+2	Tx	Page2[0].Table_Line18[0].BodyRow3[0].f2_20[0]	439,588			
+2	Tx	Page2[0].Table_Line18[0].BodyRow3[0].f2_21[0]	490,588			
+2	Tx	Page2[0].Table_Line18[0].BodyRow4[0].f2_22[0]	36,576			
+2	Tx	Page2[0].Table_Line18[0].BodyRow4[0].f2_23[0]	245,576			
+2	Tx	Page2[0].Table_Line18[0].BodyRow4[0].f2_24[0]	317,576			
+2	Tx	Page2[0].Table_Line18[0].BodyRow4[0].f2_25[0]	389,576			
+2	Tx	Page2[0].Table_Line18[0].BodyRow4[0].f2_26[0]	439,576			
+2	Tx	Page2[0].Table_Line18[0].BodyRow4[0].f2_27[0]	490,576			
+2	Tx	Page2[0].f2_28[0]	504,444		19	19 Total wages, salaries, bonuses, commissions, etc… 19
+2	Tx	Page2[0].f2_29[0]	504,420		20a	hare of income for personal services performed (see instructions): In a business (including farming) or profession … 20a
+2	Tx	Page2[0].f2_30[0]	367,408			partnership. List partnership’s name and address and type of income. In a business (including farming) or profession … .
+2	Tx	Page2[0].f2_31[0]	65,396			b
+2	Tx	Page2[0].f2_32[0]	504,396		20b	b In a partnership. List partnership’s name and address and type of income. 20b
+2	Tx	Page2[0].f2_33[0]	504,360		21a	a Home (lodging) showing how it was determined): … 21a
+2	Tx	Page2[0].f2_34[0]	504,336		21b	b Meals … 21b
+2	Tx	Page2[0].f2_35[0]	504,312		21c	c Car … 21c
+2	Tx	Page2[0].f2_36[0]	266,300			c d Car . Other property or facilities. List type and amount… .
+2	Tx	Page2[0].f2_37[0]	65,288			d
+2	Tx	Page2[0].f2_38[0]	504,288		21d	d Other property or facilities. List type and amount. 21d
+2	Tx	Page2[0].f2_39[0]	410,264		22a	 and overseas differential Allowances, reimbursements, or expenses paid on your behalf for services you performed: … 22a
+2	Tx	Page2[0].f2_40[0]	410,252		22b	a b Cost of living and overseas differential Family … 22b 22a
+2	Tx	Page2[0].f2_41[0]	410,240		22c	b c Family . Education … 22b 22c
+2	Tx	Page2[0].f2_42[0]	410,228		22d	c d Education . Home leave … 22d 22c
+2	Tx	Page2[0].f2_43[0]	410,216		22e	d e Home leave Quarters … 22d 22e
+2	Tx	Page2[0].f2_44[0]	252,204			e f Quarters For any other purpose. List type and amount… .
+2	Tx	Page2[0].f2_45[0]	65,192			f
+2	Tx	Page2[0].f2_46[0]	410,192		22f	f For any other purpose. List type and amount. 22f
+2	Tx	Page2[0].f2_47[0]	504,168		22g	g Add lines 22a through 22f … 22g
+2	Tx	Page2[0].f2_48[0]	281,156			23 g Add lines 22a through 22f Other foreign earned income. List type and amount… .
+2	Tx	Page2[0].f2_49[0]	65,144			23
+2	Tx	Page2[0].f2_50[0]	504,144		23	23 Other foreign earned income. List type and amount. 23
+2	Tx	Page2[0].f2_51[0]	504,120		24	24 Add lines 19 through 21d, line 22g, and line 23 … 24
+2	Tx	Page2[0].f2_52[0]	504,96		25	25 Total amount of meals and lodging included on line 24 that is excludable (see instructions) … 25
+2	Tx	Page2[0].f2_53[0]	504,72		26	ne 25 from line 24. Enter the result here and on line 27 on page 3. This is your earned income … 2023 . . foreign . . 26
+3	Tx	Page3[0].Line27TagCorrectingSubform[0].f3_1[0]	504,708		27	27 Enter the amount from line 26 … 27
+3	chk	Page3[0].c3_1[0]	65,686	1		
+3	chk	Page3[0].c3_1[1]	65,674	2		
+3	Tx	Page3[0].Line28TagCorrectingSubform[0].f3_2[0]	504,636		28	28 Qualified housing expenses for the tax year (see instructions) … 28
+3	Tx	Page3[0].f3_3[0]	331,624			on where housing expenses incurred. See instructions. Qualified housing expenses for the tax year (see instructions) . .
+3	Tx	Page3[0].f3_4[0]	504,612		29b	nter location where housing expenses incurred. See instructions. Enter limit on housing expenses. See instructions … 29b
+3	Tx	Page3[0].f3_5[0]	504,600		30	30 b Enter limit on housing expenses. See instructions . Enter the smaller of line 28 or line 29b … 29b 30
+3	Tx	Page3[0].f3_6[0]	410,576		31	31 Number of days in your qualifying period that fall within your 2023 tax year (see instructions) … 31
+3	Tx	Page3[0].f3_7[0]	504,564		32	0 by the number of days on line 31. If 365 is entered on line 31, enter $19,200 here . (see instructions) … 31 days . 32
+3	Tx	Page3[0].f3_8[0]	504,540		33	ubtract line 32 from line 30. If the result is zero or less, don’t complete the rest of this part or any of Part IX … 33
+3	Tx	Page3[0].f3_9[0]	410,528		34	34 Enter employer-provided amounts. See instructions . Part IX … 34 . .
+3	Tx	Page3[0].f3_10[0]	504,504		35	 34 by line 27. Enter the result as a decimal (rounded to at least three places), but don’t enter more than “1.000” … 35
+3	Tx	Page3[0].f3_11[0]	554,504			4 by line 27. Enter the result as a decimal (rounded to at least three places), but don’t enter more than “1.000” … 35 .
+3	Tx	Page3[0].f3_12[0]	504,480		36	Part VIII Housing exclusion. Multiply line 33 by line 35. Enter the result but don’t enter more than the … amount . . 36
+3	Tx	Page3[0].f3_13[0]	504,432		37	I 37 Maximum foreign earned income exclusion. Enter $120,000 Taxpayers Claiming the Foreign Earned Income Exclusion … 37
+3	Tx	Page3[0].f3_14[0]	410,408		38	ed Part VI, enter the number from line 31. • All others, enter the number of days in your qualifying period that fall 38
+3	Tx	Page3[0].f3_15[0]	504,372		39	ame, enter “1.000.” • Otherwise, divide line 38 by the number of days in your 2023 tax year and enter the result as a 39
+3	Tx	Page3[0].f3_16[0]	554,372			e, enter “1.000.” • Otherwise, divide line 38 by the number of days in your 2023 tax year and enter the result as a 39 .
+3	Tx	Page3[0].f3_17[0]	504,348		40	40 decimal (rounded to at least three places). Multiply line 37 by line 39 … 40
+3	Tx	Page3[0].f3_18[0]	504,336		41	40 41 Multiply line 37 by line 39 Subtract line 36 from line 27 … 40 41
+3	Tx	Page3[0].f3_19[0]	504,324		42	usion. Subtract line 36 from line 27 . . Enter the … smaller . . of line 40 or line 41. Also, complete Part VIII … 41 42
+3	Tx	Page3[0].f3_20[0]	504,300		43	Part VIII 43 Add lines 36 and 42 Taxpayers Claiming the Housing Exclusion, Foreign Earned Income Exclusion, or Both … 43
+3	Tx	Page3[0].f3_21[0]	504,276		44	tach computation Deductions allowed in figuring your adjusted gross income (Form 1040 or 1040-SR, line 11) that are … 44
+3	Tx	Page3[0].f3_22[0]	504,240		45	the Foreign Earned Income Tax Worksheet in the Instructions for Form 1040 if you enter an amount on this line … 45
+3	Tx	Page3[0].f3_23[0]	504,204		46	46 Subtract line 36 from line 33 … 46
+3	Tx	Page3[0].f3_24[0]	504,192		47	46 47 Subtract line 36 from line 33 Subtract line 43 from line 27 … 46 47
+3	Tx	Page3[0].f3_25[0]	504,180		48	47 48 Subtract line 43 from line 27 Enter the smaller of line 46 or line 47 … 47 48
+3	Tx	Page3[0].f3_26[0]	504,120		49	49 Housing deduction carryover from 2022 (from the Housing Deduction Carryover Worksheet in the instructions) … 49
+3	Tx	Page3[0].f3_27[0]	504,84		50	mount on this line . 24j. Complete the Foreign Earned Income Tax Worksheet in the Instructions for Form 1040 if you … 50

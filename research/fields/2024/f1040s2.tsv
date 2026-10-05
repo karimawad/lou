@@ -1,0 +1,60 @@
+1	Tx	form1[0].Page1[0].f1_01[0]	36,684			
+1	Tx	form1[0].Page1[0].f1_02[0]	447,684			Name(s) shown on Form 1040, 1040-SR, or 1040-NR
+1	Tx	form1[0].Page1[0].Line1a_ReadOrder[0].f1_03[0]	410,636		1a	a Excess advance premium tax credit repayment. Attach Form 8962 … 1a
+1	Tx	form1[0].Page1[0].f1_04[0]	410,594		1b	8936) from Schedule A (Form 8936), Part II. Attach Form 8936 and Schedule A (Form … 1b
+1	Tx	form1[0].Page1[0].f1_05[0]	410,552		1c	registered dealer from Schedule A (Form 8936), Part IV. Attach Form 8936 and Schedule A (Form 8936) … 1c
+1	Tx	form1[0].Page1[0].f1_06[0]	410,534		1d	d Recapture of net EPE from Form 4255, line 2a, column (l) … 1d
+1	chk	form1[0].Page1[0].Line1e_ReadOrder[0].c1_1[0]	86,494	1		(i)
+1	chk	form1[0].Page1[0].Line1e_ReadOrder[0].c1_1[1]	238,494	2		(i) Line 1a, column (n) (ii)
+1	chk	form1[0].Page1[0].Line1e_ReadOrder[0].c1_1[2]	86,482	3		(iii)
+1	chk	form1[0].Page1[0].Line1e_ReadOrder[0].c1_1[3]	238,482	4		(iii) Line 1d, column (n) (iv)
+1	Tx	form1[0].Page1[0].f1_07[0]	410,480		1e	(iii) (i) Line 1a, column (n) Line 1d, column (n) (ii) (iv) Line 1c, column (n) Line 2a, column (n) … 1e
+1	chk	form1[0].Page1[0].Line1f_ReadOrder[0].c1_2[0]	86,440	1		(i)
+1	chk	form1[0].Page1[0].Line1f_ReadOrder[0].c1_2[1]	238,440	2		(i) Line 1a, column (o) (ii)
+1	chk	form1[0].Page1[0].Line1f_ReadOrder[0].c1_2[2]	86,428	3		(iii)
+1	chk	form1[0].Page1[0].Line1f_ReadOrder[0].c1_2[3]	238,428	4		(iii) Line 1d, column (o) (iv)
+1	Tx	form1[0].Page1[0].f1_08[0]	410,426		1f	(iii) (i) Line 1a, column (o) Line 1d, column (o) (ii) (iv) Line 1c, column (o) Line 2a, column (o) … 1f
+1	Tx	form1[0].Page1[0].f1_09[0]	229,408			y Other additions to tax (see instructions):
+1	Tx	form1[0].Page1[0].f1_10[0]	410,408		1y	y Other additions to tax (see instructions): 1y
+1	Tx	form1[0].Page1[0].f1_11[0]	504,390		1z	z Add lines 1a through 1y … 1z
+1	Tx	form1[0].Page1[0].f1_12[0]	504,372		2	2 Alternative minimum tax. Attach Form 6251 … 2
+1	Tx	form1[0].Page1[0].f1_13[0]	504,354		3	3 Add lines 1z and 2. Enter here and on Form 1040, 1040-SR, or 1040-NR, line 17 … 3
+1	Tx	form1[0].Page1[0].f1_14[0]	504,324		4	4 Self-employment tax. Attach Schedule SE … 4
+1	Tx	form1[0].Page1[0].Line5_ReadOrder[0].f1_15[0]	410,306		5	5 Social security and Medicare tax on unreported tip income. Attach Form 4137 5
+1	Tx	form1[0].Page1[0].f1_16[0]	410,288		6	6 Uncollected social security and Medicare tax on wages. Attach Form 8919 . 6
+1	Tx	form1[0].Page1[0].f1_17[0]	504,270		7	7 Total additional social security and Medicare tax. Add lines 5 and 6 … 7
+1	chk	form1[0].Page1[0].Line8_ReadOrder[0].c1_3[0]	467,242	1		If not required, check here … .
+1	Tx	form1[0].Page1[0].f1_18[0]	504,240		8	8 Additional tax on IRAs or other tax-favored accounts. Attach Form 5329 if required. If not required, check here … 8
+1	Tx	form1[0].Page1[0].f1_19[0]	504,222		9	9 Household employment taxes. Attach Schedule H … 9
+1	Tx	form1[0].Page1[0].f1_20[0]	504,204		10	10 Repayment of first-time homebuyer credit. Attach Form 5405 if required … 10
+1	Tx	form1[0].Page1[0].f1_21[0]	504,186		11	11 Additional Medicare Tax. Attach Form 8959 … 11
+1	Tx	form1[0].Page1[0].f1_22[0]	504,168		12	12 Net investment income tax. Attach Form 8960 … 12
+1	Tx	form1[0].Page1[0].f1_23[0]	504,138		13	13 Uncollected social security and Medicare or RRTA tax on tips or group-term life insurance from Form W-2, box 12 … 13
+1	Tx	form1[0].Page1[0].f1_24[0]	504,120		14	14 Interest on tax due on installment income from the sale of certain residential lots and timeshares . . 14
+1	Tx	form1[0].Page1[0].f1_25[0]	504,102		15	15 Interest on the deferred tax on gain from certain installment sales with a sales price over $150,000 . 15
+1	Tx	form1[0].Page1[0].f1_26[0]	504,84		16	16 Recapture of low-income housing credit. Attach Form 8611 … 16
+2	Tx	form1[0].Page2[0].Line17a_ReadOrder[0].Line17_ReadOrder[0].f2_01[0]	65,684			a
+2	Tx	form1[0].Page2[0].Line17a_ReadOrder[0].f2_02[0]	410,684		17a	a Recapture of other credits. List type, form number, and amount: 17a
+2	Tx	form1[0].Page2[0].f2_03[0]	410,666		17b	b Recapture of federal mortgage subsidy, if you sold your home see instructions 17b
+2	Tx	form1[0].Page2[0].f2_04[0]	410,648		17c	c Additional tax on HSA distributions. Attach Form 8889 … 17c
+2	Tx	form1[0].Page2[0].f2_05[0]	410,618		17d	d Attach Form 8889 Additional tax on an HSA because you didn’t remain an eligible individual… 17d
+2	Tx	form1[0].Page2[0].f2_06[0]	410,600		17e	e Additional tax on Archer MSA distributions. Attach Form 8853 … 17e
+2	Tx	form1[0].Page2[0].f2_07[0]	410,582		17f	f Additional tax on Medicare Advantage MSA distributions. Attach Form 8853 17f
+2	Tx	form1[0].Page2[0].f2_08[0]	410,552		17g	g in tangible personal property Recapture of a charitable contribution deduction related to a fractional interest … 17g
+2	Tx	form1[0].Page2[0].f2_09[0]	410,522		17h	me you received from a nonqualified deferred compensation plan that fails to meet the requirements of section 409A … 17h
+2	Tx	form1[0].Page2[0].f2_10[0]	410,492		17i	i Compensation you received from a nonqualified deferred compensation plan described in section 457A … 17i
+2	Tx	form1[0].Page2[0].f2_11[0]	410,474		17j	j Section 72(m)(5) excess benefits tax … 17j
+2	Tx	form1[0].Page2[0].f2_12[0]	410,456		17k	k Golden parachute payments … 17k
+2	Tx	form1[0].Page2[0].f2_13[0]	410,438		17l	l Tax on accumulation distribution of trusts … 17l
+2	Tx	form1[0].Page2[0].f2_14[0]	410,420		17m	m Excise tax on insider stock compensation from an expatriated corporation . 17m
+2	Tx	form1[0].Page2[0].f2_15[0]	410,402		17n	n Look-back interest under section 167(g) or 460(b) from Form 8697 or 8866 . 17n
+2	Tx	form1[0].Page2[0].f2_16[0]	410,372		17o	o Tax on non-effectively connected income for any part of the year you were a nonresident alien from Form 1040-NR … 17o
+2	Tx	form1[0].Page2[0].f2_17[0]	410,342		17p	itions of, stock of a section 1291 fund Any interest from Form 8621, line 16f, relating to distributions from, and … 17p
+2	Tx	form1[0].Page2[0].f2_18[0]	410,324		17q	q Any interest from Form 8621, line 24 … 17q
+2	Tx	form1[0].Page2[0].Line17z_ReadOrder[0].f2_19[0]	223,306			z Any other taxes. List type and amount:
+2	Tx	form1[0].Page2[0].Line17z_ReadOrder[0].f2_20[0]	65,294			z
+2	Tx	form1[0].Page2[0].f2_21[0]	410,294		17z	z Any other taxes. List type and amount: 17z
+2	Tx	form1[0].Page2[0].f2_22[0]	504,276		18	18 Total additional taxes. Add lines 17a through 17z … 18
+2	Tx	form1[0].Page2[0].f2_23[0]	504,258		19	19 Recapture of net EPE from Form 4255, line 1d, column (l) … 19
+2	Tx	form1[0].Page2[0].Line20_ReadOrder[0].f2_24[0]	410,240		20	20 Section 965 net tax liability installment from Form 965-A … 20
+2	Tx	form1[0].Page2[0].f2_25[0]	504,210		21	. These are your or 1040-SR, line 23, or Form 1040-NR, line 23b . . total other taxes … Enter here and on Form 1040 … 21

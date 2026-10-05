@@ -1,0 +1,462 @@
+1	Tx	Page1[0].f1_1[0]	112,684			For calendar year 20
+1	Tx	Page1[0].f1_2[0]	223,684			For calendar year 20 , or tax year beginning
+1	Tx	Page1[0].f1_3[0]	346,684			For calendar year 20 , or tax year beginning , 20
+1	Tx	Page1[0].f1_4[0]	404,684			For calendar year 20 , or tax year beginning , 20 , ending
+1	Tx	Page1[0].f1_5[0]	554,684			For calendar year 20 , or tax year beginning , 20 , ending , 20
+1	chk	Page1[0].c1_1[0]	158,674	1		A Check appropriate boxes:
+1	chk	Page1[0].c1_2[0]	230,674	1		A Check appropriate boxes: Initial return
+1	chk	Page1[0].c1_3[0]	302,674	1		A Check appropriate boxes: Initial return Final return
+1	chk	Page1[0].c1_4[0]	230,662	1		B Check box that applies to person filing return:
+1	chk	Page1[0].c1_4[1]	302,662	2		B Check box that applies to person filing return: Individual
+1	chk	Page1[0].c1_4[2]	374,662	3		B Check box that applies to person filing return: Individual Partnership
+1	chk	Page1[0].c1_4[3]	446,662	4		B Check box that applies to person filing return: Individual Partnership Corporation
+1	chk	Page1[0].c1_4[4]	497,662	5		B Check box that applies to person filing return: Individual Partnership Corporation Trust
+1	chk	Page1[0].c1_5[0]	564,650	1		C Check if any excepted specified foreign financial assets are reported on this form. See instructions … .
+1	chk	Page1[0].c1_6[0]	38,624	1		
+1	chk	Page1[0].c1_7[0]	38,565	1		
+1	chk	Page1[0].c1_8[0]	38,540	1		
+1	chk	Page1[0].c1_9[0]	38,481	1		
+1	Tx	Page1[0].f1_6[0]	36,444			
+1	Tx	Page1[0].f1_7[0]	425,444			
+1	Tx	Page1[0].f1_8[0]	36,420			
+1	Tx	Page1[0].f1_9[0]	425,420			
+1	Tx	Page1[0].f1_10[0]	36,396			
+1	Tx	Page1[0].f1_11[0]	188,396			
+1	Tx	Page1[0].f1_12[0]	324,396			
+1	Tx	Page1[0].f1_13[0]	426,396			
+1	chk	Page1[0].c1_10[0]	564,386	1		i If you are filing with your spouse a current-year joint income tax return and a joint Form 3520, check this box … .
+1	chk	Page1[0].c1_11[0]	564,374	1		 2-month extension applies for the U.S. person’s tax return, check this box and attach statement. See instructions . . .
+1	chk	Page1[0].c1_12[0]	296,362	1		k If an extension was requested for the tax return, check this box
+1	Tx	Page1[0].f1_14[0]	508,360			f an extension was requested for the tax return, check this box and enter the form number of the tax return to be filed:
+1	Tx	Page1[0].f1_15[0]	36,336			
+1	Tx	Page1[0].f1_16[0]	425,336			
+1	Tx	Page1[0].f1_17[0]	36,312			
+1	Tx	Page1[0].f1_18[0]	425,312			
+1	Tx	Page1[0].f1_19[0]	36,288			
+1	Tx	Page1[0].f1_20[0]	188,288			
+1	Tx	Page1[0].f1_21[0]	324,288			
+1	Tx	Page1[0].f1_22[0]	426,288			
+1	chk	Page1[0].c1_13[0]	518,278	1		gn trust appoint a U.S. agent (defined in the instructions) who can provide the IRS with all relevant trust information?
+1	chk	Page1[0].c1_13[1]	554,278	2		rust appoint a U.S. agent (defined in the instructions) who can provide the IRS with all relevant trust information? Yes
+1	Tx	Page1[0].f1_23[0]	36,240			
+1	Tx	Page1[0].f1_24[0]	425,240			
+1	Tx	Page1[0].f1_25[0]	36,216			
+1	Tx	Page1[0].f1_26[0]	36,192			
+1	Tx	Page1[0].f1_27[0]	188,192			
+1	Tx	Page1[0].f1_28[0]	324,192			
+1	Tx	Page1[0].f1_29[0]	426,192			
+1	Tx	Page1[0].f1_30[0]	36,168			
+1	Tx	Page1[0].f1_31[0]	210,144			d Date of death
+1	Tx	Page1[0].f1_32[0]	425,168			
+1	Tx	Page1[0].f1_33[0]	36,144			
+1	Tx	Page1[0].f1_34[0]	425,144			
+1	chk	Page1[0].c1_14[0]	65,122	1		
+1	chk	Page1[0].c1_14[1]	65,110	2		
+1	chk	Page1[0].c1_14[2]	65,98	3		
+2	Tx	Page2[0].f2_1[0]	36,696			
+2	Tx	Page2[0].f2_2[0]	246,696			
+2	Tx	Page2[0].f2_3[0]	454,696			
+2	Tx	Page2[0].f2_4[0]	36,672			
+2	Tx	Page2[0].f2_5[0]	246,672			
+2	Tx	Page2[0].f2_6[0]	454,672			
+2	chk	Page2[0].c2_1[0]	518,662	1		Will any person (other than the foreign trust) be treated as the owner of the transferred assets after the transfer? … .
+2	chk	Page2[0].c2_1[1]	554,662	2		ll any person (other than the foreign trust) be treated as the owner of the transferred assets after the transfer? … Yes
+2	Tx	Page2[0].Table_Line7b[0].Row1[0].f2_7[0]	36,624			
+2	Tx	Page2[0].Table_Line7b[0].Row1[0].f2_8[0]	159,624			trust owner
+2	Tx	Page2[0].Table_Line7b[0].Row1[0].f2_9[0]	354,624			trust owner
+2	Tx	Page2[0].Table_Line7b[0].Row1[0].f2_10[0]	454,624			trust owner
+2	Tx	Page2[0].Table_Line7b[0].Row1[0].f2_11[0]	505,624			trust owner
+2	Tx	Page2[0].Table_Line7b[0].Row2[0].f2_12[0]	36,612			
+2	Tx	Page2[0].Table_Line7b[0].Row2[0].f2_13[0]	159,612			
+2	Tx	Page2[0].Table_Line7b[0].Row2[0].f2_14[0]	354,612			
+2	Tx	Page2[0].Table_Line7b[0].Row2[0].f2_15[0]	454,612			
+2	Tx	Page2[0].Table_Line7b[0].Row2[0].f2_16[0]	505,612			
+2	Tx	Page2[0].Table_Line7b[0].Row3[0].f2_17[0]	36,600			
+2	Tx	Page2[0].Table_Line7b[0].Row3[0].f2_18[0]	159,600			
+2	Tx	Page2[0].Table_Line7b[0].Row3[0].f2_19[0]	354,600			
+2	Tx	Page2[0].Table_Line7b[0].Row3[0].f2_20[0]	454,600			
+2	Tx	Page2[0].Table_Line7b[0].Row3[0].f2_21[0]	505,600			
+2	chk	Page2[0].c2_2[0]	518,590	1		8 Was the transfer a completed gift or bequest? If “Yes,” see instructions … .
+2	chk	Page2[0].c2_2[1]	554,590	2		8 Was the transfer a completed gift or bequest? If “Yes,” see instructions … Yes
+2	chk	Page2[0].c2_3[0]	518,578	1		 a Now or at any time in the future, can any part of the income or corpus of the trust benefit any U.S. beneficiary? … .
+2	chk	Page2[0].c2_3[1]	554,578	2		 Now or at any time in the future, can any part of the income or corpus of the trust benefit any U.S. beneficiary? … Yes
+2	chk	Page2[0].c2_4[0]	518,566	1		b If “No,” could the trust be revised or amended to benefit a U.S. beneficiary? … .
+2	chk	Page2[0].c2_4[1]	554,566	2		b If “No,” could the trust be revised or amended to benefit a U.S. beneficiary? … Yes
+2	chk	Page2[0].c2_5[0]	518,554	1		10 Reserved for future use … .
+2	chk	Page2[0].c2_5[1]	554,554	2		10 Reserved for future use … Yes
+2	chk	Page2[0].c2_6[0]	518,518	1		trust in exchange for an obligation of the trust or an obligation of a person related to the trust? See instructions … .
+2	chk	Page2[0].c2_6[1]	554,518	2		ust in exchange for an obligation of the trust or an obligation of a person related to the trust? See instructions … Yes
+2	chk	Page2[0].c2_7[0]	518,494	1		 any of the obligations you received (with respect to a transfer described in line 11a above) qualified obligations? . .
+2	chk	Page2[0].c2_7[1]	554,494	2		 of the obligations you received (with respect to a transfer described in line 11a above) qualified obligations? . . Yes
+2	Tx	Page2[0].Table_Line11b[0].Row1[0].f2_22[0]	36,414			
+2	Tx	Page2[0].Table_Line11b[0].Row1[0].f2_23[0]	166,414			
+2	Tx	Page2[0].Table_Line11b[0].Row1[0].f2_24[0]	302,414			
+2	Tx	Page2[0].Table_Line11b[0].Row1[0].f2_25[0]	439,414			
+2	Tx	Page2[0].Table_Line11b[0].Row2[0].f2_26[0]	36,402			
+2	Tx	Page2[0].Table_Line11b[0].Row2[0].f2_27[0]	166,402			
+2	Tx	Page2[0].Table_Line11b[0].Row2[0].f2_28[0]	302,402			
+2	Tx	Page2[0].Table_Line11b[0].Row2[0].f2_29[0]	439,402			
+2	Tx	Page2[0].Table_Line11b[0].Row3[0].f2_30[0]	36,390			
+2	Tx	Page2[0].Table_Line11b[0].Row3[0].f2_31[0]	166,390			
+2	Tx	Page2[0].Table_Line11b[0].Row3[0].f2_32[0]	302,390			
+2	Tx	Page2[0].Table_Line11b[0].Row3[0].f2_33[0]	439,390			
+2	chk	Page2[0].c2_8[0]	518,356	1		income or transfer tax attributable to the transfer, and any consequential income tax changes for each year that the … .
+2	chk	Page2[0].c2_8[1]	554,356	2		come or transfer tax attributable to the transfer, and any consequential income tax changes for each year that the … Yes
+2	chk	Page2[0].c2_9[0]	518,272	1		tly or indirectly) to the trust and receive less than FMV, or no consideration at all, for the property transferred? … .
+2	chk	Page2[0].c2_9[1]	554,272	2		y or indirectly) to the trust and receive less than FMV, or no consideration at all, for the property transferred? … Yes
+2	Tx	Page2[0].Table_Line13[0].Row1[0].f2_34[0]	36,174			
+2	Tx	Page2[0].Table_Line13[0].Row1[0].f2_35[0]	80,174			
+2	Tx	Page2[0].Table_Line13[0].Row1[0].f2_36[0]	137,174			
+2	Tx	Page2[0].Table_Line13[0].Row1[0].f2_37[0]	202,174			
+2	Tx	Page2[0].Table_Line13[0].Row1[0].f2_38[0]	266,174			
+2	Tx	Page2[0].Table_Line13[0].Row1[0].f2_39[0]	331,174			
+2	Tx	Page2[0].Table_Line13[0].Row1[0].f2_40[0]	397,174			
+2	Tx	Page2[0].Table_Line13[0].Row1[0].f2_41[0]	446,174			
+2	Tx	Page2[0].Table_Line13[0].Row1[0].f2_42[0]	511,174			
+2	Tx	Page2[0].Table_Line13[0].Row2[0].f2_43[0]	36,162			
+2	Tx	Page2[0].Table_Line13[0].Row2[0].f2_44[0]	80,162			
+2	Tx	Page2[0].Table_Line13[0].Row2[0].f2_45[0]	137,162			
+2	Tx	Page2[0].Table_Line13[0].Row2[0].f2_46[0]	202,162			
+2	Tx	Page2[0].Table_Line13[0].Row2[0].f2_47[0]	266,162			
+2	Tx	Page2[0].Table_Line13[0].Row2[0].f2_48[0]	331,162			
+2	Tx	Page2[0].Table_Line13[0].Row2[0].f2_49[0]	397,162			
+2	Tx	Page2[0].Table_Line13[0].Row2[0].f2_50[0]	446,162			
+2	Tx	Page2[0].Table_Line13[0].Row2[0].f2_51[0]	511,162			
+2	Tx	Page2[0].Table_Line13[0].Row3[0].f2_52[0]	36,150			
+2	Tx	Page2[0].Table_Line13[0].Row3[0].f2_53[0]	80,150			
+2	Tx	Page2[0].Table_Line13[0].Row3[0].f2_54[0]	137,150			
+2	Tx	Page2[0].Table_Line13[0].Row3[0].f2_55[0]	202,150			
+2	Tx	Page2[0].Table_Line13[0].Row3[0].f2_56[0]	266,150			
+2	Tx	Page2[0].Table_Line13[0].Row3[0].f2_57[0]	331,150			
+2	Tx	Page2[0].Table_Line13[0].Row3[0].f2_58[0]	397,150			
+2	Tx	Page2[0].Table_Line13[0].Row3[0].f2_59[0]	446,150			
+2	Tx	Page2[0].Table_Line13[0].Row3[0].f2_60[0]	511,150			
+2	Tx	Page2[0].Totals[0].f2_61[0]	338,138			Totals $
+2	Tx	Page2[0].Totals[0].f2_62[0]	518,138			Totals $ $
+2	chk	Page2[0].Table_Line14[0].Line14a[0].c2_10[0]	424,80	1		a Sale document … .
+2	chk	Page2[0].Table_Line14[0].Line14a[0].c2_10[1]	453,80	2		a Sale document … .
+2	chk	Page2[0].Table_Line14[0].Line14a[0].c2_10[2]	493,80	3		a Sale document … .
+2	Tx	Page2[0].Table_Line14[0].Line14a[0].f2_63[0]	522,78			a Sale document Are you attaching a copy of any of the following? … .
+2	chk	Page2[0].Table_Line14[0].Line14b[0].c2_11[0]	424,68	1		b Loan document … .
+2	chk	Page2[0].Table_Line14[0].Line14b[0].c2_11[1]	453,68	2		b Loan document … .
+2	chk	Page2[0].Table_Line14[0].Line14b[0].c2_11[2]	493,68	3		b Loan document … .
+2	Tx	Page2[0].Table_Line14[0].Line14b[0].f2_64[0]	522,66			a b Sale document Loan document … .
+2	chk	Page2[0].Table_Line14[0].Line14c[0].c2_12[0]	424,56	1		c Subsequent variances to original sale or loan documents … .
+2	chk	Page2[0].Table_Line14[0].Line14c[0].c2_12[1]	453,56	2		c Subsequent variances to original sale or loan documents … .
+2	chk	Page2[0].Table_Line14[0].Line14c[0].c2_12[2]	493,56	3		c Subsequent variances to original sale or loan documents … .
+2	Tx	Page2[0].Table_Line14[0].Line14c[0].f2_65[0]	522,54			b c Loan document Subsequent variances to original sale or loan documents … .
+3	Tx	Page3[0].Table_Line15[0].Row1[0].f3_1[0]	36,660			
+3	Tx	Page3[0].Table_Line15[0].Row1[0].f3_2[0]	195,660			
+3	chk	Page3[0].Table_Line15[0].Row1[0].c3_1[0]	478,662	1		
+3	chk	Page3[0].Table_Line15[0].Row1[0].c3_1[1]	507,662	2		
+3	Tx	Page3[0].Table_Line15[0].Row1[0].f3_3[0]	526,660			
+3	Tx	Page3[0].Table_Line15[0].Row2[0].f3_4[0]	36,648			
+3	Tx	Page3[0].Table_Line15[0].Row2[0].f3_5[0]	195,648			
+3	chk	Page3[0].Table_Line15[0].Row2[0].c3_2[0]	478,650	1		
+3	chk	Page3[0].Table_Line15[0].Row2[0].c3_2[1]	507,650	2		
+3	Tx	Page3[0].Table_Line15[0].Row2[0].f3_6[0]	526,648			
+3	Tx	Page3[0].Table_Line15[0].Row3[0].f3_7[0]	36,636			
+3	Tx	Page3[0].Table_Line15[0].Row3[0].f3_8[0]	195,636			
+3	chk	Page3[0].Table_Line15[0].Row3[0].c3_3[0]	478,638	1		
+3	chk	Page3[0].Table_Line15[0].Row3[0].c3_3[1]	507,638	2		
+3	Tx	Page3[0].Table_Line15[0].Row3[0].f3_9[0]	526,636			
+3	Tx	Page3[0].Table_Line15[0].Row4[0].f3_10[0]	36,624			
+3	Tx	Page3[0].Table_Line15[0].Row4[0].f3_11[0]	195,624			
+3	chk	Page3[0].Table_Line15[0].Row4[0].c3_4[0]	478,626	1		
+3	chk	Page3[0].Table_Line15[0].Row4[0].c3_4[1]	507,626	2		
+3	Tx	Page3[0].Table_Line15[0].Row4[0].f3_12[0]	526,624			
+3	Tx	Page3[0].Table_Line16[0].Row1[0].f3_13[0]	36,588			
+3	Tx	Page3[0].Table_Line16[0].Row1[0].f3_14[0]	195,588			
+3	Tx	Page3[0].Table_Line16[0].Row1[0].f3_15[0]	526,588			
+3	Tx	Page3[0].Table_Line16[0].Row2[0].f3_16[0]	36,576			
+3	Tx	Page3[0].Table_Line16[0].Row2[0].f3_17[0]	195,576			
+3	Tx	Page3[0].Table_Line16[0].Row2[0].f3_18[0]	526,576			
+3	Tx	Page3[0].Table_Line16[0].Row3[0].f3_19[0]	36,564			
+3	Tx	Page3[0].Table_Line16[0].Row3[0].f3_20[0]	195,564			
+3	Tx	Page3[0].Table_Line16[0].Row3[0].f3_21[0]	526,564			
+3	Tx	Page3[0].Table_Line16[0].Row4[0].f3_22[0]	36,552			
+3	Tx	Page3[0].Table_Line16[0].Row4[0].f3_23[0]	195,552			
+3	Tx	Page3[0].Table_Line16[0].Row4[0].f3_24[0]	526,552			
+3	Tx	Page3[0].Table_Line17[0].Row1[0].f3_25[0]	36,516			
+3	Tx	Page3[0].Table_Line17[0].Row1[0].f3_26[0]	195,516			with trust powers
+3	Tx	Page3[0].Table_Line17[0].Row1[0].f3_27[0]	404,516			with trust powers
+3	Tx	Page3[0].Table_Line17[0].Row1[0].f3_28[0]	526,516			with trust powers
+3	Tx	Page3[0].Table_Line17[0].Row2[0].f3_29[0]	36,504			
+3	Tx	Page3[0].Table_Line17[0].Row2[0].f3_30[0]	195,504			
+3	Tx	Page3[0].Table_Line17[0].Row2[0].f3_31[0]	404,504			
+3	Tx	Page3[0].Table_Line17[0].Row2[0].f3_32[0]	526,504			
+3	Tx	Page3[0].Table_Line17[0].Row3[0].f3_33[0]	36,492			
+3	Tx	Page3[0].Table_Line17[0].Row3[0].f3_34[0]	195,492			
+3	Tx	Page3[0].Table_Line17[0].Row3[0].f3_35[0]	404,492			
+3	Tx	Page3[0].Table_Line17[0].Row3[0].f3_36[0]	526,492			
+3	Tx	Page3[0].Table_Line17[0].Row4[0].f3_37[0]	36,480			
+3	Tx	Page3[0].Table_Line17[0].Row4[0].f3_38[0]	195,480			
+3	Tx	Page3[0].Table_Line17[0].Row4[0].f3_39[0]	404,480			
+3	Tx	Page3[0].Table_Line17[0].Row4[0].f3_40[0]	526,480			
+3	chk	Page3[0].Table_Line18[0].Line18a[0].c3_5[0]	424,422	1		a Summary of all written and oral agreements and understandings relating to the trust … .
+3	chk	Page3[0].Table_Line18[0].Line18a[0].c3_5[1]	453,422	2		a Summary of all written and oral agreements and understandings relating to the trust … .
+3	chk	Page3[0].Table_Line18[0].Line18a[0].c3_5[2]	493,422	3		a Summary of all written and oral agreements and understandings relating to the trust … .
+3	Tx	Page3[0].Table_Line18[0].Line18a[0].f3_41[0]	522,420			itten and oral agreements and understandings relating to the trust Are you attaching a copy of any of the following? … .
+3	chk	Page3[0].Table_Line18[0].Line18b[0].c3_6[0]	424,410	1		b Trust instrument … .
+3	chk	Page3[0].Table_Line18[0].Line18b[0].c3_6[1]	453,410	2		b Trust instrument … .
+3	chk	Page3[0].Table_Line18[0].Line18b[0].c3_6[2]	493,410	3		b Trust instrument … .
+3	Tx	Page3[0].Table_Line18[0].Line18b[0].f3_42[0]	522,408			a b Summary of all written and oral agreements and understandings relating to the trust Trust instrument … .
+3	chk	Page3[0].Table_Line18[0].Line18c[0].c3_7[0]	424,398	1		c Memoranda or letters of wishes … .
+3	chk	Page3[0].Table_Line18[0].Line18c[0].c3_7[1]	453,398	2		c Memoranda or letters of wishes … .
+3	chk	Page3[0].Table_Line18[0].Line18c[0].c3_7[2]	493,398	3		c Memoranda or letters of wishes … .
+3	Tx	Page3[0].Table_Line18[0].Line18c[0].f3_43[0]	522,396			b c Trust instrument Memoranda or letters of wishes … .
+3	chk	Page3[0].Table_Line18[0].Line18d[0].c3_8[0]	424,386	1		d Subsequent variances to original trust documents … .
+3	chk	Page3[0].Table_Line18[0].Line18d[0].c3_8[1]	453,386	2		d Subsequent variances to original trust documents … .
+3	chk	Page3[0].Table_Line18[0].Line18d[0].c3_8[2]	493,386	3		d Subsequent variances to original trust documents … .
+3	Tx	Page3[0].Table_Line18[0].Line18d[0].f3_44[0]	522,384			c d Memoranda or letters of wishes . Subsequent variances to original trust documents … .
+3	chk	Page3[0].Table_Line18[0].Line18e[0].c3_9[0]	424,374	1		e Trust financial statements … .
+3	chk	Page3[0].Table_Line18[0].Line18e[0].c3_9[1]	453,374	2		e Trust financial statements … .
+3	chk	Page3[0].Table_Line18[0].Line18e[0].c3_9[2]	493,374	3		e Trust financial statements … .
+3	Tx	Page3[0].Table_Line18[0].Line18e[0].f3_45[0]	522,372			d e Subsequent variances to original trust documents Trust financial statements … .
+3	chk	Page3[0].Table_Line18[0].Line18f[0].c3_10[0]	424,362	1		f Organizational chart and other trust documents … .
+3	chk	Page3[0].Table_Line18[0].Line18f[0].c3_10[1]	453,362	2		f Organizational chart and other trust documents … .
+3	chk	Page3[0].Table_Line18[0].Line18f[0].c3_10[2]	493,362	3		f Organizational chart and other trust documents … .
+3	Tx	Page3[0].Table_Line18[0].Line18f[0].f3_46[0]	522,360			e f Trust financial statements Organizational chart and other trust documents … .
+3	chk	Page3[0].c3_11[0]	518,326	1		oreign trust (or a person related to the trust) that you reported as a qualified obligation in the current tax year? … .
+3	chk	Page3[0].c3_11[1]	554,326	2		eign trust (or a person related to the trust) that you reported as a qualified obligation in the current tax year? … Yes
+3	Tx	Page3[0].Table_Line19[0].Row1[0].f3_47[0]	36,246			
+3	Tx	Page3[0].Table_Line19[0].Row1[0].f3_48[0]	115,246			
+3	Tx	Page3[0].Table_Line19[0].Row1[0].f3_49[0]	202,246			
+3	Tx	Page3[0].Table_Line19[0].Row1[0].f3_50[0]	302,246			
+3	Tx	Page3[0].Table_Line19[0].Row1[0].f3_51[0]	403,246			
+3	chk	Page3[0].Table_Line19[0].Row1[0].c3_12[0]	517,247	1		
+3	chk	Page3[0].Table_Line19[0].Row1[0].c3_12[1]	553,247	2		
+3	Tx	Page3[0].Table_Line19[0].Row2[0].f3_52[0]	36,234			
+3	Tx	Page3[0].Table_Line19[0].Row2[0].f3_53[0]	115,234			
+3	Tx	Page3[0].Table_Line19[0].Row2[0].f3_54[0]	202,234			
+3	Tx	Page3[0].Table_Line19[0].Row2[0].f3_55[0]	302,234			
+3	Tx	Page3[0].Table_Line19[0].Row2[0].f3_56[0]	403,234			
+3	chk	Page3[0].Table_Line19[0].Row2[0].c3_13[0]	517,235	1		
+3	chk	Page3[0].Table_Line19[0].Row2[0].c3_13[1]	553,235	2		
+3	Tx	Page3[0].Table_Line19[0].Row3[0].f3_57[0]	36,222			
+3	Tx	Page3[0].Table_Line19[0].Row3[0].f3_58[0]	115,222			
+3	Tx	Page3[0].Table_Line19[0].Row3[0].f3_59[0]	202,222			
+3	Tx	Page3[0].Table_Line19[0].Row3[0].f3_60[0]	302,222			
+3	Tx	Page3[0].Table_Line19[0].Row3[0].f3_61[0]	403,222			
+3	chk	Page3[0].Table_Line19[0].Row3[0].c3_14[0]	517,223	1		
+3	chk	Page3[0].Table_Line19[0].Row3[0].c3_14[1]	553,223	2		
+4	Tx	Page4[0].Table_Line20[0].Row1[0].f4_1[0]	36,696			
+4	Tx	Page4[0].Table_Line20[0].Row1[0].f4_2[0]	159,696			trust owner
+4	Tx	Page4[0].Table_Line20[0].Row1[0].f4_3[0]	354,696			trust owner
+4	Tx	Page4[0].Table_Line20[0].Row1[0].f4_4[0]	454,696			trust owner
+4	Tx	Page4[0].Table_Line20[0].Row1[0].f4_5[0]	504,696			trust owner
+4	Tx	Page4[0].Table_Line20[0].Row2[0].f4_6[0]	36,684			
+4	Tx	Page4[0].Table_Line20[0].Row2[0].f4_7[0]	159,684			
+4	Tx	Page4[0].Table_Line20[0].Row2[0].f4_8[0]	354,684			
+4	Tx	Page4[0].Table_Line20[0].Row2[0].f4_9[0]	454,684			
+4	Tx	Page4[0].Table_Line20[0].Row2[0].f4_10[0]	504,684			
+4	Tx	Page4[0].Table_Line20[0].Row3[0].f4_11[0]	36,672			
+4	Tx	Page4[0].Table_Line20[0].Row3[0].f4_12[0]	159,672			
+4	Tx	Page4[0].Table_Line20[0].Row3[0].f4_13[0]	354,672			
+4	Tx	Page4[0].Table_Line20[0].Row3[0].f4_14[0]	454,672			
+4	Tx	Page4[0].Table_Line20[0].Row3[0].f4_15[0]	504,672			
+4	Tx	Page4[0].f4_16[0]	36,648			
+4	Tx	Page4[0].f4_17[0]	246,648			
+4	Tx	Page4[0].f4_18[0]	454,648			
+4	chk	Page4[0].c4_1[0]	518,638	1		22 Did the foreign trust file Form 3520-A for the current tax year? … .
+4	chk	Page4[0].c4_1[1]	554,638	2		22 Did the foreign trust file Form 3520-A for the current tax year? … Yes
+4	Tx	Page4[0].f4_19[0]	497,588			ter the gross value of the portion of the foreign trust that you are treated as owning at the end of your tax year . . $
+4	Tx	Page4[0].Table_Line24[0].Row1[0].f4_20[0]	36,492			
+4	Tx	Page4[0].Table_Line24[0].Row1[0].f4_21[0]	102,492			
+4	Tx	Page4[0].Table_Line24[0].Row1[0].f4_22[0]	223,492			
+4	Tx	Page4[0].Table_Line24[0].Row1[0].f4_23[0]	311,492			
+4	Tx	Page4[0].Table_Line24[0].Row1[0].f4_24[0]	403,492			
+4	Tx	Page4[0].Table_Line24[0].Row1[0].f4_25[0]	490,492			
+4	Tx	Page4[0].Table_Line24[0].Row2[0].f4_26[0]	36,480			
+4	Tx	Page4[0].Table_Line24[0].Row2[0].f4_27[0]	102,480			
+4	Tx	Page4[0].Table_Line24[0].Row2[0].f4_28[0]	223,480			
+4	Tx	Page4[0].Table_Line24[0].Row2[0].f4_29[0]	311,480			
+4	Tx	Page4[0].Table_Line24[0].Row2[0].f4_30[0]	403,480			
+4	Tx	Page4[0].Table_Line24[0].Row2[0].f4_31[0]	490,480			
+4	Tx	Page4[0].Table_Line24[0].Row3[0].f4_32[0]	36,468			
+4	Tx	Page4[0].Table_Line24[0].Row3[0].f4_33[0]	102,468			
+4	Tx	Page4[0].Table_Line24[0].Row3[0].f4_34[0]	223,468			
+4	Tx	Page4[0].Table_Line24[0].Row3[0].f4_35[0]	311,468			
+4	Tx	Page4[0].Table_Line24[0].Row3[0].f4_36[0]	403,468			
+4	Tx	Page4[0].Table_Line24[0].Row3[0].f4_37[0]	490,468			
+4	Tx	Page4[0].Table_Line24[0].Row4[0].f4_38[0]	36,456			
+4	Tx	Page4[0].Table_Line24[0].Row4[0].f4_39[0]	102,456			
+4	Tx	Page4[0].Table_Line24[0].Row4[0].f4_40[0]	223,456			
+4	Tx	Page4[0].Table_Line24[0].Row4[0].f4_41[0]	311,456			
+4	Tx	Page4[0].Table_Line24[0].Row4[0].f4_42[0]	403,456			
+4	Tx	Page4[0].Table_Line24[0].Row4[0].f4_43[0]	490,456			
+4	Tx	Page4[0].Table_Line24[0].Row5[0].f4_44[0]	36,444			
+4	Tx	Page4[0].Table_Line24[0].Row5[0].f4_45[0]	102,444			
+4	Tx	Page4[0].Table_Line24[0].Row5[0].f4_46[0]	223,444			
+4	Tx	Page4[0].Table_Line24[0].Row5[0].f4_47[0]	311,444			
+4	Tx	Page4[0].Table_Line24[0].Row5[0].f4_48[0]	403,444			
+4	Tx	Page4[0].Table_Line24[0].Row5[0].f4_49[0]	490,444			
+4	Tx	Page4[0].Table_Line24[0].Row6[0].f4_50[0]	36,432			
+4	Tx	Page4[0].Table_Line24[0].Row6[0].f4_51[0]	102,432			
+4	Tx	Page4[0].Table_Line24[0].Row6[0].f4_52[0]	223,432			
+4	Tx	Page4[0].Table_Line24[0].Row6[0].f4_53[0]	311,432			
+4	Tx	Page4[0].Table_Line24[0].Row6[0].f4_54[0]	403,432			
+4	Tx	Page4[0].Table_Line24[0].Row6[0].f4_55[0]	490,432			
+4	Tx	Page4[0].Table_Line24[0].Row7[0].f4_56[0]	36,420			
+4	Tx	Page4[0].Table_Line24[0].Row7[0].f4_57[0]	102,420			
+4	Tx	Page4[0].Table_Line24[0].Row7[0].f4_58[0]	223,420			
+4	Tx	Page4[0].Table_Line24[0].Row7[0].f4_59[0]	311,420			
+4	Tx	Page4[0].Table_Line24[0].Row7[0].f4_60[0]	403,420			
+4	Tx	Page4[0].Table_Line24[0].Row7[0].f4_61[0]	490,420			
+4	Tx	Page4[0].Table_Line24[0].Row8[0].f4_62[0]	36,408			
+4	Tx	Page4[0].Table_Line24[0].Row8[0].f4_63[0]	102,408			
+4	Tx	Page4[0].Table_Line24[0].Row8[0].f4_64[0]	223,408			
+4	Tx	Page4[0].Table_Line24[0].Row8[0].f4_65[0]	311,408			
+4	Tx	Page4[0].Table_Line24[0].Row8[0].f4_66[0]	403,408			
+4	Tx	Page4[0].Table_Line24[0].Row8[0].f4_67[0]	490,408			
+4	Tx	Page4[0].f4_68[0]	497,396			Total … $
+4	chk	Page4[0].c4_2[0]	518,374	1		operty from a related foreign trust (including an extension of credit upon the purchase of property from the trust)? … .
+4	chk	Page4[0].c4_2[1]	554,374	2		erty from a related foreign trust (including an extension of credit upon the purchase of property from the trust)? … Yes
+4	Tx	Page4[0].Table_Line25[0].Row1[0].f4_69[0]	36,300			
+4	Tx	Page4[0].Table_Line25[0].Row1[0].f4_70[0]	122,300			
+4	Tx	Page4[0].Table_Line25[0].Row1[0].f4_71[0]	188,300			
+4	Tx	Page4[0].Table_Line25[0].Row1[0].f4_72[0]	259,300			
+4	chk	Page4[0].Table_Line25[0].Row1[0].c4_3[0]	345,302	1		
+4	chk	Page4[0].Table_Line25[0].Row1[0].c4_3[1]	381,302	2		
+4	Tx	Page4[0].Table_Line25[0].Row1[0].f4_73[0]	403,300			
+4	Tx	Page4[0].Table_Line25[0].Row1[0].f4_74[0]	490,300			
+4	Tx	Page4[0].Table_Line25[0].Row2[0].f4_75[0]	36,288			
+4	Tx	Page4[0].Table_Line25[0].Row2[0].f4_76[0]	122,288			
+4	Tx	Page4[0].Table_Line25[0].Row2[0].f4_77[0]	188,288			
+4	Tx	Page4[0].Table_Line25[0].Row2[0].f4_78[0]	259,288			
+4	chk	Page4[0].Table_Line25[0].Row2[0].c4_4[0]	345,290	1		
+4	chk	Page4[0].Table_Line25[0].Row2[0].c4_4[1]	381,290	2		
+4	Tx	Page4[0].Table_Line25[0].Row2[0].f4_79[0]	403,288			
+4	Tx	Page4[0].Table_Line25[0].Row2[0].f4_80[0]	490,288			
+4	Tx	Page4[0].Table_Line25[0].Row3[0].f4_81[0]	36,276			
+4	Tx	Page4[0].Table_Line25[0].Row3[0].f4_82[0]	122,276			
+4	Tx	Page4[0].Table_Line25[0].Row3[0].f4_83[0]	188,276			
+4	Tx	Page4[0].Table_Line25[0].Row3[0].f4_84[0]	259,276			
+4	chk	Page4[0].Table_Line25[0].Row3[0].c4_5[0]	345,278	1		
+4	chk	Page4[0].Table_Line25[0].Row3[0].c4_5[1]	381,278	2		
+4	Tx	Page4[0].Table_Line25[0].Row3[0].f4_85[0]	403,276			
+4	Tx	Page4[0].Table_Line25[0].Row3[0].f4_86[0]	490,276			
+4	Tx	Page4[0].f4_87[0]	497,264			Total … $
+4	chk	Page4[0].c4_6[0]	518,230	1		anges for each year that the obligation is outstanding, to a date 3 years after the maturity date of the obligation? … .
+4	chk	Page4[0].c4_6[1]	554,230	2		ges for each year that the obligation is outstanding, to a date 3 years after the maturity date of the obligation? … Yes
+4	Tx	Page4[0].f4_88[0]	497,168			27 Total distributions received during your current tax year. Add line 24, column (f), and line 25, column (g) … $
+4	chk	Page4[0].c4_7[0]	518,146	1		, at any time during the current tax year, hold an outstanding obligation of yours (or a person related to you) that … .
+4	chk	Page4[0].c4_7[1]	554,146	2		at any time during the current tax year, hold an outstanding obligation of yours (or a person related to you) that … Yes
+4	Tx	Page4[0].Table_Line28[0].Row1[0].f4_89[0]	36,78			
+4	Tx	Page4[0].Table_Line28[0].Row1[0].f4_90[0]	101,78			
+4	Tx	Page4[0].Table_Line28[0].Row1[0].f4_91[0]	166,78			
+4	Tx	Page4[0].Table_Line28[0].Row1[0].f4_92[0]	274,78			
+4	Tx	Page4[0].Table_Line28[0].Row1[0].f4_93[0]	382,78			
+4	chk	Page4[0].Table_Line28[0].Row1[0].c4_8[0]	507,80	1		
+4	chk	Page4[0].Table_Line28[0].Row1[0].c4_8[1]	550,80	2		
+4	Tx	Page4[0].Table_Line28[0].Row2[0].f4_94[0]	36,66			
+4	Tx	Page4[0].Table_Line28[0].Row2[0].f4_95[0]	101,66			
+4	Tx	Page4[0].Table_Line28[0].Row2[0].f4_96[0]	166,66			
+4	Tx	Page4[0].Table_Line28[0].Row2[0].f4_97[0]	274,66			
+4	Tx	Page4[0].Table_Line28[0].Row2[0].f4_98[0]	382,66			
+4	chk	Page4[0].Table_Line28[0].Row2[0].c4_9[0]	507,68	1		
+4	chk	Page4[0].Table_Line28[0].Row2[0].c4_9[1]	550,68	2		
+4	Tx	Page4[0].Table_Line28[0].Row3[0].f4_99[0]	36,54			
+4	Tx	Page4[0].Table_Line28[0].Row3[0].f4_100[0]	101,54			
+4	Tx	Page4[0].Table_Line28[0].Row3[0].f4_101[0]	166,54			
+4	Tx	Page4[0].Table_Line28[0].Row3[0].f4_102[0]	274,54			
+4	Tx	Page4[0].Table_Line28[0].Row3[0].f4_103[0]	382,54			
+4	chk	Page4[0].Table_Line28[0].Row3[0].c4_10[0]	507,56	1		
+4	chk	Page4[0].Table_Line28[0].Row3[0].c4_10[1]	550,56	2		
+4	Tx	Page4[0].Table_Line28[0].Row4[0].f4_104[0]	36,42			
+4	Tx	Page4[0].Table_Line28[0].Row4[0].f4_105[0]	101,42			
+4	Tx	Page4[0].Table_Line28[0].Row4[0].f4_106[0]	166,42			
+4	Tx	Page4[0].Table_Line28[0].Row4[0].f4_107[0]	274,42			
+4	Tx	Page4[0].Table_Line28[0].Row4[0].f4_108[0]	382,42			
+4	chk	Page4[0].Table_Line28[0].Row4[0].c4_11[0]	507,44	1		
+4	chk	Page4[0].Table_Line28[0].Row4[0].c4_11[1]	550,44	2		
+5	chk	Page5[0].c5_1[0]	482,716	1		29 Did you receive a Foreign Grantor Trust Beneficiary Statement from the foreign trust with respect to a distribution?
+5	chk	Page5[0].c5_1[1]	518,716	2		Did you receive a Foreign Grantor Trust Beneficiary Statement from the foreign trust with respect to a distribution? Yes
+5	chk	Page5[0].c5_1[2]	550,716	3		 you receive a Foreign Grantor Trust Beneficiary Statement from the foreign trust with respect to a distribution? Yes No
+5	chk	Page5[0].c5_2[0]	482,656	1		 Did you receive a Foreign Nongrantor Trust Beneficiary Statement from the foreign trust with respect to a distribution?
+5	chk	Page5[0].c5_2[1]	518,656	2		 you receive a Foreign Nongrantor Trust Beneficiary Statement from the foreign trust with respect to a distribution? Yes
+5	chk	Page5[0].c5_2[2]	550,656	3		u receive a Foreign Nongrantor Trust Beneficiary Statement from the foreign trust with respect to a distribution? Yes No
+5	Tx	Page5[0].f5_1[0]	490,570		31	31 Enter amount from line 27 Schedule A—Default Calculation of Trust Distributions … (see instructions) … 31
+5	Tx	Page5[0].f5_2[0]	382,546		32	32 Number of years the trust has been a foreign trust, including the current tax year (see instructions) … 32
+5	Tx	Page5[0].f5_3[0]	490,522		33	 the number of years the trust has been a foreign trust, if fewer than 3 years, but excluding the current tax year) … 33
+5	Tx	Page5[0].f5_4[0]	490,510		34	34 Multiply line 33 by 1.25 … 33 34
+5	Tx	Page5[0].f5_5[0]	490,486		35	the trust has been a foreign trust, if fewer than 3 years, but excluding the current tax year) and enter the result … 35
+5	Tx	Page5[0].f5_6[0]	490,474		36	36 Amount treated as ordinary income earned in the current tax year. Enter the smaller of line 31 or line 35 . . 35 36
+5	Tx	Page5[0].f5_7[0]	490,462		37	ted as accumulation distribution. Subtract line 36 from line 31. If zero, do not complete the rest of Part III . . 36 37
+5	Tx	Page5[0].f5_8[0]	382,450		38	ot complete the rest of Part III Applicable number of years of trust. Divide line 32 by 2.0 and enter the result here 38
+5	Tx	Page5[0].f5_9[0]	490,426		39	39 Enter amount from line 27 Schedule B—Actual Calculation of Trust Distributions … (see instructions) … 39
+5	Tx	Page5[0].f5_10[0]	490,414		40a	39 40 a Enter amount from line 27 Amount treated as ordinary income in the current tax year … 40a 39
+5	Tx	Page5[0].f5_11[0]	382,402		40b	40 a b Amount treated as ordinary income in the current tax year Qualified dividends … 40b .
+5	Tx	Page5[0].f5_12[0]	490,390		41a	a Qualified dividends Amount treated as accumulation distribution. If zero, do not complete Schedule C below … 40b … 41a
+5	Tx	Page5[0].f5_13[0]	382,378		41b	ed as accumulation distribution. If zero, do not complete Schedule C below . Amount of line 41a that is tax exempt … 41b
+5	Tx	Page5[0].f5_14[0]	490,366		42a	 Amount of line 41a that is tax exempt Amount treated as net short-term capital gain in the current tax year … 41b … 42a
+5	Tx	Page5[0].f5_15[0]	490,354		42b	rm capital gain in the current tax year . Amount treated as net long-term capital gain in the current tax year … 42b 42a
+5	Tx	Page5[0].f5_16[0]	382,342		42c	b c Amount treated as net long-term capital gain in the current tax year 28% rate gain … 42c .
+5	Tx	Page5[0].f5_17[0]	382,330		42d	c d 28% rate gain Unrecaptured section 1250 gain … 42d 42c
+5	Tx	Page5[0].f5_18[0]	490,318		43	43 d Unrecaptured section 1250 gain Amount treated as distribution from trust corpus … 42d … 43
+5	Tx	Page5[0].f5_19[0]	490,294		44	uted amount received from the foreign trust not included on lines 40a, 41a, 42a, 42b, and 43. (Attach explanation.) … 44
+5	Tx	Page5[0].f5_20[0]	490,282		45	45 Amount of foreign trust’s aggregate undistributed net income … 44 45
+5	Tx	Page5[0].f5_21[0]	490,270		46	foreign trust’s aggregate undistributed net income . Amount of foreign trust’s weighted undistributed net income … 45 46
+5	Tx	Page5[0].Line47_ReadOrder[0].f5_22[0]	382,246		47	47 Applicable number of years of trust. Divide line 46 by line 45 and enter the result here … 47
+5	Tx	Page5[0].f5_23[0]	490,222		48	distribution from line 37 or line 41a, as applicable Schedule C—Calculation of Interest Charge … (see instructions) … 48
+5	Tx	Page5[0].f5_24[0]	490,210		49	ble Enter tax on total accumulation distribution from line 28 of Form 4970. (Attach Form 4970—see instructions.) … 48 49
+5	Tx	Page5[0].Line50_ReadOrder[0].f5_25[0]	382,186		50	icable (round to nearest half year) . Enter applicable number of years of foreign trust from line 38 or line 47, as … 50
+5	Tx	Page5[0].f5_26[0]	490,174		51	51 Combined interest rate imposed on the total accumulation distribution (see instructions) 50 … 51
+5	Tx	Page5[0].f5_27[0]	490,162		52	tion (see instructions) Interest charge. Multiply the amount on line 49 by the combined interest rate on line 51 … 51 52
+5	Tx	Page5[0].f5_28[0]	490,138		53	n . Tax attributable to accumulation distributions. Add lines 49 and 52. Enter here and as “additional tax” on your … 53
+6	chk	Page6[0].c6_1[0]	518,698	1		cluding a distribution received from a domestic trust treated as owned by a foreign person) or a foreign estate? See … .
+6	chk	Page6[0].c6_1[1]	554,698	2		uding a distribution received from a domestic trust treated as owned by a foreign person) or a foreign estate? See … Yes
+6	Tx	Page6[0].Table_Line54[0].Row1[0].f6_1[0]	36,636			
+6	Tx	Page6[0].Table_Line54[0].Row1[0].f6_2[0]	116,636			
+6	Tx	Page6[0].Table_Line54[0].Row1[0].f6_3[0]	490,636			
+6	Tx	Page6[0].Table_Line54[0].Row2[0].f6_4[0]	36,624			
+6	Tx	Page6[0].Table_Line54[0].Row2[0].f6_5[0]	116,624			
+6	Tx	Page6[0].Table_Line54[0].Row2[0].f6_6[0]	490,624			
+6	Tx	Page6[0].Table_Line54[0].Row3[0].f6_7[0]	36,612			
+6	Tx	Page6[0].Table_Line54[0].Row3[0].f6_8[0]	116,612			
+6	Tx	Page6[0].Table_Line54[0].Row3[0].f6_9[0]	490,612			
+6	Tx	Page6[0].f6_10[0]	497,600			Total … $
+6	chk	Page6[0].c6_2[0]	518,578	1		you treated as gifts in excess of the amount provided in the instructions? See instructions regarding related donors … .
+6	chk	Page6[0].c6_2[1]	554,578	2		u treated as gifts in excess of the amount provided in the instructions? See instructions regarding related donors … Yes
+6	Tx	Page6[0].Table_Line55a-d[0].Row1[0].f6_11[0]	36,528			
+6	Tx	Page6[0].Table_Line55a-d[0].Row1[0].f6_12[0]	116,528			
+6	Tx	Page6[0].Table_Line55a-d[0].Row1[0].f6_13[0]	253,528			
+6	Tx	Page6[0].Table_Line55a-d[0].Row1[0].f6_14[0]	490,528			
+6	Tx	Page6[0].Table_Line55a-d[0].Row2[0].f6_15[0]	36,516			
+6	Tx	Page6[0].Table_Line55a-d[0].Row2[0].f6_16[0]	116,516			
+6	Tx	Page6[0].Table_Line55a-d[0].Row2[0].f6_17[0]	253,516			
+6	Tx	Page6[0].Table_Line55a-d[0].Row2[0].f6_18[0]	490,516			
+6	Tx	Page6[0].Table_Line55a-d[0].Row3[0].f6_19[0]	36,504			
+6	Tx	Page6[0].Table_Line55a-d[0].Row3[0].f6_20[0]	116,504			
+6	Tx	Page6[0].Table_Line55a-d[0].Row3[0].f6_21[0]	253,504			
+6	Tx	Page6[0].Table_Line55a-d[0].Row3[0].f6_22[0]	490,504			
+6	Tx	Page6[0].Table_Line55a-d[0].Row4[0].f6_23[0]	36,492			
+6	Tx	Page6[0].Table_Line55a-d[0].Row4[0].f6_24[0]	116,492			
+6	Tx	Page6[0].Table_Line55a-d[0].Row4[0].f6_25[0]	253,492			
+6	Tx	Page6[0].Table_Line55a-d[0].Row4[0].f6_26[0]	490,492			
+6	chk	Page6[0].Table_Line55e-g[0].Row1[0].c6_3[0]	72,446	1		
+6	chk	Page6[0].Table_Line55e-g[0].Row1[0].c6_3[1]	151,446	2		
+6	Tx	Page6[0].Table_Line55e-g[0].Row1[0].f6_27[0]	195,444			
+6	Tx	Page6[0].Table_Line55e-g[0].Row1[0].f6_28[0]	490,444			
+6	chk	Page6[0].Table_Line55e-g[0].Row2[0].c6_4[0]	72,434	1		
+6	chk	Page6[0].Table_Line55e-g[0].Row2[0].c6_4[1]	151,434	2		
+6	Tx	Page6[0].Table_Line55e-g[0].Row2[0].f6_29[0]	195,431			
+6	Tx	Page6[0].Table_Line55e-g[0].Row2[0].f6_30[0]	490,431			
+6	chk	Page6[0].Table_Line55e-g[0].Row3[0].c6_5[0]	72,421	1		
+6	chk	Page6[0].Table_Line55e-g[0].Row3[0].c6_5[1]	151,421	2		
+6	Tx	Page6[0].Table_Line55e-g[0].Row3[0].f6_31[0]	195,419			
+6	Tx	Page6[0].Table_Line55e-g[0].Row3[0].f6_32[0]	490,419			
+6	chk	Page6[0].Table_Line55e-g[0].Row4[0].c6_6[0]	72,409	1		
+6	chk	Page6[0].Table_Line55e-g[0].Row4[0].c6_6[1]	151,409	2		
+6	Tx	Page6[0].Table_Line55e-g[0].Row4[0].f6_33[0]	195,407			
+6	Tx	Page6[0].Table_Line55e-g[0].Row4[0].f6_34[0]	490,407			
+6	chk	Page6[0].c6_7[0]	518,386	1		u have any reason to believe that the foreign donor, in making any gift or bequest described in lines 54 and 55, was … .
+6	chk	Page6[0].c6_7[1]	554,386	2		have any reason to believe that the foreign donor, in making any gift or bequest described in lines 54 and 55, was … Yes
+6	Tx	Page6[0].f6_35[0]	310,348			Here
+6	Tx	Page6[0].f6_36[0]	80,312			Paid Preparer
+6	chk	Page6[0].c6_8[0]	466,325	1		Print/Type preparer’s name Preparer’s signature Date Check
+6	Tx	Page6[0].f6_37[0]	490,312			Paid Preparer Check self-employed if
+6	Tx	Page6[0].f6_38[0]	137,300			Preparer Use Only Firm’s name
+6	Tx	Page6[0].f6_39[0]	137,288			Use Only Firm’s address
+6	Tx	Page6[0].f6_40[0]	482,300			Preparer Use Only Firm’s name Firm’s EIN
+6	Tx	Page6[0].f6_41[0]	482,288			Use Only Firm’s address Phone no.

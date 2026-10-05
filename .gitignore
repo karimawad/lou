@@ -14,3 +14,6 @@ logs
 research/render_check/
 # CRA slip PDFs: Crown copyright, kept out of the public repo. Re-download from canada.ca to rebuild templates.
 research/cra/
+releases
+current
+current.new

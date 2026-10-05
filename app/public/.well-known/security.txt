@@ -2,4 +2,4 @@ Contact: mailto:info@bigtimedesign.ca
 Expires: 2027-10-05T00:00:00.000Z
 Preferred-Languages: en
 Canonical: https://lou.bigtimedesign.ca/.well-known/security.txt
-Policy: https://github.com/bigtimedesign/lou/security/policy
+Policy: https://github.com/karimawad/lou/security/policy

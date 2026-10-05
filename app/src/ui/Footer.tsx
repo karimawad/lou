@@ -1,7 +1,8 @@
 import { Heart } from './icons';
 
 const MAKER = 'https://bigtimedesign.ca';
-const SOURCE = 'https://github.com/bigtimedesign/lou';
+const SOURCE = 'https://github.com/karimawad/lou';
+declare const __APP_VERSION__: string;
 
 /** Site footer: who made Lou, the legal pages, the source and a way to reach us. Links open in a new tab so a return in progress stays put. */
 export function Footer() {
@@ -18,6 +19,7 @@ export function Footer() {
         <a href="/legal/notices.html" target="_blank" rel="noopener">Notices</a>
         <a href={SOURCE} target="_blank" rel="noopener">Source code</a>
         <a href={`${SOURCE}/issues`} target="_blank" rel="noopener">Report a problem</a>
+        <a href={`${SOURCE}/releases`} target="_blank" rel="noopener">Version {__APP_VERSION__}</a>
         <a href="mailto:info@bigtimedesign.ca">Contact</a>
       </nav>
       <p className="site-footer-fine">

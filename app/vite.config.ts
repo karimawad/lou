@@ -81,5 +81,6 @@ function serviceWorker(): Plugin {
 
 // https://vite.dev/config/
 export default defineConfig({
+  define: { __APP_VERSION__: JSON.stringify(JSON.parse(readFileSync('package.json', 'utf8')).version) },
   plugins: [react(), contentSecurityPolicy(), serviceWorker()],
 })

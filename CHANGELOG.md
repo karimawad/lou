@@ -2,6 +2,10 @@
 
 Versions follow MAJOR.MINOR.PATCH. The version shows in the footer of the app. Bump it in `app/package.json`.
 
+## 1.0.3 (2026-10-05)
+
+When Chrome or Edge shows no install prompt (already installed, or dismissed), say where to find install.
+
 ## 1.0.2 (2026-10-05)
 
 Fix: the install note was hidden in browsers that cannot install Lou (Opera, Firefox, Android browsers).

@@ -82,9 +82,9 @@ export function usePwa(): PwaState {
   return useSyncExternalStore((l) => { listeners.add(l); return () => listeners.delete(l); }, () => snapshot, () => snapshot);
 }
 
-export type InstallHint = 'safari-ios' | 'safari-mac' | 'android-menu' | 'no-install' | 'maybe-menu';
+export type InstallHint = 'safari-ios' | 'safari-mac' | 'android-menu' | 'no-install' | 'maybe-menu' | 'chromium';
 
-/** Which install note fits this browser when it offered no install prompt. null: Chrome and Edge, which offer one themselves. */
+/** Which install note fits this browser when it offered no install prompt. */
 export function installHint(): InstallHint | null {
   const ua = navigator.userAgent;
   const android = /Android/.test(ua);
@@ -94,6 +94,6 @@ export function installHint(): InstallHint | null {
   if (android) return 'android-menu';
   // Desktop Opera and Firefox do not install web apps at all.
   if (/OPR|Opera|Firefox/.test(ua)) return 'no-install';
-  // Chrome and Edge show their own install offer. Brave, Vivaldi and others vary.
-  return /Edg|Chrome/.test(ua) && !/Brave|Vivaldi/.test(ua) ? null : 'maybe-menu';
+  // Chrome and Edge normally offer install themselves. They stay quiet if Lou is already installed or the offer was dismissed.
+  return /Edg|Chrome/.test(ua) && !/Brave|Vivaldi/.test(ua) ? 'chromium' : 'maybe-menu';
 }

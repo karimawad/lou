@@ -25,6 +25,7 @@ export function InstallLou({ compact = false }: { compact?: boolean }) {
     'safari-mac': 'To install Lou, choose File > Add to Dock in Safari. It then opens in its own window and works offline.',
     'android-menu': 'To install Lou, open your browser menu and choose "Install app" or "Add to Home screen".',
     'no-install': "Your browser can't install web apps on a computer, so Lou stays in a browser tab. It still works, and it can open offline after your first visit. To get the installed app, open Lou in Chrome or Edge. Either way, save a backup file to keep your work.",
+    chromium: 'No Install button here? Look for the install icon at the right end of the address bar, or open the browser menu and choose "Install Lou" (in Chrome: Cast, save and share). If you already installed Lou, open it from your apps instead.',
     'maybe-menu': 'Your browser may offer "Install Lou" or "Add to Home screen" in its menu. If it does not, Lou still works in a normal tab, and a backup file keeps your work safe.',
   };
   return <p className="small muted">{note[hint]}</p>;

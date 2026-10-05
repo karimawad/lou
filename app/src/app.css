@@ -454,3 +454,4 @@ details.more[open] summary { margin-bottom: var(--s-3); }
 
 .checklist { margin: 0; padding-left: 1.2em; display: grid; gap: var(--s-2); color: var(--ink-2); }
 .checklist strong { color: var(--ink); font-weight: 500; }
+.section + .head { padding-top: var(--s-6); border-top: 1px solid var(--line); }

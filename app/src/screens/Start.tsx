@@ -3,14 +3,45 @@ import { switchYear } from '../state/store';
 import { Choices, Callout } from '../ui/kit';
 import { Arrow } from '../ui/icons';
 import { BackupPanel } from './Backup';
+import { InstallLou } from './Install';
+import { installHint, usePwa } from '../pwa';
 import type { TaxYear } from '../tax/years';
 
 export function Start() {
   const { state, update, go } = useApp();
   const year = state.year;
+  const pwa = usePwa();
+  const showInstall = !pwa.installed && (pwa.canInstall || installHint() !== null);
 
   return (
     <div className="page">
+      <section className="section">
+        <div className="section-head">
+          <h2>Who Lou is for</h2>
+          <p>US citizens, dual citizens and green card holders who lived in Canada for the whole year. If you moved between the
+            countries during the year, or you are Canadian with no US status, you need a different kind of return.</p>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="section-head">
+          <h2>Have these ready</h2>
+          <p>Phone photos are fine.</p>
+        </div>
+        <ul className="checklist">
+          <li><strong>Your Canadian slips</strong> for the year: T4, T5, T3, T4RSP, T4A(P) and so on.</li>
+          <li><strong>Your Notice of Assessment</strong> from CRA. The US foreign tax credit is based on the Canadian tax it shows.</li>
+          <li><strong>Social Security numbers</strong> for you, your spouse and any children you claim.</li>
+        </ul>
+      </section>
+
+      {showInstall && <section className="section">
+        <div className="section-head">
+          <h2>Use Lou like an app</h2>
+        </div>
+        <InstallLou />
+      </section>}
+
       <div className="head">
         <p className="eyebrow">Step 1</p>
         <h1 id="main-heading" tabIndex={-1}>Choose your tax year</h1>
@@ -34,26 +65,6 @@ export function Start() {
               and six years of FBARs, with no penalties. Do one year at a time here. The results page explains the extra certification form it needs.</p>
           </Callout>
         )}
-      </section>
-
-      <section className="section">
-        <div className="section-head">
-          <h2>Who Lou is for</h2>
-          <p>US citizens, dual citizens and green card holders who lived in Canada for the whole year. If you moved between the
-            countries during the year, or you are Canadian with no US status, you need a different kind of return.</p>
-        </div>
-      </section>
-
-      <section className="section">
-        <div className="section-head">
-          <h2>Have these ready</h2>
-          <p>Phone photos are fine.</p>
-        </div>
-        <ul className="checklist">
-          <li><strong>Your Canadian slips</strong> for the year: T4, T5, T3, T4RSP, T4A(P) and so on.</li>
-          <li><strong>Your Notice of Assessment</strong> from CRA. The US foreign tax credit is based on the Canadian tax it shows.</li>
-          <li><strong>Social Security numbers</strong> for you, your spouse and any children you claim.</li>
-        </ul>
       </section>
 
       <section className="section">

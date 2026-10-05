@@ -26,9 +26,17 @@ On the server the repo lives at `/var/www/lou`, and you run everything from ther
      `sudo chown lsadm:lsadm` it. It sets the document root to `current/`, the 404 page, the HTTPS redirect, 14-day log
      retention (matches the privacy policy), the cache rules and the security headers.
    - Listeners: on both the port 80 and port 443 listeners, add a virtual host mapping `Lou` for domain `lou.bigtimedesign.ca`.
-5. **HTTPS certificate.** `sudo certbot certonly --webroot -w /var/www/lou/current -d lou.bigtimedesign.ca`, then in WebAdmin
-   Virtual Hosts, `Lou`, SSL: set the private key file and certificate file to the Let's Encrypt paths. (If MTGSL already uses
-   certbot with a different method, use the same one.) Graceful restart.
+5. **HTTPS certificate.** First prove the vhost answers on port 80:
+   ```
+   mkdir -p /var/www/lou/current/.well-known/acme-challenge && echo ok > /var/www/lou/current/.well-known/acme-challenge/test
+   curl -i http://lou.bigtimedesign.ca/.well-known/acme-challenge/test     # must be 200 and "ok"
+   ```
+   A 404 here means the request is landing on another virtual host (usually MTGSL): the `Lou` mapping is missing on the **port 80**
+   listener, or the domain is spelled differently there. Fix it, graceful restart, and test again. Then:
+   `sudo certbot certonly --webroot -w /var/www/lou/current -d lou.bigtimedesign.ca`, and in WebAdmin Virtual Hosts, `Lou`, SSL set the
+   private key file to `/etc/letsencrypt/live/lou.bigtimedesign.ca/privkey.pem` and the certificate file to `fullchain.pem`.
+   Graceful restart. Note: a new deploy replaces `current`, so the test file disappears; certbot renewals recreate their own files.
+   If the symlinked `current` folder gives 403, turn on "Follow Symbolic Link" for the vhost (or server).
 6. **MIME types.** Check `.webmanifest` is `application/manifest+json` and `.wasm` is `application/wasm` (Server, MIME settings).
 7. **Check.**
    ```

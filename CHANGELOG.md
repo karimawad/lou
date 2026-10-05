@@ -2,6 +2,10 @@
 
 Versions follow MAJOR.MINOR.PATCH. The version shows in the footer of the app. Bump it in `app/package.json`.
 
+## 1.0.2 (2026-10-05)
+
+Fix: the install note was hidden in browsers that cannot install Lou (Opera, Firefox, Android browsers).
+
 ## 1.0.1 (2026-10-05)
 
 Say plainly when a browser (Opera and Firefox on a computer, and others) cannot install Lou or save to a folder, and what to do instead.

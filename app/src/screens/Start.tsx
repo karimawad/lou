@@ -14,8 +14,8 @@ export function Start() {
 
   const pwa = usePwa();
   const hint = installHint();
-  // Only when this browser can install Lou or save to a folder (not, for example, Firefox).
-  const appSection = (!pwa.installed && (pwa.canInstall || hint === 'safari-mac' || hint === 'safari-ios')) || folderSupported();
+  // Shown when this browser can install Lou, has install steps to show, or can save to a folder.
+  const appSection = (!pwa.installed && (pwa.canInstall || hint !== null)) || folderSupported();
 
   return (
     <div className="page">

@@ -2,6 +2,10 @@
 
 Versions follow MAJOR.MINOR.PATCH. The version shows in the footer of the app. Bump it in `app/package.json`.
 
+## 1.1.0 (2026-10-05)
+
+Start page is now only the tax year step (no marketing). Backup, auto-save, install and clear moved into one "Your data" panel, reachable from the rail card and the mobile top bar.
+
 ## 1.0.4 (2026-10-05)
 
 An "Install Lou" button always shows; when the browser gives no install prompt it opens that browser's install steps.

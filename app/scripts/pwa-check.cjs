@@ -44,7 +44,7 @@ const DIST = require('path').resolve('dist');
   await page.waitForTimeout(1500);
   console.log('offline h1:', await page.locator('h1').first().textContent().catch(() => 'none'));
   await page.getByRole('radio', { name: /^2025/ }).check();
-  await page.getByRole('button', { name: 'Start', exact: true }).click();
+  await page.getByRole('button', { name: 'Continue', exact: true }).click();
   await page.getByLabel('First name and middle initial').fill('Sam');
   await page.getByLabel('Last name', { exact: true }).fill('Lee');
   await page.getByLabel('Social Security number').fill('123456789');
@@ -75,7 +75,11 @@ const DIST = require('path').resolve('dist');
       return dir;
     };
   });
-  await page.locator('.rail').getByRole('button', { name: /Save automatically to a folder/ }).click();
+  await page.locator('.rail').getByRole('button', { name: 'Your data' }).click();
+  await page.getByRole('dialog').getByRole('button', { name: /Save automatically to a folder/ }).click();
+  await page.waitForTimeout(500);
+  const folderStatus = (await page.getByRole('dialog').locator('.folder-sync').innerText()).replace(/\s+/g, ' ');
+  await page.getByRole('dialog').getByRole('button', { name: 'Close' }).click();
   await page.getByLabel('Payer').fill('Maple Co Ltd').catch(() => {});
   await page.waitForTimeout(4500);
   const files = await page.evaluate(async () => {
@@ -85,7 +89,7 @@ const DIST = require('path').resolve('dist');
     return out;
   });
   console.log('folder files:', files.join(' | '));
-  console.log('rail status:', (await page.locator('.rail .folder-sync').innerText()).replace(/\s+/g, ' '));
+  console.log('folder status:', folderStatus);
 
   // Update: change the worker's version on disk, check for updates, accept.
   const sw = fs.readFileSync(`${DIST}/sw.js`, 'utf8');

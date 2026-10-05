@@ -11,7 +11,7 @@ import { Callout, TextInput } from '../ui/kit';
 type Mode = { kind: 'idle' } | { kind: 'save' } | { kind: 'restore'; text: string; name: string; encrypted: boolean; createdAt: string };
 
 /** `initialFile`: a .lou file the user opened with the installed Lou (goes straight to the restore step). */
-export function BackupPanel({ compact = false, initialFile, onDone }: { compact?: boolean; initialFile?: File; onDone?: () => void }) {
+export function BackupPanel({ compact = false, restoreOnly = false, initialFile, onDone }: { compact?: boolean; restoreOnly?: boolean; initialFile?: File; onDone?: () => void }) {
   const { state, restore } = useApp();
   const [mode, setMode] = useState<Mode>({ kind: 'idle' });
   const [password, setPassword] = useState('');
@@ -68,7 +68,7 @@ export function BackupPanel({ compact = false, initialFile, onDone }: { compact?
     <div className="backup" style={{ display: 'grid', gap: 'var(--s-3)' }}>
       {mode.kind === 'idle' && (
         <div style={{ display: 'flex', gap: compact ? 'var(--s-3)' : 'var(--s-3)', flexWrap: 'wrap', alignItems: 'center' }}>
-          {hasData && <button type="button" className={linkish} onClick={() => { setMessage(null); setMode({ kind: 'save' }); }}>{!compact && <Download size={16} />} Save a backup file</button>}
+          {hasData && !restoreOnly && <button type="button" className={linkish} onClick={() => { setMessage(null); setMode({ kind: 'save' }); }}>{!compact && <Download size={16} />} Save a backup file</button>}
           <button type="button" className={linkish} onClick={() => fileInput.current?.click()}>{!compact && <Upload size={16} />} Restore from a backup</button>
           <input ref={fileInput} type="file" accept=".lou,application/json" hidden onChange={(e) => { void pick(e.target.files?.[0]); e.target.value = ''; }} />
         </div>

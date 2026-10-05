@@ -16,7 +16,7 @@ export function InstallLou({ compact = false }: { compact?: boolean }) {
       ? <button type="button" className="linkish" onClick={() => void installLou()}>Install Lou on this computer</button>
       : (
         <div style={{ display: 'grid', gap: 'var(--s-2)', justifyItems: 'start' }}>
-          <button type="button" className="btn btn-secondary" onClick={() => void installLou()}>Install Lou</button>
+          <button type="button" className="btn btn-secondary btn-sm" onClick={() => void installLou()}>Install Lou</button>
           <p className="small muted">Lou gets its own window and icon, and works without an internet connection. Your data stays on this computer.</p>
         </div>
       );
@@ -34,7 +34,7 @@ export function InstallLou({ compact = false }: { compact?: boolean }) {
   if (hint === 'no-install') return <p className="small muted">{note[hint]}</p>;
   return (
     <div style={{ display: 'grid', gap: 'var(--s-2)', justifyItems: 'start' }}>
-      <button type="button" className="btn btn-secondary" aria-expanded={steps} onClick={() => setSteps((v) => !v)}>Install Lou</button>
+      <button type="button" className="btn btn-secondary btn-sm" aria-expanded={steps} onClick={() => setSteps((v) => !v)}>Install Lou</button>
       <p className="small muted" hidden={!steps} role="status">{note[hint]}</p>
       {!steps && <p className="small muted">Lou gets its own window and icon, and works without an internet connection. Your data stays on this computer.</p>}
     </div>

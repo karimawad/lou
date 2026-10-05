@@ -1,10 +1,10 @@
 import { useState } from 'react';
 import './app.css';
 import { AppProvider, useApp } from './state/context';
-import { BackupPanel, FolderSync } from './screens/Backup';
-import { InstallLou, PwaBanners } from './screens/Install';
+import { PwaBanners } from './screens/Install';
+import { YourDataCard, YourDataDialog } from './screens/YourData';
 import { STEPS, type AppState, type StepId } from './state/store';
-import { Lock, Mark, Check } from './ui/icons';
+import { Mark, Check } from './ui/icons';
 import { Start } from './screens/Start';
 import { You } from './screens/You';
 import { Slips } from './screens/Slips';
@@ -31,10 +31,10 @@ export function reachable(s: AppState): Record<StepId, boolean> {
 }
 
 function Shell() {
-  const { state, go, openYear, reset } = useApp();
+  const { state, go, openYear } = useApp();
   const can = reachable(state);
   const idx = STEPS.findIndex((x) => x.id === state.step);
-  const [confirmClear, setConfirmClear] = useState(false);
+  const [dataOpen, setDataOpen] = useState(false);
 
   const Screen = { start: Start, you: You, slips: Slips, review: Review, questions: Questions, results: Results }[state.step];
 
@@ -67,22 +67,7 @@ function Shell() {
           </ol>
         </nav>
 
-        <div className="privacy">
-          <div className="privacy-title"><Lock size={16} /> Stays on this device</div>
-          <p>Lou reads your slips and fills your forms right here in your browser. Nothing is uploaded, and there is no account.</p>
-          <p>Your progress is saved in this browser so you can come back. Save a backup file to keep it on your computer, or to move to another browser.</p>
-          <BackupPanel compact />
-          <FolderSync compact />
-          <InstallLou compact />
-          {confirmClear ? (
-            <div style={{ display: 'flex', gap: 'var(--s-3)', alignItems: 'center' }}>
-              <button type="button" className="linkish danger" onClick={async () => { await reset(); setConfirmClear(false); }}>Yes, clear everything</button>
-              <button type="button" className="linkish" onClick={() => setConfirmClear(false)}>Keep it</button>
-            </div>
-          ) : (
-            <button type="button" className="linkish" onClick={() => setConfirmClear(true)}>Clear my data from this device</button>
-          )}
-        </div>
+        <YourDataCard onOpen={() => setDataOpen(true)} />
       </aside>
 
       <div>
@@ -96,6 +81,7 @@ function Shell() {
               </select>
             )}
             <span className="muted">Step {idx + 1} of {STEPS.length} · {STEPS[idx].label}</span>
+            <button type="button" className="linkish" onClick={() => setDataOpen(true)}>Your data</button>
           </div>
           <div className="progress" aria-hidden="true"><span style={{ width: `${((idx + 1) / STEPS.length) * 100}%` }} /></div>
         </header>
@@ -105,6 +91,7 @@ function Shell() {
           <Footer />
         </main>
       </div>
+      <YourDataDialog open={dataOpen} onClose={() => setDataOpen(false)} />
     </div>
   );
 }

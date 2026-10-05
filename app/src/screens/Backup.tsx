@@ -110,7 +110,9 @@ export function BackupPanel({ compact = false, initialFile, onDone }: { compact?
 /** Chrome and Edge on a computer: keep saving to a folder the user picks. Elsewhere, nothing (backup files cover it). */
 export function FolderSync({ compact = false }: { compact?: boolean }) {
   const st = useFolderStatus();
-  if (!folderSupported() || st.kind === 'unsupported') return null;
+  if (!folderSupported() || st.kind === 'unsupported') {
+    return compact ? null : <p className="small muted">Automatic saving to a folder works in Chrome and Edge on a computer. In this browser, use "Save a backup file" to keep a copy on your computer.</p>;
+  }
   const btn = compact ? 'linkish' : 'btn btn-secondary btn-sm';
   const time = (t?: number) => (t ? new Date(t).toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' }) : null);
   return (

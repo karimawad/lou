@@ -82,12 +82,18 @@ export function usePwa(): PwaState {
   return useSyncExternalStore((l) => { listeners.add(l); return () => listeners.delete(l); }, () => snapshot, () => snapshot);
 }
 
-/** Which install instructions fit this browser when there is no install prompt. */
-export function installHint(): 'safari-mac' | 'safari-ios' | 'other' | null {
+export type InstallHint = 'safari-ios' | 'safari-mac' | 'android-menu' | 'no-install' | 'maybe-menu';
+
+/** Which install note fits this browser when it offered no install prompt. null: Chrome and Edge, which offer one themselves. */
+export function installHint(): InstallHint | null {
   const ua = navigator.userAgent;
+  const android = /Android/.test(ua);
   const ios = /iPhone|iPad|iPod/.test(ua) || (ua.includes('Mac') && navigator.maxTouchPoints > 1);
-  const safari = /Safari/.test(ua) && !/Chrome|Chromium|Edg|OPR|Firefox|FxiOS|CriOS/.test(ua);
   if (ios) return 'safari-ios';
-  if (safari) return 'safari-mac';
-  return /Firefox/.test(ua) ? 'other' : null;
+  if (/Safari/.test(ua) && !/Chrome|Chromium|Edg|OPR|Opera|Firefox|FxiOS|CriOS/.test(ua)) return 'safari-mac';
+  if (android) return 'android-menu';
+  // Desktop Opera and Firefox do not install web apps at all.
+  if (/OPR|Opera|Firefox/.test(ua)) return 'no-install';
+  // Chrome and Edge show their own install offer. Brave, Vivaldi and others vary.
+  return /Edg|Chrome/.test(ua) && !/Brave|Vivaldi/.test(ua) ? null : 'maybe-menu';
 }

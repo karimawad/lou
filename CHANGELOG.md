@@ -2,6 +2,10 @@
 
 Versions follow MAJOR.MINOR.PATCH. The version shows in the footer of the app. Bump it in `app/package.json`.
 
+## 1.0.1 (2026-10-05)
+
+Say plainly when a browser (Opera and Firefox on a computer, and others) cannot install Lou or save to a folder, and what to do instead.
+
 ## 1.0.0 (2026-10-05)
 
 First public release. Tax years 2023, 2024 and 2025 (FBAR worksheets 2020 to 2025), on-device slip reading,

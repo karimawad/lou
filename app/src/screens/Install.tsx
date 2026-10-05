@@ -1,12 +1,14 @@
 // "Install Lou" (its own window and icon, works offline) and the banners an installed Lou needs:
 // a new version is ready, or a .lou file was opened with Lou.
 
+import { useState } from 'react';
 import { applyUpdate, clearLaunchFile, installHint, installLou, usePwa } from '../pwa';
 import { Callout } from '../ui/kit';
 import { BackupPanel } from './Backup';
 
 export function InstallLou({ compact = false }: { compact?: boolean }) {
   const { canInstall, installed } = usePwa();
+  const [steps, setSteps] = useState(false);
   if (installed) return null;
   const hint = installHint();
   if (canInstall) {
@@ -28,7 +30,15 @@ export function InstallLou({ compact = false }: { compact?: boolean }) {
     chromium: 'No Install button here? Look for the install icon at the right end of the address bar, or open the browser menu and choose "Install Lou" (in Chrome: Cast, save and share). If you already installed Lou, open it from your apps instead.',
     'maybe-menu': 'Your browser may offer "Install Lou" or "Add to Home screen" in its menu. If it does not, Lou still works in a normal tab, and a backup file keeps your work safe.',
   };
-  return <p className="small muted">{note[hint]}</p>;
+  // The browser gave no install prompt: a page cannot force one, so the button shows that browser's own steps.
+  if (hint === 'no-install') return <p className="small muted">{note[hint]}</p>;
+  return (
+    <div style={{ display: 'grid', gap: 'var(--s-2)', justifyItems: 'start' }}>
+      <button type="button" className="btn btn-secondary" aria-expanded={steps} onClick={() => setSteps((v) => !v)}>Install Lou</button>
+      <p className="small muted" hidden={!steps} role="status">{note[hint]}</p>
+      {!steps && <p className="small muted">Lou gets its own window and icon, and works without an internet connection. Your data stays on this computer.</p>}
+    </div>
+  );
 }
 
 export function PwaBanners() {

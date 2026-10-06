@@ -3,7 +3,7 @@ import { chromium } from 'playwright-core';
 import { mkdirSync } from 'node:fs';
 import { resolve } from 'node:path';
 
-const BASE = process.argv[2] ?? 'http://localhost:5179/';
+const BASE = process.argv[2] ?? 'http://localhost:5179/app/';
 const YEAR = Number(process.env.YEAR ?? 2025);
 const OUT = resolve('../research/render_check/ui' + (process.env.YEAR ? '-' + process.env.YEAR : ''));
 const FIX = resolve('src/extract/__fixtures__');

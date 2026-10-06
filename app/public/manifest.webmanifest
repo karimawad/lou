@@ -2,12 +2,12 @@
   "name": "Lou: Canadian slips to US tax forms",
   "short_name": "Lou",
   "description": "Turns your Canadian tax slips into a filled US tax return. Free, and nothing leaves your device.",
-  "id": "/",
-  "start_url": "/",
-  "scope": "/",
+  "id": "/app/",
+  "start_url": "/app/",
+  "scope": "/app/",
   "display": "standalone",
-  "background_color": "#f8f6f1",
-  "theme_color": "#1f6266",
+  "background_color": "#f6f4ec",
+  "theme_color": "#14161a",
   "lang": "en",
   "categories": ["finance", "productivity"],
   "icons": [
@@ -16,7 +16,7 @@
     { "src": "/icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
   ],
   "file_handlers": [
-    { "action": "/", "accept": { "application/x-lou-backup": [".lou"] } }
+    { "action": "/app/", "accept": { "application/x-lou-backup": [".lou"] } }
   ],
   "launch_handler": { "client_mode": "focus-existing" }
 }

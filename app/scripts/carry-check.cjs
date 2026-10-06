@@ -2,7 +2,7 @@
 // copies what rarely changes and asks for the new figures; opening 2023 offers to bring the items in.
 // Usage: node scripts/carry-check.cjs [url]
 const { chromium } = require('playwright-core');
-const BASE = process.argv[2] || 'http://localhost:5179/';
+const BASE = process.argv[2] || 'http://localhost:5179/app/';
 
 const slip = (id, type, boxes) => ({ id, type, owner: 'taxpayer', payer: 'Maple Co', year: 2024, boxes, reads: {}, edited: [], confirmed: true });
 const y2024 = {

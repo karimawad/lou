@@ -225,6 +225,18 @@ with filled IRS PDFs (1040, Sch 1, 1-A, 2, 3, B, 8812, 1116 per category) and a 
 - Hosting: HTTPS, and `/`, `/index.html`, `/sw.js`, `/manifest.webmanifest` must not be cached long (`public/_headers` for
   Cloudflare Pages/Netlify; `_*` files are excluded from the precache). Check: `node scripts/pwa-check.cjs` against `vite preview`.
 
+## Landing page + Form LOU look (2026-10-06, v1.2.0)
+
+- Two pages, one build: landing at `/` (`app/index.html`, `src/landing/landing.ts` + `landing.css`, no React) and the tool at `/app/`
+  (`app/app/index.html`). Manifest scope/start_url, service worker fallback, sitemap, scripts' default URLs all moved to `/app/`.
+- Look ("Form LOU"): a printed tax form. Tokens in `index.css` (paper, ink, shaded entry boxes `--shade`, ballpoint `--blue`, print
+  inks `--sun/--poppy/--sky`, spruce accent), skin in `src/brand.css` layered over `app.css`. Archivo (variable width) + Courier Prime
+  (amounts) are self-hosted in `src/fonts` (Latin subset): never load a font service.
+- Landing copy is Karim's (hero, how it works, why Lou, $49 pricing). "Start with Lou" goes to `/app/`. A "Continue your return"
+  button shows when saved state has a year. FAQ link not built (no FAQ page exists).
+- OPEN: the landing page and its copy say $49 per tax year, but the app is free, has no payment, and `legal/terms.html` says "Lou
+  is free". Needs a decision (payment provider = a new server/cloud call, see non-negotiable 1) before launch.
+
 ## Known limits (the app flags each one)
 
 1. Treaty re-sourcing of low-taxed gains (separate Form 1116 basket) not done.

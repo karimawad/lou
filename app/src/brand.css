@@ -1,0 +1,125 @@
+/* Form LOU look, layered over app.css. Same markup, new skin: printed-form paper, black rules,
+   shaded entry boxes, ballpoint-blue amounts, hard offset shadows, a few print-ink splashes.
+   Matches the landing page. */
+
+/* ---------- Type ---------- */
+h1 { font-size: clamp(2.1rem, 4.6vw, 3.1rem); font-weight: 900; font-stretch: 88%; letter-spacing: -0.03em; word-spacing: 0.08em; line-height: 0.98; }
+h2 { font-weight: 800; font-stretch: 92%; letter-spacing: -0.012em; word-spacing: 0.06em; }
+h3 { font-weight: 700; font-stretch: 94%; word-spacing: 0.05em; }
+.lede { color: var(--ink-2); font-stretch: 96%; }
+:focus-visible { border-radius: 0; outline: 3px solid var(--focus); outline-offset: 2px; }
+
+/* ---------- Shell: four-ink ribbon, ruled rail ---------- */
+.shell {
+  border-top: 6px solid transparent;
+  border-image: linear-gradient(90deg, var(--poppy) 0 38%, var(--sun) 38% 66%, var(--accent) 66% 90%, var(--sky) 90% 100%) 1;
+}
+.rail { border-right: 2px solid var(--ink); }
+.brand-mark { width: 38px; height: 38px; border-radius: 0; background: var(--ink); color: var(--sun); box-shadow: 3px 3px 0 var(--sun); }
+.brand-name { font-weight: 900; font-stretch: 92%; font-size: 1.6rem; letter-spacing: -0.03em; }
+.brand-sub { font-stretch: 92%; }
+
+.step-link { border-radius: 0; font-stretch: 94%; }
+.step-link:hover:not(:disabled) { background: var(--sunk); }
+.step-link[aria-current='step'] { background: var(--ink); color: var(--paper); font-weight: 700; box-shadow: 3px 3px 0 var(--sun); }
+.step-dot { border-radius: 0; border: 1.5px solid var(--ink-3); background: var(--surface); font-family: var(--font); font-weight: 900; }
+.step-link[aria-current='step'] .step-dot { border-color: var(--ink); background: var(--sun); color: var(--ink); }
+.step-dot.done { border-color: var(--accent); background: var(--accent); color: var(--accent-ink); }
+
+.year-link { border-radius: 0; }
+.year-link[aria-current='true'] { background: var(--sun); color: var(--ink); font-weight: 700; box-shadow: none; }
+.years-title { font-stretch: 85%; }
+
+.privacy, .data-card { border: 1px solid var(--ink); border-radius: 0; background: var(--surface); }
+.privacy-title svg, .data-card-title svg { color: var(--accent); }
+
+.eyebrow {
+  justify-self: start; display: inline-block;
+  padding: 3px 10px 3px 8px;
+  background: var(--ink); color: var(--paper);
+  border-left: 8px solid var(--sun);
+  font-weight: 800; font-stretch: 88%; letter-spacing: 0.1em;
+}
+
+/* ---------- Sections, rules ---------- */
+.section + .section, .section + .head { border-top: 1px solid var(--ink); }
+.actions { border-top: 1px solid var(--ink); }
+.checklist li::marker { color: var(--poppy); font-weight: 900; }
+
+/* ---------- Fields: shaded entry boxes ---------- */
+.field > label, .label { font-weight: 700; font-stretch: 95%; word-spacing: 0.04em; }
+.input, select.input {
+  border: 1px solid var(--ink); border-radius: 0;
+  background: var(--shade);
+}
+.input:hover { border-color: var(--ink); background: color-mix(in oklch, var(--shade) 70%, var(--surface)); }
+.input:focus { border-color: var(--blue); background: var(--surface); box-shadow: 0 0 0 2px var(--blue); }
+.input.num, input.input[inputmode='decimal'], input.input[inputmode='numeric'] { font-family: var(--mono); font-weight: 700; color: var(--blue); font-size: 1.0625rem; }
+.input[aria-invalid='true'] { border-color: var(--block); box-shadow: 0 0 0 1px var(--block); }
+
+.choice { border: 1px solid var(--ink); border-radius: 0; transition: border-color var(--dur) var(--ease), background var(--dur) var(--ease), box-shadow 160ms var(--ease), transform 160ms var(--ease); }
+.choice:hover { border-color: var(--ink); background: var(--surface); box-shadow: 2px 2px 0 var(--ink); }
+.choice input { accent-color: var(--ink); }
+.choice-title { font-weight: 700; font-stretch: 95%; }
+.choice:has(input:checked) { border-color: var(--ink); background: color-mix(in oklch, var(--sun) 38%, var(--surface)); box-shadow: 4px 4px 0 var(--ink); transform: translate(-1px, -1px); }
+
+/* ---------- Buttons ---------- */
+.btn { border-radius: 0; font-weight: 800; font-stretch: 92%; }
+.btn-primary { background: var(--ink); color: var(--paper); box-shadow: 3px 3px 0 var(--sun); transition: background var(--dur) var(--ease), transform 160ms var(--ease), box-shadow 160ms var(--ease); }
+.btn-primary:hover:not(:disabled) { background: var(--accent); transform: translate(-1px, -1px); box-shadow: 4px 4px 0 var(--sun); }
+.btn-primary:active:not(:disabled) { background: var(--ink); transform: translate(3px, 3px); box-shadow: 0 0 0 var(--sun); }
+.btn-primary:disabled { box-shadow: none; }
+.btn-secondary { background: var(--surface); border: 1.5px solid var(--ink); }
+.btn-secondary:hover:not(:disabled) { background: var(--sun); border-color: var(--ink); }
+.btn-ghost:hover:not(:disabled) { background: var(--sunk); }
+.linkish { font-weight: 600; }
+
+/* ---------- Callouts, badges ---------- */
+.callout { border-radius: 0; border-color: var(--ink); }
+.callout.info { border-color: var(--accent); }
+.callout.warn { border-color: color-mix(in oklch, var(--warn) 55%, var(--ink)); }
+.callout.block { border-color: var(--block); }
+.callout.ok { border-color: var(--ok); }
+.callout strong { font-stretch: 95%; font-weight: 800; word-spacing: 0.04em; }
+.badge { border-radius: 0; font-weight: 800; font-stretch: 88%; text-transform: uppercase; letter-spacing: 0.05em; font-size: 0.71875rem; border: 1px solid currentColor; }
+.badge.accent { background: var(--sun); color: var(--ink); border-color: var(--ink); }
+
+/* ---------- Dropzone ---------- */
+.drop { border: 2px dashed var(--ink); border-radius: 0; background: var(--surface); }
+.drop.over { border-color: var(--blue); background: color-mix(in oklch, var(--sky) 40%, var(--surface)); }
+.drop-icon { border-radius: 0; background: var(--sun); color: var(--ink); border: 1.5px solid var(--ink); box-shadow: 3px 3px 0 var(--ink); }
+.drop h3 { font-weight: 800; font-stretch: 90%; }
+
+/* ---------- Lists, review ---------- */
+.list, .boxes, .ledger-wrap, .download-row, .slip-view { border: 1px solid var(--ink); border-radius: 0; }
+.slip-tag { border-radius: 0; background: var(--sun); color: var(--ink); border: 1px solid var(--ink); font-weight: 700; }
+.list-title { font-stretch: 94%; font-weight: 700; }
+.box-row.active { background: color-mix(in oklch, var(--sun) 30%, var(--surface)); }
+.box-num { color: var(--ink); font-family: var(--font); font-weight: 900; font-stretch: 90%; }
+.box-where { color: var(--accent); font-weight: 700; font-stretch: 94%; }
+.highlight { border: 2px solid var(--ink); border-radius: 0; background: color-mix(in oklch, var(--sun) 38%, transparent); box-shadow: none; }
+
+/* ---------- Results ---------- */
+.verdict { border: 2px solid var(--ink); border-radius: 0; background: var(--surface); box-shadow: 6px 6px 0 var(--sun); }
+.verdict-amount { font-family: var(--mono); font-weight: 700; font-size: clamp(2.4rem, 5vw, 3.2rem); letter-spacing: -0.04em; }
+.ledger th { background: var(--ink); color: var(--paper); font-weight: 800; font-stretch: 88%; letter-spacing: 0.08em; }
+.ledger td.num { font-family: var(--mono); font-weight: 700; color: var(--blue); }
+.ledger tr.total td { border-top: 2px solid var(--ink); }
+.address { border-radius: 0; background: var(--shade); border: 1px solid var(--ink); }
+details.fold { border: 1px solid var(--ink); border-radius: 0; }
+details.fold > summary { border-radius: 0; }
+details.fold > summary:hover { background: color-mix(in oklch, var(--sun) 30%, var(--surface)); }
+details.fold[open] > summary { border-bottom: 1px solid var(--ink); border-radius: 0; }
+.fold-title { font-weight: 800; font-stretch: 92%; word-spacing: 0.05em; }
+details.more { border-top: 1px solid var(--ink); }
+
+/* ---------- Dialog, footer, mobile bar ---------- */
+.data-dialog { border: 2px solid var(--ink); border-radius: 0; box-shadow: 8px 8px 0 var(--sun); }
+.data-section { border-top: 1px solid var(--ink); }
+.site-footer { border-top: 1px solid var(--ink); }
+@media (max-width: 899px) {
+  .topbar { background: var(--rail); border-bottom: 2px solid var(--ink); backdrop-filter: none; }
+  .progress { height: 7px; border-radius: 0; background: var(--surface); border: 1px solid var(--ink); }
+  .progress > span { background: var(--poppy); }
+}
+@media (prefers-reduced-motion: reduce) { .choice, .btn-primary { transition: none; transform: none; } }

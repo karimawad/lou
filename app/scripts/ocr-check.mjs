@@ -2,7 +2,7 @@
 // Usage: node scripts/ocr-check.mjs [baseUrl] [fixture file name]
 import { chromium } from 'playwright-core';
 import { resolve } from 'node:path';
-const BASE = process.argv[2] ?? 'http://localhost:5180/';
+const BASE = process.argv[2] ?? 'http://localhost:5180/app/';
 const browser = await chromium.launch({ executablePath: 'C:/Program Files/Google/Chrome/Application/chrome.exe', headless: true });
 const page = await browser.newPage({ viewport: { width: 1440, height: 900 } });
 const problems = [];

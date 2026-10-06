@@ -67,9 +67,11 @@ Create the subdomain `lou` in hPanel, enable the free SSL, build on your compute
 of `app/dist/` to the subdomain folder, and put the `_headers` rules in `.htaccess` (`Header set ...`, needs `mod_headers`).
 Same checks as above.
 
-## Moving the app to /app (when the landing page is built)
+## Landing page and /app (done in 1.2.0)
 
-The landing page takes `/`. Then: set `base: '/app/'` in `vite.config.ts`; change `start_url`, `scope`, `id` and the
-`.lou` file handler in `public/manifest.webmanifest` to `/app/`; update the service worker's `/index.html` fallback; update the
-footer and legal links; keep `/legal/*` and `/.well-known/*` at the root; update `sitemap.xml`, canonical and og:url.
-People who installed the app at `/` will need a redirect from `/` to the landing page and a one-time reinstall, so plan a notice.
+The site is two pages from one build: the landing page at `/` (`app/index.html`, `src/landing/`, plain TypeScript, no React)
+and the tool at `/app/` (`app/app/index.html`, `src/main.tsx`). `vite.config.ts` lists both as build inputs; the service worker
+caches both and falls back to `/app/index.html` for offline visits under `/app/`. The manifest `id`, `start_url`, `scope` and `.lou`
+file handler are `/app/`, so an installed Lou opens straight into the tool. `/legal/*` stays at the root. Host rules: `/`, `/app/`
+and their `index.html` must not be cached long (already in `_headers`; copy the same into `deploy/vhconf.conf` if you use the VPS).
+People who installed Lou before 1.2.0 (scope `/`) keep working but are offered the new scope only after a reinstall.

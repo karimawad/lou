@@ -5,23 +5,97 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="manifest" href="/manifest.webmanifest" />
     <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
-    <meta name="theme-color" content="#1f6266" />
+    <meta name="theme-color" content="#14161a" />
     <meta name="apple-mobile-web-app-title" content="Lou" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Lou turns your Canadian tax slips into a filled US tax return. Free, and nothing leaves your device." />
+    <meta name="description" content="Already did your Canadian taxes? Upload your Canadian return and Lou turns it into a draft U.S. tax return, with the forms, calculations and a review checklist. For Americans living in Canada." />
     <meta name="color-scheme" content="light" />
     <link rel="canonical" href="https://lou.bigtimedesign.ca/" />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Lou" />
-    <meta property="og:title" content="Lou: Canadian slips to US tax forms" />
-    <meta property="og:description" content="For US citizens and green card holders living in Canada. Drop your Canadian tax slips, get filled IRS forms. Free, and nothing leaves your device." />
+    <meta property="og:title" content="Lou: your Canadian return, turned into a U.S. return" />
+    <meta property="og:description" content="Already did your Canadian taxes. Let Lou do the U.S. paperwork. Private, simple, built for Americans living in Canada." />
     <meta property="og:url" content="https://lou.bigtimedesign.ca/" />
     <meta property="og:image" content="https://lou.bigtimedesign.ca/icons/icon-512.png" />
     <meta name="twitter:card" content="summary" />
-    <title>Lou · Canadian slips to US tax forms</title>
+    <title>Lou · Your Canadian return, turned into a U.S. return</title>
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><filter id="rough"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="4" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="2.6"/></filter></svg>
+
+<div class="stage">
+<main class="sheet" id="sheet">
+  <div class="ribbon pc"><i></i><i></i><i></i><i></i></div>
+  <div class="topnav pc"><span class="lg">Lou</span><a href="#how">How it works</a><a href="/legal/privacy.html">Privacy</a><a class="continue" id="continue" href="/app/" hidden>Continue your return</a><a class="go-btn" href="/app/">Start with Lou &middot; $49</a></div>
+
+  <div class="head">
+    <div class="l pc"><div class="fn">Form<b>LOU</b>(Rev. 2026)</div></div>
+    <div class="m pc"><span class="dot d1"></span><span class="dot d2"></span><span class="dot d3"></span><h2>Draft U.S. Tax Return, from Your Canadian Return</h2><p>Private. Simple. Built for Americans living in Canada.</p></div>
+    <div class="r pc"><div class="yr"><small>Tax year</small>2025</div></div>
+  </div>
+
+  <div class="part c1 pc"><b>Part I</b><span>Already did your Canadian taxes?</span></div>
+  <div class="hero">
+    <div class="pc">
+      <h1>Don&rsquo;t do your U.S. taxes from scratch.</h1>
+      <p class="lede">Upload your Canadian tax return and Lou turns it into a draft U.S. tax return, with the forms, calculations, explanations, and review checklist you need.</p>
+    </div>
+    <div class="right pc">
+      <div class="price"><b>$49</b><span>per tax year.</span></div>
+      <a class="cta" href="/app/">Turn My Canadian Return Into a U.S. Return <i>&rarr;</i></a>
+      <p class="fine">Lou does not file your taxes. You review your return before filing and can have a qualified tax professional review it when needed.</p>
+    </div>
+  </div>
+
+  <div class="part c2 pc" id="how"><b>Part II</b><span>How it works</span></div>
+  <div class="lead pc"><h2>Your Canadian return is already full of the answers.</h2><p>Lou does the repetitive work of turning that information into your U.S. tax package.</p></div>
+
+  <div class="ln step s1"><div class="n pc">1</div><div class="d pc"><b>Upload.</b> Upload your Canadian tax return and supporting documents.</div><div class="v txt pc" id="v1">T1_2025.pdf read on this device</div></div>
+  <div class="ln step s2"><div class="n pc">2</div><div class="d pc"><b>Lou does the work.</b> Lou extracts your information, performs the calculations, converts currencies, and prepares the applicable U.S. forms.</div><div class="v txt pc">Watch it below.</div></div>
+
+  <div class="ln"><div class="n pc">a</div><div class="d pc">T4 box 14, employment income, in CAD<small>Tap the amount and change it.</small></div><div class="v pc"><input id="cad" inputmode="decimal" aria-label="T4 box 14 in Canadian dollars" value="84,500.00"></div></div>
+  <div class="ln"><div class="n pc">b</div><div class="d pc">Exchange rate, CAD per USD<small>Example rate. Lou uses the official yearly average.</small></div><div class="v pc" id="v3">1.4000</div></div>
+  <div class="ln"><div class="n pc">c</div><div class="d pc"><b>Divide a by b.</b> Enter on Form 1040, line 1h, in USD<small>Canadian wages go on 1h, not 1a.</small></div><div class="v pc" id="v4">60,357.14</div></div>
+  <div class="ln"><div class="n pc">d</div><div class="d pc">Canadian tax paid, in USD, for Form 1116<small>14,200.00 CAD from your return, not what was withheld.</small></div><div class="v pc" id="v5">10,142.86</div></div>
+  <div class="ln"><div class="n pc">e</div><div class="d pc">CPP contributions<small>Not creditable under the Totalization Agreement. Lou flags it for you.</small></div><div class="v txt pc" id="v6">FLAGGED</div></div>
+  <div class="fill pc"><span>Example figures. Every number in Lou shows the slip, the rate, and the rule behind it.</span><button id="again">Fill it in again</button></div>
+
+  <div class="ln step s3"><div class="n pc">3</div><div class="d pc"><b>Review &amp; file.</b> Review your results, see where your numbers came from, address anything Lou flags, then file yourself or take your package to a tax professional.</div><div class="v stampcell pc"><div class="stamp" id="stamp">Draft<small>You review before filing</small></div></div></div>
+  <div class="nodouble pc">No entering the same information twice.</div>
+
+  <div class="part c3 pc" id="why"><b>Part III</b><span>Why Lou</span></div>
+  <div class="whyhead pc"><h2>Less work. More clarity. More privacy.</h2></div>
+  <div class="chk k1"><div class="n pc"><div class="box"><svg viewBox="0 0 26 26"><path d="M5 14 L11 20 L22 5"/></svg></div></div><div class="m pc"><h3>Skip the busywork</h3><p>Stop copying numbers from Canadian documents into a completely different tax system.</p></div><div class="t pc">Saves hours</div></div>
+  <div class="chk k2"><div class="n pc"><div class="box"><svg viewBox="0 0 26 26"><path d="M5 14 L11 20 L22 5"/></svg></div></div><div class="m pc"><h3>Know what Lou did</h3><p>See the source of your numbers, how they&rsquo;re calculated, and what needs your attention.</p></div><div class="t pc">Every line sourced</div></div>
+  <div class="chk k3"><div class="n pc"><div class="box"><svg viewBox="0 0 26 26"><path d="M5 14 L11 20 L22 5"/></svg></div></div><div class="m pc"><h3>Keep your taxes private</h3><p>Lou is designed to process your tax documents locally on your computer, keeping your sensitive financial information under your control.</p></div><div class="t pc">Stays on your device</div></div>
+  <div class="chk k4"><div class="n pc"><div class="box"><svg viewBox="0 0 26 26"><path d="M5 14 L11 20 L22 5"/></svg></div></div><div class="m pc"><h3>Know when to get help</h3><p>Lou flags potential cross-border issues so you know what deserves a closer look from a qualified professional.</p></div><div class="t pc">Flags, not guesses</div></div>
+
+  <div class="part pc" id="start"><b class="b-paper">Part IV</b><span>Fee</span></div>
+  <div class="pr">
+    <div class="pc">
+      <h2>Your U.S. taxes, without the unnecessary hassle.</h2>
+      <ul>
+        <li><svg viewBox="0 0 20 20"><path d="M3 10.5 L8 15.5 L17 4.5"/></svg>Draft U.S. tax return</li>
+        <li><svg viewBox="0 0 20 20"><path d="M3 10.5 L8 15.5 L17 4.5"/></svg>Calculations &amp; currency conversion</li>
+        <li><svg viewBox="0 0 20 20"><path d="M3 10.5 L8 15.5 L17 4.5"/></svg>Cross-border review checklist</li>
+        <li><svg viewBox="0 0 20 20"><path d="M3 10.5 L8 15.5 L17 4.5"/></svg>Explanations &amp; source information</li>
+        <li><svg viewBox="0 0 20 20"><path d="M3 10.5 L8 15.5 L17 4.5"/></svg>Tax package you can review or share with your CPA</li>
+      </ul>
+    </div>
+    <div class="r pc">
+      <div class="price"><b>$49</b></div>
+      <p>per tax year</p>
+      <p style="color:var(--ink2);font-weight:600">No subscription. No filing fees.</p>
+    </div>
+  </div>
+  <div class="final pc">
+    <div class="tl">Already did your Canadian taxes.<span>Let Lou do the U.S. paperwork.</span></div>
+    <a class="cta" href="/app/">Start With Lou &middot; $49 <i>&rarr;</i></a>
+  </div>
+  <div class="foot pc"><p class="fine">Lou is a tax-preparation tool, not a substitute for individualized professional tax advice. You are responsible for reviewing your return before filing. Not affiliated with the IRS or the CRA.</p><nav aria-label="About Lou"><a href="/legal/terms.html">Terms</a><a href="/legal/privacy.html">Privacy</a><a href="/legal/notices.html">Notices</a><a href="https://github.com/karimawad/lou" rel="noopener">Source code</a><a href="mailto:info@bigtimedesign.ca">Contact</a></nav><span>&copy; 2026 Big Time Design and Communication Inc. &middot; Form LOU (2026)</span></div>
+  <div class="file" id="file" aria-hidden="true"><div class="pg"></div><span class="tg">PDF</span><div class="scan" id="scan"></div></div>
+</main>
+</div>
+    <script type="module" src="/src/landing/landing.ts"></script>
   </body>
 </html>

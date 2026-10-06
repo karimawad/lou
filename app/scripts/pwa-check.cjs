@@ -3,7 +3,7 @@
 // Usage: npm run build, npx vite preview --port 5182, then node scripts/pwa-check.cjs [url]
 const { chromium } = require('playwright-core');
 const fs = require('fs');
-const BASE = process.argv[2] || 'http://localhost:5182/';
+const BASE = process.argv[2] || 'http://localhost:5182/app/';
 const FIX = require('path').resolve('src/extract/__fixtures__');
 const DIST = require('path').resolve('dist');
 (async () => {

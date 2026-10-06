@@ -5,7 +5,7 @@ import { chromium } from 'playwright-core';
 import { mkdirSync } from 'node:fs';
 import { resolve } from 'node:path';
 
-const BASE = process.argv[2] ?? 'http://localhost:5179/';
+const BASE = process.argv[2] ?? 'http://localhost:5179/app/';
 const OUT = resolve('../research/render_check/ui-sections');
 mkdirSync(OUT, { recursive: true });
 

@@ -1,7 +1,7 @@
 import react from '@vitejs/plugin-react'
 import { createHash } from 'node:crypto'
 import { readdirSync, readFileSync, statSync, writeFileSync } from 'node:fs'
-import { join, relative, sep } from 'node:path'
+import { join, relative, resolve, sep } from 'node:path'
 import { defineConfig, type Plugin, type ResolvedConfig } from 'vite'
 
 /**
@@ -80,7 +80,9 @@ function serviceWorker(): Plugin {
 }
 
 // https://vite.dev/config/
+// Two pages: the landing page at / (index.html) and the tool at /app/ (app/index.html).
 export default defineConfig({
+  build: { rollupOptions: { input: { landing: resolve('index.html'), app: resolve('app/index.html') } } },
   define: { __APP_VERSION__: JSON.stringify(JSON.parse(readFileSync('package.json', 'utf8')).version) },
   plugins: [react(), contentSecurityPolicy(), serviceWorker()],
 })

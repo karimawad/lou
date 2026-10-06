@@ -29,10 +29,11 @@ self.addEventListener('fetch', (event) => {
   if (url.origin !== self.location.origin) return;
   if (req.mode === 'navigate') {
     // A page: the network when online (so a new version is noticed), the stored copy when offline.
-    // The legal pages are stored too; anything else falls back to the app.
+    // The legal pages are stored too. Anything else falls back to the tool under /app/, or the landing page elsewhere.
+    const page = url.pathname.startsWith('/app') ? '/app/index.html' : '/index.html';
     event.respondWith(fetch(req).catch(async () => (
       (await caches.match(req, { cacheName: CACHE, ignoreSearch: true, ignoreVary: true })) ||
-      (await caches.match('/index.html', { cacheName: CACHE, ignoreVary: true })) || Response.error()
+      (await caches.match(page, { cacheName: CACHE, ignoreVary: true })) || Response.error()
     )));
     return;
   }

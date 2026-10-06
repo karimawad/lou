@@ -2,6 +2,11 @@
 
 Versions follow MAJOR.MINOR.PATCH. The version shows in the footer of the app. Bump it in `app/package.json`.
 
+## 1.2.0 (2026-10-06)
+
+Landing page at `/`, the tool moves to `/app/`. New look across the app (Form LOU): Archivo and Courier Prime bundled in `src/fonts`,
+printed-form styling in `src/brand.css`, new icon. Installed Lou opens at `/app/`.
+
 ## 1.1.1 (2026-10-05)
 
 Start page order: who Lou is for, what to have ready, install, then choose the year, restore, continue.

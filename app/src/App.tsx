@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './app.css';
+import './brand.css';
 import { AppProvider, useApp } from './state/context';
 import { PwaBanners } from './screens/Install';
 import { YourDataCard, YourDataDialog } from './screens/YourData';

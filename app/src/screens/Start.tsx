@@ -26,13 +26,17 @@ export function Start() {
       <section className="section">
         <div className="section-head">
           <h2>Have these ready</h2>
-          <p>Phone photos are fine.</p>
+          <p>One document gets you most of the way.</p>
         </div>
         <ul className="checklist">
-          <li><strong>Your Canadian slips</strong> for the year: T4, T5, T3, T4RSP, T4A(P) and so on.</li>
-          <li><strong>Your Notice of Assessment</strong> from CRA. The US foreign tax credit is based on the Canadian tax it shows.</li>
+          <li><strong>Your final T1 General</strong>, the Canadian return you filed, as a PDF from your tax software or CRA My Account. It shows your income and the Canadian tax you paid, which is what your US return is built from. For most people it is the only tax document you need.</li>
           <li><strong>Social Security numbers</strong> for you, your spouse and any children you claim.</li>
         </ul>
+        <p className="small muted" style={{ maxWidth: '62ch' }}>
+          A T1 does not show everything. If you sold investments, ran a business, or have Canadian bank or investment accounts, Lou asks for those
+          details as you go (for example a T5008, your T2125 figures, and your account balances). If CRA reassessed your return, add the Notice of Assessment too.
+          No T1 PDF? Your slips (T4, T5, T3 and so on) plus the Notice of Assessment work just as well.
+        </p>
       </section>
 
       {showInstall && <section className="section">

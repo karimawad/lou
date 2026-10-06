@@ -93,7 +93,7 @@ export function Slips() {
         onDragLeave={() => setOver(false)} onDrop={onDrop}>
         <div className="drop-icon"><Upload size={24} /></div>
         <h2>Drop slips here</h2>
-        <p>PDF, photo (JPG, PNG, HEIC) or CSV. Several at once is fine.</p>
+        <p>Start with your final T1 General. PDF, photo (JPG, PNG, HEIC) or CSV. Several at once is fine.</p>
         <div className="drop-buttons">
           <button type="button" className="btn btn-primary" onClick={() => fileRef.current?.click()}><FileIcon size={18} /> Choose files</button>
           <button type="button" className="btn btn-secondary" onClick={() => camRef.current?.click()}><Camera size={18} /> Take a photo</button>
@@ -125,9 +125,9 @@ export function Slips() {
       )}
 
       {!hasNoa && (
-        <Callout tone="info" title="Add your Notice of Assessment">
-          <p>Your US foreign tax credit uses the Canadian tax CRA actually assessed, not the tax withheld on your slips. Drop in
-            the PDF from CRA My Account, or type in five numbers from it.</p>
+        <Callout tone="info" title="Add your T1 return or Notice of Assessment">
+          <p>Your US foreign tax credit uses the Canadian tax you owe for the year, not the tax withheld on your slips. Drop in your
+            final T1 General (or the Notice of Assessment from CRA My Account), or type in five numbers from it.</p>
           <div style={{ marginTop: 'var(--s-3)' }}><button type="button" className="btn btn-secondary btn-sm" onClick={() => addManual('NOA')}><Plus size={16} /> Type it in</button></div>
         </Callout>
       )}

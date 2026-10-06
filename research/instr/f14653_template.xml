@@ -1,0 +1,3193 @@
+
+<template xmlns="http://www.xfa.org/schema/xfa-template/3.6/"
+><?formServer defaultPDFRenderFormat acrobat11.0dynamic?><?formServer allowRenderCaching 0?><?formServer formModel client?><subform name="form1" layout="tb" locale="en_US" restoreState="auto"
+><pageSet
+><pageArea name="Page1" id="Page1"
+><contentArea x="12.7mm" y="12.7mm" w="190.5mm" h="254mm"
+/><medium stock="letter" short="8.5in" long="11in"
+/><draw name="headerLine" y="12.7mm" x="12.7mm" w="190.5mm" h="0in"
+><value
+><line slope="/"
+><edge thickness="0.7112mm"
+/></line
+></value
+></draw
+><draw name="draft_copy" w="12.7mm" h="242.57mm" locale="en_US" y="30.48mm" presence="hidden"
+><ui
+><textEdit
+/></ui
+><value
+><exData contentType="text/html"
+><body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"
+><p
+>D</p
+><p
+>R</p
+><p
+>A</p
+><p
+>F</p
+><p
+>T</p
+><p
+><br
+/></p
+><p
+>C</p
+><p
+>O</p
+><p
+>P</p
+><p
+>Y</p
+></body
+></exData
+></value
+><font size="36pt" typeface="Arial" weight="bold" baselineShift="0pt"
+><fill
+><color value="192,192,192"
+/></fill
+></font
+><margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="0mm"
+/><para hAlign="center" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"
+/><border
+><edge presence="hidden"
+/></border
+></draw
+><draw name="not_for_release" w="12.7mm" h="242.57mm" locale="en_US" y="30.48mm" x="203.2mm" presence="hidden"
+><ui
+><textEdit
+/></ui
+><value
+><text
+>N
+O
+T
+
+F
+O
+R
+
+R
+E
+L
+E
+A
+S
+E</text
+></value
+><font size="36pt" typeface="Arial" weight="bold" baselineShift="0pt"
+><fill
+><color value="192,192,192"
+/></fill
+></font
+><margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="0mm"
+/><para hAlign="center" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"
+/><border
+><edge presence="hidden"
+/></border
+></draw
+><draw name="footer_line" y="266.7mm" x="12.7mm" w="190.5mm" h="0in"
+><value
+><line slope="/"
+><edge thickness="0.7112mm"
+/></line
+></value
+></draw
+><draw name="catalog_number" y="266.7mm" x="12.7mm" w="33.02mm" h="5.08mm" locale="en_US"
+><ui
+><textEdit
+/></ui
+><value
+><text
+>Catalog Number 67042A</text
+></value
+><font size="8pt" typeface="Arial" baselineShift="0pt"
+/><margin topInset="0mm" bottomInset="0.508mm" leftInset="0mm" rightInset="0mm"
+/><para vAlign="bottom" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"
+/><?renderCache.bounds 93600 12960 0 0 0 0 0 0?><?renderCache.textRun 21 Catalog Number 67042A 0 0 11276 0 0 0 "Arial" 0 0 8000 ISO-8859-1?></draw
+><draw name="website" y="266.7mm" x="95.496mm" w="18.559mm" h="5.08mm" locale="en_US"
+><ui
+><textEdit
+/></ui
+><value
+><text
+>www.irs.gov</text
+></value
+><font size="8pt" typeface="Arial" baselineShift="0pt"
+/><margin topInset="0mm" bottomInset="0.508mm" leftInset="0mm" rightInset="0mm"
+/><para vAlign="bottom" hAlign="center" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"
+/><assist
+><speak
+>w w w . i r s . g o v.</speak
+></assist
+><?renderCache.bounds 52608 12960 0 0 0 0 0 0?><?renderCache.textRun 11 www.irs.gov 0 4745 11276 0 0 0 "Arial" 0 0 8000 ISO-8859-1?></draw
+><draw name="product_id" y="266.7mm" x="163.83mm" w="39.37mm" h="5.08mm" locale="en_US"
+><ui
+><textEdit
+/></ui
+><value
+><exData contentType="text/html"
+><body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xfa:APIVersion="2.7.0.0"
+><p style="text-decoration:none;letter-spacing:0in"
+>Form<span style="xfa-spacerun:yes"
+> </span
+><span style="font-size:12pt;font-weight:bold"
+>14653<span style="xfa-spacerun:yes"
+> </span
+></span
+>(Rev. 3-2025)</p
+></body
+></exData
+></value
+><font size="8pt" typeface="Arial"
+/><margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="0mm"
+/><para vAlign="bottom" hAlign="right"
+/></draw
+><?templateDesigner expand 1?></pageArea
+><pageArea name="Page2" id="Page2_ID"
+><medium stock="letter" short="8.5in" long="11in"
+/><contentArea x="12.7mm" y="13.208mm" w="190.5mm" h="253.492mm"
+/><field name="CurrentPageNumber" y="8.89mm" x="13.97mm" w="62mm" h="9mm" id="floatingField000041" access="readOnly" presence="hidden" locale="en_US"
+><ui
+><numericEdit
+><border
+><?templateDesigner StyleID aped3?><edge stroke="lowered"
+/></border
+><margin
+/></numericEdit
+></ui
+><font typeface="Myriad Pro"
+/><margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"
+/><para vAlign="middle"
+/><event activity="ready" ref="$layout" name="event__layout_ready"
+><script contentType="application/x-javascript"
+>this.rawValue = xfa.layout.page(this)
+</script
+></event
+><calculate override="error"
+/><bind match="none"
+/><?templateDesigner floatingFieldPlaceholder #?></field
+><field name="NumberofPages" y="0mm" x="0mm" w="62mm" h="9mm" id="floatingField028834" access="readOnly" presence="hidden" locale="en_US"
+><ui
+><numericEdit
+><border
+><?templateDesigner StyleID aped3?><edge stroke="lowered"
+/></border
+><margin
+/></numericEdit
+></ui
+><font typeface="Myriad Pro"
+/><margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"
+/><para vAlign="middle"
+/><event activity="ready" ref="$layout" name="event__layout_ready"
+><script contentType="application/x-javascript"
+>this.rawValue = xfa.layout.pageCount()
+</script
+></event
+><calculate override="error"
+/><bind match="none"
+/><?templateDesigner floatingFieldPlaceholder ##?></field
+><draw name="page_number" y="7.62mm" x="12.7mm" w="190.5mm" h="5.08mm" locale="en_US"
+><ui
+><textEdit
+/></ui
+><value
+><exData contentType="text/html"
+><body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"
+><p
+>Page<span style="xfa-spacerun:yes"
+> </span
+><span xfa:embedType="uri" xfa:embedMode="raw" xfa:embed="#floatingField000041"
+/> of<span style="xfa-spacerun:yes"
+> </span
+><span xfa:embedType="uri" xfa:embedMode="raw" xfa:embed="#floatingField028834"
+/></p
+></body
+></exData
+></value
+><font size="9pt" typeface="Arial"
+/><margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="0mm"
+/><para hAlign="right" vAlign="middle"
+/></draw
+><draw name="header_line" y="12.7mm" x="12.7mm" w="190.5mm" h="0in"
+><value
+><line slope="/"
+><edge thickness="0.7112mm"
+/></line
+></value
+></draw
+><draw name="draft_copy" w="12.7mm" h="241.3mm" locale="en_US" y="12.7mm" presence="hidden"
+><ui
+><textEdit
+/></ui
+><value
+><exData contentType="text/html"
+><body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"
+><p
+>D</p
+><p
+>R</p
+><p
+>A</p
+><p
+>F</p
+><p
+>T</p
+><p
+><br
+/></p
+><p
+>C</p
+><p
+>O</p
+><p
+>P</p
+><p
+>Y</p
+></body
+></exData
+></value
+><font size="36pt" typeface="Arial" weight="bold" baselineShift="0pt"
+><fill
+><color value="192,192,192"
+/></fill
+></font
+><margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="0mm"
+/><para hAlign="center" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"
+/><border
+><edge presence="hidden"
+/></border
+></draw
+><draw name="not_for_release" w="12.7mm" h="241.3mm" locale="en_US" y="12.7mm" x="203.2mm" presence="hidden"
+><ui
+><textEdit
+/></ui
+><value
+><text
+>N
+O
+T
+
+F
+O
+R
+
+R
+E
+L
+E
+A
+S
+E</text
+></value
+><font size="36pt" typeface="Arial" weight="bold" baselineShift="0pt"
+><fill
+><color value="192,192,192"
+/></fill
+></font
+><margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="0mm"
+/><para hAlign="center" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"
+/><border
+><edge presence="hidden"
+/></border
+></draw
+><draw name="footer_line" y="266.7mm" x="12.7mm" w="190.5mm" h="0in"
+><value
+><line slope="/"
+><edge thickness="0.7112mm"
+/></line
+></value
+></draw
+><draw name="product_id" y="266.7mm" x="163.83mm" w="39.37mm" h="5.08mm" locale="en_US"
+><ui
+><textEdit
+/></ui
+><value
+><exData contentType="text/html"
+><body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xfa:APIVersion="2.7.0.0"
+><p style="text-decoration:none;letter-spacing:0in"
+>Form<span style="xfa-spacerun:yes"
+> </span
+><span style="font-size:12pt;font-weight:bold"
+>14653<span style="xfa-spacerun:yes"
+> </span
+></span
+>(Rev. 3-2025)</p
+></body
+></exData
+></value
+><font size="8pt" typeface="Arial"
+/><margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="0mm"
+/><para vAlign="bottom" hAlign="right"
+/></draw
+><draw name="website" y="266.7mm" x="95.496mm" w="18.559mm" h="5.08mm" locale="en_US"
+><ui
+><textEdit
+/></ui
+><value
+><text
+>www.irs.gov</text
+></value
+><font size="8pt" typeface="Arial" baselineShift="0pt"
+/><margin topInset="0mm" bottomInset="0.508mm" leftInset="0mm" rightInset="0mm"
+/><para vAlign="bottom" hAlign="center" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"
+/><assist
+><speak
+>w w w . i r s . g o v.</speak
+></assist
+><?renderCache.bounds 52608 12960 0 0 0 0 0 0?><?renderCache.textRun 11 www.irs.gov 0 4745 11276 0 0 0 "Arial" 0 0 8000 ISO-8859-1?></draw
+><draw name="catalog_number" y="266.7mm" x="12.7mm" w="33.02mm" h="5.08mm" locale="en_US"
+><ui
+><textEdit
+/></ui
+><value
+><text
+>Catalog Number 67042A</text
+></value
+><font size="8pt" typeface="Arial" baselineShift="0pt"
+/><margin topInset="0mm" bottomInset="0.508mm" leftInset="0mm" rightInset="0mm"
+/><para vAlign="bottom" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"
+/><?renderCache.bounds 93600 12960 0 0 0 0 0 0?><?renderCache.textRun 21 Catalog Number 67042A 0 0 11276 0 0 0 "Arial" 0 0 8000 ISO-8859-1?></draw
+><?templateDesigner expand 1?></pageArea
+><?templateDesigner expand 0?></pageSet
+><subform w="7.5in" name="page_1" locale="en_US" layout="tb"
+><subform w="190.5mm" locale="en_US" name="formHeader"
+><draw name="productID" w="31.75mm" h="17.78mm" locale="en_US"
+><ui
+><textEdit
+/></ui
+><value
+><exData contentType="text/html"
+><body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xfa:APIVersion="2.7.0.0"
+><p style="line-height:16pt;letter-spacing:0in"
+>Form<span style="xfa-spacerun:yes"
+> </span
+><span style="font-size:16pt;font-weight:bold"
+>14653</span
+></p
+><p style="font-size:9pt;letter-spacing:0in"
+>(March 2025)</p
+></body
+></exData
+></value
+><font typeface="Arial"
+/><margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="0mm"
+/><para hAlign="center" vAlign="middle"
+/><border
+><edge presence="hidden"
+/><edge thickness="0.3556mm"
+/><edge thickness="0.3556mm"
+/><edge presence="hidden"
+/><corner
+/><corner thickness="0.356mm"
+/><corner thickness="0.356mm"
+/><corner
+/></border
+><assist role="H1"
+><speak
+>Form 14653. Revised March 2025. Catalog Number 67042A.</speak
+></assist
+></draw
+><subform x="31.75mm" locale="en_US" name="formTitle"
+><bind match="none"
+/><draw name="departmentAgency" w="127mm" h="3.81mm" locale="en_US" y="1.27mm"
+><ui
+><textEdit
+/></ui
+><value
+><text
+>Department of the Treasury - Internal Revenue Service</text
+></value
+><font size="8pt" typeface="Arial" baselineShift="0pt"
+/><margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="0mm"
+/><para vAlign="bottom" hAlign="center" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"
+/><?renderCache.bounds 360000 10800 0 0 0 0 0 0?><?renderCache.textRun 53 Department of the Treasury - Internal Revenue Service 0 82621 9116 0 0 0 "Arial" 0 0 8000 ISO-8859-1?></draw
+><draw h="17.78mm" name="formTitle" w="127mm" locale="en_US"
+><ui
+><textEdit
+/></ui
+><value
+><text
+>Certification by U.S. Person Residing Outside of the United States for Streamlined Foreign Offshore Procedures</text
+></value
+><font baselineShift="0pt" size="12pt" typeface="Arial" weight="bold"
+/><margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="5.08mm"
+/><para hAlign="center" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"
+/><border
+><edge thickness="0.508mm" presence="hidden"
+/><corner thickness="0.508mm" presence="hidden"
+/><corner presence="hidden" thickness="0.508mm"
+/><corner thickness="0.356mm"
+/><corner presence="hidden" thickness="0.508mm"
+/><edge presence="hidden" thickness="0.508mm"
+/><edge thickness="0.3556mm"
+/><edge presence="hidden" thickness="0.508mm"
+/></border
+><assist role="H1"
+/><?renderCache.bounds 360000 36000 0 0 0 14400 0 0?><?renderCache.textRun 60 Certification by U.S. Person Residing Outside of the United  0 11648 28675 0 0 0 "Arial" 1 0 12000 ISO-8859-1?><?renderCache.textRun 50 States for Streamlined Foreign Offshore Procedures 0 31298 43075 0 0 0 "Arial" 1 0 12000 ISO-8859-1?></draw
+><?templateDesigner expand 1?></subform
+><draw name="ombNumber" w="31.75mm" h="17.78mm" locale="en_US" x="158.75mm"
+><ui
+><textEdit
+/></ui
+><value
+><text
+>OMB Number
+1545-2241</text
+></value
+><font typeface="Arial" size="9pt"
+/><margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="0mm"
+/><para hAlign="center" vAlign="middle"
+/><border
+><edge presence="hidden"
+/><edge thickness="0.3556mm" presence="hidden"
+/><edge thickness="0.3556mm"
+/><edge thickness="0.3556mm"
+/><corner
+/><corner thickness="0.356mm" presence="hidden"
+/><corner thickness="0.356mm"
+/><corner thickness="0.356mm"
+/></border
+><?renderCache.bounds 90000 50400 0 0 0 0 0 0?><?renderCache.textRun 11 OMB Number  0 17495 22406 0 0 0 "Arial" 0 0 9000 ISO-8859-1?><?renderCache.textRun 9 1545-2241 0 23480 33206 0 0 0 "Arial" 0 0 9000 ISO-8859-1?></draw
+><bind match="none"
+/><border
+><edge thickness="0.7112mm" presence="hidden"
+/><edge presence="hidden"
+/><edge presence="hidden"
+/><edge presence="hidden"
+/><corner thickness="0.711mm" presence="hidden"
+/><corner
+/><corner
+/><corner
+/></border
+><?templateDesigner expand 0?></subform
+><subform w="190.5mm" name="taxpayer_information" locale="en_US"
+><field name="name_of_taxpayer" w="95.25mm" h="12.7mm" locale="en_US"
+><ui
+><textEdit hScrollPolicy="off" multiLine="1" vScrollPolicy="off"
+><border presence="hidden"
+><?templateDesigner StyleID aped0?></border
+><margin
+/></textEdit
+></ui
+><font typeface="Times New Roman" size="9pt"
+/><margin topInset="0.762mm" bottomInset="0mm" leftInset="0mm" rightInset="1.27mm"
+/><para vAlign="middle"
+/><caption reserve="3.81mm" placement="top"
+><font size="9pt" typeface="Arial"
+/><para vAlign="middle"
+/><value
+><text
+>Name(s) of taxpayer(s)</text
+></value
+></caption
+><assist
+><speak
+>Page 1. Name(s) of taxpayer(s).</speak
+></assist
+><border
+><edge presence="hidden"
+/><edge presence="hidden"
+/><edge
+/><edge presence="hidden"
+/><corner
+/></border
+></field
+><field name="TIN__of_taxpayer" w="46.99mm" h="12.7mm" locale="en_US" x="95.25mm"
+><ui
+><textEdit hScrollPolicy="off" multiLine="1" vScrollPolicy="off"
+><border presence="hidden"
+><?templateDesigner StyleID aped0?></border
+><margin
+/></textEdit
+></ui
+><font typeface="Times New Roman" size="9pt"
+/><margin topInset="0.762mm" bottomInset="0mm" leftInset="1.27mm" rightInset="1.27mm"
+/><para vAlign="middle"
+/><caption reserve="3.81mm" placement="top"
+><font size="9pt" typeface="Arial"
+/><para vAlign="middle"
+/><value
+><text
+>TIN(s) of taxpayer(s)</text
+></value
+></caption
+><assist
+><speak
+>TIN(s) of taxpayer(s).</speak
+></assist
+><border
+><edge presence="hidden"
+/><edge presence="hidden"
+/><edge
+/><edge
+/><corner
+/><corner
+/></border
+></field
+><field name="telephone_number" w="48.26mm" h="12.7mm" locale="en_US" x="142.24mm"
+><ui
+><textEdit hScrollPolicy="off" multiLine="1" vScrollPolicy="off"
+><border presence="hidden"
+><?templateDesigner StyleID aped0?></border
+><margin
+/></textEdit
+></ui
+><font typeface="Times New Roman" size="9pt"
+/><margin topInset="0.762mm" bottomInset="0mm" leftInset="1.27mm" rightInset="0mm"
+/><para vAlign="middle"
+/><caption reserve="3.81mm" placement="top"
+><font size="9pt" typeface="Arial"
+/><para vAlign="middle"
+/><value
+><text
+>Telephone number</text
+></value
+></caption
+><assist
+><speak
+>Telephone number.</speak
+></assist
+><border
+><edge presence="hidden"
+/><edge presence="hidden"
+/><edge
+/><edge
+/><corner
+/><corner
+/></border
+></field
+><field name="mailing_address" w="142.24mm" h="12.7mm" locale="en_US" y="12.7mm"
+><ui
+><textEdit hScrollPolicy="off" multiLine="1" vScrollPolicy="off"
+><border presence="hidden"
+><?templateDesigner StyleID aped0?></border
+><margin
+/></textEdit
+></ui
+><font size="9pt" typeface="Times New Roman"
+/><margin topInset="0.762mm" bottomInset="0mm" leftInset="0mm" rightInset="1.27mm"
+/><para vAlign="middle"
+/><caption reserve="3.81mm" placement="top"
+><font size="9pt" typeface="Arial"
+/><para vAlign="middle"
+/><value
+><exData contentType="text/html"
+><body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xfa:APIVersion="2.7.0.0"
+><p style="text-decoration:none;letter-spacing:0in"
+>Address<span style="xfa-spacerun:yes"
+> </span
+><span style="font-size:8pt;font-style:italic"
+>(number/street)</span
+></p
+></body
+></exData
+></value
+></caption
+><assist
+><speak
+>Mailing address.</speak
+></assist
+><border
+><edge presence="hidden"
+/><edge presence="hidden"
+/><edge
+/><edge presence="hidden"
+/><corner
+/></border
+></field
+><field name="aptRoomSuite" w="48.26mm" h="12.7mm" locale="en_US" x="142.24mm" y="12.7mm"
+><ui
+><textEdit hScrollPolicy="off" multiLine="1" vScrollPolicy="off"
+><border presence="hidden"
+><?templateDesigner StyleID aped0?></border
+><margin
+/></textEdit
+></ui
+><font size="9pt" typeface="Times New Roman"
+/><margin topInset="0.762mm" bottomInset="0mm" leftInset="1.27mm" rightInset="0mm"
+/><para vAlign="middle"
+/><caption reserve="3.81mm" placement="top"
+><font size="9pt" typeface="Arial"
+/><para vAlign="middle"
+/><value
+><text
+>Apt/Room/Suite number</text
+></value
+></caption
+><assist
+><speak
+>Apt / Room / Suite number.</speak
+></assist
+><border
+><edge presence="hidden"
+/><edge presence="hidden"
+/><edge
+/><edge
+/><corner
+/></border
+></field
+><field name="city" w="47.625mm" h="12.7mm" locale="en_US" y="25.4mm"
+><ui
+><textEdit hScrollPolicy="off"
+><border presence="hidden"
+><?templateDesigner StyleID aped0?></border
+><margin
+/></textEdit
+></ui
+><font size="9pt" typeface="Times New Roman"
+/><margin topInset="0.762mm" bottomInset="0mm" leftInset="0mm" rightInset="1.27mm"
+/><para vAlign="middle"
+/><caption reserve="3.81mm" placement="top"
+><font size="9pt" typeface="Arial"
+/><para vAlign="middle"
+/><value
+><text
+>City</text
+></value
+></caption
+><assist
+><speak
+>City.</speak
+></assist
+><border
+><edge presence="hidden"
+/><edge presence="hidden"
+/><edge
+/><edge presence="hidden"
+/><corner
+/><corner presence="hidden"
+/></border
+></field
+><field name="stateProvince" w="47.625mm" h="12.7mm" locale="en_US" x="47.625mm" y="25.4mm"
+><ui
+><textEdit hScrollPolicy="off"
+><border presence="hidden"
+><?templateDesigner StyleID aped0?></border
+><margin
+/></textEdit
+></ui
+><font size="9pt" typeface="Times New Roman"
+/><margin topInset="0.762mm" bottomInset="0mm" leftInset="1.27mm" rightInset="1.27mm"
+/><para vAlign="middle"
+/><caption reserve="3.81mm" placement="top"
+><font size="9pt" typeface="Arial"
+/><para vAlign="middle"
+/><value
+><text
+>State or province</text
+></value
+></caption
+><assist
+><speak
+>State or province.</speak
+></assist
+><border
+><edge presence="hidden"
+/><edge presence="hidden"
+/><edge
+/><edge
+/><corner
+/></border
+></field
+><field name="country" w="46.99mm" h="12.7mm" locale="en_US" y="25.4mm" x="95.25mm"
+><ui
+><textEdit hScrollPolicy="off"
+><border presence="hidden"
+/><margin
+/></textEdit
+></ui
+><font size="9pt" typeface="Times New Roman"
+/><margin topInset="0.762mm" bottomInset="0mm" leftInset="1.27mm" rightInset="1.27mm"
+/><para vAlign="middle"
+/><caption reserve="3.81mm" placement="top"
+><font size="9pt" typeface="Arial"
+/><para vAlign="middle"
+/><value
+><text
+>Country</text
+></value
+></caption
+><border
+><edge presence="hidden"
+/><edge presence="hidden"
+/><edge
+/><edge
+/><corner
+/></border
+><assist
+><speak
+>Country.</speak
+></assist
+></field
+><field name="zipCode" w="48.26mm" h="12.7mm" locale="en_US" y="25.4mm" x="142.24mm"
+><ui
+><textEdit hScrollPolicy="off"
+><border presence="hidden"
+/><margin
+/></textEdit
+></ui
+><font size="9pt" typeface="Times New Roman"
+/><margin topInset="0.762mm" bottomInset="0mm" leftInset="1.27mm" rightInset="0mm"
+/><para vAlign="middle"
+/><caption reserve="3.81mm" placement="top"
+><font size="9pt" typeface="Arial"
+/><para vAlign="middle"
+/><value
+><text
+>ZIP Code/Foreign postal</text
+></value
+></caption
+><border
+><edge presence="hidden"
+/><edge presence="hidden"
+/><edge
+/><edge
+/><corner
+/></border
+><assist
+><speak
+>ZIP Code / Foreign postal.</speak
+></assist
+></field
+><?templateDesigner expand 1?></subform
+><draw name="note" w="7.5in" h="17.78mm" locale="en_US"
+><ui
+><textEdit
+/></ui
+><value
+><exData contentType="text/html"
+><body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"
+><p style="font-weight:bold"
+>Note:<span style="font-weight:normal"
+> If this certification is a joint certification, the statements will be considered<span style="xfa-spacerun:yes"
+>  </span
+>made on behalf of both spouses, even though the pronoun "I" is used. If spouses submitting a joint certification have different<span style="xfa-spacerun:yes"
+>  </span
+>reasons for their failure to report all income, pay all tax, and submit all required information<span style="xfa-spacerun:yes"
+>  </span
+>returns, including FBARs, they must state their individual reasons separately<span style="xfa-spacerun:yes"
+>  </span
+>in the required statement of facts.</span
+></p
+></body
+></exData
+></value
+><font typeface="Arial" size="9pt"
+/><margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="0mm"
+/><para vAlign="middle"
+/><border
+><edge presence="hidden"
+/><corner
+/><corner
+/><corner presence="hidden"
+/><corner
+/></border
+><?renderCache.bounds 540000 50400 0 0 0 0 0 0?><?renderCache.textRun 5 Note: 0 0 11606 0 0 0 "Arial" 1 0 9000 ISO-8859-1?><?renderCache.textRun 132  If this certification is a joint certification, the statements will be considered  made on behalf of both spouses, even though the  0 22997 11606 0 0 0 "Arial" 0 0 9000 ISO-8859-1?><?renderCache.textRun 146 pronoun "I" is used. If spouses submitting a joint certification have different  reasons for their failure to report all income, pay all tax, and  0 0 22406 0 0 0 "Arial" 0 0 9000 ISO-8859-1?><?renderCache.textRun 138 submit all required information  returns, including FBARs, they must state their individual reasons separately  in the required statement  0 0 33206 0 0 0 "Arial" 0 0 9000 ISO-8859-1?><?renderCache.textRun 9 of facts. 0 0 44006 0 0 0 "Arial" 0 0 9000 ISO-8859-1?></draw
+><draw name="certification" w="190.5mm" h="6.35mm" locale="en_US"
+><ui
+><textEdit
+/></ui
+><value
+><text
+>Certification</text
+></value
+><font typeface="Arial" weight="bold"
+/><margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="0mm"
+/><para vAlign="middle"
+/><border
+><edge thickness="0.3556mm"
+/><edge presence="hidden"
+/><edge thickness="0.3556mm"
+/><edge presence="hidden"
+/><corner thickness="0.356mm"
+/><corner
+/><corner thickness="0.356mm"
+/><corner
+/></border
+><?renderCache.bounds 540000 18000 0 0 0 0 0 0?><?renderCache.textRun 13 Certification 0 0 11896 0 0 0 "Arial" 1 0 10000 ISO-8859-1?></draw
+><draw name="I_am_providing" w="7.5in" h="13.97mm" locale="en_US"
+><ui
+><textEdit
+/></ui
+><value
+><text
+>I am providing delinquent  or amended income tax returns, including all required information returns, for each of the most recent 3 years for which the U.S. tax return due date (or properly applied for extended due date) has passed. The tax and interest I owe for each year are as follows</text
+></value
+><font typeface="Arial" size="9pt"
+/><margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="0mm"
+/><para vAlign="middle"
+/><border
+><edge presence="hidden"
+/><edge presence="hidden"
+/><edge
+/><edge presence="hidden"
+/><corner
+/></border
+><?renderCache.bounds 540000 39600 0 0 0 0 0 0?><?renderCache.textRun 138 I am providing delinquent  or amended income tax returns, including all required information returns, for each of the most recent 3 years  0 0 11606 0 0 0 "Arial" 0 0 9000 ISO-8859-1?><?renderCache.textRun 136 for which the U.S. tax return due date (or properly applied for extended due date) has passed. The tax and interest I owe for each year  0 0 22406 0 0 0 "Arial" 0 0 9000 ISO-8859-1?><?renderCache.textRun 14 are as follows 0 0 33206 0 0 0 "Arial" 0 0 9000 ISO-8859-1?></draw
+><subform name="tax_interest_owe" layout="table" columnWidths="46.99mm 48.26mm 46.99mm 48.26mm" locale="en_US"
+><border
+><edge presence="hidden"
+/><corner presence="hidden"
+/></border
+><subform layout="row" name="HeaderRow" id="HeaderRow_ID" locale="en_US"
+><assist role="TH"
+/><draw h="10.16mm" name="year" locale="en_US"
+><border
+><edge presence="hidden"
+/><edge presence="hidden"
+/><edge
+/><edge presence="hidden"
+/><corner thickness="0.1778mm" presence="hidden"
+/><corner thickness="0.1778mm" presence="hidden"
+/><corner thickness="0.1778mm"
+/><corner thickness="0.1778mm" presence="hidden"
+/></border
+><ui
+><textEdit
+/></ui
+><value
+><exData contentType="text/html"
+><body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"
+><p
+>Year<br
+/><span style="font-style:italic"
+>(list years in order)</span
+></p
+></body
+></exData
+></value
+><font typeface="Arial" size="9pt"
+/><margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="1.27mm"
+/><para vAlign="middle" hAlign="center"
+/></draw
+><draw h="10.16mm" name="amount_owe" locale="en_US"
+><border
+><edge presence="hidden"
+/><edge presence="hidden"
+/><edge
+/><edge
+/><corner thickness="0.1778mm" presence="hidden"
+/><corner thickness="0.1778mm" presence="hidden"
+/><corner thickness="0.1778mm"
+/><corner thickness="0.1778mm"
+/></border
+><ui
+><textEdit
+/></ui
+><value
+><exData contentType="text/html"
+><body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"
+><p
+>Amount of Tax I Owe Shown On<br
+/><span style="font-style:italic"
+>(Form 1040 or Form 1040X)</span
+></p
+></body
+></exData
+></value
+><font typeface="Arial" size="9pt"
+/><margin topInset="0mm" bottomInset="0mm" leftInset="1.27mm" rightInset="1.27mm"
+/><para vAlign="middle" hAlign="center"
+/></draw
+><draw h="10.16mm" name="interest" locale="en_US"
+><border
+><edge presence="hidden"
+/><edge presence="hidden"
+/><edge
+/><edge
+/><corner thickness="0.1778mm" presence="hidden"
+/><corner thickness="0.1778mm" presence="hidden"
+/><corner thickness="0.1778mm"
+/><corner thickness="0.1778mm"
+/></border
+><ui
+><textEdit
+/></ui
+><value
+><text
+>Interest</text
+></value
+><font typeface="Arial" size="9pt"
+/><margin topInset="0mm" bottomInset="0mm" leftInset="1.27mm" rightInset="1.27mm"
+/><para vAlign="middle" hAlign="center"
+/></draw
+><draw h="10.16mm" name="total" locale="en_US"
+><border
+><edge presence="hidden"
+/><edge presence="hidden"
+/><edge
+/><edge
+/><corner thickness="0.1778mm" presence="hidden"
+/><corner thickness="0.1778mm" presence="hidden"
+/><corner thickness="0.1778mm"
+/><corner thickness="0.1778mm"
+/></border
+><ui
+><textEdit
+/></ui
+><value
+><text
+>Total</text
+></value
+><font typeface="Arial" size="9pt"
+/><margin topInset="0mm" bottomInset="0mm" leftInset="1.27mm" rightInset="0mm"
+/><para vAlign="middle" hAlign="center"
+/></draw
+><border
+><edge presence="hidden"
+/></border
+><occur max="-1"
+/><?templateDesigner expand 1?></subform
+><subform layout="row" name="Row1" locale="en_US"
+><assist role="TR"
+/><field name="year" h="6.35mm" locale="en_US"
+><ui
+><textEdit
+/></ui
+><font typeface="Times New Roman" size="9pt"
+/><margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="1.27mm"
+/><para vAlign="middle"
+/><border
+><edge presence="hidden"
+/><edge presence="hidden"
+/><edge
+/><edge presence="hidden"
+/><corner thickness="0.1778mm" presence="hidden"
+/><corner thickness="0.1778mm" presence="hidden"
+/><corner thickness="0.1778mm"
+/><corner thickness="0.1778mm" presence="hidden"
+/></border
+><value
+><text maxChars="4"
+/></value
+><assist
+><speak
+>I am providing delinquent  or amended income tax returns, including all required information returns, for each of the most recent 3 years for which the U.S. tax return due date (or properly applied for extended due date) has passed. The tax and interest I owe for each year are as follows. Row: 1. Column: Year (list years in order).</speak
+></assist
+></field
+><field name="amount_owe" h="6.35mm" locale="en_US"
+><ui
+><numericEdit hScrollPolicy="off"
+/></ui
+><font typeface="Times New Roman" size="9pt"
+/><margin topInset="0mm" bottomInset="0mm" leftInset="1.27mm" rightInset="1.27mm"
+/><para vAlign="middle" hAlign="center"
+/><border
+><edge presence="hidden"
+/><edge presence="hidden"
+/><edge
+/><edge
+/><corner thickness="0.1778mm" presence="hidden"
+/><corner thickness="0.1778mm" presence="hidden"
+/><corner thickness="0.1778mm"
+/><corner thickness="0.1778mm"
+/></border
+><format
+><picture
+>num{($zzz,zzz,zzz,zz9.99)}</picture
+></format
+><assist
+><speak
+>Row: 1. Column: Amount of Tax I Owe Shown On (Form 1040 or Form 1040X).</speak
+></assist
+></field
+><field name="interest" h="6.35mm" locale="en_US"
+><ui
+><numericEdit hScrollPolicy="off"
+/></ui
+><font typeface="Times New Roman" size="9pt"
+/><margin topInset="0mm" bottomInset="0mm" leftInset="1.27mm" rightInset="1.27mm"
+/><para vAlign="middle" hAlign="center"
+/><border
+><edge presence="hidden"
+/><edge presence="hidden"
+/><edge
+/><edge
+/><corner thickness="0.1778mm" presence="hidden"
+/><corner thickness="0.1778mm" presence="hidden"
+/><corner thickness="0.1778mm"
+/><corner thickness="0.1778mm"
+/></border
+><format
+><picture
+>num{($zzz,zzz,zzz,zz9.99)}</picture
+></format
+><assist
+><speak
+>Row: 1. Column: Interest.</speak
+></assist
+></field
+><field name="total" h="6.35mm" locale="en_US" access="readOnly"
+><ui
+><numericEdit hScrollPolicy="off"
+/></ui
+><font typeface="Times New Roman" size="9pt"
+/><margin topInset="0mm" bottomInset="0mm" leftInset="1.27mm" rightInset="0mm"
+/><para vAlign="middle" hAlign="center"
+/><border
+><edge presence="hidden"
+/><edge presence="hidden"
+/><edge
+/><edge
+/><corner thickness="0.1778mm" presence="hidden"
+/><corner thickness="0.1778mm" presence="hidden"
+/><corner thickness="0.1778mm"
+/><corner thickness="0.1778mm"
+/></border
+><format
+><picture
+>num{($zzz,zzz,zzz,zz9.99)}</picture
+></format
+><assist
+><speak
+>Row: 1. Column: Total.</speak
+></assist
+><calculate
+><script contentType="application/x-javascript"
+>
+amount_owe.rawValue + interest.rawValue
+</script
+></calculate
+></field
+><border
+><edge presence="hidden"
+/></border
+><?templateDesigner expand 1?></subform
+><subform layout="row" name="Row2" locale="en_US"
+><assist role="TR"
+/><field name="year" h="6.35mm" locale="en_US"
+><ui
+><textEdit
+/></ui
+><font typeface="Times New Roman" size="9pt"
+/><margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="1.27mm"
+/><para vAlign="middle"
+/><border
+><edge presence="hidden"
+/><edge presence="hidden"
+/><edge
+/><edge presence="hidden"
+/><corner thickness="0.1778mm" presence="hidden"
+/><corner thickness="0.1778mm" presence="hidden"
+/><corner thickness="0.1778mm"
+/><corner thickness="0.1778mm" presence="hidden"
+/></border
+><value
+><text maxChars="4"
+/></value
+><assist
+><speak
+>Row: 2. Column: Year (list years in order).</speak
+></assist
+></field
+><field name="amount_owe" h="6.35mm" locale="en_US"
+><ui
+><numericEdit hScrollPolicy="off"
+/></ui
+><font typeface="Times New Roman" size="9pt"
+/><margin topInset="0mm" bottomInset="0mm" leftInset="1.27mm" rightInset="1.27mm"
+/><para vAlign="middle" hAlign="center"
+/><border
+><edge presence="hidden"
+/><edge presence="hidden"
+/><edge
+/><edge
+/><corner thickness="0.1778mm" presence="hidden"
+/><corner thickness="0.1778mm" presence="hidden"
+/><corner thickness="0.1778mm"
+/><corner thickness="0.1778mm"
+/></border
+><format
+><picture
+>num{($zzz,zzz,zzz,zz9.99)}</picture
+></format
+><assist
+><speak
+>Row: 2. Column: Amount of Tax I Owe Shown On (Form 1040 or Form 1040X).</speak
+></assist
+></field
+><field name="interest" h="6.35mm" locale="en_US"
+><ui
+><numericEdit hScrollPolicy="off"
+/></ui
+><font typeface="Times New Roman" size="9pt"
+/><margin topInset="0mm" bottomInset="0mm" leftInset="1.27mm" rightInset="1.27mm"
+/><para vAlign="middle" hAlign="center"
+/><border
+><edge presence="hidden"
+/><edge presence="hidden"
+/><edge
+/><edge
+/><corner thickness="0.1778mm" presence="hidden"
+/><corner thickness="0.1778mm" presence="hidden"
+/><corner thickness="0.1778mm"
+/><corner thickness="0.1778mm"
+/></border
+><format
+><picture
+>num{($zzz,zzz,zzz,zz9.99)}</picture
+></format
+><assist
+><speak
+>Row: 2. Column: Interest.</speak
+></assist
+></field
+><field name="total" h="6.35mm" locale="en_US" access="readOnly"
+><ui
+><numericEdit hScrollPolicy="off"
+/></ui
+><font typeface="Times New Roman" size="9pt"
+/><margin topInset="0mm" bottomInset="0mm" leftInset="1.27mm" rightInset="0mm"
+/><para vAlign="middle" hAlign="center"
+/><border
+><edge presence="hidden"
+/><edge presence="hidden"
+/><edge
+/><edge
+/><corner thickness="0.1778mm" presence="hidden"
+/><corner thickness="0.1778mm" presence="hidden"
+/><corner thickness="0.1778mm"
+/><corner thickness="0.1778mm"
+/></border
+><format
+><picture
+>num{($zzz,zzz,zzz,zz9.99)}</picture
+></format
+><assist
+><speak
+>Row: 2. Column: Total.</speak
+></assist
+><calculate
+><script contentType="application/x-javascript"
+>
+amount_owe.rawValue + interest.rawValue
+</script
+></calculate
+></field
+><border
+><edge presence="hidden"
+/></border
+><?templateDesigner expand 1?></subform
+><subform layout="row" name="Row3" locale="en_US"
+><assist role="TR"
+/><field name="year" h="6.35mm" locale="en_US"
+><ui
+><textEdit
+/></ui
+><font typeface="Times New Roman" size="9pt"
+/><margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="1.27mm"
+/><para vAlign="middle"
+/><border
+><edge presence="hidden"
+/><edge presence="hidden"
+/><edge
+/><edge presence="hidden"
+/><corner thickness="0.1778mm" presence="hidden"
+/><corner thickness="0.1778mm" presence="hidden"
+/><corner thickness="0.1778mm"
+/><corner thickness="0.1778mm" presence="hidden"
+/></border
+><value
+><text maxChars="4"
+/></value
+><assist
+><speak
+>Row: 3. Column: Year (list years in order).</speak
+></assist
+></field
+><field name="amount_owe" h="6.35mm" locale="en_US"
+><ui
+><numericEdit hScrollPolicy="off"
+/></ui
+><font typeface="Times New Roman" size="9pt"
+/><margin topInset="0mm" bottomInset="0mm" leftInset="1.27mm" rightInset="1.27mm"
+/><para vAlign="middle" hAlign="center"
+/><border
+><edge presence="hidden"
+/><edge presence="hidden"
+/><edge
+/><edge
+/><corner thickness="0.1778mm" presence="hidden"
+/><corner thickness="0.1778mm" presence="hidden"
+/><corner thickness="0.1778mm"
+/><corner thickness="0.1778mm"
+/></border
+><format
+><picture
+>num{($zzz,zzz,zzz,zz9.99)}</picture
+></format
+><assist
+><speak
+>Row: 3. Column: Amount of Tax I Owe Shown On (Form 1040 or Form 1040X).</speak
+></assist
+></field
+><field name="interest" h="6.35mm" locale="en_US"
+><ui
+><numericEdit hScrollPolicy="off"
+/></ui
+><font typeface="Times New Roman" size="9pt"
+/><margin topInset="0mm" bottomInset="0mm" leftInset="1.27mm" rightInset="1.27mm"
+/><para vAlign="middle" hAlign="center"
+/><border
+><edge presence="hidden"
+/><edge presence="hidden"
+/><edge
+/><edge
+/><corner thickness="0.1778mm" presence="hidden"
+/><corner thickness="0.1778mm" presence="hidden"
+/><corner thickness="0.1778mm"
+/><corner thickness="0.1778mm"
+/></border
+><format
+><picture
+>num{($zzz,zzz,zzz,zz9.99)}</picture
+></format
+><assist
+><speak
+>Row: 3. Column: Interest.</speak
+></assist
+></field
+><field name="total" h="6.35mm" locale="en_US" access="readOnly"
+><ui
+><numericEdit hScrollPolicy="off"
+/></ui
+><font typeface="Times New Roman" size="9pt"
+/><margin topInset="0mm" bottomInset="0mm" leftInset="1.27mm" rightInset="0mm"
+/><para vAlign="middle" hAlign="center"
+/><border
+><edge presence="hidden"
+/><edge presence="hidden"
+/><edge
+/><edge
+/><corner thickness="0.1778mm" presence="hidden"
+/><corner thickness="0.1778mm" presence="hidden"
+/><corner thickness="0.1778mm"
+/><corner thickness="0.1778mm"
+/></border
+><format
+><picture
+>num{($zzz,zzz,zzz,zz9.99)}</picture
+></format
+><assist
+><speak
+>Row: 3. Column: Total.</speak
+></assist
+><calculate
+><script contentType="application/x-javascript"
+>
+amount_owe.rawValue + interest.rawValue
+</script
+></calculate
+></field
+><border
+><edge presence="hidden"
+/></border
+><?templateDesigner expand 1?></subform
+><subform layout="row" name="Row4" locale="en_US"
+><assist role="TR"
+/><draw h="6.35mm" name="total1" locale="en_US"
+><border
+><edge presence="hidden"
+/><edge presence="hidden"
+/><edge
+/><edge presence="hidden"
+/><corner thickness="0.1778mm" presence="hidden"
+/><corner thickness="0.1778mm" presence="hidden"
+/><corner thickness="0.1778mm"
+/><corner thickness="0.1778mm" presence="hidden"
+/></border
+><ui
+><textEdit
+/></ui
+><value
+><text
+>Total</text
+></value
+><font typeface="Arial" size="9pt"
+/><margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="1.27mm"
+/><para vAlign="middle"
+/><assist
+><speak
+>Row: 4. Total. </speak
+></assist
+></draw
+><field name="amount_owe" h="6.35mm" locale="en_US" access="readOnly"
+><ui
+><numericEdit hScrollPolicy="off"
+/></ui
+><font typeface="Times New Roman" size="9pt"
+/><margin topInset="0mm" bottomInset="0mm" leftInset="1.27mm" rightInset="1.27mm"
+/><para vAlign="middle" hAlign="center"
+/><border
+><edge presence="hidden"
+/><edge presence="hidden"
+/><edge
+/><edge
+/><corner thickness="0.1778mm" presence="hidden"
+/><corner thickness="0.1778mm" presence="hidden"
+/><corner thickness="0.1778mm"
+/><corner thickness="0.1778mm"
+/></border
+><format
+><picture
+>num{($zzz,zzz,zzz,zz9.99)}</picture
+></format
+><assist
+><speak
+>Row: 4. Total. Column: Amount of Tax I Owe Shown On (Form 1040 or Form 1040X). </speak
+></assist
+><calculate
+><script contentType="application/x-javascript"
+>
+Row1.amount_owe.rawValue + Row2.amount_owe.rawValue + Row3.amount_owe.rawValue
+</script
+></calculate
+></field
+><field name="interest" h="6.35mm" locale="en_US" access="readOnly"
+><ui
+><numericEdit hScrollPolicy="off"
+/></ui
+><font typeface="Times New Roman" size="9pt"
+/><margin topInset="0mm" bottomInset="0mm" leftInset="1.27mm" rightInset="1.27mm"
+/><para vAlign="middle" hAlign="center"
+/><border
+><edge presence="hidden"
+/><edge presence="hidden"
+/><edge
+/><edge
+/><corner thickness="0.1778mm" presence="hidden"
+/><corner thickness="0.1778mm" presence="hidden"
+/><corner thickness="0.1778mm"
+/><corner thickness="0.1778mm"
+/></border
+><format
+><picture
+>num{($zzz,zzz,zzz,zz9.99)}</picture
+></format
+><assist
+><speak
+>Row: 4. Total. Column: Interest.</speak
+></assist
+><calculate
+><script contentType="application/x-javascript"
+>
+Row1.interest.rawValue + Row2.interest.rawValue + Row3.interest.rawValue
+</script
+></calculate
+></field
+><field name="total2" h="6.35mm" locale="en_US" access="readOnly"
+><ui
+><numericEdit hScrollPolicy="off"
+/></ui
+><font typeface="Times New Roman" size="9pt"
+/><margin topInset="0mm" bottomInset="0mm" leftInset="1.27mm" rightInset="0mm"
+/><para vAlign="middle" hAlign="center"
+/><border
+><edge presence="hidden"
+/><edge presence="hidden"
+/><edge
+/><edge
+/><corner thickness="0.1778mm" presence="hidden"
+/><corner thickness="0.1778mm" presence="hidden"
+/><corner thickness="0.1778mm"
+/><corner thickness="0.1778mm"
+/></border
+><format
+><picture
+>num{($zzz,zzz,zzz,zz9.99)}</picture
+></format
+><assist
+><speak
+>Row: 4. Total. Column: Total.</speak
+></assist
+><calculate
+><script contentType="application/x-javascript"
+>
+amount_owe.rawValue + interest.rawValue
+</script
+></calculate
+></field
+><border
+><edge presence="hidden"
+/></border
+><?templateDesigner expand 1?></subform
+><keep intact="contentArea"
+/><?templateDesigner rowpattern first:1, next:1, firstcolor:f0f0f0, nextcolor:ffffff, apply:0?><?templateDesigner expand 0?><overflow leader="HeaderRow"
+/></subform
+><draw name="note" locale="en_US" w="7.5in" h="101.6mm"
+><ui
+><textEdit
+/></ui
+><value
+><exData contentType="text/html"
+><body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"
+><p style="margin-bottom:5pt;font-weight:bold"
+>Note:<span style="font-weight:normal"
+> Your payment should equal the total tax and interest due for all three years. You may receive a balance due notice or a refund if the tax or interest is not calculated correctly.<span style="xfa-spacerun:yes"
+> </span
+></span
+></p
+><p style="margin-bottom:5pt"
+>I failed to report income from one or more foreign financial assets during the above period.<span style="xfa-spacerun:yes"
+> </span
+></p
+><p style="margin-bottom:5pt"
+>I meet all the other eligibility requirements for the Streamlined Foreign Offshore procedures.<span style="xfa-spacerun:yes"
+> </span
+></p
+><p style="margin-bottom:5pt"
+>If I failed to timely file correct and complete FBARs for any of the last six years, I have now electronically filed those FBARs.<span style="xfa-spacerun:yes"
+>  </span
+></p
+><p style="margin-bottom:5pt"
+>I agree to retain all records related to my income and assets during the period covered by my delinquent or amended returns until three years from the date of this certification. If I was required to file delinquent FBARs in accordance with these procedures, I also agree to retain all records (including, but not limited to, account statements) related to my foreign financial accounts until six years from the date of this certification. Upon request, I agree to provide all such records to the Internal Revenue Service.<span style="xfa-spacerun:yes"
+> </span
+></p
+><p style="margin-bottom:5pt"
+>My failure to report all income, pay all tax, and submit all required information returns, including FBARs, was due to non-willful conduct. I understand that non-willful conduct is conduct that is due to negligence, inadvertence, or mistake or conduct that is the result of a good faith misunderstanding of the requirements of the law.<span style="xfa-spacerun:yes"
+> </span
+></p
+><p style="margin-bottom:5pt"
+>I acknowledge the possibility that amended income tax returns I am submitting under the Streamlined Foreign Offshore Procedures may report income for tax years beyond the three-year assessment limitations period under I.R.C. § 6501(a). Other assessment limitations periods in I.R.C. § 6501 may allow the Internal Revenue Service to assess and collect tax. If I seek a refund for any tax or interest paid for the omitted income that I am reporting on my amended income tax returns because I feel that my payments were made beyond the assessment limitations period, I understand that I will forfeit the favorable terms of the Streamlined Procedures.</p
+><p style="margin-bottom:5pt"
+>I recognize that if the Internal Revenue Service receives or discovers evidence of willfulness, fraud, or criminal conduct, it may open an examination or investigation that could lead to civil fraud penalties, FBAR penalties, information return penalties, or even referral to Criminal Investigation.<span style="xfa-spacerun:yes"
+>  </span
+></p
+><p style="margin-bottom:5pt"
+>I meet the non-residency requirements for the Streamlined Foreign Offshore procedures as disclosed below.<span style="xfa-spacerun:yes"
+>  </span
+></p
+><p style="margin-bottom:0pt;font-weight:bold"
+>Note:<span style="font-weight:normal"
+> Both spouses filing a joint certification must meet the non-residency requirements.</span
+></p
+></body
+></exData
+></value
+><font typeface="Arial" size="9pt" baselineShift="0pt"
+/><margin topInset="2.032mm" bottomInset="0mm" leftInset="0mm" rightInset="0mm"
+/><para spaceAbove="0pt" spaceBelow="6pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"
+/><border
+><edge presence="hidden"
+/><corner
+/><corner
+/><corner presence="hidden"
+/><corner
+/></border
+><keep intact="none"
+/></draw
+><draw name="complete" locale="en_US" w="7.5in" h="6.35mm"
+><ui
+><textEdit
+/></ui
+><value
+><exData contentType="text/html"
+><body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"
+><p style="font-weight:bold"
+>Complete one of the following (two) sections regarding your residency status</p
+></body
+></exData
+></value
+><font typeface="Arial" size="9pt" baselineShift="0pt"
+/><margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="0mm"
+/><para spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt" vAlign="middle"
+/><border
+><edge
+/><corner
+/><edge presence="hidden"
+/><edge
+/><edge presence="hidden"
+/></border
+><keep intact="none" next="contentArea"
+/></draw
+><draw name="if_you_are" locale="en_US" w="7.5in" h="21.59mm"
+><ui
+><textEdit
+/></ui
+><value
+><exData contentType="text/html"
+><body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"
+><p style="margin-bottom:2pt;font-weight:bold"
+>If<span style="xfa-spacerun:yes"
+> </span
+><span style="text-decoration:underline"
+>you are</span
+> a U.S. citizen or lawful permanent resident (i.e., “green card holder”), complete this section:</p
+><p style="margin-bottom:0pt;margin-left:10.8pt"
+>For the covered tax period, indicate whether you were physically outside the United States for each year. You must have been physically outside the U.S. for at least 330 full days in any one or more of the most recent three years for which the U.S. tax return due date (or properly applied for extended due date) has passed, and you must not have had a U.S. abode. For more information on the meaning of “abode” see IRS Publication 54.</p
+></body
+></exData
+></value
+><font typeface="Arial" size="9pt" baselineShift="0pt"
+/><margin topInset="2.032mm" bottomInset="0mm" leftInset="0mm" rightInset="0mm"
+/><para spaceAbove="0pt" spaceBelow="6pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"
+/><border
+><edge presence="hidden"
+/><corner
+/><corner
+/><corner presence="hidden"
+/><corner
+/></border
+><?renderCache.bounds 540000 55440 0 0 0 5760 0 0?><?renderCache.textRun 3 If  0 0 12866 0 0 0 "Arial" 1 0 9000 ISO-8859-1?><?renderCache.textRun 7 you are 0 7998 12866 0 0 0 "Arial" 1 0 9000 ISO-8859-1?><?renderCache.textRun 101  a U.S. citizen or lawful permanent resident (i.e., “green card holder”), complete this section:  0 40012 12866 0 0 0 "Arial" 1 0 9000 ISO-8859-1?><?renderCache.line 7998 13699 40012 13699 0 0 0 303?><?renderCache.textRun 125 For the covered tax period, indicate whether you were physically outside the United States for each year. You must have been  0 10800 25666 0 0 0 "Arial" 0 0 9000 ISO-8859-1?><?renderCache.textRun 135 physically outside the U.S. for at least 330 full days in any one or more of the most recent three years for which the U.S. tax return  0 10800 36466 0 0 0 "Arial" 0 0 9000 ISO-8859-1?><?renderCache.textRun 129 due date (or properly applied for extended due date) has passed, and you must not have had a U.S. abode. For more information on  0 10800 47266 0 0 0 "Arial" 0 0 9000 ISO-8859-1?><?renderCache.textRun 50 the meaning of “abode” see IRS Publication 54. 0 10800 58066 0 0 0 "Arial" 0 0 9000 ISO-8859-1?></draw
+><subform w="190.5mm" layout="tb" locale="en_US" name="physically_outside"
+><draw name="physically_outside" w="190.5mm" h="6.35mm" locale="en_US"
+><ui
+><textEdit
+/></ui
+><value
+><exData contentType="text/html"
+><body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"
+><p
+>I was physically outside the United States for at least 330 full days<span style="xfa-spacerun:yes"
+> </span
+><span style="font-style:italic"
+>(answer Yes or No for each year)</span
+></p
+></body
+></exData
+></value
+><font size="9pt" typeface="Arial"
+/><margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="0mm"
+/><para vAlign="middle"
+/><?renderCache.bounds 540000 18000 0 0 0 0 0 0?><?renderCache.textRun 70 I was physically outside the United States for at least 330 full days  0 0 11619 0 0 0 "Arial" 0 0 9000 ISO-8859-1?><?renderCache.textRun 32 (answer Yes or No for each year) 0 265641 11619 0 0 0 "Arial" 0 1 9000 ISO-8859-1?></draw
+><subform name="physically_outside_US" layout="table" columnWidths="25.4mm 16.51mm 15.24mm" locale="en_US"
+><border
+><edge presence="hidden"
+/><corner presence="hidden"
+/></border
+><subform layout="row" name="HeaderRow" id="HeaderRow_ID_copy1" locale="en_US"
+><assist role="TH"
+/><draw h="5.08mm" name="year" locale="en_US"
+><border
+><edge
+/><edge presence="hidden"
+/><edge
+/><edge presence="hidden"
+/><corner thickness="0.1778mm"
+/><corner thickness="0.1778mm" presence="hidden"
+/><corner thickness="0.1778mm"
+/><corner thickness="0.1778mm" presence="hidden"
+/></border
+><ui
+><textEdit
+/></ui
+><value
+><text
+>Year</text
+></value
+><font typeface="Arial" size="9pt"
+/><margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="0mm"
+/><para vAlign="middle" hAlign="center"
+/></draw
+><draw h="5.08mm" name="yes" locale="en_US"
+><border
+><edge
+/><edge presence="hidden"
+/><edge
+/><edge
+/><corner thickness="0.1778mm"
+/><corner thickness="0.1778mm" presence="hidden"
+/><corner thickness="0.1778mm"
+/><corner thickness="0.1778mm"
+/></border
+><ui
+><textEdit
+/></ui
+><value
+><text
+>Yes</text
+></value
+><font typeface="Arial" size="9pt"
+/><margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="0mm"
+/><para vAlign="middle" hAlign="center"
+/></draw
+><draw h="5.08mm" name="no" locale="en_US"
+><border
+><edge
+/><edge presence="hidden"
+/><edge
+/><edge
+/><corner thickness="0.1778mm"
+/><corner thickness="0.1778mm" presence="hidden"
+/><corner thickness="0.1778mm"
+/><corner thickness="0.1778mm"
+/></border
+><ui
+><textEdit
+/></ui
+><value
+><text
+>No</text
+></value
+><font typeface="Arial" size="9pt"
+/><margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="0mm"
+/><para vAlign="middle" hAlign="center"
+/></draw
+><border
+><edge presence="hidden"
+/></border
+><occur max="-1"
+/><?templateDesigner expand 1?></subform
+><subform layout="row" name="Row1" locale="en_US"
+><assist role="TR"
+/><field name="year" h="5.08mm" locale="en_US"
+><ui
+><textEdit
+/></ui
+><font typeface="Times New Roman" size="9pt"
+/><margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="0mm"
+/><para vAlign="middle"
+/><border
+><edge presence="hidden"
+/><edge presence="hidden"
+/><edge
+/><edge presence="hidden"
+/><corner thickness="0.1778mm" presence="hidden"
+/><corner thickness="0.1778mm" presence="hidden"
+/><corner thickness="0.1778mm"
+/><corner thickness="0.1778mm" presence="hidden"
+/></border
+><assist
+><speak
+>I was physically outside the United States for at least 330 full days (answer Yes or No for each year). Row: 1. Column: Year.</speak
+></assist
+></field
+><field name="yes" h="5.08mm" locale="en_US" minW="25.4mm"
+><ui
+><checkButton size="3.175mm"
+><border
+><fill
+><color value="255, 255, 255"
+/></fill
+><?templateDesigner StyleID apcb1?></border
+></checkButton
+></ui
+><font typeface="Arial" size="9pt"
+/><margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="5.842mm"
+/><para vAlign="middle" hAlign="center"
+/><value
+><integer
+>0</integer
+></value
+><items
+><integer
+>1</integer
+><integer
+>0</integer
+><integer
+>2</integer
+></items
+><border
+><edge presence="hidden"
+/><edge presence="hidden"
+/><edge
+/><edge
+/><corner thickness="0.1778mm" presence="hidden"
+/><corner thickness="0.1778mm" presence="hidden"
+/><corner thickness="0.1778mm"
+/><corner thickness="0.1778mm"
+/></border
+><assist
+><speak
+>Row: 1. Column: Yes.</speak
+></assist
+><event activity="click" name="event__click"
+><script contentType="application/x-javascript"
+>
+if (this.rawValue == 1)
+	{
+	no.rawValue = 0;
+	}
+</script
+></event
+></field
+><field name="no" h="5.08mm" locale="en_US" minW="25.4mm"
+><ui
+><checkButton size="3.175mm"
+><border
+><fill
+><color value="255, 255, 255"
+/></fill
+><?templateDesigner StyleID apcb1?></border
+></checkButton
+></ui
+><font typeface="Arial" size="9pt"
+/><margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="5.842mm"
+/><para vAlign="middle" hAlign="center"
+/><value
+><integer
+>0</integer
+></value
+><items
+><integer
+>1</integer
+><integer
+>0</integer
+><integer
+>2</integer
+></items
+><border
+><edge presence="hidden"
+/><edge presence="hidden"
+/><edge
+/><edge
+/><corner thickness="0.1778mm" presence="hidden"
+/><corner thickness="0.1778mm" presence="hidden"
+/><corner thickness="0.1778mm"
+/><corner thickness="0.1778mm"
+/></border
+><assist
+><speak
+>Row: 1. Column: No.</speak
+></assist
+><event activity="click" name="event__click"
+><script contentType="application/x-javascript"
+>
+if (this.rawValue == 1)
+	{
+	yes.rawValue = 0;
+	}
+</script
+></event
+></field
+><border
+><edge presence="hidden"
+/></border
+><?templateDesigner expand 1?></subform
+><subform layout="row" name="Row2" locale="en_US"
+><assist role="TR"
+/><field name="year" h="5.08mm" locale="en_US"
+><ui
+><textEdit
+/></ui
+><font typeface="Times New Roman" size="9pt"
+/><margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="0mm"
+/><para vAlign="middle"
+/><border
+><edge presence="hidden"
+/><edge presence="hidden"
+/><edge
+/><edge presence="hidden"
+/><corner thickness="0.1778mm" presence="hidden"
+/><corner thickness="0.1778mm" presence="hidden"
+/><corner thickness="0.1778mm"
+/><corner thickness="0.1778mm" presence="hidden"
+/></border
+><assist
+><speak
+>Row: 2. Column: Year.</speak
+></assist
+></field
+><field name="yes" h="5.08mm" locale="en_US" minW="25.4mm"
+><ui
+><checkButton size="3.175mm"
+><border
+><fill
+><color value="255, 255, 255"
+/></fill
+><?templateDesigner StyleID apcb1?></border
+></checkButton
+></ui
+><font typeface="Arial" size="9pt"
+/><margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="5.842mm"
+/><para vAlign="middle" hAlign="center"
+/><value
+><integer
+>0</integer
+></value
+><items
+><integer
+>1</integer
+><integer
+>0</integer
+><integer
+>2</integer
+></items
+><border
+><edge presence="hidden"
+/><edge presence="hidden"
+/><edge
+/><edge
+/><corner thickness="0.1778mm" presence="hidden"
+/><corner thickness="0.1778mm" presence="hidden"
+/><corner thickness="0.1778mm"
+/><corner thickness="0.1778mm"
+/></border
+><assist
+><speak
+>Row: 2. Column: Yes.</speak
+></assist
+><event activity="click" name="event__click"
+><script contentType="application/x-javascript"
+>
+if (this.rawValue == 1)
+	{
+	no.rawValue = 0;
+	}
+</script
+></event
+></field
+><field name="no" h="5.08mm" locale="en_US" minW="25.4mm"
+><ui
+><checkButton size="3.175mm"
+><border
+><fill
+><color value="255, 255, 255"
+/></fill
+><?templateDesigner StyleID apcb1?></border
+></checkButton
+></ui
+><font typeface="Arial" size="9pt"
+/><margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="5.842mm"
+/><para vAlign="middle" hAlign="center"
+/><value
+><integer
+>0</integer
+></value
+><items
+><integer
+>1</integer
+><integer
+>0</integer
+><integer
+>2</integer
+></items
+><border
+><edge presence="hidden"
+/><edge presence="hidden"
+/><edge
+/><edge
+/><corner thickness="0.1778mm" presence="hidden"
+/><corner thickness="0.1778mm" presence="hidden"
+/><corner thickness="0.1778mm"
+/><corner thickness="0.1778mm"
+/></border
+><assist
+><speak
+>Row: 2. Column: No.</speak
+></assist
+><event activity="click" name="event__click"
+><script contentType="application/x-javascript"
+>
+if (this.rawValue == 1)
+	{
+	yes.rawValue = 0;
+	}
+</script
+></event
+></field
+><border
+><edge presence="hidden"
+/></border
+><?templateDesigner expand 1?></subform
+><subform layout="row" name="Row3" y="-0.001mm" locale="en_US"
+><assist role="TR"
+/><field name="year" h="5.08mm" locale="en_US"
+><ui
+><textEdit
+/></ui
+><font typeface="Times New Roman" size="9pt"
+/><margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="0mm"
+/><para vAlign="middle"
+/><border
+><edge presence="hidden"
+/><edge presence="hidden"
+/><edge
+/><edge presence="hidden"
+/><corner thickness="0.1778mm" presence="hidden"
+/><corner thickness="0.1778mm" presence="hidden"
+/><corner thickness="0.1778mm"
+/><corner thickness="0.1778mm" presence="hidden"
+/></border
+><assist
+><speak
+>Row: 3. Column: Year.</speak
+></assist
+></field
+><field name="yes" h="5.08mm" locale="en_US" minW="25.4mm"
+><ui
+><checkButton size="3.175mm"
+><border
+><fill
+><color value="255, 255, 255"
+/></fill
+><?templateDesigner StyleID apcb1?></border
+></checkButton
+></ui
+><font typeface="Arial" size="9pt"
+/><margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="5.842mm"
+/><para vAlign="middle" hAlign="center"
+/><value
+><integer
+>0</integer
+></value
+><items
+><integer
+>1</integer
+><integer
+>0</integer
+><integer
+>2</integer
+></items
+><border
+><edge presence="hidden"
+/><edge presence="hidden"
+/><edge
+/><edge
+/><corner thickness="0.1778mm" presence="hidden"
+/><corner thickness="0.1778mm" presence="hidden"
+/><corner thickness="0.1778mm"
+/><corner thickness="0.1778mm"
+/></border
+><assist
+><speak
+>Row: 3. Column: Yes.</speak
+></assist
+><event activity="click" name="event__click"
+><script contentType="application/x-javascript"
+>
+if (this.rawValue == 1)
+	{
+	no.rawValue = 0;
+	}
+</script
+></event
+></field
+><field name="no" h="5.08mm" locale="en_US" minW="25.4mm"
+><ui
+><checkButton size="3.175mm"
+><border
+><fill
+><color value="255, 255, 255"
+/></fill
+><?templateDesigner StyleID apcb1?></border
+></checkButton
+></ui
+><font typeface="Arial" size="9pt"
+/><margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="5.842mm"
+/><para vAlign="middle" hAlign="center"
+/><value
+><integer
+>0</integer
+></value
+><items
+><integer
+>1</integer
+><integer
+>0</integer
+><integer
+>2</integer
+></items
+><border
+><edge presence="hidden"
+/><edge presence="hidden"
+/><edge
+/><edge
+/><corner thickness="0.1778mm" presence="hidden"
+/><corner thickness="0.1778mm" presence="hidden"
+/><corner thickness="0.1778mm"
+/><corner thickness="0.1778mm"
+/></border
+><assist
+><speak
+>Row: 3. Column: No.</speak
+></assist
+><event activity="click" name="event__click"
+><script contentType="application/x-javascript"
+>
+if (this.rawValue == 1)
+	{
+	yes.rawValue = 0;
+	}
+</script
+></event
+></field
+><border
+><edge presence="hidden"
+/></border
+><?templateDesigner expand 1?></subform
+><keep intact="contentArea"
+/><?templateDesigner rowpattern first:1, next:1, firstcolor:f0f0f0, nextcolor:ffffff, apply:0?><?templateDesigner expand 0?></subform
+><keep intact="contentArea"
+/><?templateDesigner expand 0?></subform
+><draw name="both_spouses" locale="en_US" w="7.5in" h="63.5mm"
+><ui
+><textEdit
+/></ui
+><value
+><exData contentType="text/html"
+><body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"
+><p style="margin-left:10.8pt"
+>Both spouses filing a joint certification must meet the non-residency requirement. If the number of days physically outside of the U.S. differs for each spouse, disclose that on the chart above or in an attachment to this certification.</p
+><p style="margin-bottom:2pt;font-weight:bold"
+>If you<span style="xfa-spacerun:yes"
+> </span
+><span style="text-decoration:underline"
+>are not</span
+> a U.S. citizen or lawful permanent resident, complete this section:</p
+><p style="margin-left:10.8pt"
+>If you<span style="xfa-spacerun:yes"
+> </span
+><span style="text-decoration:underline"
+>are not</span
+> a U.S. citizen or a lawful permanent resident, please attach to this certification your computation showing that you did not meet the substantial presence test under I.R.C. sec. 7701(b)(3). Your computation must disclose the number of days you were present in the U.S. for the three years included in your Streamlined Foreign Offshore Procedures submission and the previous two years. If you do not attach a complete computation showing that you did not meet the substantial presence test, your submission will be considered incomplete and your submission will not qualify for the Streamlined Foreign Offshore Procedures.<span style="xfa-spacerun:yes"
+> </span
+></p
+><p style="margin-left:10.8pt"
+>Both spouses filing a joint certification must meet the non-residency requirement. If the number of days inside the U.S. differs for each spouse, disclose that on the chart above or in an attachment to this certification.</p
+><p style="margin-bottom:0pt;font-weight:bold"
+>Note:<span style="font-weight:normal"
+> You must provide specific facts on this form or on a signed attachment explaining your failure to report all income, pay all tax, and submit all required information returns, including FBARs. Any submission that does not contain a narrative statement of facts will be considered incomplete and will not qualify for the streamlined penalty relief.</span
+></p
+></body
+></exData
+></value
+><font typeface="Arial" size="9pt" baselineShift="0pt"
+/><margin topInset="2.032mm" bottomInset="0mm" leftInset="0mm" rightInset="0mm"
+/><para spaceAbove="0pt" spaceBelow="8pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"
+/><border
+><edge presence="hidden"
+/><corner
+/><corner
+/><corner presence="hidden"
+/><corner
+/></border
+><?renderCache.bounds 540000 174240 0 0 0 5760 0 0?><?renderCache.textRun 136 Both spouses filing a joint certification must meet the non-residency requirement. If the number of days physically outside of the U.S.  0 10800 12866 0 0 0 "Arial" 0 0 9000 ISO-8859-1?><?renderCache.textRun 101 differs for each spouse, disclose that on the chart above or in an attachment to this certification.  0 10800 23666 0 0 0 "Arial" 0 0 9000 ISO-8859-1?><?renderCache.textRun 7 If you  0 0 42466 0 0 0 "Arial" 1 0 9000 ISO-8859-1?><?renderCache.textRun 7 are not 0 26499 42466 0 0 0 "Arial" 1 0 9000 ISO-8859-1?><?renderCache.textRun 69  a U.S. citizen or lawful permanent resident, complete this section:  0 56505 42466 0 0 0 "Arial" 1 0 9000 ISO-8859-1?><?renderCache.line 26499 43299 56505 43299 0 0 0 303?><?renderCache.textRun 7 If you  0 10800 55266 0 0 0 "Arial" 0 0 9000 ISO-8859-1?><?renderCache.textRun 7 are not 0 35313 55266 0 0 0 "Arial" 0 0 9000 ISO-8859-1?><?renderCache.textRun 122  a U.S. citizen or a lawful permanent resident, please attach to this certification your computation showing that you did  0 63332 55266 0 0 0 "Arial" 0 0 9000 ISO-8859-1?><?renderCache.line 35313 56099 63332 56099 0 0 0 303?><?renderCache.textRun 128 not meet the substantial presence test under I.R.C. sec. 7701(b)(3). Your computation must disclose the number of days you were  0 10800 66066 0 0 0 "Arial" 0 0 9000 ISO-8859-1?><?renderCache.textRun 129 present in the U.S. for the three years included in your Streamlined Foreign Offshore Procedures submission and the previous two  0 10800 76866 0 0 0 "Arial" 0 0 9000 ISO-8859-1?><?renderCache.textRun 133 years. If you do not attach a complete computation showing that you did not meet the substantial presence test, your submission will  0 10800 87666 0 0 0 "Arial" 0 0 9000 ISO-8859-1?><?renderCache.textRun 112 be considered incomplete and your submission will not qualify for the Streamlined Foreign Offshore Procedures.   0 10800 98466 0 0 0 "Arial" 0 0 9000 ISO-8859-1?><?renderCache.textRun 133 Both spouses filing a joint certification must meet the non-residency requirement. If the number of days inside the U.S. differs for  0 10800 117266 0 0 0 "Arial" 0 0 9000 ISO-8859-1?><?renderCache.textRun 89 each spouse, disclose that on the chart above or in an attachment to this certification.  0 10800 128066 0 0 0 "Arial" 0 0 9000 ISO-8859-1?><?renderCache.textRun 5 Note: 0 0 146866 0 0 0 "Arial" 1 0 9000 ISO-8859-1?><?renderCache.textRun 131  You must provide specific facts on this form or on a signed attachment explaining your failure to report all income, pay all tax,  0 22997 146866 0 0 0 "Arial" 0 0 9000 ISO-8859-1?><?renderCache.textRun 135 and submit all required information returns, including FBARs. Any submission that does not contain a narrative statement of facts will  0 0 157666 0 0 0 "Arial" 0 0 9000 ISO-8859-1?><?renderCache.textRun 81 be considered incomplete and will not qualify for the streamlined penalty relief. 0 0 168466 0 0 0 "Arial" 0 0 9000 ISO-8859-1?></draw
+><draw name="provide_specific_reasons" w="7.5in" h="43.18mm" locale="en_US"
+><ui
+><textEdit
+/></ui
+><value
+><text
+>Provide specific reasons for your failure to report all income, pay all tax, and submit all required information returns, including FBARs. Include the whole story including favorable and unfavorable facts. Specific reasons, whether favorable or unfavorable to you, should include your personal background, financial background, and anything else you believe is relevant to your failure to report all income, pay all tax, and submit all required information returns, including FBARs. Additionally, explain the source of funds in all of your foreign financial accounts/assets. For example, explain whether you inherited the account/asset, whether you opened it while residing in a foreign country, or whether you had a business reason to open or use it. And explain your contacts with the account/asset including withdrawals, deposits, and investment/management decisions. Provide a complete story about your foreign financial account/asset. If you relied on a professional advisor, provide the name, address, and telephone number of the advisor and a summary of the advice. If married taxpayers submitting a joint certification have different reasons, provide the individual reasons for each spouse separately in the statement of facts. The field below will automatically expand to accommodate your statement of facts.</text
+></value
+><font typeface="Arial" size="9pt" weight="bold"
+/><margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="0mm"
+/><para vAlign="middle"
+/><border
+><edge presence="hidden"
+/><corner
+/><corner
+/><corner presence="hidden"
+/><corner
+/></border
+><?renderCache.bounds 540000 122400 0 0 0 0 0 0?><?renderCache.textRun 122 Provide specific reasons for your failure to report all income, pay all tax, and submit all required information returns,  0 0 9806 0 0 0 "Arial" 1 0 9000 ISO-8859-1?><?renderCache.textRun 123 including FBARs. Include the whole story including favorable and unfavorable facts. Specific reasons, whether favorable or  0 0 20606 0 0 0 "Arial" 1 0 9000 ISO-8859-1?><?renderCache.textRun 116 unfavorable to you, should include your personal background, financial background, and anything else you believe is  0 0 31406 0 0 0 "Arial" 1 0 9000 ISO-8859-1?><?renderCache.textRun 122 relevant to your failure to report all income, pay all tax, and submit all required information returns, including FBARs.  0 0 42206 0 0 0 "Arial" 1 0 9000 ISO-8859-1?><?renderCache.textRun 125 Additionally, explain the source of funds in all of your foreign financial accounts/assets. For example, explain whether you  0 0 53006 0 0 0 "Arial" 1 0 9000 ISO-8859-1?><?renderCache.textRun 125 inherited the account/asset, whether you opened it while residing in a foreign country, or whether you had a business reason  0 0 63806 0 0 0 "Arial" 1 0 9000 ISO-8859-1?><?renderCache.textRun 116 to open or use it. And explain your contacts with the account/asset including withdrawals, deposits, and investment/ 0 0 74606 0 0 0 "Arial" 1 0 9000 ISO-8859-1?><?renderCache.textRun 123 management decisions. Provide a complete story about your foreign financial account/asset. If you relied on a professional  0 0 85406 0 0 0 "Arial" 1 0 9000 ISO-8859-1?><?renderCache.textRun 122 advisor, provide the name, address, and telephone number of the advisor and a summary of the advice. If married taxpayers  0 0 96206 0 0 0 "Arial" 1 0 9000 ISO-8859-1?><?renderCache.textRun 122 submitting a joint certification have different reasons, provide the individual reasons for each spouse separately in the  0 0 107006 0 0 0 "Arial" 1 0 9000 ISO-8859-1?><?renderCache.textRun 101 statement of facts. The field below will automatically expand to accommodate your statement of facts. 0 0 117806 0 0 0 "Arial" 1 0 9000 ISO-8859-1?></draw
+><field name="failure_to_report" w="190.5mm" locale="en_US" minH="91.44mm"
+><ui
+><textEdit multiLine="1"
+><border presence="hidden"
+><?templateDesigner StyleID aped0?></border
+><margin
+/></textEdit
+></ui
+><font size="9pt" typeface="Times New Roman"
+/><margin topInset="1.27mm" bottomInset="1.27mm" leftInset="0mm" rightInset="0mm"
+/><border break="open"
+><edge presence="hidden"
+/><edge presence="hidden"
+/><edge thickness="0.3556mm" presence="hidden"
+/><edge presence="hidden"
+/><corner
+/><corner
+/><corner thickness="0.356mm" presence="hidden"
+/><corner
+/></border
+><assist
+><speak
+>Provide specific reasons for your failure to report all income, pay all tax, and submit all required information returns, including F B A R s. Include the whole story including favorable and unfavorable facts. Specific reasons, whether favorable or unfavorable to you, should include your personal background, financial background, and anything else you believe is relevant to your failure to report all income, pay all tax, and submit all required information returns, including F B A R s. Additionally, explain the source of funds in all of your foreign financial accounts/assets. For example, explain whether you inherited the account/asset, whether you opened it while residing in a foreign country, or whether you had a business reason to open or use it. And explain your contacts with the account/asset including withdrawals, deposits, and investment/management decisions. Provide a complete story about your foreign financial account/asset. If you relied on a professional advisor, provide the name, address, and telephone number of the advisor and a summary of the advice. If married taxpayers submitting a joint certification have different reasons, provide the individual reasons for each spouse separately in the statement of facts. The field below will automatically expand to accommodate your statement of facts.</speak
+></assist
+><event activity="exit" name="event__exit"
+><script contentType="application/x-javascript"
+>
+this.minH = "0";
+</script
+></event
+></field
+><subform w="190.5mm" name="signature" locale="en_US"
+><draw name="under_penalties" w="7.5in" h="10.16mm" locale="en_US" y="0mm" x="0mm"
+><ui
+><textEdit
+/></ui
+><value
+><text
+>Under penalties of perjury, I declare that I have examined this certification and all accompanying schedules and statements, and to the best of my knowledge and belief, they are true, correct, and complete.</text
+></value
+><font typeface="Arial" size="9pt"
+/><margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="0mm"
+/><para vAlign="middle"
+/><border
+><edge thickness="0.3556mm"
+/><corner thickness="0.356mm"
+/><edge presence="hidden"
+/><edge
+/><edge presence="hidden"
+/><corner
+/><corner
+/><corner
+/></border
+><?renderCache.bounds 540000 28800 0 0 0 0 0 0?><?renderCache.textRun 136 Under penalties of perjury, I declare that I have examined this certification and all accompanying schedules and statements, and to the  0 0 11606 0 0 0 "Arial" 0 0 9000 ISO-8859-1?><?renderCache.textRun 70 best of my knowledge and belief, they are true, correct, and complete. 0 0 22406 0 0 0 "Arial" 0 0 9000 ISO-8859-1?></draw
+><field name="signature_of_taxpayer" w="82.55mm" h="12.7mm" locale="en_US" y="10.16mm" x="0.001mm"
+><ui
+><signature
+><border presence="hidden"
+><?templateDesigner StyleID aped0?></border
+><margin
+/></signature
+></ui
+><font typeface="Times New Roman" size="9pt"
+/><margin topInset="0.762mm" bottomInset="0mm" leftInset="0mm" rightInset="1.27mm"
+/><para vAlign="middle"
+/><caption reserve="3.81mm" placement="top"
+><font size="9pt" typeface="Arial"
+/><para vAlign="middle"
+/><value
+><text
+>Signature of taxpayer</text
+></value
+></caption
+><bind match="none"
+/><assist
+><speak
+>Signature of taxpayer.</speak
+></assist
+><border
+><edge presence="hidden"
+/><edge presence="hidden"
+/><edge
+/><edge presence="hidden"
+/><corner
+/></border
+></field
+><field name="name_of_taxpayer" w="76.2mm" h="12.7mm" locale="en_US" x="82.551mm" y="10.16mm"
+><ui
+><textEdit hScrollPolicy="off" multiLine="1" vScrollPolicy="off"
+><border presence="hidden"
+><?templateDesigner StyleID aped0?></border
+><margin
+/></textEdit
+></ui
+><font typeface="Times New Roman" size="9pt"
+/><margin topInset="0.762mm" bottomInset="0mm" leftInset="1.27mm" rightInset="1.27mm"
+/><para vAlign="middle"
+/><caption reserve="3.81mm" placement="top"
+><font size="9pt" typeface="Arial"
+/><para vAlign="middle"
+/><value
+><text
+>Name of taxpayer</text
+></value
+></caption
+><assist
+><speak
+>Name of taxpayer.</speak
+></assist
+><border
+><edge presence="hidden"
+/><edge presence="hidden"
+/><edge
+/><edge
+/><corner
+/></border
+></field
+><field name="date_of_taxpayer" y="10.16mm" x="158.75mm" w="31.75mm" h="12.7mm" locale="en_US"
+><ui
+><dateTimeEdit hScrollPolicy="off"
+><border presence="hidden"
+><?templateDesigner StyleID aped0?></border
+><margin
+/></dateTimeEdit
+></ui
+><font typeface="Times New Roman" size="9pt"
+/><margin topInset="0.762mm" bottomInset="0mm" leftInset="1.27mm" rightInset="0mm"
+/><para vAlign="middle" hAlign="center"
+/><value
+><date
+/></value
+><caption reserve="3.81mm" placement="top"
+><font size="9pt" typeface="Arial"
+/><para vAlign="middle"
+/><value
+><text
+>Date</text
+></value
+></caption
+><assist
+><speak
+>Date.</speak
+></assist
+><format
+><picture
+>date{MM/DD/YYYY}</picture
+></format
+><border
+><edge presence="hidden"
+/><edge presence="hidden"
+/><edge
+/><edge
+/><corner
+/></border
+></field
+><field name="signature_of_taxpayer" w="82.55mm" h="12.7mm" locale="en_US" y="22.86mm" x="0.001mm"
+><ui
+><signature
+><border presence="hidden"
+><?templateDesigner StyleID aped0?></border
+><margin
+/></signature
+></ui
+><font typeface="Times New Roman" size="9pt"
+/><margin topInset="0.762mm" bottomInset="0mm" leftInset="0mm" rightInset="1.27mm"
+/><para vAlign="middle"
+/><caption reserve="3.81mm" placement="top"
+><font size="9pt" typeface="Arial"
+/><para vAlign="middle"
+/><value
+><exData contentType="text/html"
+><body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xfa:APIVersion="2.7.0.0"
+><p style="text-decoration:none;letter-spacing:0in"
+>Signature of taxpayer<span style="xfa-spacerun:yes"
+> </span
+><span style="font-size:8pt;font-style:italic"
+>(if joint certification)</span
+></p
+></body
+></exData
+></value
+></caption
+><bind match="none"
+/><assist
+><speak
+>Signature of taxpayer (if joint certification).</speak
+></assist
+><border
+><edge presence="hidden"
+/><edge presence="hidden"
+/><edge
+/><edge presence="hidden"
+/><corner
+/></border
+></field
+><field name="name_of_taxpayer" w="76.2mm" h="12.7mm" locale="en_US" x="82.55mm" y="22.86mm"
+><ui
+><textEdit hScrollPolicy="off" multiLine="1" vScrollPolicy="off"
+><border presence="hidden"
+><?templateDesigner StyleID aped0?></border
+><margin
+/></textEdit
+></ui
+><font typeface="Times New Roman" size="9pt"
+/><margin topInset="0.762mm" bottomInset="0mm" leftInset="1.27mm" rightInset="1.27mm"
+/><para vAlign="middle"
+/><caption reserve="3.81mm" placement="top"
+><font size="9pt" typeface="Arial"
+/><para vAlign="middle"
+/><value
+><exData contentType="text/html"
+><body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xfa:APIVersion="2.7.0.0"
+><p style="text-decoration:none;letter-spacing:0in"
+>Name of taxpayer<span style="xfa-spacerun:yes"
+> </span
+><span style="font-size:8pt;font-style:italic"
+>(if joint certification)</span
+></p
+></body
+></exData
+></value
+></caption
+><assist
+><speak
+>Name of taxpayer (if joint certification).</speak
+></assist
+><border
+><edge presence="hidden"
+/><edge presence="hidden"
+/><edge
+/><edge
+/><corner
+/></border
+></field
+><field name="date_of_taxpayer" y="22.86mm" x="158.75mm" w="31.75mm" h="12.7mm" locale="en_US"
+><ui
+><dateTimeEdit hScrollPolicy="off"
+><border presence="hidden"
+><?templateDesigner StyleID aped0?></border
+><margin
+/></dateTimeEdit
+></ui
+><font typeface="Times New Roman" size="9pt"
+/><margin topInset="0.762mm" bottomInset="0mm" leftInset="1.27mm" rightInset="0mm"
+/><para vAlign="middle" hAlign="center"
+/><value
+><date
+/></value
+><caption reserve="3.81mm" placement="top"
+><font size="9pt" typeface="Arial"
+/><para vAlign="middle"
+/><value
+><text
+>Date</text
+></value
+></caption
+><assist
+><speak
+>Date.</speak
+></assist
+><format
+><picture
+>date{MM/DD/YYYY}</picture
+></format
+><border
+><edge presence="hidden"
+/><edge presence="hidden"
+/><edge
+/><edge
+/><corner
+/></border
+></field
+><?templateDesigner expand 0?></subform
+><subform w="190.5mm" h="31.75mm" locale="en_US" name="for_estates_only"
+><draw name="for_estates_only" w="190.5mm" h="6.35mm" locale="en_US"
+><ui
+><textEdit
+/></ui
+><value
+><text
+>For Estates Only</text
+></value
+><font typeface="Arial" weight="bold"
+/><margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="0mm"
+/><para vAlign="middle"
+/><border
+><edge thickness="0.3556mm"
+/><edge presence="hidden"
+/><edge thickness="0.3556mm"
+/><edge presence="hidden"
+/><corner thickness="0.356mm"
+/><corner
+/><corner thickness="0.356mm"
+/><corner
+/></border
+><assist role="H2"
+/><?renderCache.bounds 540000 18000 0 0 0 0 0 0?><?renderCache.textRun 16 For Estates Only 0 0 11896 0 0 0 "Arial" 1 0 10000 ISO-8859-1?></draw
+><field name="signature_of_fiduciary" w="158.75mm" h="12.7mm" locale="en_US" y="6.35mm" x="0.001mm"
+><ui
+><signature
+><border presence="hidden"
+><?templateDesigner StyleID aped0?></border
+><margin
+/></signature
+></ui
+><font typeface="Times New Roman" size="9pt"
+/><margin topInset="0.762mm" bottomInset="0mm" leftInset="0mm" rightInset="1.27mm"
+/><para vAlign="middle"
+/><caption reserve="3.81mm" placement="top"
+><font size="9pt" typeface="Arial"
+/><para vAlign="middle"
+/><value
+><text
+>Signature of fiduciary</text
+></value
+></caption
+><bind match="none"
+/><assist
+><speak
+>For Estates Only. Signature of fiduciary.</speak
+></assist
+><border
+><edge presence="hidden"
+/><edge presence="hidden"
+/><edge
+/><edge presence="hidden"
+/><corner
+/></border
+></field
+><field name="date_of_fiduciary" y="6.35mm" x="158.75mm" w="31.75mm" h="12.7mm" locale="en_US"
+><ui
+><dateTimeEdit hScrollPolicy="off"
+><border presence="hidden"
+><?templateDesigner StyleID aped0?></border
+><margin
+/></dateTimeEdit
+></ui
+><font typeface="Times New Roman" size="9pt"
+/><margin topInset="0.762mm" bottomInset="0mm" leftInset="1.27mm" rightInset="0mm"
+/><para vAlign="middle" hAlign="center"
+/><value
+><date
+/></value
+><caption reserve="3.81mm" placement="top"
+><font size="9pt" typeface="Arial"
+/><para vAlign="middle"
+/><value
+><text
+>Date</text
+></value
+></caption
+><assist
+><speak
+>Date.</speak
+></assist
+><format
+><picture
+>date{MM/DD/YYYY}</picture
+></format
+><border
+><edge presence="hidden"
+/><edge presence="hidden"
+/><edge
+/><edge
+/><corner
+/></border
+></field
+><field name="title_of_fiduciary" w="95.25mm" h="12.7mm" locale="en_US" y="19.05mm" x="0.001mm"
+><ui
+><textEdit hScrollPolicy="off" multiLine="1" vScrollPolicy="off"
+><border presence="hidden"
+><?templateDesigner StyleID aped0?></border
+><margin
+/></textEdit
+></ui
+><font typeface="Times New Roman" size="9pt"
+/><margin topInset="0.762mm" bottomInset="0mm" leftInset="0mm" rightInset="1.27mm"
+/><para vAlign="middle"
+/><caption reserve="3.81mm" placement="top"
+><font size="9pt" typeface="Arial"
+/><para vAlign="middle"
+/><value
+><exData contentType="text/html"
+><body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xfa:APIVersion="2.7.0.0"
+><p style="text-decoration:none;letter-spacing:0in"
+>Title of fiduciary<span style="font-size:8pt;font-style:italic"
+> (e.g., executor or administrator)</span
+></p
+></body
+></exData
+></value
+></caption
+><assist
+><speak
+>Title of fiduciary (for example, executor or administrator).</speak
+></assist
+><border
+><edge presence="hidden"
+/><edge presence="hidden"
+/><edge
+/><edge presence="hidden"
+/><corner
+/></border
+></field
+><field name="name_of_fiduciary" w="95.25mm" h="12.7mm" locale="en_US" x="95.25mm" y="19.05mm"
+><ui
+><textEdit hScrollPolicy="off" multiLine="1" vScrollPolicy="off"
+><border presence="hidden"
+><?templateDesigner StyleID aped0?></border
+><margin
+/></textEdit
+></ui
+><font typeface="Times New Roman" size="9pt"
+/><margin topInset="0.762mm" bottomInset="0mm" leftInset="1.27mm" rightInset="0mm"
+/><para vAlign="middle"
+/><caption reserve="3.81mm" placement="top"
+><font size="9pt" typeface="Arial"
+/><para vAlign="middle"
+/><value
+><text
+>Name of fiduciary</text
+></value
+></caption
+><assist
+><speak
+>Name of fiduciary.</speak
+></assist
+><border
+><edge presence="hidden"
+/><edge presence="hidden"
+/><edge
+/><edge
+/><corner
+/></border
+></field
+><?templateDesigner expand 0?></subform
+><subform w="190.5mm" minH="10.16mm" layout="lr-tb" locale="en_US" name="paid_preparer_information"
+><draw name="for_paid_preparer" w="7.5in" h="6.35mm" locale="en_US"
+><ui
+><textEdit
+/></ui
+><value
+><exData contentType="text/html"
+><body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"
+><p
+>For Paid Preparer Use Only<span style="xfa-spacerun:yes"
+> </span
+><span style="font-size:9pt;font-weight:normal;font-style:italic"
+>(the signature of taxpayer(s) or fiduciary is required even if this form is signed by a paid preparer)</span
+></p
+></body
+></exData
+></value
+><font typeface="Arial" weight="bold"
+/><margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="0mm"
+/><para vAlign="middle"
+/><border
+><edge thickness="0.3556mm"
+/><edge presence="hidden"
+/><edge thickness="0.3556mm"
+/><edge presence="hidden"
+/><corner thickness="0.356mm"
+/><corner
+/><corner thickness="0.356mm"
+/><corner
+/></border
+><assist role="H2"
+/><?renderCache.bounds 540000 18000 0 0 0 0 0 0?><?renderCache.textRun 27 For Paid Preparer Use Only  0 0 11896 0 0 0 "Arial" 1 0 10000 ISO-8859-1?><?renderCache.textRun 102 (the signature of taxpayer(s) or fiduciary is required even if this form is signed by a paid preparer) 0 132827 11896 0 0 0 "Arial" 0 1 9000 ISO-8859-1?></draw
+><field name="signature_of_preparer" w="76.2mm" h="12.7mm" locale="en_US"
+><ui
+><signature
+><border presence="hidden"
+><?templateDesigner StyleID aped0?></border
+><margin
+/></signature
+></ui
+><font typeface="Times New Roman" size="9pt"
+/><margin topInset="0.762mm" bottomInset="0mm" leftInset="0mm" rightInset="1.27mm"
+/><para vAlign="middle"
+/><caption reserve="3.81mm" placement="top"
+><font size="9pt" typeface="Arial"
+/><para vAlign="middle"
+/><value
+><text
+>Signature of preparer</text
+></value
+></caption
+><bind match="none"
+/><assist
+><speak
+>For Paid Preparer Use Only (the signature of taxpayer(s) or fiduciary is required even if this form is signed by a paid preparer). Signature of preparer.</speak
+></assist
+><border
+><edge presence="hidden"
+/><edge presence="hidden"
+/><edge
+/><edge presence="hidden"
+/><corner
+/></border
+></field
+><field name="name_of_preparer" w="82.55mm" h="12.7mm" locale="en_US"
+><ui
+><textEdit hScrollPolicy="off" multiLine="1" vScrollPolicy="off"
+><border presence="hidden"
+><?templateDesigner StyleID aped0?></border
+><margin
+/></textEdit
+></ui
+><font size="9pt" typeface="Times New Roman"
+/><margin topInset="0.762mm" bottomInset="0mm" leftInset="1.27mm" rightInset="1.27mm"
+/><para vAlign="middle"
+/><caption reserve="3.81mm" placement="top"
+><font size="9pt" typeface="Arial"
+/><para vAlign="middle"
+/><value
+><text
+>Name of preparer</text
+></value
+></caption
+><border
+><edge presence="hidden"
+/><edge presence="hidden"
+/><edge
+/><edge
+/><corner
+/></border
+><assist
+><speak
+>Name of preparer.</speak
+></assist
+></field
+><field name="date_of_preparer" w="31.75mm" h="12.7mm" locale="en_US"
+><ui
+><dateTimeEdit hScrollPolicy="off"
+><border presence="hidden"
+><?templateDesigner StyleID aped0?></border
+><margin
+/></dateTimeEdit
+></ui
+><font typeface="Times New Roman" size="9pt"
+/><margin topInset="0.762mm" bottomInset="0mm" leftInset="1.27mm" rightInset="0mm"
+/><para vAlign="middle" hAlign="center"
+/><value
+><date
+/></value
+><caption reserve="3.81mm" placement="top"
+><font size="9pt" typeface="Arial"
+/><para vAlign="middle"
+/><value
+><text
+>Date</text
+></value
+></caption
+><assist
+><speak
+>Date.</speak
+></assist
+><format
+><picture
+>date{MM/DD/YYYY}</picture
+></format
+><border
+><edge presence="hidden"
+/><edge presence="hidden"
+/><edge
+/><edge
+/><corner
+/></border
+></field
+><field name="firms_name" w="158.75mm" h="12.7mm" locale="en_US"
+><ui
+><textEdit hScrollPolicy="off" multiLine="1" vScrollPolicy="off"
+><border presence="hidden"
+><?templateDesigner StyleID aped0?></border
+><margin
+/></textEdit
+></ui
+><font size="9pt" typeface="Times New Roman"
+/><margin topInset="0.762mm" bottomInset="0mm" leftInset="0mm" rightInset="1.27mm"
+/><para vAlign="middle"
+/><caption reserve="3.81mm" placement="top"
+><font size="9pt" typeface="Arial"
+/><para vAlign="middle"
+/><value
+><text
+>Firm’s name</text
+></value
+></caption
+><assist
+><speak
+>Firm’s name.</speak
+></assist
+><border
+><edge presence="hidden"
+/><edge presence="hidden"
+/><edge
+/><edge presence="hidden"
+/><corner
+/></border
+></field
+><field name="firms_EIN" w="31.75mm" h="12.7mm" locale="en_US"
+><ui
+><textEdit hScrollPolicy="off"
+><border presence="hidden"
+><?templateDesigner StyleID aped0?></border
+><margin
+/></textEdit
+></ui
+><font size="9pt" typeface="Times New Roman"
+/><margin topInset="0.762mm" bottomInset="0mm" leftInset="1.27mm" rightInset="0mm"
+/><para vAlign="middle" hAlign="center"
+/><caption reserve="3.81mm" placement="top"
+><font size="9pt" typeface="Arial"
+/><para vAlign="middle"
+/><value
+><text
+>Firm’s EIN</text
+></value
+></caption
+><assist
+><speak
+>Firm’s E I N.</speak
+></assist
+><border
+><edge presence="hidden"
+/><edge presence="hidden"
+/><edge
+/><edge
+/><corner
+/></border
+></field
+><field name="firms_address" w="76.2mm" h="12.7mm" locale="en_US"
+><ui
+><textEdit hScrollPolicy="off" multiLine="1" vScrollPolicy="off"
+><border presence="hidden"
+><?templateDesigner StyleID aped0?></border
+><margin
+/></textEdit
+></ui
+><font size="9pt" typeface="Times New Roman"
+/><margin topInset="0.762mm" bottomInset="0mm" leftInset="0mm" rightInset="1.27mm"
+/><para vAlign="middle"
+/><caption reserve="3.81mm" placement="top"
+><font size="9pt" typeface="Arial"
+/><para vAlign="middle"
+/><value
+><text
+>Firm’s address</text
+></value
+></caption
+><assist
+><speak
+>Firm’s address.</speak
+></assist
+><border
+><edge presence="hidden"
+/><edge presence="hidden"
+/><edge
+/><edge presence="hidden"
+/><corner
+/></border
+></field
+><field name="city" w="66.04mm" h="12.7mm" locale="en_US"
+><ui
+><textEdit hScrollPolicy="off" multiLine="1" vScrollPolicy="off"
+><border presence="hidden"
+><?templateDesigner StyleID aped0?></border
+><margin
+/></textEdit
+></ui
+><font size="9pt" typeface="Times New Roman"
+/><margin topInset="0.762mm" bottomInset="0mm" leftInset="1.27mm" rightInset="1.27mm"
+/><para vAlign="middle"
+/><caption reserve="3.81mm" placement="top"
+><font size="9pt" typeface="Arial"
+/><para vAlign="middle"
+/><value
+><text
+>City</text
+></value
+></caption
+><assist
+><speak
+>City.</speak
+></assist
+><border
+><edge presence="hidden"
+/><edge presence="hidden"
+/><edge
+/><edge
+/><corner
+/></border
+></field
+><field name="state" w="16.51mm" h="12.7mm" locale="en_US"
+><ui
+><textEdit
+><border presence="hidden"
+><?templateDesigner StyleID aped0?></border
+><margin
+/></textEdit
+></ui
+><font size="9pt" typeface="Times New Roman"
+/><margin topInset="0.762mm" bottomInset="0mm" leftInset="1.27mm" rightInset="1.27mm"
+/><para vAlign="middle" hAlign="center"
+/><caption reserve="3.81mm" placement="top"
+><font size="9pt" typeface="Arial"
+/><para vAlign="middle"
+/><value
+><text
+>State</text
+></value
+></caption
+><assist
+><speak
+>State.</speak
+></assist
+><border
+><edge presence="hidden"
+/><edge presence="hidden"
+/><edge
+/><edge
+/><corner
+/></border
+><value
+><text maxChars="2"
+/></value
+></field
+><field name="zip_code" w="31.75mm" h="12.7mm" locale="en_US"
+><ui
+><textEdit hScrollPolicy="off"
+><border presence="hidden"
+><?templateDesigner StyleID aped0?></border
+><margin
+/></textEdit
+></ui
+><font size="9pt" typeface="Times New Roman"
+/><margin topInset="0.762mm" bottomInset="0mm" leftInset="1.27mm" rightInset="0mm"
+/><para vAlign="middle" hAlign="center"
+/><caption reserve="3.81mm" placement="top"
+><font size="9pt" typeface="Arial"
+/><para vAlign="middle"
+/><value
+><text
+>ZIP code</text
+></value
+></caption
+><assist
+><speak
+>ZIP code.</speak
+></assist
+><border
+><edge presence="hidden"
+/><edge presence="hidden"
+/><edge
+/><edge
+/><corner
+/></border
+></field
+><field name="telephone_number" w="76.2mm" h="12.7mm" locale="en_US"
+><ui
+><textEdit hScrollPolicy="off"
+><border presence="hidden"
+><?templateDesigner StyleID aped0?></border
+><margin
+/></textEdit
+></ui
+><font size="9pt" typeface="Times New Roman"
+/><margin topInset="0.762mm" bottomInset="0mm" leftInset="0mm" rightInset="1.27mm"
+/><para vAlign="middle"
+/><caption reserve="3.81mm" placement="top"
+><font size="9pt" typeface="Arial" baselineShift="0pt"
+/><para vAlign="middle" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"
+/><value
+><text
+>Telephone number</text
+></value
+></caption
+><assist
+><speak
+>Telephone number.</speak
+></assist
+><border
+><edge presence="hidden"
+/><edge presence="hidden"
+/><edge
+/><edge presence="hidden"
+/><corner
+/></border
+></field
+><field name="PTIN" w="82.55mm" h="12.7mm" locale="en_US"
+><ui
+><textEdit hScrollPolicy="off"
+><border presence="hidden"
+><?templateDesigner StyleID aped0?></border
+><margin
+/></textEdit
+></ui
+><font size="9pt" typeface="Times New Roman"
+/><margin topInset="0.762mm" bottomInset="0mm" leftInset="1.27mm" rightInset="1.27mm"
+/><para vAlign="middle"
+/><caption reserve="3.81mm" placement="top"
+><font size="9pt" typeface="Arial"
+/><para vAlign="middle"
+/><value
+><text
+>PTIN</text
+></value
+></caption
+><assist
+><speak
+>P T I N.</speak
+></assist
+><border
+><edge presence="hidden"
+/><edge presence="hidden"
+/><edge
+/><edge
+/><corner
+/></border
+></field
+><field name="self_employed" w="31.75mm" h="12.7mm" locale="en_US"
+><ui
+><checkButton mark="cross"
+><border
+><edge
+/><corner thickness="0.175mm"
+/></border
+></checkButton
+></ui
+><font typeface="Myriad Pro"
+/><margin leftInset="1.27mm" rightInset="0mm"
+/><para vAlign="middle"
+/><value
+><integer
+>0</integer
+></value
+><caption placement="right" reserve="25.4mm"
+><para vAlign="middle"
+/><font size="9pt" typeface="Arial"
+/><value
+><exData contentType="text/html"
+><body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xfa:APIVersion="2.7.0.0"
+><p style="text-decoration:none;letter-spacing:0in"
+>Check if<span style="xfa-spacerun:yes"
+> </span
+></p
+><p style="text-decoration:none;letter-spacing:0in"
+>self-employed</p
+></body
+></exData
+></value
+></caption
+><items
+><integer
+>1</integer
+><integer
+>0</integer
+><integer
+>2</integer
+></items
+><assist
+><speak
+>Check if self-employed.</speak
+></assist
+><border
+><edge presence="hidden"
+/><edge presence="hidden"
+/><edge
+/><edge
+/><corner
+/></border
+></field
+><subform y="43.18mm" w="190.5mm" locale="en_US" name="designee"
+><keep intact="none"
+/><draw name="do_you_want" w="102.87mm" h="6.35mm" locale="en_US"
+><ui
+><textEdit
+/></ui
+><value
+><text
+>Do you want to allow another person to discuss this form with the IRS</text
+></value
+><font size="9pt" typeface="Arial"
+/><margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="1.27mm"
+/><para vAlign="middle"
+/><?renderCache.bounds 288000 18000 0 0 0 0 0 0?><?renderCache.textRun 69 Do you want to allow another person to discuss this form with the IRS 0 0 11606 0 0 0 "Arial" 0 0 9000 ISO-8859-1?></draw
+><field name="no" w="31.75mm" h="6.35mm" locale="en_US" x="158.75mm"
+><ui
+><checkButton mark="cross"
+><border
+><edge
+/><corner thickness="0.175mm"
+/></border
+></checkButton
+></ui
+><font typeface="Myriad Pro"
+/><margin leftInset="1.27mm" rightInset="0mm"
+/><para vAlign="middle"
+/><value
+><integer
+>0</integer
+></value
+><caption placement="right" reserve="25.4mm"
+><para vAlign="middle"
+/><font size="9pt" typeface="Arial"
+/><value
+><text
+>No</text
+></value
+></caption
+><items
+><integer
+>1</integer
+><integer
+>0</integer
+><integer
+>2</integer
+></items
+><assist
+><speak
+>No.</speak
+></assist
+><event activity="click" name="event__click"
+><script contentType="application/x-javascript"
+>
+if (this.rawValue == 1)
+	{
+	yes.rawValue = 0;
+	}
+</script
+></event
+></field
+><field name="yes" w="55.88mm" h="6.35mm" locale="en_US" x="102.87mm"
+><ui
+><checkButton mark="cross"
+><border
+><edge
+/><corner thickness="0.175mm"
+/></border
+></checkButton
+></ui
+><font typeface="Myriad Pro"
+/><margin leftInset="1.27mm" rightInset="0mm"
+/><para vAlign="middle"
+/><value
+><integer
+>0</integer
+></value
+><caption placement="right" reserve="49.53mm"
+><para vAlign="middle"
+/><font size="9pt" typeface="Arial"
+/><value
+><exData contentType="text/html"
+><body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"
+><p
+>Yes<span style="xfa-spacerun:yes"
+> </span
+><span style="font-style:italic"
+>(complete information below)</span
+></p
+></body
+></exData
+></value
+></caption
+><items
+><integer
+>1</integer
+><integer
+>0</integer
+><integer
+>2</integer
+></items
+><assist
+><speak
+>Do you want to allow another person to discuss this form with the I R S? Yes (complete information below).</speak
+></assist
+><event activity="click" name="event__click"
+><script contentType="application/x-javascript"
+>
+if (this.rawValue == 1)
+	{
+	no.rawValue = 0;
+	}
+</script
+></event
+></field
+><field name="designees_name" w="142.24mm" h="12.7mm" locale="en_US" y="6.35mm"
+><ui
+><textEdit hScrollPolicy="off" multiLine="1" vScrollPolicy="off"
+><border presence="hidden"
+><?templateDesigner StyleID aped0?></border
+><margin
+/></textEdit
+></ui
+><font size="9pt" typeface="Times New Roman"
+/><margin topInset="0.762mm" bottomInset="0mm" leftInset="0mm" rightInset="1.27mm"
+/><para vAlign="middle"
+/><caption reserve="3.81mm" placement="top"
+><font size="9pt" typeface="Arial"
+/><para vAlign="middle"
+/><value
+><text
+>Designee’s name</text
+></value
+></caption
+><assist
+><speak
+>Designee’s name.</speak
+></assist
+><border
+><edge
+/><edge presence="hidden"
+/><edge
+/><edge presence="hidden"
+/><corner
+/></border
+></field
+><field name="telephone_number" w="48.26mm" h="12.7mm" locale="en_US" x="142.24mm" y="6.35mm"
+><ui
+><textEdit hScrollPolicy="off"
+><border presence="hidden"
+><?templateDesigner StyleID aped0?></border
+><margin
+/></textEdit
+></ui
+><font size="9pt" typeface="Times New Roman"
+/><margin topInset="0.762mm" bottomInset="0mm" leftInset="1.27mm" rightInset="0mm"
+/><para vAlign="middle"
+/><caption reserve="3.81mm" placement="top"
+><font size="9pt" typeface="Arial" baselineShift="0pt"
+/><para vAlign="middle" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"
+/><value
+><text
+>Telephone number</text
+></value
+></caption
+><assist
+><speak
+>Telephone number.</speak
+></assist
+><border
+><edge
+/><edge presence="hidden"
+/><edge
+/><edge
+/><corner
+/></border
+></field
+><border
+><edge presence="hidden"
+/><edge presence="hidden"
+/><edge
+/><edge presence="hidden"
+/><corner
+/></border
+><?templateDesigner expand 0?></subform
+><border
+><edge presence="hidden"
+/><edge presence="hidden"
+/><edge
+/><edge presence="hidden"
+/><corner
+/></border
+><?templateDesigner expand 0?></subform
+><subform w="190.5mm" h="57.15mm" name="privacy_act" locale="en_US"
+><draw name="privacy_act" w="190.5mm" h="6.35mm" locale="en_US" y="0mm" x="0mm"
+><ui
+><textEdit
+/></ui
+><value
+><text
+>Privacy Act and Paperwork Reduction Notice</text
+></value
+><font typeface="Arial" weight="bold" size="9pt"
+/><margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="0mm"
+/><para vAlign="middle" hAlign="center"
+/><border
+><edge thickness="0.3556mm"
+/><edge presence="hidden"
+/><edge thickness="0.3556mm"
+/><edge presence="hidden"
+/><corner thickness="0.356mm"
+/><corner
+/><corner thickness="0.356mm"
+/><corner
+/></border
+><?renderCache.bounds 540000 18000 0 0 0 0 0 0?><?renderCache.textRun 42 Privacy Act and Paperwork Reduction Notice 0 173722 11606 0 0 0 "Arial" 1 0 9000 ISO-8859-1?></draw
+><draw name="notice" w="190.5mm" h="50.8mm" locale="en_US" y="6.35mm" x="0mm"
+><ui
+><textEdit
+/></ui
+><value
+><text
+>We ask for the information on this certification by U.S. person residing in the United States for streamlined domestic offshore procedures to carry out the Internal Revenue laws of the United States. Our authority to ask for information is sections 6001, 6109, 7801, 7803 and the regulations thereunder. This information will be used to determine and collect the correct amount of tax under the terms of the streamlined filing compliance program. You are not required to apply for participation in the streamlined filing compliance program. If you choose to apply, however, you are required to provide all the information requested on the streamlined certification.  You are not required to provide the information requested on a document that is subject to the Paperwork Reduction Act unless the document displays a valid OMB control number. Books or records relating to a document or its instructions must be retained as long as their contents may become material in the administration of any Internal Revenue law. Generally, tax returns and return information are confidential, as required by section 6103. Section 6103, however, allows or requires the Internal Revenue Service to disclose or give this information to others as described in the Internal Revenue Code. For example, we may disclose this information to the Department of Justice to enforce the tax laws, both civil and criminal, and to cities, states, the District of Columbia, and U.S. commonwealths or possessions to carry out their tax laws. We may also disclose this information to other countries under a tax treaty, to federal and state agencies to enforce federal nontax criminal laws, or to federal law enforcement and intelligence agencies to combat terrorism. Failure to provide this information may delay or prevent processing your application. Providing false information may subject you to penalties. The time needed to complete and submit the streamlined certification will vary depending on individual circumstances. The estimated average time is: 8 hours</text
+></value
+><font size="8pt" typeface="Arial"
+/><margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="0mm"
+/><para vAlign="middle"
+/><?renderCache.bounds 540000 144000 0 0 0 0 0 0?><?renderCache.textRun 156 We ask for the information on this certification by U.S. person residing in the United States for streamlined domestic offshore procedures to carry out the  0 0 11916 0 0 0 "Arial" 0 0 8000 ISO-8859-1?><?renderCache.textRun 153 Internal Revenue laws of the United States. Our authority to ask for information is sections 6001, 6109, 7801, 7803 and the regulations thereunder. This  0 0 21516 0 0 0 "Arial" 0 0 8000 ISO-8859-1?><?renderCache.textRun 150 information will be used to determine and collect the correct amount of tax under the terms of the streamlined filing compliance program. You are not  0 0 31116 0 0 0 "Arial" 0 0 8000 ISO-8859-1?><?renderCache.textRun 151 required to apply for participation in the streamlined filing compliance program. If you choose to apply, however, you are required to provide all the  0 0 40716 0 0 0 "Arial" 0 0 8000 ISO-8859-1?><?renderCache.textRun 152 information requested on the streamlined certification.  You are not required to provide the information requested on a document that is subject to the  0 0 50316 0 0 0 "Arial" 0 0 8000 ISO-8859-1?><?renderCache.textRun 149 Paperwork Reduction Act unless the document displays a valid OMB control number. Books or records relating to a document or its instructions must be  0 0 59916 0 0 0 "Arial" 0 0 8000 ISO-8859-1?><?renderCache.textRun 152 retained as long as their contents may become material in the administration of any Internal Revenue law. Generally, tax returns and return information  0 0 69516 0 0 0 "Arial" 0 0 8000 ISO-8859-1?><?renderCache.textRun 155 are confidential, as required by section 6103. Section 6103, however, allows or requires the Internal Revenue Service to disclose or give this information  0 0 79116 0 0 0 "Arial" 0 0 8000 ISO-8859-1?><?renderCache.textRun 147 to others as described in the Internal Revenue Code. For example, we may disclose this information to the Department of Justice to enforce the tax  0 0 88716 0 0 0 "Arial" 0 0 8000 ISO-8859-1?><?renderCache.textRun 154 laws, both civil and criminal, and to cities, states, the District of Columbia, and U.S. commonwealths or possessions to carry out their tax laws. We may  0 0 98316 0 0 0 "Arial" 0 0 8000 ISO-8859-1?><?renderCache.textRun 159 also disclose this information to other countries under a tax treaty, to federal and state agencies to enforce federal nontax criminal laws, or to federal law  0 0 107916 0 0 0 "Arial" 0 0 8000 ISO-8859-1?><?renderCache.textRun 145 enforcement and intelligence agencies to combat terrorism. Failure to provide this information may delay or prevent processing your application.  0 0 117516 0 0 0 "Arial" 0 0 8000 ISO-8859-1?><?renderCache.textRun 150 Providing false information may subject you to penalties. The time needed to complete and submit the streamlined certification will vary depending on  0 0 127116 0 0 0 "Arial" 0 0 8000 ISO-8859-1?><?renderCache.textRun 64 individual circumstances. The estimated average time is: 8 hours 0 0 136716 0 0 0 "Arial" 0 0 8000 ISO-8859-1?></draw
+><?templateDesigner expand 0?></subform
+><breakBefore targetType="pageArea" target="Page1"
+/><overflow target="Page2"
+/><?templateDesigner expand 1?></subform
+><proto
+/><desc
+><text name="version"
+>9.0.0.2.20120627.2.874785</text
+><text name="description"
+>Certification by U.S. Person Residing Outside of the United States for Streamlined Foreign Offshore Procedures</text
+><text name="title"
+>Form 14653 (Rev. 3-2025)</text
+><text name="creator"
+>SE:LB:IN:IIC</text
+></desc
+><?templateDesigner expand 1?><?templateDesigner Hyphenation excludeInitialCap:1, excludeAllCaps:1, wordCharCnt:7, remainCharCnt:3, pushCharCnt:3?><?renderCache.subset "Adobe Pi Std" 0 0 UTF-16 2 4 0054?><?renderCache.subset "Arial" 0 0 ISO-8859-1 4 280 77 000300050006000B000C000F0010001100120013001400150016001700180019001A001B001C001D002400250026002700280029002A002C002D00300031003200330035003600370038003A003C003D004400450046004700480049004A004B004C004D004E004F0050005100520053005400550056005700580059005A005B005C005D008600B300B400B6 "#(),-./0123456789:ABCDEFGIJMNOPRSTUWYZabcdefghijklmnopqrstuvwxyz§“”’?><?renderCache.subset "Arial" 1 0 ISO-8859-1 4 212 57 0003000B000C000F0011001200140016001700180019001D00240025002600280029002C0031003200330035003600370038004400450046004700480049004A004B004C004D004E004F0050005100520053005400550056005700580059005A005B005C005D00B300B4 (),./13456:ABCEFINOPRSTUabcdefghijklmnopqrstuvwxyz“”?><?renderCache.subset "Arial" 0 1 ISO-8859-1 4 148 37 0003000B000C000F0011001200130014001700290031003B003C004400450046004700480049004A004B004C004D004F0050005100520053005400550056005700580059005A005B005C (),./014FNXYabcdefghijlmnopqrstuvwxy?></subform
+><?templateDesigner DefaultPreviewDynamic 1?><?originalXFAVersion http://www.xfa.org/schema/xfa-template/2.6/?><?templateDesigner Grid show:1, snap:1, units:0, color:ff8080, origin:(0,0), interval:(50000,50000), objsnap:0, guidesnap:0, pagecentersnap:1126361442?><?templateDesigner DefaultLanguage JavaScript?><?templateDesigner DefaultRunAt client?><?acrobat JavaScript strictScoping?><?PDFPrintOptions embedViewerPrefs 0?><?PDFPrintOptions embedPrintOnFormOpen 0?><?PDFPrintOptions scalingPrefs 0?><?PDFPrintOptions enforceScalingPrefs 0?><?PDFPrintOptions paperSource 0?><?PDFPrintOptions duplexMode 0?><?templateDesigner DefaultPreviewType interactive?><?templateDesigner DefaultPreviewPagination simplex?><?templateDesigner XDPPreviewFormat 20?><?templateDesigner DefaultCaptionFontSettings face:Arial;size:9;weight:normal;style:normal?><?templateDesigner DefaultValueFontSettings face:Times New Roman;size:9;weight:normal;style:normal?><?templateDesigner FormTargetVersion 36?><?templateDesigner Zoom 167?><?templateDesigner Rulers horizontal:1, vertical:1, guidelines:1, crosshairs:0?><?templateDesigner SaveTaggedPDF 1?><?templateDesigner SavePDFWithEmbeddedFonts 1?><?templateDesigner SavePDFWithLog 0?></template
+>

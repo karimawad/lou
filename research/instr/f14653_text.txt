@@ -1,0 +1,101 @@
+I am providing delinquent or amended income tax returns, including all required information returns, for each of the most recent 3 years for which the U.S. tax return due date (or properly applied for extended due date) has passed. The tax and interest I owe for each year are as follows 
+Year
+ (list years in order) 
+Amount of Tax I Owe Shown On
+ (Form 1040 or Form 1040X) 
+ Interest 
+ Total 
+ I am providing delinquent or amended income tax returns, including all required information returns, for each of the most recent 3 years for which the U.S. tax return due date (or properly applied for extended due date) has passed. The tax and interest I owe for each year are as follows. Row: 1. Column: Year (list years in order). 
+num{($zzz,zzz,zzz,zz9.99)}
+ Row: 1. Column: Amount of Tax I Owe Shown On (Form 1040 or Form 1040X). 
+num{($zzz,zzz,zzz,zz9.99)}
+ Row: 1. Column: Interest. 
+num{($zzz,zzz,zzz,zz9.99)}
+ Row: 1. Column: Total. 
+amount_owe.rawValue + interest.rawValue
+ Row: 2. Column: Year (list years in order). 
+num{($zzz,zzz,zzz,zz9.99)}
+ Row: 2. Column: Amount of Tax I Owe Shown On (Form 1040 or Form 1040X). 
+num{($zzz,zzz,zzz,zz9.99)}
+ Row: 2. Column: Interest. 
+num{($zzz,zzz,zzz,zz9.99)}
+ Row: 2. Column: Total. 
+amount_owe.rawValue + interest.rawValue
+ Row: 3. Column: Year (list years in order). 
+num{($zzz,zzz,zzz,zz9.99)}
+ Row: 3. Column: Amount of Tax I Owe Shown On (Form 1040 or Form 1040X). 
+num{($zzz,zzz,zzz,zz9.99)}
+ Row: 3. Column: Interest. 
+num{($zzz,zzz,zzz,zz9.99)}
+ Row: 3. Column: Total. 
+amount_owe.rawValue + interest.rawValue
+ Total 
+ Row: 4. Total. 
+num{($zzz,zzz,zzz,zz9.99)}
+ Row: 4. Total. Column: Amount of Tax I Owe Shown On (Form 1040 or Form 1040X). 
+Row1.amount_owe.rawValue + Row2.amount_owe.rawValue + Row3.amount_owe.rawValue
+num{($zzz,zzz,zzz,zz9.99)}
+ Row: 4. Total. Column: Interest. 
+Row1.interest.rawValue + Row2.interest.rawValue + Row3.interest.rawValue
+num{($zzz,zzz,zzz,zz9.99)}
+ Row: 4. Total. Column: Total. 
+amount_owe.rawValue + interest.rawValue
+Note: Your payment should equal the total tax and interest due for all three years. You may receive a balance due notice or a refund if the tax or interest is not calculated correctly.   
+I failed to report income from one or more foreign financial assets during the above period.   
+I meet all the other eligibility requirements for the Streamlined Foreign Offshore procedures.   
+If I failed to timely file correct and complete FBARs for any of the last six years, I have now electronically filed those FBARs.   
+I agree to retain all records related to my income and assets during the period covered by my delinquent or amended returns until three years from the date of this certification. If I was required to file delinquent FBARs in accordance with these procedures, I also agree to retain all records (including, but not limited to, account statements) related to my foreign financial accounts until six years from the date of this certification. Upon request, I agree to provide all such records to the Internal Revenue Service.   
+My failure to report all income, pay all tax, and submit all required information returns, including FBARs, was due to non-willful conduct. I understand that non-willful conduct is conduct that is due to negligence, inadvertence, or mistake or conduct that is the result of a good faith misunderstanding of the requirements of the law.   
+I acknowledge the possibility that amended income tax returns I am submitting under the Streamlined Foreign Offshore Procedures may report income for tax years beyond the three-year assessment limitations period under I.R.C. § 6501(a). Other assessment limitations periods in I.R.C. § 6501 may allow the Internal Revenue Service to assess and collect tax. If I seek a refund for any tax or interest paid for the omitted income that I am reporting on my amended income tax returns because I feel that my payments were made beyond the assessment limitations period, I understand that I will forfeit the favorable terms of the Streamlined Procedures.
+I recognize that if the Internal Revenue Service receives or discovers evidence of willfulness, fraud, or criminal conduct, it may open an examination or investigation that could lead to civil fraud penalties, FBAR penalties, information return penalties, or even referral to Criminal Investigation.   
+I meet the non-residency requirements for the Streamlined Foreign Offshore procedures as disclosed below.   
+Note: Both spouses filing a joint certification must meet the non-residency requirements. 
+Complete one of the following (two) sections regarding your residency status
+If   you are a U.S. citizen or lawful permanent resident (i.e., “green card holder”), complete this section:
+For the covered tax period, indicate whether you were physically outside the United States for each year. You must have been physically outside the U.S. for at least 330 full days in any one or more of the most recent three years for which the U.S. tax return due date (or properly applied for extended due date) has passed, and you must not have had a U.S. abode. For more information on the meaning of “abode” see IRS Publication 54.
+I was physically outside the United States for at least 330 full days   (answer Yes or No for each year) 
+ Year 
+ Yes 
+ No 
+ I was physically outside the United States for at least 330 full days (answer Yes or No for each year). Row: 1. Column: Year. 
+ 0 1 0 2 Row: 1. Column: Yes. 
+if (this.rawValue == 1)
+ {
+ no.rawValue = 0;
+ }
+ 0 1 0 2 Row: 1. Column: No. 
+if (this.rawValue == 1)
+ {
+ yes.rawValue = 0;
+ }
+ Row: 2. Column: Year. 
+ 0 1 0 2 Row: 2. Column: Yes. 
+if (this.rawValue == 1)
+ {
+ no.rawValue = 0;
+ }
+ 0 1 0 2 Row: 2. Column: No. 
+if (this.rawValue == 1)
+ {
+ yes.rawValue = 0;
+ }
+ Row: 3. Column: Year. 
+ 0 1 0 2 Row: 3. Column: Yes. 
+if (this.rawValue == 1)
+ {
+ no.rawValue = 0;
+ }
+ 0 1 0 2 Row: 3. Column: No. 
+if (this.rawValue == 1)
+ {
+ yes.rawValue = 0;
+ }
+Both spouses filing a joint certification must meet the non-residency requirement. If the number of days physically outside of the U.S. differs for each spouse, disclose that on the chart above or in an attachment to this certification.
+If you   are not a U.S. citizen or lawful permanent resident, complete this section:
+If you   are not a U.S. citizen or a lawful permanent resident, please attach to this certification your computation showing that you did not meet the substantial presence test under I.R.C. sec. 7701(b)(3). Your computation must disclose the number of days you were present in the U.S. for the three years included in your Streamlined Foreign Offshore Procedures submission and the previous two years. If you do not attach a complete computation showing that you did not meet the substantial presence test, your submission will be considered incomplete and your submission will not qualify for the Streamlined Foreign Offshore Procedures.   
+Both spouses filing a joint certification must meet the non-residency requirement. If the number of days inside the U.S. differs for each spouse, disclose that on the chart above or in an attachment to this certification.
+Note: You must provide specific facts on this form or on a signed attachment explaining your failure to report all income, pay all tax, and submit all required information returns, including FBARs. Any submission that does not contain a narrative statement of facts will be considered incomplete and will not qualify for the streamlined penalty relief. 
+ Provide specific reasons for your failure to report all income, pay all tax, and submit all required information returns, including FBARs. Include the whole story including favorable and unfavorable facts. Specific reasons, whether favorable or unfavorable to you, should include your personal background, financial background, and anything else you believe is relevant to your failure to report all income, pay all tax, and submit all required information returns, including FBARs. Additionally, explain the source of funds in all of your foreign financial accounts/assets. For example, explain whether you inherited the account/asset, whether you opened it while residing in a foreign country, or whether you had a business reason to open or use it. And explain your contacts with the account/asset including withdrawals, deposits, and investment/management decisions. Provide a complete story about your foreign financial account/asset. If you relied on a professional advisor, provide the name, address, and telephone number of the advisor and a summary of the advice. If married taxpayers submitting a joint certification have different reasons, provide the individual reasons for each spouse separately in the statement of facts. The field below will automatically expand to accommodate your statement of facts. 
+ Provide specific reasons for your failure to report all income, pay all tax, and submit all required information returns, including F B A R s. Include the whole story including favorable and unfavorable facts. Specific reasons, whether favorable or unfavorable to you, should include your personal background, financial background, and anything else you believe is relevant to your failure to report all income, pay all tax, and submit all required information returns, including F B A R s. Additionally, explain the source of funds in all of your foreign financial accounts/assets. For example, explain whether you inherited the account/asset, whether you opened it while residing in a foreign country, or whether you had a business reason to open or use it. And explain your contacts with the account/asset including withdrawals, deposits, and investment/management decisions. Provide a complete story about your foreign financial account/asset. If you relied on a professional advisor, provide the name, address, and telephone number of the advisor and a summary of the advice. If married taxpayers submitting a joint certification have different reasons, provide the individual reasons for each spouse separately in the statement of facts. The field below will automatically expand to accommodate your statement of facts. 
+this.minH = "0";
+ 

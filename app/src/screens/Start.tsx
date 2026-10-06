@@ -1,6 +1,6 @@
 import { useApp } from '../state/context';
 import { switchYear } from '../state/store';
-import { Choices, Callout } from '../ui/kit';
+import { Choices } from '../ui/kit';
 import { Arrow } from '../ui/icons';
 import { BackupPanel } from './Backup';
 import { InstallLou } from './Install';
@@ -19,7 +19,7 @@ export function Start() {
         <div className="section-head">
           <h2>Who Lou is for</h2>
           <p>US citizens, dual citizens and green card holders who lived in Canada for the whole year. If you moved between the
-            countries during the year, or you are Canadian with no US status, you need a different kind of return.</p>
+            countries during the year, or you are Canadian with no US status, you need a different kind of return. Lou does not do Quebec returns yet.</p>
         </div>
       </section>
 
@@ -63,12 +63,15 @@ export function Start() {
             { value: '2023', title: '2023', desc: 'A past year, using 2023 rules and exchange rates.' },
           ]}
         />
-        {year && year !== 2025 && (
-          <Callout tone="info" title="Catching up on past years">
-            <p>Most people who are behind can use the IRS Streamlined Foreign Offshore procedure: three years of returns (2023, 2024 and 2025)
-              and six years of FBARs, with no penalties. Do one year at a time here. The results page explains the extra certification form it needs.</p>
-          </Callout>
-        )}
+      </section>
+
+      <section className="section">
+        <div className="section-head">
+          <h2>Behind on your US returns?</h2>
+          <p>If you missed filing for a few years because you did not know you had to, the IRS has a procedure for people living abroad: three years of
+            returns and six years of FBARs, with no penalties, only the tax and interest. Lou walks you through it.</p>
+        </div>
+        <div><button type="button" className="btn btn-secondary" onClick={() => go('catchup')}>Catch up on missed years <Arrow size={18} /></button></div>
       </section>
 
       <section className="section">

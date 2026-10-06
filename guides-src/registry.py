@@ -1,0 +1,23 @@
+"""Every guide, in index order. `short` is the label used in related-guide chips and cards."""
+GUIDES = {
+    "catch-up-filing": {"code": "G-01", "short": "Catching up on missed years",
+        "card": "Never filed a US return from Canada? The IRS Streamlined procedure lets you catch up with no penalties."},
+    "tfsa": {"code": "G-02", "short": "TFSA",
+        "card": "Tax-free in Canada, taxable in the US every year, plus the Form 3520 question."},
+    "rrsp-rrif": {"code": "G-03", "short": "RRSP and RRIF",
+        "card": "Growth stays tax-deferred in the US too. Withdrawals are taxed as pensions."},
+    "fhsa-resp": {"code": "G-04", "short": "FHSA, RESP and RDSP",
+        "card": "How the US treats the newer and family-focused registered accounts."},
+    "fbar": {"code": "G-05", "short": "FBAR",
+        "card": "The $10,000 account report that is filed online, separate from your return."},
+    "form-8938": {"code": "G-06", "short": "Form 8938",
+        "card": "The FATCA asset statement, and the higher thresholds for people living abroad."},
+    "mutual-funds-etfs-pfic": {"code": "G-07", "short": "Mutual funds and ETFs (PFIC)",
+        "card": "Why Canadian funds are PFICs, when Form 8621 applies, and when it doesn't."},
+    "cpp-oas": {"code": "G-08", "short": "CPP, QPP and OAS",
+        "card": "Contributions, benefits, the treaty position, and US Social Security while living in Canada."},
+    "foreign-tax-credit": {"code": "G-09", "short": "Foreign tax credit",
+        "card": "How Canadian tax wipes out US tax for most people, and where it doesn't."},
+    "exchange-rates": {"code": "G-10", "short": "Exchange rates",
+        "card": "Which CAD to USD rate goes where: yearly average, daily, or Treasury year-end."},
+}

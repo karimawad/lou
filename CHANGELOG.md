@@ -2,6 +2,20 @@
 
 Versions follow MAJOR.MINOR.PATCH. The version shows in the footer of the app. Bump it in `app/package.json`.
 
+## 1.4.0 (2026-10-06)
+
+Catch-up filing: the IRS Streamlined Foreign Offshore Procedures. A new Catch-up filing page (rail link and a card on the first screen) works
+out which 3 return years and 6 FBAR years apply from today's date, screens for risk (examination, IRS contact, knowing the rules, a US home,
+large balances, no SSN, under 330 days, years already filed) and stops or sends people to a professional, collects FBAR accounts for years before
+2023, asks the Form 14653 questions in the person's own words, estimates interest on any tax owed, and builds the package: returns with
+"Streamlined Foreign Offshore" in red on page 1 of each return and information return, cover sheet and mailing checklist, Form 14653 worksheet
+(the official form only fills in Adobe Reader, so a blank copy ships too), and FBAR worksheets. Included in the same key. Notices page updated.
+Treasury year-end rate for 2019 added.
+
+Quebec: Lou now says plainly that it does not do Quebec returns yet (About you, Results, catch-up, Start, FAQ, Notices) and stops a Quebec household instead of guessing.
+
+Guides and FAQ: `/guides/` (10 guides) and `/faq/` are static pages built from `guides-src/` into `app/public/`, with a new sitemap. The home page gets Guides and FAQ links and a Part V "Questions" section.
+
 ## 1.3.2 (2026-10-06)
 
 Security audit and pen test (see SECURITY-AUDIT.md). Key server: rate limits can no longer be dodged with a made-up X-Forwarded-For, JSON-only posts,

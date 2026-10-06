@@ -117,8 +117,9 @@ export function bracketRows(year: TaxYear, status: FilingStatus): BracketRow[] {
 /**
  * US Treasury Reporting Rates of Exchange, CAD per USD, on December 31 (Bureau of the Fiscal
  * Service, fiscaldata.treasury.gov). FBAR and Form 8938 values use these, not the IRS yearly
- * average. Includes 2020-2022 for FBAR catch-up years under the Streamlined procedure.
+ * average. Includes 2019-2022 for FBAR catch-up years under the Streamlined procedure (2019: 1.300, fiscaldata.treasury.gov
+ * rates_of_exchange, Canada-Dollar, record date 2019-12-31).
  */
 export const TREASURY_DEC31_CAD_PER_USD: Record<number, number> = {
-  2020: 1.275, 2021: 1.277, 2022: 1.354, 2023: 1.326, 2024: 1.438, 2025: 1.369,
+  2019: 1.3, 2020: 1.275, 2021: 1.277, 2022: 1.354, 2023: 1.326, 2024: 1.438, 2025: 1.369,
 };

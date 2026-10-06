@@ -13,6 +13,7 @@ import { Slips } from './screens/Slips';
 import { Review } from './screens/Review';
 import { Questions } from './screens/Questions';
 import { Results } from './screens/Results';
+import { Catchup } from './screens/Catchup';
 import { YearSwitcher } from './YearSwitcher';
 import { Footer } from './ui/Footer';
 import { TAX_YEARS, type TaxYear } from './tax/years';
@@ -29,6 +30,7 @@ export function reachable(s: AppState): Record<StepId, boolean> {
     review: youDone && hasSlips,
     questions: youDone && allConfirmed,
     results: youDone && allConfirmed,
+    catchup: true,
   };
 }
 
@@ -38,7 +40,8 @@ function Shell() {
   const idx = STEPS.findIndex((x) => x.id === state.step);
   const [dataOpen, setDataOpen] = useState(false);
 
-  const Screen = { start: Start, you: You, slips: Slips, review: Review, questions: Questions, results: Results }[state.step];
+  const Screen = { start: Start, you: You, slips: Slips, review: Review, questions: Questions, results: Results, catchup: Catchup }[state.step];
+  const catchingUp = state.step === 'catchup';
 
   return (
     <div className="shell">
@@ -69,6 +72,12 @@ function Shell() {
           </ol>
         </nav>
 
+        <button type="button" className="step-link" onClick={() => go('catchup')} aria-current={catchingUp ? 'step' : undefined}
+          style={{ marginTop: 'var(--s-3)', border: '1px dashed var(--line)' }}>
+          <span className="step-dot" aria-hidden="true">+</span>
+          Catch-up filing
+        </button>
+
         <YourDataCard onOpen={() => setDataOpen(true)} />
       </aside>
 
@@ -82,10 +91,10 @@ function Shell() {
                 {TAX_YEARS.map((y) => <option key={y} value={y}>{y}</option>)}
               </select>
             )}
-            <span className="muted">Step {idx + 1} of {STEPS.length} · {STEPS[idx].label}</span>
+            <span className="muted">{catchingUp ? 'Catch-up filing' : `Step ${idx + 1} of ${STEPS.length} · ${STEPS[idx].label}`}</span>
             <button type="button" className="linkish" onClick={() => setDataOpen(true)}>Your data</button>
           </div>
-          <div className="progress" aria-hidden="true"><span style={{ width: `${((idx + 1) / STEPS.length) * 100}%` }} /></div>
+          <div className="progress" aria-hidden="true"><span style={{ width: `${catchingUp ? 100 : ((idx + 1) / STEPS.length) * 100}%` }} /></div>
         </header>
         <main className="main">
           <PwaBanners />

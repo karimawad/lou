@@ -7,11 +7,12 @@ import type { ForeignAccount } from '../tax/accounts';
 import type { Business } from '../tax/business';
 import type { CapitalLossCarryover, CapitalSale } from '../tax/capital';
 import type { PficFund } from '../tax/pfic';
+import { emptyCatchup, type CatchupState } from '../tax/catchup';
 import type { SlipType } from '../tax/slips';
 import type { FilingStatus, TaxYear } from '../tax/years';
 import { seedYear } from './carry';
 
-export type StepId = 'start' | 'you' | 'slips' | 'review' | 'questions' | 'results';
+export type StepId = 'start' | 'you' | 'slips' | 'review' | 'questions' | 'results' | 'catchup';
 export const STEPS: { id: StepId; label: string }[] = [
   { id: 'start', label: 'Tax year' },
   { id: 'you', label: 'About you' },
@@ -93,6 +94,8 @@ export interface AppState {
   carryDismissed: string[];
   /** Other tax years' data, put away while this year is active (multi-year workspace). */
   years: Partial<Record<TaxYear, YearData>>;
+  /** Catch-up filing (IRS Streamlined Foreign Offshore Procedures): answers, the Form 14653 statement, and FBAR-only years. Shared by all years. */
+  catchup: CatchupState;
   /** Lou keys bought with Stripe (see license/key.ts). Shared by all years, kept in backups, survive "Clear my data". */
   licenses: string[];
   savedAt?: number;
@@ -184,6 +187,7 @@ export function initialState(): AppState {
     carryFrom: null,
     carryDismissed: [],
     years: {},
+    catchup: emptyCatchup(),
     licenses: [],
   };
 }
@@ -211,7 +215,8 @@ export function sanitizeState(raw: unknown): AppState {
   fixYearShape(out, base as unknown as Record<string, unknown>);
   for (const k of ['taxpayer', 'spouse', 'address'] as const) out[k] = isObj(out[k]) ? { ...base[k], ...(out[k] as object) } : base[k];
   out.licenses = Array.isArray(out.licenses) ? out.licenses.filter((x): x is string => typeof x === 'string' && x.length > 0 && x.length < 4000) : [];
-  if (!STEPS.some((s) => s.id === out.step)) out.step = 'start';
+  if (!STEPS.some((s) => s.id === out.step) && out.step !== 'catchup') out.step = 'start';
+  out.catchup = sanitizeCatchup(out.catchup);
   if (!(out.year === null || [2023, 2024, 2025].includes(out.year as number))) out.year = null;
   const years: Record<string, unknown> = {};
   if (isObj(out.years)) {
@@ -224,6 +229,44 @@ export function sanitizeState(raw: unknown): AppState {
   }
   out.years = years;
   return out as unknown as AppState;
+}
+
+const str = (x: unknown) => (typeof x === 'string' ? x.slice(0, 300) : '');
+const num = (x: unknown) => (typeof x === 'number' && Number.isFinite(x) && x >= 0 ? x : 0);
+const KINDS = ['bank', 'investment', 'rrsp', 'rrif', 'tfsa', 'resp', 'fhsa', 'pension'];
+/** An FBAR-only account typed in during catch-up: strings are strings and amounts are numbers. */
+function fbarAccount(o: Record<string, unknown>): ForeignAccount {
+  return {
+    id: str(o.id) || uid(), owner: o.owner === 'spouse' || o.owner === 'joint' ? o.owner : 'taxpayer',
+    kind: (KINDS.includes(o.kind as string) ? o.kind : 'bank') as ForeignAccount['kind'],
+    institution: str(o.institution), street: str(o.street), city: str(o.city), province: str(o.province), postalCode: str(o.postalCode),
+    accountNumber: str(o.accountNumber), maxValueCad: num(o.maxValueCad), yearEndValueCad: num(o.yearEndValueCad),
+    opened: o.opened === true, closed: o.closed === true, ...(typeof o.carried === 'number' ? { carried: o.carried } : {}),
+  };
+}
+
+const yearRecord = (v: unknown, ok: (x: unknown) => boolean) => Object.fromEntries(
+  Object.entries(isObj(v) ? v : {}).filter(([k, x]) => /^\d{4}$/.test(k) && ok(x)));
+
+/** Catch-up answers from storage or a backup: every field gets a safe shape so a damaged save can't blank the screen. */
+export function sanitizeCatchup(raw: unknown): CatchupState {
+  const base = emptyCatchup();
+  if (!isObj(raw)) return base;
+  const bool = (x: unknown) => typeof x === 'boolean';
+  return {
+    started: raw.started === true,
+    screen: Object.fromEntries(Object.entries(isObj(raw.screen) ? raw.screen : {}).filter(([k, x]) => /^[a-zA-Z]{2,20}$/.test(k) && bool(x))),
+    alreadyFiled: yearRecord(raw.alreadyFiled, bool),
+    extension: yearRecord(raw.extension, bool),
+    daysInUs: yearRecord(raw.daysInUs, (x) => typeof x === 'number' && Number.isFinite(x) && x >= 0 && x <= 366),
+    professionalAck: raw.professionalAck === true,
+    mailDate: typeof raw.mailDate === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(raw.mailDate) ? raw.mailDate : '',
+    statement: Object.fromEntries(Object.entries(isObj(raw.statement) ? raw.statement : {})
+      .filter((e): e is [string, string] => typeof e[1] === 'string').map(([k, v]) => [k.slice(0, 200), v.slice(0, 20000)])),
+    fbar: Object.fromEntries(Object.entries(isObj(raw.fbar) ? raw.fbar : {})
+      .filter(([k, v]) => /^\d{4}$/.test(k) && isObj(v))
+      .map(([k, v]) => [k, { accounts: Array.isArray((v as Record<string, unknown>).accounts) ? ((v as Record<string, unknown>).accounts as unknown[]).filter(isObj).map(fbarAccount) : [], noAccounts: (v as Record<string, unknown>).noAccounts === true }])),
+  } as CatchupState;
 }
 
 export function loadState(): AppState {

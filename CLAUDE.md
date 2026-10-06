@@ -26,7 +26,7 @@ guide as a manual fallback.
 
 ## Scope (decided 2026-10-03)
 
-- Filers: US persons resident in Canada. Not 1040-NR, not dual-status, not snowbird Form 8840.
+- Filers: US persons resident in Canada. Not 1040-NR, not dual-status, not snowbird Form 8840. **Not Quebec** (Karim, 2026-10-06): `state/quebec.ts` `looksQuebec` blocks About you, Results and catch-up readiness (province QC, T4 box 17/55, NOA QC432/44000). The old TP-1/abatement plumbing stays dormant and untested; lifting the block needs fixtures from Revenu Quebec/IRS numbers, RL slips and the Quebec notice.
 - Tax years: 2023, 2024, 2025 returns; FBAR worksheets 2020-2025 (Streamlined Foreign Offshore window).
 - Each year has its own constants (`app/src/tax/years.ts`) and its own PDF field maps.
 
@@ -56,6 +56,7 @@ guide as a manual fallback.
 app/                 Vite + React 19 + TypeScript (the product)
   src/tax/           Pure tax engine (no DOM). years.ts, taxComputation.ts, ... + *.test.ts
   src/tax/__fixtures__/  Parsed official IRS tables
+guides-src/          Python source for /guides/ and /faq/ (python guides-src/build.py writes into app/public)
 research/            Source PDFs + text (IRS forms/instructions, CRA slips) and extraction scripts
   dumpfields.mjs     Lists every fillable PDF field with its printed line number
   taxtable.mjs       Parses the official Tax Table into fixtures
@@ -256,6 +257,28 @@ with filled IRS PDFs (1040, Sch 1, 1-A, 2, 3, B, 8812, 1116 per category) and a 
 - Security audit + pen test 2026-10-06: SECURITY-AUDIT.md (findings, fixes, residual risks, ops to-do). Regression tests: `license/security.test.ts`,
   `state/sanitize.test.ts`. Saved state and backups always go through `sanitizeState`; `ErrorBoundary` is the blank-page safety net.
 - Anyone can bypass a client-side paywall by editing the code. Accepted: it is an honest paywall (source-available license forbids hosting copies).
+
+## Catch-up filing (2026-10-06, v1.4.0): IRS Streamlined Foreign Offshore Procedures (SFOP)
+
+- Entry: rail link "Catch-up filing" + a card on Start; `StepId` 'catchup' (not in `STEPS`). State: `state.catchup` (shared, not per year; `sanitizeCatchup`).
+- Rules in `tax/catchup.ts` (pure; sources cited at the top). Years are never hardcoded: `sfopPlan(today, extension)` gives the 3 return years
+  (due date passed: June 15 for people abroad = automatic 2 months, Oct 15 if Form 4868; interest runs from April 15) and the 6 FBAR years (late after Oct 15).
+  Between Jun 16 and Oct 15 the page asks whether Form 4868 was filed. The newest FBAR (not late until Oct 15) is listed as "file it too". Years Lou has
+  no rules or Treasury rate for (return years outside 2023-2025, FBAR years before 2019) block the page with a message instead of guessing.
+- Interest: `catchUpInterest` = IRC 6621 rates compounded daily (`pfic.ts interestFactor`, `data/irs-interest.json`) from April 15 to the planned mail date; estimate only.
+- Screening (`SCREEN_QUESTIONS`, `evaluateScreening`): stop = exam/investigation, illegal income, no SSN (SFOP FAQ 10), deliberate choice, a year already filed (needs 1040-X, not built),
+  under 330 full days in every year. refer = IRS contact, knew the rules, was told, earlier wrong return, US abode, balances over US$1,000,000 (Lou's own cutoff, not an IRS rule);
+  a refer finding is lifted by the "talked to a professional" checkbox, a stop never is.
+- Form 14653 (Rev. 3-2025) is an XFA form: pdf-lib cannot fill it and browsers show a stub. Lou ships the blank (`public/forms/f14653.pdf`, text in `research/instr/f14653_text.txt`)
+  and a worksheet PDF. The statement of facts is the person's own words (`STATEMENT_PROMPTS` + one prompt per account), printed verbatim; Lou never writes or checks the certifications.
+- Package (`pdf/catchupPackage.ts`): red "Streamlined Foreign Offshore" stamp on page 1 of the 1040 and each information return (8938, 8621, 3520, 3520-A); Form 3520 forms ride
+  in the same Austin package (IRS: information returns go with the returns; they do not go to Ogden in SFOP). Cover sheet + checklist, worksheet, FBAR worksheets
+  ("Other" / "Streamlined Filing Compliance Procedures" as the late reason). Address: IRS, 3651 South I-H 35, Stop 6063 AUSC, Attn: Streamlined Foreign Offshore, Austin, TX 78741.
+  Original Form 14653 once, copies attached to each return and information return; SSN on the check; paper only.
+- FBAR-only years (before 2023) keep accounts in `catchup.fbar[year]`; return years use their workspace's accounts (`state/catchup.ts fbarYear`). Treasury Dec 31 2019 = 1.300 added.
+- Same $49 key: the package is gated on every return year being covered by a key (Karim: FBAR years are only data entry, included).
+- Not built (flagged on the page): Form 1040-X for already-filed years, the domestic procedure (5% penalty), joint-certification specifics, non-US-person spouse substantial presence computation.
+- Checks: `catchup.test.ts` (tax, state, pdf), `node scripts/catchup-check.cjs` (real browser, needs the test key in server/secrets).
 
 ## Known limits (the app flags each one)
 

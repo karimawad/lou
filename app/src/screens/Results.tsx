@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from 'react';
 import { useApp } from '../state/context';
 import { getBlob } from '../state/store';
 import type { FilledForm } from '../pdf/fill';
+import { QUEBEC_DETAIL, QUEBEC_TITLE, looksQuebec } from '../state/quebec';
 import { deriveFromT1 } from '../state/t1';
 import { ITIN_MAIL_TO, MAIL_TO, toReturnInput } from '../state/toInput';
 import { computeReturn, type ReturnResult } from '../tax/compute';
@@ -39,6 +40,7 @@ export function Results() {
     ...(state.pficFunds ?? []).filter((f) => f.carried).map((f) => f.name || 'a fund')];
   if (carried.length) flags.unshift({ id: 'carried', severity: 'block', title: `Add this year's figures for ${carried.join(', ')}`,
     detail: `Lou copied ${carried.length === 1 ? 'it' : 'them'} from another year, but balances, income and distributions are different every year. Go back to A few questions and fill in ${year}'s figures.` });
+  if (looksQuebec(state)) flags.unshift({ id: 'quebec', severity: 'block', title: QUEBEC_TITLE, detail: QUEBEC_DETAIL });
   if (!hasNoa) flags.unshift({ id: 'no-noa', severity: 'block', title: 'Add your Notice of Assessment',
     detail: "Without it Lou can't claim the foreign tax credit, so the tax shown here is far too high. Go back to Your slips and add it." });
   if (r.needsForm8833) flags.push({ id: '8833', severity: 'info', title: 'Form 8833 is included to explain your CPP/OAS',
@@ -205,7 +207,7 @@ export function Results() {
         <ol style={{ margin: 0, paddingLeft: '1.2em', display: 'grid', gap: 'var(--s-3)' }}>
           <li>Print the return, then sign and date page 2 of Form 1040{input.filingStatus === 'mfj' ? ' (both of you)' : ''}.</li>
           <li>Keep the pages in the order Lou printed them. That is the IRS attachment order.</li>
-          {year !== 2025 && <li>Catching up on past years? If you qualify for the Streamlined Foreign Offshore procedure, write "Streamlined Foreign Offshore" in red at the top of page 1 of each return, and include Form 14653 (the certification of non-willful conduct) with the set. Lou doesn't fill Form 14653: it asks for your own explanation of why you didn't file.</li>}
+          {year !== 2025 && <li>Catching up on past years? The IRS Streamlined Foreign Offshore procedure can waive penalties. It has its own steps, forms and mailing address, and the cover sheet, red notation and Form 14653 worksheet come from the <button type="button" className="linkish" onClick={() => go('catchup')}>Catch-up filing</button> page. Do not mail this return on its own if you plan to use it.</li>}
           {needsW7 && <li>Your spouse has no SSN or ITIN, so attach your spouse's Form W-7 to the front of the return, with their passport (original or a copy certified by the passport office). Leave the spouse SSN box blank. The IRS assigns the ITIN, then processes the return.</li>}
           <li>
             Mail it to:

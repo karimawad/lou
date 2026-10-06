@@ -48,7 +48,7 @@ const cad = (n: number) => `${n.toLocaleString('en-CA', { minimumFractionDigits:
 const masked = (ssn: string) => { const d = ssn.replace(/\D/g, ''); return d.length === 9 ? `***-**-${d.slice(5)}` : 'none'; };
 
 /** A simple flowing text layout on US Letter pages. */
-class Layout {
+export class Layout {
   page!: PDFPage;
   y = 0;
   readonly left = 54;

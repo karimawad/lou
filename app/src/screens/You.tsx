@@ -1,3 +1,4 @@
+import { QUEBEC_DETAIL, QUEBEC_TITLE, looksQuebec } from '../state/quebec';
 import { useState } from 'react';
 import { carryDependents, dependentKey, missingFrom } from '../state/carry';
 import { useApp } from '../state/context';
@@ -52,6 +53,7 @@ export function You() {
     province: !state.address.province && 'Choose your province or territory.',
     canada: state.livedInCanadaAllYear !== true && 'Lou needs you to have lived in Canada all year.',
     digital: state.digitalAssets === null && 'Answer the digital asset question.',
+    quebec: looksQuebec(state) && QUEBEC_TITLE + '.',
   };
   const valid = Object.values(errors).every((e) => !e);
   const err = (k: keyof typeof errors) => (tried ? errors[k] || undefined : undefined);
@@ -197,9 +199,9 @@ export function You() {
           <TextInput label="Postal code" value={state.address.postalCode} autoComplete="postal-code" placeholder="M5H 1A1"
             onChange={(v) => set((s) => ({ ...s, address: { ...s.address, postalCode: v.toUpperCase() } }))} />
         </div>
-        {state.address.province === 'QC' && (
-          <Callout tone="info" title="Quebec residents">
-            <p>Your Quebec income tax (from your TP-1) counts toward the US foreign tax credit. Lou asks for it with your Notice of Assessment.</p>
+        {looksQuebec(state) && (
+          <Callout tone="block" title={QUEBEC_TITLE}>
+            <p>{QUEBEC_DETAIL}</p>
           </Callout>
         )}
       </section>

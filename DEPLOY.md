@@ -106,17 +106,56 @@ One-time setup on the VPS:
    Keep a backup of the private key somewhere safe (a password manager). The matching public key is already in `app/src/license/key.ts`.
 3. **Settings.** `/etc/lou-license.env` is the file you just copied (template: `server/.env.example`). To change a value later:
    `sudo nano /etc/lou-license.env`, then `sudo systemctl restart lou-license`.
-4. **Install and start.**
+4. **Install the service (so it runs all the time) and start it.** It is a systemd service: it starts on boot and restarts itself if it crashes.
    ```
    cd /var/www/lou/server && npm ci --omit=dev
-   sudo cp /var/www/lou/deploy/lou-license.service /etc/systemd/system/
-   sudo systemctl daemon-reload && sudo systemctl enable --now lou-license
+   sed "s#/usr/bin/node#$(command -v node)#" /var/www/lou/deploy/lou-license.service | sudo tee /etc/systemd/system/lou-license.service >/dev/null
+   sudo systemctl daemon-reload
+   sudo systemctl enable --now lou-license
+   systemctl is-enabled lou-license && systemctl is-active lou-license    # enabled, active
    ```
-   So `./deploy.sh` can restart it, allow that one command: `sudo visudo -f /etc/sudoers.d/lou` and add
-   `<you> ALL=(root) NOPASSWD: /usr/bin/systemctl restart lou-license`.
-5. **Web server.** Copy the updated `deploy/vhconf.conf` over the vhost config (it adds the `/api/` proxy), graceful restart.
-6. **Log retention (matches the privacy policy).** In `/etc/systemd/journald.conf` set `MaxRetentionSec=14day`, then `sudo systemctl restart systemd-journald`.
-7. **Check.** `curl -s https://lou.bigtimedesign.ca/api/health` answers `{"ok":true}`. `sudo journalctl -u lou-license -n 20` shows no errors.
+   Node must be reachable by the `lou` user, so it should be a system install at `/usr/bin/node` (not under `/home`, which is where nvm puts it).
+   If `command -v node` prints a path under `/home`, install Node 22 system-wide first
+   (`curl -fsSL https://deb.nodesource.com/setup_22.x | sudo -E bash - && sudo apt-get install -y nodejs`).
 
-After that, each release is just `./deploy.sh` (it installs the server's dependencies and restarts it).
+   So `./deploy.sh` can restart the service itself on every release, allow that one command without a password. Run
+   `sudo visudo -f /etc/sudoers.d/lou` and put this single line in it (replace YOUR_USER with the account you deploy with; check the
+   path with `command -v systemctl`):
+   ```
+   YOUR_USER ALL=(root) NOPASSWD: /usr/bin/systemctl restart lou-license
+   ```
+   After that, `./deploy.sh` installs the server's dependencies, restarts the service, waits for it to answer and prints
+   "Key server is running and healthy." (or a loud warning with what to run). If `deploy/lou-license.service` ever changes, deploy.sh tells you
+   to re-run the `sed ... | sudo tee` line above (it never edits system files by itself).
+5. **Web server: add the `/api/` proxy to the live vhost (do not overwrite the file).** The repo's `vhconf.conf` has no certificate lines
+   (they were added later by the SSL step), so copying it over the live file would break HTTPS. Instead append only the proxy lines, once,
+   then restart OpenLiteSpeed:
+   ```
+   VH=/usr/local/lsws/conf/vhosts/Lou/vhconf.conf
+   sudo cp $VH $VH.bak                                        # a backup, just in case
+   grep -q "extprocessor lou-license" $VH || sudo tee -a $VH < /var/www/lou/deploy/vhconf-api-proxy.txt >/dev/null
+   sudo /usr/local/lsws/bin/lswsctrl restart
+   ```
+   Check that the live file still has its certificate block (`sudo grep -A4 vhssl $VH`). If it has none (for example you copied the repo file over it
+   earlier), add this to the end of the file and restart again:
+   ```
+   vhssl  {
+     keyFile                 /etc/letsencrypt/live/lou.bigtimedesign.ca/privkey.pem
+     certFile                /etc/letsencrypt/live/lou.bigtimedesign.ca/fullchain.pem
+     certChain               1
+   }
+   ```
+6. **Log retention (the Privacy page promises 14 days).** The key server's logs go to systemd's journal, which by default keeps logs for months.
+   Limit it (this applies to every service's journal on the VPS, which is fine):
+   ```
+   sudo mkdir -p /etc/systemd/journald.conf.d
+   printf '[Journal]\nMaxRetentionSec=14day\n' | sudo tee /etc/systemd/journald.conf.d/lou.conf
+   sudo systemctl restart systemd-journald
+   sudo journalctl --vacuum-time=14d      # trim what is already older than that
+   ```
+   The web server's own logs are already limited to 14 days by `vhconf.conf`.
+7. **Check everything.** Run `bash /var/www/lou/deploy/check-key-server.sh` on the VPS. It tests each layer in order (files, service, the program itself,
+   the web server proxy, log retention) and says what to run for the first one that is broken. Or by hand:
+   `curl -s https://lou.bigtimedesign.ca/api/health` should answer `{"ok":true}`, and `sudo journalctl -u lou-license -n 20 --no-pager` should show no errors.
+
 If the key server is down, the rest of Lou is unaffected; Stripe retries payment notifications for days, so buyers still get their key by email.

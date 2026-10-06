@@ -1,0 +1,17 @@
+
+# Lou's key server (server/index.mjs) runs on localhost and is reached only through /api/. See DEPLOY.md.
+extprocessor lou-license {
+  type                    proxy
+  address                 127.0.0.1:3001
+  maxConns                20
+  pcKeepAliveTimeout      30
+  initTimeout             60
+  retryTimeout            0
+  respBuffer              0
+}
+
+context /api/ {
+  type                    proxy
+  handler                 lou-license
+  addDefaultCharset       off
+}

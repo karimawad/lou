@@ -20,4 +20,13 @@ const handler = createHandler({
   supportTo: env.SUPPORT_TO ?? 'karim@bigtimedesign.ca',
 });
 
-createServer(handler).listen(Number(env.PORT ?? 3417), '127.0.0.1', () => console.log('lou-license listening'));
+// A crash-looping service is worse than one logged error: report and carry on (systemd restarts it if it does die).
+process.on('unhandledRejection', (e) => console.error('unhandledRejection', e instanceof Error ? e.message : 'non-error'));
+process.on('uncaughtException', (e) => console.error('uncaughtException', e.message));
+
+const server = createServer(handler);
+server.headersTimeout = 10_000;   // slow-loris style connections are cut off
+server.requestTimeout = 20_000;
+server.keepAliveTimeout = 5_000;
+server.maxHeadersCount = 50;
+server.listen(Number(env.PORT ?? 3417), '127.0.0.1', () => console.log('lou-license listening'));

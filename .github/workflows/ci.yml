@@ -28,3 +28,22 @@ jobs:
           if grep -rEl "https?://(www\.)?(google-analytics|googletagmanager|cdn\.|fonts\.g)" dist/assets dist/index.html; then
             echo "Found a third-party URL in the build"; exit 1
           fi
+      - name: Known vulnerabilities in dependencies (app)
+        run: npm audit --omit=dev --audit-level=high
+      - name: Known vulnerabilities in dependencies (key server)
+        working-directory: server
+        run: |
+          npm ci --omit=dev
+          npm audit --omit=dev --audit-level=high
+      - name: Every page ships the Content-Security-Policy and no inline scripts
+        run: |
+          for f in dist/index.html dist/app/index.html dist/thanks/index.html dist/recover/index.html dist/support/index.html; do
+            grep -q "Content-Security-Policy" "$f" || { echo "$f has no CSP"; exit 1; }
+            if grep -E "<script[^>]*>[^<]+</script>" "$f" | grep -vq "src="; then echo "$f has an inline script"; exit 1; fi
+          done
+      - name: No secrets committed
+        working-directory: .
+        run: |
+          if git ls-files | xargs grep -nIE "rk_live_[A-Za-z0-9]{20,}|sk_live_[A-Za-z0-9]{20,}|whsec_[A-Za-z0-9]{20,}|BEGIN (RSA |EC |OPENSSH )?PRIVATE KEY" ; then
+            echo "A secret looks committed"; exit 1
+          fi

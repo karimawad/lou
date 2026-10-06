@@ -7,6 +7,7 @@ export function rateLimiter() {
     recent.push(now);
     hits.set(bucket, recent);
     if (hits.size > 5000) for (const [k, v] of hits) if (!v.some((t) => now - t < windowMs)) hits.delete(k);
+    if (hits.size > 50000) hits.clear(); // a flood of made-up addresses must not be able to fill memory
     return true;
   };
 }

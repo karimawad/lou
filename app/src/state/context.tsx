@@ -78,7 +78,8 @@ export function AppProvider({ children }: { children: ReactNode }) {
   // A key arrives in the address after "#key=" (from the thank-you page or the email link). Take it, then tidy the address.
   useEffect(() => {
     if (!location.hash.startsWith('#key=')) return;
-    const raw = decodeURIComponent(location.hash.slice(5));
+    let raw = '';
+    try { raw = decodeURIComponent(location.hash.slice(5)); } catch { /* a damaged link: treated as an empty key below */ }
     history.replaceState(null, '', location.pathname + location.search);
     void addKey(raw).then((r) => setLicenseNotice(r.ok
       ? { ok: true, text: `Key added. Your ${r.years.length > 1 ? `${r.years[0]} to ${r.years[r.years.length - 1]}` : r.years[0]} returns are unlocked.` }

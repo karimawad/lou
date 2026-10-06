@@ -21,6 +21,7 @@ const fromB64u = (s: string) => Uint8Array.from(atob(s.replace(/-/g, '+').replac
 
 /** Pasted keys arrive with spaces, line breaks, quotes or a trailing link: keep only the key itself. */
 export function cleanKey(input: string): string {
+  if (typeof input !== 'string') return '';
   const m = input.replace(/\s+/g, '').match(/LOU1\.[A-Za-z0-9_-]+\.[A-Za-z0-9_-]+/);
   return m ? m[0] : input.replace(/\s+/g, '');
 }

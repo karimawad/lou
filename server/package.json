@@ -4,7 +4,13 @@
   "version": "1.0.0",
   "type": "module",
   "description": "Lou's key server: turns a paid Stripe checkout into a signed key and emails it. Never sees tax data.",
-  "scripts": { "start": "node index.mjs" },
-  "dependencies": { "nodemailer": "^7.0.0" },
-  "engines": { "node": ">=22" }
+  "scripts": {
+    "start": "node index.mjs"
+  },
+  "dependencies": {
+    "nodemailer": "^10.0.15"
+  },
+  "engines": {
+    "node": ">=22"
+  }
 }

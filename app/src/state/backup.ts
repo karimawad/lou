@@ -2,7 +2,7 @@
 // documents) in one file the user saves on their own computer. Optionally encrypted with a password
 // (PBKDF2-SHA-256, 600,000 iterations -> AES-256-GCM, Web Crypto). Nothing leaves the device.
 
-import { initialState, type AppState } from './store';
+import { sanitizeState, type AppState } from './store';
 
 export const BACKUP_FORMAT = 'lou-backup';
 const ITERATIONS = 600_000;
@@ -77,7 +77,7 @@ export async function openBackup(text: string, password?: string): Promise<{ sta
   } else payload = f.payload;
   if (!payload?.state || payload.state.version !== 1) throw new BackupError('This backup file is damaged.');
   return {
-    state: { ...initialState(), ...payload.state },
+    state: sanitizeState(payload.state),
     blobs: Object.entries(payload.blobs ?? {}).map(([key, b]) => ({ key, blob: new Blob([fromB64(b.data) as BlobPart], { type: b.type }) })),
   };
 }

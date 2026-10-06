@@ -12,12 +12,31 @@ EnvironmentFile=/etc/lou-license.env
 ExecStart=/usr/bin/node index.mjs
 Restart=always
 RestartSec=3
-# It only needs to listen on localhost and reach Stripe and the mail server.
+# It only needs to listen on localhost and reach Stripe and the mail server: take away everything else.
 NoNewPrivileges=true
 ProtectSystem=strict
 ProtectHome=true
 PrivateTmp=true
+PrivateDevices=true
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectKernelLogs=true
+ProtectControlGroups=true
+ProtectClock=true
+ProtectHostname=true
+RestrictNamespaces=true
+RestrictRealtime=true
+RestrictSUIDSGID=true
+LockPersonality=true
+RestrictAddressFamilies=AF_INET AF_INET6 AF_UNIX
+CapabilityBoundingSet=
+AmbientCapabilities=
+UMask=0077
 ReadOnlyPaths=/var/www/lou/server /etc/lou-license
+# Limits, so a runaway or abused process cannot take the VPS down with it.
+MemoryMax=512M
+TasksMax=64
+LimitNOFILE=4096
 
 [Install]
 WantedBy=multi-user.target

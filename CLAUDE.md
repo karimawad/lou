@@ -253,6 +253,8 @@ with filled IRS PDFs (1040, Sch 1, 1-A, 2, 3, B, 8812, 1116 per category) and a 
 - Setup steps: STRIPE-SETUP.md; server install: DEPLOY.md "Key server". Private signing key lives only in `server/secrets/` (gitignored) and on the VPS.
 - Not done yet / needs Karim: create the Stripe product, Payment Link and webhook; put `PAYMENT_LINK` in `license/config.ts`; install the key server;
   register for GST/HST in Stripe Tax (Karim decided to charge HST, 2026-10-06; price is $49 CAD plus tax, tax behavior must be "exclusive"). Refund window is 15 days (Karim, 2026-10-06). Karim is happy with the Terms/Privacy text for now.
+- Security audit + pen test 2026-10-06: SECURITY-AUDIT.md (findings, fixes, residual risks, ops to-do). Regression tests: `license/security.test.ts`,
+  `state/sanitize.test.ts`. Saved state and backups always go through `sanitizeState`; `ErrorBoundary` is the blank-page safety net.
 - Anyone can bypass a client-side paywall by editing the code. Accepted: it is an honest paywall (source-available license forbids hosting copies).
 
 ## Known limits (the app flags each one)

@@ -92,7 +92,7 @@ export function Slips() {
       <div className={`drop${over ? ' over' : ''}`} onDragOver={(e) => { e.preventDefault(); setOver(true); }}
         onDragLeave={() => setOver(false)} onDrop={onDrop}>
         <div className="drop-icon"><Upload size={24} /></div>
-        <h3>Drop slips here</h3>
+        <h2>Drop slips here</h2>
         <p>PDF, photo (JPG, PNG, HEIC) or CSV. Several at once is fine.</p>
         <div className="drop-buttons">
           <button type="button" className="btn btn-primary" onClick={() => fileRef.current?.click()}><FileIcon size={18} /> Choose files</button>

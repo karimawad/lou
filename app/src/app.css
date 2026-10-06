@@ -237,7 +237,7 @@
 }
 .drop.over { border-color: var(--accent); background: var(--accent-soft); }
 .drop-icon { width: 48px; height: 48px; border-radius: 12px; display: grid; place-items: center; background: var(--accent-soft); color: var(--accent); }
-.drop h3 { font-size: var(--text-lg); }
+.drop h2 { font-size: var(--text-lg); }
 .drop p { color: var(--ink-2); font-size: var(--text-sm); max-width: 46ch; }
 .drop-buttons { display: flex; flex-wrap: wrap; gap: var(--s-2); justify-content: center; margin-top: var(--s-2); }
 

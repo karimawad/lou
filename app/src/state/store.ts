@@ -188,15 +188,48 @@ export function initialState(): AppState {
   };
 }
 
-const KEY = 'lou:v1';
+export const KEY = 'lou:v1';
+
+const isObj = (v: unknown): v is Record<string, unknown> => typeof v === 'object' && v !== null && !Array.isArray(v);
+const LIST_KEYS = ['dependents', 'docs', 'slips', 'accounts', 'businesses', 'sales', 'pficFunds', 'carryDismissed'] as const;
+const RECORD_KEYS = ['elections', 'carryover', 'feieFacts', 'feie2555'] as const;
+
+/** Makes the shape of per-year data safe: lists are lists, records are records (anything else would crash a screen). */
+function fixYearShape(o: Record<string, unknown>, base: Record<string, unknown>) {
+  for (const k of LIST_KEYS) o[k] = Array.isArray(o[k]) ? (o[k] as unknown[]).filter(isObj) : base[k] ?? [];
+  for (const k of RECORD_KEYS) o[k] = isObj(o[k]) ? { ...(base[k] as object), ...(o[k] as object) } : base[k];
+}
+
+/**
+ * Turns anything read from storage or from a backup file into a state the screens can safely use. Saved data can be old,
+ * from another version, damaged, or hand-edited; a wrong shape must never blank the app. Unknown values fall back to defaults.
+ */
+export function sanitizeState(raw: unknown): AppState {
+  const base = initialState();
+  if (!isObj(raw) || raw.version !== 1) return base;
+  const out: Record<string, unknown> = { ...base, ...raw };
+  fixYearShape(out, base as unknown as Record<string, unknown>);
+  for (const k of ['taxpayer', 'spouse', 'address'] as const) out[k] = isObj(out[k]) ? { ...base[k], ...(out[k] as object) } : base[k];
+  out.licenses = Array.isArray(out.licenses) ? out.licenses.filter((x): x is string => typeof x === 'string' && x.length > 0 && x.length < 4000) : [];
+  if (!STEPS.some((s) => s.id === out.step)) out.step = 'start';
+  if (!(out.year === null || [2023, 2024, 2025].includes(out.year as number))) out.year = null;
+  const years: Record<string, unknown> = {};
+  if (isObj(out.years)) {
+    for (const [y, v] of Object.entries(out.years)) {
+      if (!isObj(v) || ![2023, 2024, 2025].includes(Number(y))) continue;
+      const d = { ...v };
+      fixYearShape(d, base as unknown as Record<string, unknown>);
+      years[y] = d;
+    }
+  }
+  out.years = years;
+  return out as unknown as AppState;
+}
 
 export function loadState(): AppState {
   try {
     const raw = localStorage.getItem(KEY);
-    if (!raw) return initialState();
-    const parsed = JSON.parse(raw) as AppState;
-    if (parsed.version !== 1) return initialState();
-    return { ...initialState(), ...parsed };
+    return raw ? sanitizeState(JSON.parse(raw)) : initialState();
   } catch {
     return initialState();
   }

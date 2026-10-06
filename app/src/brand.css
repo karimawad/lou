@@ -88,7 +88,7 @@ h3 { font-weight: 700; font-stretch: 94%; word-spacing: 0.05em; }
 .drop { border: 2px dashed var(--ink); border-radius: 0; background: var(--surface); }
 .drop.over { border-color: var(--blue); background: color-mix(in oklch, var(--sky) 40%, var(--surface)); }
 .drop-icon { border-radius: 0; background: var(--sun); color: var(--ink); border: 1.5px solid var(--ink); box-shadow: 3px 3px 0 var(--ink); }
-.drop h3 { font-weight: 800; font-stretch: 90%; }
+.drop h2 { font-weight: 800; font-stretch: 90%; }
 
 /* ---------- Lists, review ---------- */
 .list, .boxes, .ledger-wrap, .download-row, .slip-view { border: 1px solid var(--ink); border-radius: 0; }
@@ -135,3 +135,6 @@ details.more { border-top: 1px solid var(--ink); }
 .fold-locked { border: 1px dashed var(--ink); background: var(--sunk); }
 .fold-locked-row { display: flex; align-items: center; justify-content: space-between; gap: var(--s-3); padding: var(--s-4) var(--s-5); }
 @media (max-width: 640px) { .unlock-card { padding: var(--s-4); } .unlock-head { grid-template-columns: 1fr; } }
+
+/* Contrast: status text on the yellow "current year" row must stay readable (found by the accessibility audit). */
+.year-link[aria-current='true'] .year-status { color: var(--ink); font-weight: 600; }

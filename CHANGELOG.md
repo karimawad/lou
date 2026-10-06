@@ -2,6 +2,13 @@
 
 Versions follow MAJOR.MINOR.PATCH. The version shows in the footer of the app. Bump it in `app/package.json`.
 
+## 1.3.2 (2026-10-06)
+
+Security audit and pen test (see SECURITY-AUDIT.md). Key server: rate limits can no longer be dodged with a made-up X-Forwarded-For, JSON-only posts,
+strict email check, timeouts and crash guards, HEAD health check, nodemailer upgraded to 10.0.15 (13 advisories), hardened systemd unit.
+App: saved data and backups are validated (a damaged state can no longer blank the app), an error screen replaces any blank page, a malformed
+`#key=` link no longer crashes. Accessibility fixes. CI now audits dependencies, checks CSP on every page and scans for committed secrets.
+
 ## 1.3.1 (2026-10-06)
 
 Footer: "Made in Toronto" moved to the bottom; Version and Source code links removed; "Report a problem" is now a small email form at `/support/`

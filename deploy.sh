@@ -5,6 +5,38 @@
 # Rollback:  ln -sfn /var/www/lou/releases/<older folder> /var/www/lou/current
 # The web server's document root is <this folder>/current (see deploy/vhconf.conf).
 
+# Restarts Lou's key server (a systemd service, so it also starts on boot and restarts itself if it crashes) and checks that it
+# answers. The site is already live by now: a problem here is reported loudly but does not undo the release.
+key_server() {
+  local root="$1" unit_src unit_dst node_bin ok=0
+  unit_src="$root/deploy/lou-license.service"
+  unit_dst=/etc/systemd/system/lou-license.service
+  node_bin="$(command -v node)"
+  if [ ! -f "$unit_dst" ]; then
+    echo "!! The key server service is not installed yet, so buying a key will not work. Run once (see DEPLOY.md, Key server):"
+    echo "   sed \"s#/usr/bin/node#$node_bin#\" $unit_src | sudo tee $unit_dst >/dev/null && sudo systemctl daemon-reload && sudo systemctl enable --now lou-license"
+    return 0
+  fi
+  if ! diff -q <(sed "s#/usr/bin/node#$node_bin#" "$unit_src") "$unit_dst" >/dev/null; then
+    echo "!! deploy/lou-license.service changed since it was installed. Update it:"
+    echo "   sed \"s#/usr/bin/node#$node_bin#\" $unit_src | sudo tee $unit_dst >/dev/null && sudo systemctl daemon-reload && sudo systemctl restart lou-license"
+  fi
+  systemctl is-enabled --quiet lou-license || echo "!! lou-license is not enabled, so it will not start after a reboot: sudo systemctl enable lou-license"
+  if ! sudo -n systemctl restart lou-license 2>/dev/null; then
+    echo "!! Could not restart lou-license without a password. Run: sudo systemctl restart lou-license"
+    echo "   (To make deploy.sh do it itself, see DEPLOY.md, step 4: the sudoers line.)"
+  fi
+  for _ in 1 2 3 4 5 6 7 8 9 10; do
+    if node -e "fetch('http://127.0.0.1:3001/api/health').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"; then ok=1; break; fi
+    sleep 1
+  done
+  if [ "$ok" = 1 ]; then echo "Key server is running and healthy."
+  else
+    echo "!! KEY SERVER IS NOT ANSWERING. Buying and 'Find my key' will not work until it is fixed."
+    echo "   Run: ./deploy/check-key-server.sh      (shows which layer is broken)"
+  fi
+}
+
 main() {
   set -euo pipefail
   cd "$(dirname "$(readlink -f "$0")")"
@@ -46,11 +78,7 @@ main() {
 
   echo "Key server (server/)..."
   (cd "$ROOT/server" && npm ci --omit=dev --no-audit --no-fund)
-  if systemctl list-unit-files 2>/dev/null | grep -q '^lou-license.service'; then
-    sudo -n systemctl restart lou-license && echo "Restarted lou-license." || echo "NOTE: run 'sudo systemctl restart lou-license' yourself."
-  else
-    echo "NOTE: lou-license.service is not installed yet (see DEPLOY.md). Payments will not work until it is."
-  fi
+  key_server "$ROOT"
 
   echo "Removing old releases (keeping 5)..."
   ls -1dt "$ROOT"/releases/* | tail -n +6 | xargs -r rm -rf

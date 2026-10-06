@@ -242,7 +242,7 @@ with filled IRS PDFs (1040, Sch 1, 1-A, 2, 3, B, 8812, 1116 per category) and a 
 - Key = `LOU1.<payload>.<Ed25519 signature>`, minted by `server/` after Stripe payment, verified OFFLINE in the app (`license/key.ts`,
   public keys by id in `PUBLIC_KEYS`). Deterministic (same payment, same key), no database. Stored in `state.licenses`: kept in backups,
   survives "Clear my data". Arrives via `/app/#key=...` (thank-you page or email link), then the hash is removed.
-- Exception to non-negotiable 1, accepted by Karim: ONE small key server on his Hostinger VPS (`server/`, proxied at `/api/`). It sees
+- Exception to non-negotiable 1, accepted by Karim: ONE small key server on his Hostinger VPS (`server/`, port 3417 on localhost, proxied at `/api/`; set up or repaired by `sudo bash deploy/install-key-server.sh`). It sees
   only payment/email data, never tax data. The app itself never calls it (CSP `connect-src 'self'` unchanged); only `/thanks/` and
   `/recover/` do. If it is down, existing keys and the rest of Lou work; Stripe webhook retries email the key later.
 - Stripe: Payment Link redirects to `/thanks/?session_id={CHECKOUT_SESSION_ID}`; webhook `/api/webhook`; restricted read-only key.

@@ -19,4 +19,4 @@ const handler = createHandler({
   siteUrl: (env.SITE_URL ?? 'https://lou.bigtimedesign.ca').replace(/\/$/, ''),
 });
 
-createServer(handler).listen(Number(env.PORT ?? 3001), '127.0.0.1', () => console.log('lou-license listening'));
+createServer(handler).listen(Number(env.PORT ?? 3417), '127.0.0.1', () => console.log('lou-license listening'));

@@ -13,12 +13,21 @@ Test cards: `4242 4242 4242 4242`, any future expiry, any CVC, any postal code.
 1. Create an account at dashboard.stripe.com. Business: Big Time Design and Communication Inc., Canada.
 2. Add the bank account (CAD) payouts go to. Complete the identity checks Stripe asks for. Live payments stay off until this is done.
 
-## 2. Tax (once, ask your accountant)
+## 2. Tax: charging HST (decided)
 
-Selling digital software to Canadians usually means collecting HST (13% in Ontario) once you pass the small supplier limit
-(CAD $30,000 in four quarters) or if you are registered. If you are registered for GST/HST: Settings, Tax, add your registration,
-and turn on **Stripe Tax** for the product below (tax code: downloadable software). The price stays $49.00 CAD and tax is added at checkout.
-If you are not registered yet, skip this and revisit when you are.
+Lou charges **$49 CAD plus tax**, so the buyer sees the tax added at checkout. To charge GST/HST you must be registered with the CRA (you can register
+voluntarily). HST is 13% in Ontario and differs by province (GST 5% plus provincial tax elsewhere); Stripe works out the rate from the buyer's address.
+
+1. Dashboard, **Settings**, **Tax** (or "Stripe Tax"), turn on **Stripe Tax**. Set your business address as the origin (Toronto, Ontario).
+2. **Registrations**, add **Canada, GST/HST** with your GST/HST number. Add other provincial registrations (for example Quebec QST, BC/Saskatchewan/Manitoba PST)
+   only if you are registered for them. Stripe collects only in places you add. Your accountant can say which apply to you.
+3. On the product (step 3 below), set the **Tax category** to the closest software category. Lou is web software delivered in the browser, so Stripe's
+   "software as a service" category is the usual choice. Confirm with your accountant.
+4. On the **price**, set **Tax behavior** to **Exclusive** (tax is added on top of $49.00). Stripe locks this once the price is used. If Lou's existing price was made
+   with another setting, make a new $49.00 CAD price with Exclusive tax and a new Payment Link, then update `LICENSE_PRICES` on the server and `PAYMENT_LINK` in the app (tell me the new ids and I will).
+5. On the **Payment Link**, turn on **Collect tax automatically** (Stripe then also asks for the buyer's billing address).
+
+Refunds from the Stripe dashboard return the tax proportionally. The key server does not care about tax: it only checks that the payment is paid and which price it was for.
 
 ## 3. The product (Test mode, then Live mode)
 

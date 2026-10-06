@@ -249,7 +249,7 @@ with filled IRS PDFs (1040, Sch 1, 1-A, 2, 3, B, 8812, 1116 per category) and a 
   "Find my key" emails the key to the paid email (always the same reply, rate limited). Mail sent from karim@bigtimedesign.ca (Hostinger SMTP), Reply-To info@bigtimedesign.ca.
 - Setup steps: STRIPE-SETUP.md; server install: DEPLOY.md "Key server". Private signing key lives only in `server/secrets/` (gitignored) and on the VPS.
 - Not done yet / needs Karim: create the Stripe product, Payment Link and webhook; put `PAYMENT_LINK` in `license/config.ts`; install the key server;
-  HST registration question; lawyer review of the new Terms (30-day refund wording is a draft decision to confirm).
+  register for GST/HST in Stripe Tax (Karim decided to charge HST, 2026-10-06; price is $49 CAD plus tax, tax behavior must be "exclusive"). Refund window is 15 days (Karim, 2026-10-06). Karim is happy with the Terms/Privacy text for now.
 - Anyone can bypass a client-side paywall by editing the code. Accepted: it is an honest paywall (source-available license forbids hosting copies).
 
 ## Known limits (the app flags each one)

@@ -45,7 +45,7 @@ export function UnlockPanel({ year }: { year: number }) {
         <div className="unlock-buy">
           <div>
             <div className="unlock-price"><span className="num">{PRICE_TEXT}</span></div>
-            <p className="small">One payment covers your {COVERS_TEXT} returns. No account, no subscription.</p>
+            <p className="small">Plus applicable tax. One payment covers your {COVERS_TEXT} returns. No account, no subscription.</p>
           </div>
           {PAYMENT_LINK
             ? <a className="btn btn-primary" href={PAYMENT_LINK}>Buy a key</a>

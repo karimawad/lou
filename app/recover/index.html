@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
+    <meta name="theme-color" content="#14161a" />
+    <title>Find my key · Lou</title>
+  </head>
+  <body>
+    <div class="stage">
+      <a class="brand" href="/">Lou</a>
+      <main class="sheet">
+        <div class="ribbon"><i></i><i></i><i></i><i></i></div>
+        <div class="part"><b>Key</b><span>Find my key</span></div>
+        <div class="inner">
+          <h1>Lost your key? We&rsquo;ll email it.</h1>
+          <p>Enter the email you used when you paid. If there is a payment under it, Lou sends your key to that address.</p>
+          <form id="form" class="inner" style="padding:0" novalidate>
+            <div class="field">
+              <label for="email">Email you paid with</label>
+              <input id="email" type="email" autocomplete="email" inputmode="email" required />
+              <p class="muted" id="hint">We only use it to find your payment and send the key. Lou keeps no list of emails.</p>
+            </div>
+            <div><button class="btn" id="go" type="submit">Email me my key</button></div>
+          </form>
+          <div id="result" role="status" aria-live="polite"></div>
+          <p class="muted">Your key is also saved in Lou on the computer where you added it, and inside any backup file you made. Open Lou, then &ldquo;Your data&rdquo;, to check. <a href="/app/">Open Lou</a></p>
+        </div>
+      </main>
+    </div>
+    <script type="module" src="/src/pages/recover.ts"></script>
+  </body>
+</html>

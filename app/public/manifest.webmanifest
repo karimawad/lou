@@ -1,7 +1,7 @@
 {
   "name": "Lou: Canadian slips to US tax forms",
   "short_name": "Lou",
-  "description": "Turns your Canadian tax slips into a filled US tax return. Free, and nothing leaves your device.",
+  "description": "Turns your Canadian tax slips into a filled US tax return. Nothing leaves your device.",
   "id": "/app/",
   "start_url": "/app/",
   "scope": "/app/",

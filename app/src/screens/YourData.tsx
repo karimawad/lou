@@ -8,6 +8,7 @@ import { installHint, usePwa } from '../pwa';
 import { Lock } from '../ui/icons';
 import { BackupPanel, FolderSync } from './Backup';
 import { InstallLou } from './Install';
+import { LicenseSection } from './Unlock';
 
 /** Small status card for the rail: says where the data lives and opens the full panel. */
 export function YourDataCard({ onOpen }: { onOpen: () => void }) {
@@ -48,6 +49,8 @@ export function YourDataDialog({ open, onClose }: { open: boolean; onClose: () =
           {' '}<a href="/legal/privacy.html" target="_blank" rel="noopener">Privacy policy</a>
         </p>
 
+        <LicenseSection />
+
         <section className="data-section">
           <h3>Back up and restore</h3>
           <p className="small muted">A backup file holds everything for all years. Use it to move to another browser or computer, or as a safety copy.</p>
@@ -70,7 +73,7 @@ export function YourDataDialog({ open, onClose }: { open: boolean; onClose: () =
 
         <section className="data-section">
           <h3>Clear this device</h3>
-          <p className="small muted">Removes everything Lou saved in this browser. Save a backup first if you want to keep it.</p>
+          <p className="small muted">Removes everything Lou saved in this browser, except your key. Save a backup first if you want to keep your work.</p>
           {confirmClear ? (
             <div style={{ display: 'flex', gap: 'var(--s-3)', alignItems: 'center' }}>
               <button type="button" className="linkish danger" onClick={async () => { await reset(); setConfirmClear(false); onClose(); }}>Yes, clear everything</button>

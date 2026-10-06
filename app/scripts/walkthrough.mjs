@@ -1,12 +1,15 @@
 // Drives Lou like a user and screenshots each step. Usage: node scripts/walkthrough.mjs [baseUrl]
 import { chromium } from 'playwright-core';
-import { mkdirSync } from 'node:fs';
+import { existsSync, mkdirSync, readFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 
 const BASE = process.argv[2] ?? 'http://localhost:5179/app/';
 const YEAR = Number(process.env.YEAR ?? 2025);
 const OUT = resolve('../research/render_check/ui' + (process.env.YEAR ? '-' + process.env.YEAR : ''));
 const FIX = resolve('src/extract/__fixtures__');
+// A key for the paywall check: LOU_TEST_KEY, or the one made by `node server/mint-cli.mjs` into server/secrets/.
+const KEY_FILE = resolve('../server/secrets/test-key-2023-2025.txt');
+const KEY = process.env.LOU_TEST_KEY ?? (existsSync(KEY_FILE) ? readFileSync(KEY_FILE, 'utf8').trim() : '');
 mkdirSync(OUT, { recursive: true });
 
 const browser = await chromium.launch({ executablePath: 'C:/Program Files/Google/Chrome/Application/chrome.exe', headless: true });
@@ -86,6 +89,17 @@ async function run(name, viewport) {
   await shot('5-questions');
   await page.getByRole('button', { name: 'See my US return' }).click();
   await page.waitForTimeout(500);
+  await shot('6-results-locked');
+  // Without a key nothing can be downloaded; a pasted key unlocks it.
+  if ((await page.getByRole('button', { name: 'Download PDF' }).count()) !== 0) errors.push(`${name}: download offered without a key`);
+  if (!KEY) throw new Error('No test key: set LOU_TEST_KEY or run server/mint-cli.mjs (see walkthrough.mjs)');
+  await page.getByText('I already have a key').click();
+  await page.getByLabel('Paste your key').fill('LOU1.not-a-real-key');
+  await page.getByRole('button', { name: 'Add key' }).click();
+  if (!(await page.getByRole('alert').filter({ hasText: "isn't valid" }).count())) errors.push(`${name}: a bad key was not rejected`);
+  await page.getByLabel('Paste your key').fill(KEY);
+  await page.getByRole('button', { name: 'Add key' }).click();
+  await page.getByRole('button', { name: 'Download PDF' }).first().waitFor({ timeout: 5000 });
   await shot('6-results');
 
   const download = page.waitForEvent('download', { timeout: 60000 });

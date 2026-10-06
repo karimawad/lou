@@ -14,6 +14,7 @@ import { BackupPanel, FolderSync } from './Backup';
 import { FbarWorksheet } from './FbarWorksheet';
 import { MappingGuide } from './MappingGuide';
 import { analyzeAccounts } from '../tax/accounts';
+import { LockedFold, UnlockPanel, useUnlocked } from './Unlock';
 
 export function Results() {
   const { state, go } = useApp();
@@ -22,6 +23,7 @@ export function Results() {
   const [building, setBuilding] = useState(false);
   const [buildError, setBuildError] = useState<string>();
   const hasNoa = state.slips.some((s) => s.type === 'NOA');
+  const { unlocked } = useUnlocked(state.year ?? 0);
   usePrintOpensFolds();
 
   if (!input || !computed) return null;
@@ -54,6 +56,7 @@ export function Results() {
   flags.sort((a, b) => rank[a.severity] - rank[b.severity]);
 
   const download = async (kind: 'combined' | 'packet3520' | string) => {
+    if (!unlocked) return; // the buttons are not shown without a key; this keeps any other path closed too
     setBuilding(true); setBuildError(undefined);
     try {
       const { fillReturn, mergeForms } = await import('../pdf/fill');
@@ -160,6 +163,8 @@ export function Results() {
         )}
       </section>
 
+      {!unlocked && <UnlockPanel year={year} />}
+      {unlocked && (
       <section className="section no-print">
         <div className="section-head"><h2>Your forms</h2>
           <p>Official {year} IRS PDFs, filled in. Fields stay editable if you want to change anything.</p>
@@ -193,6 +198,7 @@ export function Results() {
             {buildError && <Callout tone="block" title="The PDF couldn't be built">{buildError}</Callout>}
           </div>
       </section>
+      )}
 
       <section className="section no-print">
         <div className="section-head"><h2>How to file</h2></div>
@@ -216,8 +222,9 @@ export function Results() {
         </p>
       </section>
 
-      <FbarWorksheet state={state} />
+      {unlocked ? <FbarWorksheet state={state} /> : <LockedFold title="FBAR worksheet" meta="Every value FinCEN asks for, account by account" />}
 
+      {unlocked ? (
       <details className="section fold" id="mapping-guide">
         <summary>
           <span><span className="fold-title">Mapping guide</span>
@@ -230,6 +237,7 @@ export function Results() {
         </div>
         <MappingGuide state={state} result={r} />
       </details>
+      ) : <LockedFold title="Mapping guide" meta="Every Canadian amount, where it went on your US return, and why" />}
 
       <section className="section no-print">
         <div className="section-head">

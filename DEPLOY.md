@@ -1,6 +1,7 @@
 # Deploying Lou
 
-Lou is static files. There is no server code, no database and no secrets. Hosting is a folder of files behind HTTPS.
+Lou is static files behind HTTPS, plus one small key server (`server/`) that only handles payments. The key server never sees tax data.
+The app works without it: only buying a key and "Find my key" need it.
 
 Target: **https://lou.bigtimedesign.ca** on the Hostinger VPS (OpenLiteSpeed), next to MTGSL.
 Files: `deploy.sh` in the repo root (the one command that does a release) and `deploy/vhconf.conf` (the web server settings).
@@ -75,3 +76,47 @@ caches both and falls back to `/app/index.html` for offline visits under `/app/`
 file handler are `/app/`, so an installed Lou opens straight into the tool. `/legal/*` stays at the root. Host rules: `/`, `/app/`
 and their `index.html` must not be cached long (already in `_headers`; copy the same into `deploy/vhconf.conf` if you use the VPS).
 People who installed Lou before 1.2.0 (scope `/`) keep working but are offered the new scope only after a reinstall.
+
+## Key server (payments)
+
+The key server turns a paid Stripe checkout into a signed key and emails it (see `STRIPE-SETUP.md` for the Stripe side). It is a
+small Node program (`server/`, one dependency: nodemailer) that listens on 127.0.0.1:3001; the web server proxies `/api/` to it
+(already in `deploy/vhconf.conf`). It keeps no database and logs only method, path and status.
+
+One-time setup on the VPS:
+
+1. **User and folders.**
+   ```
+   sudo useradd --system --home /var/www/lou --shell /usr/sbin/nologin lou
+   sudo mkdir -p /etc/lou-license
+   ```
+2. **Signing key and settings (copy from your computer).** Both files were made on your computer in `server/secrets/` (gitignored, never in git).
+   In PowerShell on your computer (replace USER and VPS_IP):
+   ```
+   scp C:\Users\karim\Documents\Projects\Lou\server\secrets\license-ed25519.pem USER@VPS_IP:/tmp/
+   scp C:\Users\karim\Documents\Projects\Lou\server\secrets\lou-license.env USER@VPS_IP:/tmp/
+   ```
+   Then on the VPS:
+   ```
+   sudo mv /tmp/license-ed25519.pem /etc/lou-license/ed25519.pem
+   sudo chown -R lou:lou /etc/lou-license && sudo chmod 700 /etc/lou-license && sudo chmod 600 /etc/lou-license/ed25519.pem
+   sudo mv /tmp/lou-license.env /etc/lou-license.env
+   sudo chown root:root /etc/lou-license.env && sudo chmod 600 /etc/lou-license.env
+   ```
+   Keep a backup of the private key somewhere safe (a password manager). The matching public key is already in `app/src/license/key.ts`.
+3. **Settings.** `/etc/lou-license.env` is the file you just copied (template: `server/.env.example`). To change a value later:
+   `sudo nano /etc/lou-license.env`, then `sudo systemctl restart lou-license`.
+4. **Install and start.**
+   ```
+   cd /var/www/lou/server && npm ci --omit=dev
+   sudo cp /var/www/lou/deploy/lou-license.service /etc/systemd/system/
+   sudo systemctl daemon-reload && sudo systemctl enable --now lou-license
+   ```
+   So `./deploy.sh` can restart it, allow that one command: `sudo visudo -f /etc/sudoers.d/lou` and add
+   `<you> ALL=(root) NOPASSWD: /usr/bin/systemctl restart lou-license`.
+5. **Web server.** Copy the updated `deploy/vhconf.conf` over the vhost config (it adds the `/api/` proxy), graceful restart.
+6. **Log retention (matches the privacy policy).** In `/etc/systemd/journald.conf` set `MaxRetentionSec=14day`, then `sudo systemctl restart systemd-journald`.
+7. **Check.** `curl -s https://lou.bigtimedesign.ca/api/health` answers `{"ok":true}`. `sudo journalctl -u lou-license -n 20` shows no errors.
+
+After that, each release is just `./deploy.sh` (it installs the server's dependencies and restarts it).
+If the key server is down, the rest of Lou is unaffected; Stripe retries payment notifications for days, so buyers still get their key by email.

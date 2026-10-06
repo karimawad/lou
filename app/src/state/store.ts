@@ -93,6 +93,8 @@ export interface AppState {
   carryDismissed: string[];
   /** Other tax years' data, put away while this year is active (multi-year workspace). */
   years: Partial<Record<TaxYear, YearData>>;
+  /** Lou keys bought with Stripe (see license/key.ts). Shared by all years, kept in backups, survive "Clear my data". */
+  licenses: string[];
   savedAt?: number;
 }
 
@@ -182,6 +184,7 @@ export function initialState(): AppState {
     carryFrom: null,
     carryDismissed: [],
     years: {},
+    licenses: [],
   };
 }
 

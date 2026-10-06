@@ -1,0 +1,23 @@
+# systemd unit for Lou's key server. Install: sudo cp deploy/lou-license.service /etc/systemd/system/ (see DEPLOY.md).
+[Unit]
+Description=Lou key server (Stripe payment to signed key, emailed)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+User=lou
+Group=lou
+WorkingDirectory=/var/www/lou/server
+EnvironmentFile=/etc/lou-license.env
+ExecStart=/usr/bin/node index.mjs
+Restart=always
+RestartSec=3
+# It only needs to listen on localhost and reach Stripe and the mail server.
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+PrivateTmp=true
+ReadOnlyPaths=/var/www/lou/server /etc/lou-license
+
+[Install]
+WantedBy=multi-user.target

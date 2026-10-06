@@ -3,6 +3,7 @@ import './app.css';
 import './brand.css';
 import { AppProvider, useApp } from './state/context';
 import { PwaBanners } from './screens/Install';
+import { LicenseNotice } from './screens/Unlock';
 import { YourDataCard, YourDataDialog } from './screens/YourData';
 import { STEPS, type AppState, type StepId } from './state/store';
 import { Mark, Check } from './ui/icons';
@@ -88,6 +89,7 @@ function Shell() {
         </header>
         <main className="main">
           <PwaBanners />
+          <LicenseNotice />
           <Screen />
           <Footer />
         </main>

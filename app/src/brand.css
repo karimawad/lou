@@ -123,3 +123,15 @@ details.more { border-top: 1px solid var(--ink); }
   .progress > span { background: var(--poppy); }
 }
 @media (prefers-reduced-motion: reduce) { .choice, .btn-primary { transition: none; transform: none; } }
+
+/* ---------- Unlock (the key paywall at the end) ---------- */
+.unlock-card { display: grid; gap: var(--s-4); padding: var(--s-6); border: 2px solid var(--ink); background: var(--surface); box-shadow: 6px 6px 0 var(--sun); }
+.unlock-head { display: grid; grid-template-columns: auto 1fr; gap: var(--s-4); align-items: start; }
+.unlock-head h2 { margin-bottom: var(--s-1); }
+.unlock-icon { width: 40px; height: 40px; display: grid; place-items: center; background: var(--sun); border: 1.5px solid var(--ink); box-shadow: 3px 3px 0 var(--ink); }
+.unlock-buy { display: flex; align-items: center; justify-content: space-between; gap: var(--s-4); flex-wrap: wrap; padding: var(--s-4); background: var(--shade); border: 1px solid var(--ink); }
+.unlock-price { font-size: 2.4rem; font-weight: 700; line-height: 1; color: var(--blue); letter-spacing: -0.04em; margin-bottom: var(--s-1); }
+.unlock textarea.input { font-family: var(--mono); font-size: 0.875rem; resize: vertical; min-height: 84px; word-break: break-all; }
+.fold-locked { border: 1px dashed var(--ink); background: var(--sunk); }
+.fold-locked-row { display: flex; align-items: center; justify-content: space-between; gap: var(--s-3); padding: var(--s-4) var(--s-5); }
+@media (max-width: 640px) { .unlock-card { padding: var(--s-4); } .unlock-head { grid-template-columns: 1fr; } }

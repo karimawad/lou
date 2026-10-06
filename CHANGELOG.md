@@ -2,6 +2,12 @@
 
 Versions follow MAJOR.MINOR.PATCH. The version shows in the footer of the app. Bump it in `app/package.json`.
 
+## 1.3.0 (2026-10-06)
+
+Paid keys. Everything up to the results screen stays free; a one-time $49 CAD key (2023 to 2025) unlocks the filled forms, review package,
+mapping guide and FBAR worksheet. Keys are signed (Ed25519) and checked on the device, so Lou still works offline. New `server/` key server
+(Stripe payment to key, emailed; "Find my key"), `/thanks/` and `/recover/` pages, updated Terms and Privacy. See STRIPE-SETUP.md.
+
 ## 1.2.0 (2026-10-06)
 
 Landing page at `/`, the tool moves to `/app/`. New look across the app (Form LOU): Archivo and Courier Prime bundled in `src/fonts`,

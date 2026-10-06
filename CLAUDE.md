@@ -232,10 +232,25 @@ with filled IRS PDFs (1040, Sch 1, 1-A, 2, 3, B, 8812, 1116 per category) and a 
 - Look ("Form LOU"): a printed tax form. Tokens in `index.css` (paper, ink, shaded entry boxes `--shade`, ballpoint `--blue`, print
   inks `--sun/--poppy/--sky`, spruce accent), skin in `src/brand.css` layered over `app.css`. Archivo (variable width) + Courier Prime
   (amounts) are self-hosted in `src/fonts` (Latin subset): never load a font service.
-- Landing copy is Karim's (hero, how it works, why Lou, $49 pricing). "Start with Lou" goes to `/app/`. A "Continue your return"
+- Landing copy is Karim's (hero, how it works, why Lou, $49 CAD pricing, edited 2026-10-06 to "one payment, 2023 to 2025"). "Start with Lou" goes to `/app/`. A "Continue your return"
   button shows when saved state has a year. FAQ link not built (no FAQ page exists).
-- OPEN: the landing page and its copy say $49 per tax year, but the app is free, has no payment, and `legal/terms.html` says "Lou
-  is free". Needs a decision (payment provider = a new server/cloud call, see non-negotiable 1) before launch.
+
+## Paid keys (2026-10-06, v1.3.0; Karim decided)
+
+- Pricing: $49 CAD once, one key covers tax years 2023-2025; 2026+ needs a new key. Gate is at the END: everything through the results
+  screen is free; a key unlocks the filled PDFs, review package, mapping guide, FBAR worksheet (`screens/Unlock.tsx`, gated in Results.tsx).
+- Key = `LOU1.<payload>.<Ed25519 signature>`, minted by `server/` after Stripe payment, verified OFFLINE in the app (`license/key.ts`,
+  public keys by id in `PUBLIC_KEYS`). Deterministic (same payment, same key), no database. Stored in `state.licenses`: kept in backups,
+  survives "Clear my data". Arrives via `/app/#key=...` (thank-you page or email link), then the hash is removed.
+- Exception to non-negotiable 1, accepted by Karim: ONE small key server on his Hostinger VPS (`server/`, proxied at `/api/`). It sees
+  only payment/email data, never tax data. The app itself never calls it (CSP `connect-src 'self'` unchanged); only `/thanks/` and
+  `/recover/` do. If it is down, existing keys and the rest of Lou work; Stripe webhook retries email the key later.
+- Stripe: Payment Link redirects to `/thanks/?session_id={CHECKOUT_SESSION_ID}`; webhook `/api/webhook`; restricted read-only key.
+  "Find my key" emails the key to the paid email (always the same reply, rate limited). Mail sent from karim@bigtimedesign.ca (Hostinger SMTP), Reply-To info@bigtimedesign.ca.
+- Setup steps: STRIPE-SETUP.md; server install: DEPLOY.md "Key server". Private signing key lives only in `server/secrets/` (gitignored) and on the VPS.
+- Not done yet / needs Karim: create the Stripe product, Payment Link and webhook; put `PAYMENT_LINK` in `license/config.ts`; install the key server;
+  HST registration question; lawyer review of the new Terms (30-day refund wording is a draft decision to confirm).
+- Anyone can bypass a client-side paywall by editing the code. Accepted: it is an honest paywall (source-available license forbids hosting copies).
 
 ## Known limits (the app flags each one)
 

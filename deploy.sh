@@ -44,6 +44,14 @@ main() {
   ln -sfn "$RELEASE" "$ROOT/current.new"
   mv -Tf "$ROOT/current.new" "$ROOT/current"
 
+  echo "Key server (server/)..."
+  (cd "$ROOT/server" && npm ci --omit=dev --no-audit --no-fund)
+  if systemctl list-unit-files 2>/dev/null | grep -q '^lou-license.service'; then
+    sudo -n systemctl restart lou-license && echo "Restarted lou-license." || echo "NOTE: run 'sudo systemctl restart lou-license' yourself."
+  else
+    echo "NOTE: lou-license.service is not installed yet (see DEPLOY.md). Payments will not work until it is."
+  fi
+
   echo "Removing old releases (keeping 5)..."
   ls -1dt "$ROOT"/releases/* | tail -n +6 | xargs -r rm -rf
 

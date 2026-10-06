@@ -170,3 +170,5 @@ a{color:inherit}
 .foot a{text-underline-offset:3px}
 .foot .fine{margin:0;max-width:none}
 
+
+.muted-line{color:var(--ink2);font-weight:600}

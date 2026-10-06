@@ -2,15 +2,18 @@
 // presence test with housing) and checks the questions and results screens in a real browser.
 // Usage: node scripts/sections-check.mjs [baseUrl]
 import { chromium } from 'playwright-core';
-import { mkdirSync } from 'node:fs';
+import { existsSync, mkdirSync, readFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 
 const BASE = process.argv[2] ?? 'http://localhost:5179/app/';
 const OUT = resolve('../research/render_check/ui-sections');
+const KEY_FILE = resolve('../server/secrets/test-key-2023-2025.txt');
+const KEY = process.env.LOU_TEST_KEY ?? (existsSync(KEY_FILE) ? readFileSync(KEY_FILE, 'utf8').trim() : '');
 mkdirSync(OUT, { recursive: true });
 
 const slip = (id, type, boxes, extra = {}) => ({ id, type, owner: 'taxpayer', payer: extra.payer ?? 'Maple Co', year: 2025, boxes, reads: {}, edited: [], confirmed: true, ...extra });
 const state = {
+  licenses: [KEY],
   version: 1, step: 'questions', year: 2025, filingStatus: 'single', spouseIsUsPerson: null,
   taxpayer: { firstName: 'Sam', lastName: 'Lee', ssn: '123-45-6789', dateOfBirth: '1985-05-01', occupation: 'Designer' },
   spouse: { firstName: '', lastName: '', ssn: '', dateOfBirth: '' }, dependents: [],

@@ -1,0 +1,37 @@
+/* Small stand-alone pages (thank you, find my key). Same Form LOU look as the landing page and the app. */
+:root {
+  --paper: #f6f4ec; --desk: #e2dfd3; --ink: #14161a; --ink2: #444b53; --shade: #dde5e5;
+  --blue: #1d3aa6; --spruce: #1c5a62; --sun: #f4b82e; --poppy: #e8553e; --sky: #9ccbea;
+  --press: cubic-bezier(.23, 1, .32, 1);
+}
+* { box-sizing: border-box; }
+body { margin: 0; min-height: 100dvh; background: var(--desk); color: var(--ink); font-family: 'Archivo', system-ui, sans-serif; font-size: 16px; line-height: 1.5; }
+:focus-visible { outline: 3px solid var(--blue); outline-offset: 3px; }
+.stage { max-width: 600px; margin: 0 auto; padding: 28px 16px 64px; }
+.brand { display: inline-block; font-weight: 900; font-size: 26px; letter-spacing: -0.03em; font-stretch: 90%; color: var(--ink); text-decoration: none; margin-bottom: 18px; }
+.sheet { background: var(--paper); border-top: 6px solid var(--ink); box-shadow: 8px 8px 0 var(--sun), 0 30px 50px -36px #1b1b1a77; }
+.ribbon { display: grid; grid-template-columns: 3fr 2fr 2fr 1.4fr; height: 10px; }
+.ribbon i:nth-child(1) { background: var(--poppy); } .ribbon i:nth-child(2) { background: var(--sun); }
+.ribbon i:nth-child(3) { background: var(--spruce); } .ribbon i:nth-child(4) { background: var(--sky); }
+.part { display: flex; background: var(--ink); color: var(--paper); font-weight: 700; font-size: 14px; font-stretch: 90%; }
+.part b { background: var(--sun); color: var(--ink); padding: 6px 16px; text-transform: uppercase; letter-spacing: .05em; font-weight: 900; border-right: 2px solid var(--ink); }
+.part span { padding: 6px 14px; }
+.inner { padding: 28px 26px 30px; display: grid; gap: 16px; }
+h1 { margin: 0; font-size: clamp(30px, 6vw, 44px); line-height: 1; font-weight: 900; font-stretch: 88%; letter-spacing: -0.03em; word-spacing: .06em; text-wrap: balance; }
+p { margin: 0; text-wrap: pretty; }
+.muted { color: var(--ink2); font-size: 14px; }
+label { font-weight: 700; font-stretch: 95%; }
+input[type=email] { width: 100%; min-height: 48px; padding: 10px 12px; border: 1px solid var(--ink); background: var(--shade); font: inherit; color: var(--ink); border-radius: 0; }
+input[type=email]:focus { outline: none; border-color: var(--blue); background: #fbfaf5; box-shadow: 0 0 0 2px var(--blue); }
+.field { display: grid; gap: 6px; }
+.btn { display: inline-flex; align-items: center; justify-content: center; gap: 10px; min-height: 48px; padding: 0 22px; border: 0; background: var(--ink); color: var(--paper); font: inherit; font-weight: 800; font-stretch: 92%; cursor: pointer; text-decoration: none; box-shadow: 3px 3px 0 var(--sun); transition: transform 160ms var(--press), box-shadow 160ms var(--press); }
+.btn:hover { transform: translate(-1px, -1px); box-shadow: 4px 4px 0 var(--sun); }
+.btn:active { transform: translate(3px, 3px); box-shadow: 0 0 0 var(--sun); }
+.btn:disabled { opacity: .5; cursor: not-allowed; box-shadow: none; transform: none; }
+.note { padding: 14px 16px; border: 1px solid var(--ink); background: #fff; }
+.note.ok { border-color: var(--spruce); background: #e6f0ee; }
+.note.bad { border-color: #a63a22; background: #fbeae4; }
+a { color: var(--spruce); text-underline-offset: 3px; }
+.spin { width: 18px; height: 18px; border: 3px solid var(--ink); border-right-color: transparent; border-radius: 50%; display: inline-block; animation: spin .8s linear infinite; vertical-align: -3px; margin-right: 8px; }
+@keyframes spin { to { transform: rotate(360deg); } }
+@media (prefers-reduced-motion: reduce) { .spin { animation-duration: 3s; } .btn { transition: none; } }

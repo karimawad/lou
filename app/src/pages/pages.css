@@ -21,8 +21,8 @@ h1 { margin: 0; font-size: clamp(30px, 6vw, 44px); line-height: 1; font-weight: 
 p { margin: 0; text-wrap: pretty; }
 .muted { color: var(--ink2); font-size: 14px; }
 label { font-weight: 700; font-stretch: 95%; }
-input[type=email] { width: 100%; min-height: 48px; padding: 10px 12px; border: 1px solid var(--ink); background: var(--shade); font: inherit; color: var(--ink); border-radius: 0; }
-input[type=email]:focus { outline: none; border-color: var(--blue); background: #fbfaf5; box-shadow: 0 0 0 2px var(--blue); }
+input[type=email], input[type=text], textarea { width: 100%; min-height: 48px; padding: 10px 12px; border: 1px solid var(--ink); background: var(--shade); font: inherit; color: var(--ink); border-radius: 0; }
+input[type=email]:focus, input[type=text]:focus, textarea:focus { outline: none; border-color: var(--blue); background: #fbfaf5; box-shadow: 0 0 0 2px var(--blue); }
 .field { display: grid; gap: 6px; }
 .btn { display: inline-flex; align-items: center; justify-content: center; gap: 10px; min-height: 48px; padding: 0 22px; border: 0; background: var(--ink); color: var(--paper); font: inherit; font-weight: 800; font-stretch: 92%; cursor: pointer; text-decoration: none; box-shadow: 3px 3px 0 var(--sun); transition: transform 160ms var(--press), box-shadow 160ms var(--press); }
 .btn:hover { transform: translate(-1px, -1px); box-shadow: 4px 4px 0 var(--sun); }
@@ -35,3 +35,8 @@ a { color: var(--spruce); text-underline-offset: 3px; }
 .spin { width: 18px; height: 18px; border: 3px solid var(--ink); border-right-color: transparent; border-radius: 50%; display: inline-block; animation: spin .8s linear infinite; vertical-align: -3px; margin-right: 8px; }
 @keyframes spin { to { transform: rotate(360deg); } }
 @media (prefers-reduced-motion: reduce) { .spin { animation-duration: 3s; } .btn { transition: none; } }
+
+textarea { min-height: 160px; resize: vertical; line-height: 1.5; }
+[aria-invalid='true'] { border-color: #a63a22 !important; box-shadow: 0 0 0 1px #a63a22; }
+.field-error { color: #a63a22; font-size: 14px; font-weight: 600; }
+.hp { position: absolute; left: -10000px; width: 1px; height: 1px; overflow: hidden; }

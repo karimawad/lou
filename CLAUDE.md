@@ -247,6 +247,9 @@ with filled IRS PDFs (1040, Sch 1, 1-A, 2, 3, B, 8812, 1116 per category) and a 
   `/recover/` do. If it is down, existing keys and the rest of Lou work; Stripe webhook retries email the key later.
 - Stripe: Payment Link redirects to `/thanks/?session_id={CHECKOUT_SESSION_ID}`; webhook `/api/webhook`; restricted read-only key.
   "Find my key" emails the key to the paid email (always the same reply, rate limited). Mail sent from karim@bigtimedesign.ca (Hostinger SMTP), Reply-To info@bigtimedesign.ca.
+- "Report a problem" = standalone `/support/` page (not in the app, so the app stays zero-network) -> `POST /api/support` on the key server -> emails
+  `SUPPORT_TO` (karim@bigtimedesign.ca), reply-to = sender. Honeypot field + too-fast check + rate limits (5/hour/IP, 3/day/email); nothing stored.
+  Footer links: Terms, Privacy, Notices, Report a problem, Contact (mailto info@). No Version/Source links.
 - Setup steps: STRIPE-SETUP.md; server install: DEPLOY.md "Key server". Private signing key lives only in `server/secrets/` (gitignored) and on the VPS.
 - Not done yet / needs Karim: create the Stripe product, Payment Link and webhook; put `PAYMENT_LINK` in `license/config.ts`; install the key server;
   register for GST/HST in Stripe Tax (Karim decided to charge HST, 2026-10-06; price is $49 CAD plus tax, tax behavior must be "exclusive"). Refund window is 15 days (Karim, 2026-10-06). Karim is happy with the Terms/Privacy text for now.

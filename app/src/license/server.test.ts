@@ -19,7 +19,11 @@ const stripe = {
   session: async (id: string) => { const s = sessions[id]; if (!s) throw Object.assign(new Error('nope'), { status: 404 }); return s; },
   paidSessionsFor: async (email: string) => (email.toLowerCase() === 'buyer@example.com' ? [SESSION_ID] : []),
 };
-const mail = { sendKey: async (to: string, key: string, years: number[]) => { sent.push({ to, key, years }); } };
+const support: { to: string; replyTo: string; subject: string; text: string }[] = [];
+const mail = {
+  sendKey: async (to: string, key: string, years: number[]) => { sent.push({ to, key, years }); },
+  sendSupport: async (m: { to: string; replyTo: string; subject: string; text: string }) => { support.push(m); },
+};
 
 let server: Server;
 let base = '';
@@ -27,7 +31,7 @@ const post = (path: string, body: unknown, headers: Record<string, string> = {})
   fetch(base + path, { method: 'POST', headers: { 'Content-Type': 'application/json', ...headers }, body: typeof body === 'string' ? body : JSON.stringify(body) });
 
 beforeAll(async () => {
-  const handler = createHandler({ stripe, mail, privateKeyPem: pair.privateKeyPem, kid: 'k1', priceYears: { price_lou: [2023, 2024, 2025] }, webhookSecret: SECRET, siteUrl: 'https://lou.example', log: () => {} });
+  const handler = createHandler({ stripe, mail, privateKeyPem: pair.privateKeyPem, kid: 'k1', priceYears: { price_lou: [2023, 2024, 2025] }, webhookSecret: SECRET, siteUrl: 'https://lou.example', supportTo: 'support@lou.example', log: () => {} });
   server = createServer(handler);
   await new Promise<void>((r) => server.listen(0, '127.0.0.1', r));
   base = `http://127.0.0.1:${(server.address() as AddressInfo).port}`;
@@ -81,5 +85,46 @@ describe('key server', () => {
     const codes: number[] = [];
     for (let i = 0; i < 5; i++) codes.push((await post('/api/recover', { email: 'spam@example.com' })).status);
     expect(codes).toContain(429);
+  });
+
+  describe('report a problem form', () => {
+    const good = { email: 'Reader@Example.com', subject: 'The PDF will not download', message: 'I clicked Download PDF and nothing happened in Safari.', website: '', ms: 9000 };
+
+    it('emails the support inbox with the sender as reply-to, as plain text', async () => {
+      support.length = 0;
+      const res = await post('/api/support', good);
+      expect(res.status).toBe(200);
+      expect(support).toHaveLength(1);
+      expect(support[0]).toMatchObject({ to: 'support@lou.example', replyTo: 'reader@example.com', subject: '[Lou] The PDF will not download' });
+      expect(support[0].text).toContain('Safari');
+    });
+
+    it('rejects missing or bad fields with a message for each', async () => {
+      support.length = 0;
+      const res = await post('/api/support', { ...good, email: 'nope', subject: 'x', message: 'short' });
+      expect(res.status).toBe(400);
+      const { errors } = (await res.json()) as { errors: Record<string, string> };
+      expect(Object.keys(errors).sort()).toEqual(['email', 'message', 'subject']);
+      expect(support).toHaveLength(0);
+    });
+
+    it('cannot be used to inject email headers through the subject', async () => {
+      support.length = 0;
+      await post('/api/support', { ...good, email: 'headers@example.com', subject: 'Hello\r\nBcc: victim@example.com' });
+      expect(support[0].subject).not.toMatch(/[\r\n]/);
+    });
+
+    it('quietly drops bot submissions (hidden field filled, or sent faster than a person can type)', async () => {
+      support.length = 0;
+      expect((await post('/api/support', { ...good, website: 'http://spam.example' })).status).toBe(200);
+      expect((await post('/api/support', { ...good, ms: 200 })).status).toBe(200);
+      expect(support).toHaveLength(0);
+    });
+
+    it('limits how many a person can send', async () => {
+      const codes: number[] = [];
+      for (let i = 0; i < 7; i++) codes.push((await post('/api/support', { ...good, email: `sender${i}@example.com` })).status);
+      expect(codes).toContain(429);
+    });
   });
 });

@@ -9,6 +9,10 @@ export function mailer(env) {
   });
   const address = env.MAIL_FROM ?? env.SMTP_USER;
   return {
+    /** A message from the support form, to the support inbox. Plain text only; replying goes straight to the sender. */
+    async sendSupport({ to, replyTo, subject, text }) {
+      await transport.sendMail({ from: `Lou support form <${address}>`, to, replyTo, subject, text });
+    },
     async sendKey(to, key, years, siteUrl) {
       const range = years.length > 1 ? `${years[0]} to ${years.at(-1)}` : String(years[0]);
       const link = `${siteUrl}/app/#key=${key}`;

@@ -2,13 +2,14 @@
 //   POST /api/claim    {session_id}  after Stripe Checkout: confirms the payment with Stripe and returns the key.
 //   POST /api/webhook                Stripe tells us a payment completed: emails the key (the backup path if /claim never ran).
 //   POST /api/recover  {email}       "Find my key": emails the key for any paid checkout under that email. Always answers the same.
+//   POST /api/support  {email, subject, message}   the "Report a problem" form: emails the support inbox (nothing is stored).
 // It never sees tax data (the app does not talk to it). No database: Stripe is the record, keys are deterministic.
 // Logs: method, path and status only. No emails, keys or bodies.
 import { mintKey } from './license.mjs';
 import { rateLimiter } from './limits.mjs';
 import { verifyWebhook, yearsForSession } from './stripe.mjs';
 
-export function createHandler({ stripe, mail, privateKeyPem, kid, priceYears, webhookSecret, siteUrl, allow = rateLimiter(), log = console.log }) {
+export function createHandler({ stripe, mail, privateKeyPem, kid, priceYears, webhookSecret, siteUrl, supportTo = 'karim@bigtimedesign.ca', allow = rateLimiter(), log = console.log }) {
   const keyFor = (session, years) => mintKey({ privateKeyPem, kid, years, sessionId: session.id, paidAt: session.created });
 
   async function readBody(req, limit = 64 * 1024) {
@@ -63,6 +64,27 @@ export function createHandler({ stripe, mail, privateKeyPem, kid, priceYears, we
       const work = (async () => { for (const id of await stripe.paidSessionsFor(addr)) await emailKeyForSession(id); })().catch(() => { /* nothing to tell the visitor */ });
       json(res, 200, { ok: true }); // the same answer whether or not a payment exists
       await work;
+    },
+
+    'POST /api/support': async (req, res) => {
+      const b = JSON.parse((await readBody(req)) || '{}');
+      if (b.website) return json(res, 200, { ok: true }); // honeypot field: a person never sees it, a form-filling bot does
+      const text = (v) => (typeof v === 'string' ? v : '');
+      const email = text(b.email).trim().toLowerCase();
+      const subject = text(b.subject).replace(/[\r\n]+/g, ' ').trim();
+      const message = text(b.message).replace(/\r\n/g, '\n').trim();
+      const errors = {};
+      if (!/^[^\s@]{1,64}@[^\s@]{1,255}\.[^\s@]{2,}$/.test(email)) errors.email = 'Enter a full email address.';
+      if (subject.length < 3 || subject.length > 120) errors.subject = 'Give it a short subject (3 to 120 characters).';
+      if (message.length < 10 || message.length > 4000) errors.message = 'Describe the problem (10 to 4000 characters).';
+      if (Object.keys(errors).length) return json(res, 400, { error: 'invalid', errors });
+      if (Number(b.ms) < 1500) return json(res, 200, { ok: true }); // filled in faster than a person can: drop it quietly
+      if (!allow(`support-ip:${clientIp(req)}`, 5, 3600_000) || !allow(`support-email:${email}`, 3, 24 * 3600_000)) return json(res, 429, { error: 'slow_down' });
+      try {
+        const body = `From: ${email}\n\n${message}\n\n--\nSent from the Lou "Report a problem" form.`;
+        await mail.sendSupport({ to: supportTo, replyTo: email, subject: `[Lou] ${subject}`, text: body });
+      } catch { return json(res, 502, { error: 'send_failed' }); }
+      json(res, 200, { ok: true });
     },
 
     'GET /api/health': (_req, res) => json(res, 200, { ok: true }),

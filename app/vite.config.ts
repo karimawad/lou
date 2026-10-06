@@ -80,9 +80,9 @@ function serviceWorker(): Plugin {
 }
 
 // https://vite.dev/config/
-// Pages: the landing page at / (index.html), the tool at /app/, and two small pages for keys: /thanks/ and /recover/.
+// Pages: the landing page at / (index.html), the tool at /app/, two small pages for keys (/thanks/, /recover/) and /support/.
 export default defineConfig({
-  build: { rollupOptions: { input: { landing: resolve('index.html'), app: resolve('app/index.html'), thanks: resolve('thanks/index.html'), recover: resolve('recover/index.html') } } },
+  build: { rollupOptions: { input: { landing: resolve('index.html'), app: resolve('app/index.html'), thanks: resolve('thanks/index.html'), recover: resolve('recover/index.html'), support: resolve('support/index.html') } } },
   define: { __APP_VERSION__: JSON.stringify(JSON.parse(readFileSync('package.json', 'utf8')).version) },
   plugins: [react(), contentSecurityPolicy(), serviceWorker()],
 })

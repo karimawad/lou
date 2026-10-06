@@ -17,6 +17,7 @@ const handler = createHandler({
   priceYears: JSON.parse(need('LICENSE_PRICES')), // {"price_123":[2023,2024,2025]}
   webhookSecret: need('STRIPE_WEBHOOK_SECRET'),
   siteUrl: (env.SITE_URL ?? 'https://lou.bigtimedesign.ca').replace(/\/$/, ''),
+  supportTo: env.SUPPORT_TO ?? 'karim@bigtimedesign.ca',
 });
 
 createServer(handler).listen(Number(env.PORT ?? 3417), '127.0.0.1', () => console.log('lou-license listening'));

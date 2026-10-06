@@ -2,6 +2,12 @@
 
 Versions follow MAJOR.MINOR.PATCH. The version shows in the footer of the app. Bump it in `app/package.json`.
 
+## 1.3.1 (2026-10-06)
+
+Footer: "Made in Toronto" moved to the bottom; Version and Source code links removed; "Report a problem" is now a small email form at `/support/`
+(delivered to karim@bigtimedesign.ca by the key server; spam-protected, nothing stored); Contact opens an email to info@bigtimedesign.ca.
+Refund window 15 days; HST charged on top of the $49 CAD price.
+
 ## 1.3.0 (2026-10-06)
 
 Paid keys. Everything up to the results screen stays free; a one-time $49 CAD key (2023 to 2025) unlocks the filled forms, review package,

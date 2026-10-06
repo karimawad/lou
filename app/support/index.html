@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
+    <meta name="theme-color" content="#14161a" />
+    <title>Report a problem · Lou</title>
+  </head>
+  <body>
+    <div class="stage">
+      <a class="brand" href="/">Lou</a>
+      <main class="sheet">
+        <div class="ribbon"><i></i><i></i><i></i><i></i></div>
+        <div class="part"><b>Help</b><span>Report a problem</span></div>
+        <div class="inner">
+          <h1>Something not right? Tell us.</h1>
+          <p>Describe what happened and we will reply by email. Please do <strong>not</strong> include your Social Security or Insurance number, account numbers, or photos of your tax documents. We never need them.</p>
+
+          <form id="form" class="inner" style="padding:0" novalidate>
+            <div class="field">
+              <label for="email">Your email</label>
+              <input id="email" name="email" type="email" autocomplete="email" inputmode="email" maxlength="254" required aria-describedby="email-hint email-err" />
+              <p class="muted" id="email-hint">So we can reply. We use it only for this message.</p>
+              <p class="field-error" id="email-err" role="alert" hidden></p>
+            </div>
+
+            <div class="field">
+              <label for="subject">Subject</label>
+              <input id="subject" name="subject" type="text" autocomplete="off" maxlength="120" required aria-describedby="subject-err" />
+              <p class="field-error" id="subject-err" role="alert" hidden></p>
+            </div>
+
+            <div class="field">
+              <label for="message">What happened?</label>
+              <textarea id="message" name="message" rows="7" maxlength="4000" required aria-describedby="message-hint message-err"></textarea>
+              <p class="muted" id="message-hint">What you did, what you expected, and what you saw instead. Add your tax year and browser if you can. <span id="count" aria-hidden="true"></span></p>
+              <p class="field-error" id="message-err" role="alert" hidden></p>
+            </div>
+
+            <!-- A hidden field only form-filling bots complete. People never see or tab to it. -->
+            <div class="hp" aria-hidden="true"><label for="website">Leave this empty</label><input id="website" name="website" type="text" tabindex="-1" autocomplete="off" /></div>
+
+            <div><button class="btn" id="go" type="submit">Send</button></div>
+          </form>
+
+          <div id="result" role="status" aria-live="polite"></div>
+          <p class="muted">Prefer email? Write to <a href="mailto:info@bigtimedesign.ca">info@bigtimedesign.ca</a>. <a href="/app/">Back to Lou</a></p>
+        </div>
+      </main>
+    </div>
+    <script type="module" src="/src/pages/support.ts"></script>
+  </body>
+</html>

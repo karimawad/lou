@@ -39,6 +39,8 @@ export interface Form1116 {
   /** Canadian tax allocated to this category, CAD. */
   taxCad: number;
   excessCredit: number;
+  /** Unused Canadian tax carried back to the prior year (Schedule B line 7, USD); the prior year must be amended (Form 1040-X). */
+  carryback: number;
   /** Schedule B (Form 1116): required when a carryover is used or generated. */
   scheduleB?: ScheduleB1116;
 }
@@ -57,9 +59,11 @@ export interface ScheduleB1116 {
  * Schedule B (Form 1116) per its instructions: prior carryovers are used oldest
  * first, up to the current year's excess limitation (line 4); the 10th preceding
  * year's leftover expires (line 5); current-year excess foreign tax is generated
- * in column (xiii) (line 6). Line 7 (carryback) is 0; Lou flags when a carryback may apply.
+ * in column (xiii) (line 6). Line 7 is the part of line 6 that fits in the prior year's excess limitation
+ * (`room`, from the prior year's own return in Lou); the rest is carried forward on line 8. Without a prior
+ * year in Lou, `room` is 0 and Lou flags that a carryback may apply.
  */
-export function scheduleB1116(year: number, L: Record<string, number>, vintages: Map<number, number>): ScheduleB1116 {
+export function scheduleB1116(year: number, L: Record<string, number>, vintages: Map<number, number>, room = 0): ScheduleB1116 {
   const cols: Record<number, CarryColumn> = {};
   const available = L['9'] - L['12'] + L['13'];
   let excessLimitation = Math.max(0, L['23'] - available);
@@ -73,7 +77,8 @@ export function scheduleB1116(year: number, L: Record<string, number>, vintages:
     col.l8 = col.l3 + col.l4 + col.l5;
     cols[k] = col;
   }
-  cols[0] = { l1: 0, l3: 0, l4: 0, l5: 0, l6: excessForeign, l7: 0, l8: excessForeign };
+  const back = Math.min(excessForeign, Math.max(0, room));
+  cols[0] = { l1: 0, l3: 0, l4: 0, l5: 0, l6: excessForeign, l7: -back || 0, l8: excessForeign - back };
   const next: { year: number; amount: number }[] = [];
   for (const k of [9, 8, 7, 6, 5, 4, 3, 2, 1, 0]) if (cols[k].l8 > 0) next.push({ year: year - k, amount: cols[k].l8 });
   return { cols, next };
@@ -602,12 +607,20 @@ function computeFtc(
     L['22'] = 0;
     L['23'] = L['21'] + L['22'];
     L['24'] = Math.max(0, Math.min(L['14'], L['23']));
-    const schB = scheduleB1116(year, L, vintages);
+    // Room in the prior year (its Form 1116 limit not used up), when that year is in Lou; otherwise unknown.
+    const room = input.priorYearRoom?.[cat] ?? 0;
+    const schB = scheduleB1116(year, L, vintages, room);
     const needsSchB = L['10'] > 0 || schB.cols[0].l6 > 0;
-    results.push({ category: cat, lines: L, taxCad, excessCredit: schB.next.reduce((a, n) => a + n.amount, 0), scheduleB: needsSchB ? schB : undefined });
-    if (schB.cols[0].l6 > 0 && !flags.some((f) => f.id === 'carryback')) flags.push({ id: 'carryback', severity: 'info',
-      title: `Unused Canadian tax carries back to ${year - 1} first`,
-      detail: `The law applies unused foreign tax to the prior year before carrying it forward. That only matters if you owed US tax on Canadian income in ${year - 1}. If you did, amend ${year - 1} with Form 1040-X to claim it. Otherwise nothing changes; Schedule B (Form 1116) records the carryforward.` });
+    const carryback = -schB.cols[0].l7;
+    results.push({ category: cat, lines: L, taxCad, excessCredit: schB.next.reduce((a, n) => a + n.amount, 0), carryback, scheduleB: needsSchB ? schB : undefined });
+    if (carryback > 0) flags.push({ id: `carryback-${cat}`, severity: 'warn',
+      title: `Amend your ${year - 1} return to claim $${carryback.toLocaleString('en-US')} of unused Canadian tax`,
+      detail: `Unused foreign tax goes back one year before it goes forward (IRC 904(c)). Your ${year - 1} return had room for it in the ${cat} category, so Schedule B (Form 1116) line 7 shows $${carryback.toLocaleString('en-US')} carried back and only the rest carries forward. File Form 1040-X for ${year - 1} with a revised Form 1116: add $${carryback.toLocaleString('en-US')} on line 10 and in the credit on line 24, and put the same amount on Schedule 3 line 1. That lowers your ${year - 1} tax by the same amount, which is a refund if you already paid it. Other ${year - 1} items the credit can touch (child credit limits, alternative minimum tax) are not recomputed here: check them when you amend. Lou does not fill Form 1040-X.` });
+    else if (schB.cols[0].l6 > 0 && !flags.some((f) => f.id === 'carryback')) flags.push(input.priorYearRoom
+      ? { id: 'carryback', severity: 'info', title: `No carryback to ${year - 1}`,
+        detail: `Unused Canadian tax goes back one year before it goes forward. Your ${year - 1} return in Lou had no unused credit limit in this category, so all of it carries forward. Schedule B (Form 1116) records it.` }
+      : { id: 'carryback', severity: 'info', title: `Unused Canadian tax carries back to ${year - 1} first`,
+        detail: `The law applies unused foreign tax to the prior year before carrying it forward. That only matters if you owed US tax on Canadian income in ${year - 1}. If you did, amend ${year - 1} with Form 1040-X to claim it. Otherwise nothing changes; Schedule B (Form 1116) records the carryforward. Add ${year - 1} to Lou and it works this out for you.` });
 
     // High-tax kickout test for passive income (i1116 line 13; Reg. 1.904-4(c)).
     if (cat === 'passive' && L['7'] > 0 && L['9'] > 0.37 * L['7']) flags.push({ id: 'high-tax-kickout', severity: 'warn',

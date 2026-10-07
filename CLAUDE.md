@@ -286,3 +286,15 @@ with filled IRS PDFs (1040, Sch 1, 1-A, 2, 3, B, 8812, 1116 per category) and a 
 2. PFIC: holding periods before 1987, green card holders who bought before becoming US persons, QEF purging elections: flagged for review.
 3. Car expenses: standard mileage only; listed-property depreciation and passenger auto caps not computed.
 4. Housing deduction carryover (Form 2555 line 49) not carried automatically.
+
+## Earlier year after a later one (2026-10-07)
+
+- One $49 key covers 2023-2025 and lives in shared `state.licenses` (not per year), so doing 2024 after paying for 2025 never asks for payment again.
+- `state/staleness.ts`: `state.reviewed[year]` = snapshot of what carries into that year (FTC/AMT FTC/capital loss vintages + refund), taken when Results
+  is first shown (year ready: slips checked + NOA) and on every PDF download or "I have reviewed it". `staleYears` compares to now; a mismatch shows a
+  "Review your YYYY return again" callout on Results (any year), "Review again" in the rail year list. Lou already recomputes the new numbers; the user is told to re-download.
+- Carryback (IRC 904(c), i1116 line 10, i1116sb line 7; Karim chose level 1, 2026-10-07): `autoCarryover` also returns the prior year's unused Form 1116 limit
+  (line 23 less line 24, per category) as `room`; `toReturnInput` passes it as `priorYearRoom`. `scheduleB1116(.., room)` puts min(line 6, room) on line 7
+  (negative), the rest on line 8. `Form1116.carryback` + warn flag `carryback-<cat>` tell the user to amend the prior year (1040-X, revised 1116: line 10 and 24 up,
+  Schedule 3 line 1 up, same refund). Prior year not in Lou: old info flag, line 7 = 0. The prior year's review snapshot has `back`, so it is flagged "review again".
+  NOT built: Form 1040-X; the prior year's other effects (child credit limits, AMT, AMT FTC carryback) are not recomputed; 2023 -> 2022 (no 2022 rules).

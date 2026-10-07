@@ -188,6 +188,18 @@ describe('Schedule B (Form 1116) carryovers', () => {
     expect(s.cols[0]).toMatchObject({ l6: 500, l8: 500 });
     expect(s.next).toEqual([{ year: 2024, amount: 400 }, { year: 2025, amount: 500 }]);
   });
+  it('carries back to the prior year first, up to its room, then forward (line 7 negative, line 8 the rest)', () => {
+    // i1116sb line 6/7/8: excess foreign taxes 500, prior year room 150 -> line 7 = (150), line 8 = 350.
+    const s = scheduleB1116(2025, L(2000, 1500), new Map(), 150);
+    expect(s.cols[0]).toMatchObject({ l6: 500, l7: -150, l8: 350 });
+    expect(s.next).toEqual([{ year: 2025, amount: 350 }]);
+  });
+  it('never carries back more than the excess or into a prior year with no room', () => {
+    expect(scheduleB1116(2025, L(2000, 1500), new Map(), 9999).cols[0]).toMatchObject({ l7: -500, l8: 0 });
+    expect(scheduleB1116(2025, L(2000, 1500), new Map(), 0).cols[0]).toMatchObject({ l7: 0, l8: 500 });
+    // No excess foreign tax this year: nothing to carry back.
+    expect(scheduleB1116(2025, L(1000, 1600), new Map(), 300).cols[0]).toMatchObject({ l6: 0, l7: 0, l8: 0 });
+  });
   it('the Toronto return generates a 2025 carryover that matches Form 1116', () => {
     const r = computeReturn(base({
       slips: [

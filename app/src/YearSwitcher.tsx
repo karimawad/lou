@@ -7,6 +7,7 @@ import { toReturnInput } from './state/toInput';
 import { computeReturn } from './tax/compute';
 import { TAX_YEARS, type TaxYear } from './tax/years';
 import { fmtUsd } from './ui/kit';
+import { staleYears } from './state/staleness';
 
 function yearStatus(state: AppState, year: TaxYear): { label: string; tone: 'muted' | 'progress' | 'ready' } {
   const s = stateForYear(state, year);
@@ -21,7 +22,13 @@ function yearStatus(state: AppState, year: TaxYear): { label: string; tone: 'mut
 
 export function YearSwitcher() {
   const { state, openYear } = useApp();
-  const statuses = useMemo(() => TAX_YEARS.map((y) => ({ year: y, ...yearStatus(state, y) })), [state]);
+  const statuses = useMemo(() => {
+    const stale = new Set(staleYears(state).map((x) => x.year));
+    return TAX_YEARS.map((y) => {
+      const st = yearStatus(state, y);
+      return stale.has(y) ? { year: y, label: `Review again, ${st.label.toLowerCase()}`, tone: 'progress' as const } : { year: y, ...st };
+    });
+  }, [state]);
   if (!state.year) return null;
   return (
     <nav aria-label="Tax years" className="years">

@@ -110,6 +110,8 @@ export interface ReturnInput {
   slips: SlipInput[];
   assessments: CanadianAssessment[];
   carryover?: PriorFtcCarryover;
+  /** Unused Form 1116 limit left in the prior year, per category (USD), when that year is in Lou: room for a carryback (IRC 904(c)). */
+  priorYearRoom?: { general: number; passive: number };
   elections: Elections;
   /** Form 2555 details per person. */
   feie2555?: Partial<Record<'taxpayer' | 'spouse', Feie2555Details>>;

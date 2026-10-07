@@ -14,7 +14,9 @@ import { stateForYear, type AppState } from './store';
  * line 8, by year of origin). Only used when that year's slips are all checked. Chains back
  * through earlier years the same way.
  */
-export function autoCarryover(state: AppState): { vintages: CarryoverVintage[]; amtVintages: CarryoverVintage[]; capitalLoss: CapitalLossCarryover; fromYear: TaxYear } | null {
+export interface AutoCarryover { vintages: CarryoverVintage[]; amtVintages: CarryoverVintage[]; capitalLoss: CapitalLossCarryover; fromYear: TaxYear; room: { general: number; passive: number } }
+
+export function autoCarryover(state: AppState): AutoCarryover | null {
   if (!state.year) return null;
   const priorYear = (state.year - 1) as TaxYear;
   const prior = stateForYear(state, priorYear);
@@ -32,15 +34,17 @@ export function autoCarryover(state: AppState): { vintages: CarryoverVintage[]; 
     }
     return [...rows.values()].sort((a, b) => a.year - b.year);
   };
-  return { vintages: collect(r.f1116), amtVintages: collect(r.f6251.f1116), capitalLoss: r.capitalLossNext, fromYear: priorYear };
+  // Unused Form 1116 limit in the prior year (line 23 less the credit taken): room for this year's unused foreign tax to be carried back.
+  const room = { general: 0, passive: 0 };
+  for (const f of r.f1116) room[f.category] = Math.max(0, f.lines['23'] - f.lines['24']);
+  return { vintages: collect(r.f1116), amtVintages: collect(r.f6251.f1116), capitalLoss: r.capitalLossNext, fromYear: priorYear, room };
 }
 
 /** Typed-in carryovers win (regular and AMT separately); otherwise they flow from last year's return in Lou. */
-function carryoverFor(state: AppState) {
+function carryoverFor(state: AppState, auto: AutoCarryover | null) {
   const c = state.carryover;
   const typed = !!(c.vintages?.length || c.general || c.passive);
   const typedAmt = !!c.amtVintages?.length;
-  const auto = typed && typedAmt ? null : autoCarryover(state);
   return {
     ...(typed ? c : { general: 0, passive: 0, vintages: auto?.vintages ?? [] }),
     amtVintages: typedAmt ? c.amtVintages : auto?.amtVintages ?? [],
@@ -63,6 +67,7 @@ export function assessmentsFrom(state: AppState): CanadianAssessment[] {
 export function toReturnInput(state: AppState): ReturnInput | null {
   if (!state.year || !state.filingStatus) return null;
   const married = state.filingStatus === 'mfj' || state.filingStatus === 'mfs';
+  const auto = autoCarryover(state);
   // Uploaded slips plus slips made from T1 income lines that no slip feeds (state/t1.ts).
   const slips: SlipInput[] = incomeSlips(state)
     .filter((s) => s.type !== 'NOA' && (!s.year || s.year === state.year))
@@ -77,7 +82,8 @@ export function toReturnInput(state: AppState): ReturnInput | null {
     slips,
     assessments: assessmentsFrom(state),
     // Carryovers typed in by the user win; otherwise they flow from the previous year's return in Lou.
-    carryover: carryoverFor(state),
+    carryover: carryoverFor(state, auto),
+    priorYearRoom: auto?.room,
     elections: state.elections,
     feie2555: state.feie2555,
     digitalAssets: state.digitalAssets ?? undefined,
@@ -86,7 +92,7 @@ export function toReturnInput(state: AppState): ReturnInput | null {
     sales: state.sales?.length ? state.sales : undefined,
     pficFunds: state.pficFunds?.length ? state.pficFunds : undefined,
     // Typed-in capital loss carryover wins; otherwise it flows from last year's return in Lou.
-    capitalLossCarryover: state.capitalLossCarryover ?? autoCarryover(state)?.capitalLoss,
+    capitalLossCarryover: state.capitalLossCarryover ?? auto?.capitalLoss,
     spouseIsUsPerson: state.spouseIsUsPerson ?? undefined,
     foreignAccountsOver10k: state.accounts.length
       ? analyzeAccounts(state.year, state.filingStatus, state.accounts, { spouseIsUsPerson: state.spouseIsUsPerson ?? undefined }).fbar[0].required

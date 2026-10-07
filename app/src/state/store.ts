@@ -11,6 +11,7 @@ import { emptyCatchup, type CatchupState } from '../tax/catchup';
 import type { SlipType } from '../tax/slips';
 import type { FilingStatus, TaxYear } from '../tax/years';
 import { seedYear } from './carry';
+import type { ReviewSnap } from './staleness';
 
 export type StepId = 'start' | 'you' | 'slips' | 'review' | 'questions' | 'results' | 'catchup';
 export const STEPS: { id: StepId; label: string }[] = [
@@ -98,6 +99,8 @@ export interface AppState {
   catchup: CatchupState;
   /** Lou keys bought with Stripe (see license/key.ts). Shared by all years, kept in backups, survive "Clear my data". */
   licenses: string[];
+  /** What carried into each year when the user last reviewed or downloaded it (state/staleness.ts). Shared by all years. */
+  reviewed: Partial<Record<TaxYear, ReviewSnap>>;
   savedAt?: number;
 }
 
@@ -189,6 +192,7 @@ export function initialState(): AppState {
     years: {},
     catchup: emptyCatchup(),
     licenses: [],
+    reviewed: {},
   };
 }
 
@@ -217,6 +221,10 @@ export function sanitizeState(raw: unknown): AppState {
   out.licenses = Array.isArray(out.licenses) ? out.licenses.filter((x): x is string => typeof x === 'string' && x.length > 0 && x.length < 4000) : [];
   if (!STEPS.some((s) => s.id === out.step) && out.step !== 'catchup') out.step = 'start';
   out.catchup = sanitizeCatchup(out.catchup);
+  const fin = (x: unknown) => (typeof x === 'number' && Number.isFinite(x) ? x : 0);
+  out.reviewed = Object.fromEntries(Object.entries(isObj(out.reviewed) ? out.reviewed : {})
+    .filter(([y, v]) => [2023, 2024, 2025].includes(Number(y)) && isObj(v) && typeof v.sig === 'string' && v.sig.length < 20000)
+    .map(([y, v]) => { const o = v as Record<string, unknown>; return [y, { sig: o.sig as string, ftc: fin(o.ftc), amt: fin(o.amt), loss: fin(o.loss), back: fin(o.back), refund: fin(o.refund) }]; }));
   if (!(out.year === null || [2023, 2024, 2025].includes(out.year as number))) out.year = null;
   const years: Record<string, unknown> = {};
   if (isObj(out.years)) {

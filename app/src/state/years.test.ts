@@ -1,6 +1,8 @@
 import { describe, expect, it } from 'vitest';
 import { addToYear, initialState, switchYear, yearData, type AppState, type SlipRecord } from './store';
 import { autoCarryover, toReturnInput } from './toInput';
+import { computeReturn } from '../tax/compute';
+import { reviewSnapshot, staleReasons, staleYears } from './staleness';
 
 const slip = (id: string, over: Partial<SlipRecord>): SlipRecord => ({
   id, type: 'T4', owner: 'taxpayer', payer: 'Maple Co', boxes: {}, reads: {}, edited: [], confirmed: true, ...over,
@@ -104,5 +106,77 @@ describe('carryovers flow from year to year', () => {
     s = { ...s, slips: s.slips.map((x) => ({ ...x, confirmed: false })) };
     s = withYear(s, 2024);
     expect(autoCarryover(s)).toBeNull();
+  });
+});
+
+describe('doing an earlier year after a later one', () => {
+  it('flags the later year for review and keeps the paid key', () => {
+    const key = 'LOU1.payload.signature';
+    let s = { ...withYear(base(), 2025), licenses: [key] };
+    expect(staleYears(s)).toEqual([]);
+    s = { ...s, reviewed: { 2025: reviewSnapshot(s, 2025)! } };
+    expect(staleYears(s)).toEqual([]);
+
+    // The user now does 2024 (its unused Canadian tax carries into 2025).
+    s = switchYear(s, 2024);
+    s = withYear(s, 2024);
+    s = switchYear(s, 2025);
+    const stale = staleYears(s);
+    expect(stale.map((x) => x.year)).toEqual([2025]);
+    expect(stale[0].now.ftc).toBeGreaterThan(stale[0].before.ftc);
+    expect(staleReasons(stale[0]).join(' ')).toContain('Unused Canadian tax carried in');
+
+    // Same key in every year, nothing to pay again; reviewing clears the flag.
+    expect(s.licenses).toEqual([key]);
+    s = { ...s, reviewed: { ...s.reviewed, 2025: reviewSnapshot(s, 2025)! } };
+    expect(staleYears(s)).toEqual([]);
+  });
+
+  it('does not flag a year that has no carry-in change', () => {
+    let s = withYear(base(), 2023);
+    s = { ...s, reviewed: { 2023: reviewSnapshot(s, 2023)! } };
+    s = withYear(s, 2025);
+    expect(staleYears(s).map((x) => x.year)).toEqual([]);
+  });
+});
+
+describe('carryback to the prior year (IRC 904(c))', () => {
+  /** A year with the given Canadian tax (CAD) on 100,000 of wages. */
+  const taxed = (state: AppState, year: 2023 | 2024 | 2025, federal: number, provincial: number): AppState => {
+    const s = withYear(state, year);
+    return { ...s, slips: s.slips.map((x) => (x.type === 'NOA' ? { ...x, boxes: { ...x.boxes, '42000': federal, '42800': provincial } } : x)) };
+  };
+
+  it('2025 excess tax fills 2024 room: Schedule B line 7, an amend notice, and 2024 flagged for review', () => {
+    // 2024: very little Canadian tax, so US tax on the income is left over (room). 2025: lots of Canadian tax.
+    let s = taxed(base(), 2024, 1000, 500);
+    s = taxed(s, 2025, 13000, 7000);
+    const inp = toReturnInput(s)!;
+    expect(inp.priorYearRoom!.general).toBeGreaterThan(0);
+    const g = computeReturn(inp).best.f1116.find((f) => f.category === 'general')!;
+    const room = inp.priorYearRoom!.general;
+    expect(g.carryback).toBe(Math.min(g.scheduleB!.cols[0].l6, room));
+    expect(g.carryback).toBeGreaterThan(0);
+    expect(g.scheduleB!.cols[0].l7).toBe(-g.carryback);
+    expect(g.scheduleB!.cols[0].l8).toBe(g.scheduleB!.cols[0].l6 - g.carryback);
+    expect(computeReturn(inp).best.flags.some((f) => f.id === 'carryback-general' && f.title.includes('Amend your 2024'))).toBe(true);
+
+    // 2024 was looked at before 2025 existed: now it needs a 1040-X.
+    const before = { ...reviewSnapshot(taxed(base(), 2024, 1000, 500), 2024)! };
+    expect(before.back).toBe(0);
+    const stale = staleYears({ ...s, reviewed: { 2024: before } });
+    expect(stale.map((x) => x.year)).toEqual([2024]);
+    expect(stale[0].now.back).toBe(g.carryback);
+    expect(staleReasons(stale[0]).join(' ')).toContain('carries back into 2024');
+  });
+
+  it('no carryback when the prior year used its whole limit, or is not in Lou', () => {
+    let s = taxed(base(), 2024, 13000, 7000);
+    s = taxed(s, 2025, 13000, 7000);
+    const r = computeReturn(toReturnInput(s)!).best;
+    expect(r.f1116.every((f) => f.carryback === 0)).toBe(true);
+    expect(r.flags.find((f) => f.id === 'carryback')?.title).toContain('No carryback to 2024');
+    const alone = computeReturn(toReturnInput(taxed(base(), 2025, 13000, 7000))!).best;
+    expect(alone.flags.find((f) => f.id === 'carryback')?.title).toContain('carries back to 2024 first');
   });
 });

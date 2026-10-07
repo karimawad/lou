@@ -16,9 +16,10 @@ import { FbarWorksheet } from './FbarWorksheet';
 import { MappingGuide } from './MappingGuide';
 import { analyzeAccounts } from '../tax/accounts';
 import { LockedFold, UnlockPanel, useUnlocked } from './Unlock';
+import { reviewSnapshot, staleReasons, staleYears } from '../state/staleness';
 
 export function Results() {
-  const { state, go } = useApp();
+  const { state, go, update, openYear } = useApp();
   const input = useMemo(() => toReturnInput(state), [state]);
   const computed = useMemo(() => (input ? computeReturn(input) : null), [input]);
   const [building, setBuilding] = useState(false);
@@ -26,6 +27,17 @@ export function Results() {
   const hasNoa = state.slips.some((s) => s.type === 'NOA');
   const { unlocked } = useUnlocked(state.year ?? 0);
   usePrintOpensFolds();
+
+  // Remember what carried into this year when it was first shown, so a later change in another year can be flagged.
+  const thisYear = state.year;
+  const needsBaseline = thisYear !== null && !state.reviewed?.[thisYear];
+  useEffect(() => {
+    if (!needsBaseline || !thisYear) return;
+    update((s) => { const snap = s.reviewed?.[thisYear] ? null : reviewSnapshot(s, thisYear); return snap ? { ...s, reviewed: { ...s.reviewed, [thisYear]: snap } } : s; });
+  }, [needsBaseline, thisYear, update]);
+  const stale = useMemo(() => staleYears(state), [state]);
+  /** "I have looked at this year with the new figures": takes a fresh snapshot. */
+  const markReviewed = (y: number) => update((s) => { const snap = reviewSnapshot(s, y as 2023 | 2024 | 2025); return snap ? { ...s, reviewed: { ...s.reviewed, [y]: snap } } : s; });
 
   if (!input || !computed) return null;
   const r = computed.best;
@@ -72,6 +84,7 @@ export function Results() {
       const url = URL.createObjectURL(new Blob([bytes as BlobPart], { type: 'application/pdf' }));
       Object.assign(document.createElement('a'), { href: url, download: name }).click();
       setTimeout(() => URL.revokeObjectURL(url), 10000);
+      markReviewed(year); // a package in hand is what a later change in another year makes out of date
     } catch (e) {
       setBuildError(e instanceof Error ? e.message : 'Something went wrong building the PDF.');
     } finally { setBuilding(false); }
@@ -128,6 +141,26 @@ export function Results() {
           </p>
         )}
       </div>
+
+      {stale.length > 0 && (
+        <section className="section no-print">
+          <div style={{ display: 'grid', gap: 'var(--s-3)' }}>
+            {stale.map((st) => (
+              <Callout key={st.year} tone="warn" title={st.year === year ? `Review your ${st.year} return again` : `Your ${st.year} return changed`}>
+                <p>{st.year === year
+                  ? `Since you last looked at this return, another year you added or changed now carries figures into ${st.year}.`
+                  : `Something you did in another year now carries figures into ${st.year}, a return you already looked at.`}</p>
+                <ul style={{ margin: 'var(--s-2) 0', paddingLeft: '1.2em' }}>{staleReasons(st).map((l) => <li key={l}>{l}</li>)}</ul>
+                <p>Lou has already worked out the new {st.year} numbers.{st.year === year ? ' Check them below' : ' Open it to check them'}, and download the forms again if you already printed or mailed the old ones. Your key covers every year, so there is nothing more to pay.</p>
+                <div style={{ display: 'flex', gap: 'var(--s-2)', flexWrap: 'wrap' }}>
+                  {st.year !== year && <button type="button" className="btn btn-primary btn-sm" onClick={() => { openYear(st.year); go('results'); }}>Open {st.year}</button>}
+                  <button type="button" className="btn btn-ghost btn-sm" onClick={() => markReviewed(st.year)}>{st.year === year ? 'I have reviewed it' : `Dismiss`}</button>
+                </div>
+              </Callout>
+            ))}
+          </div>
+        </section>
+      )}
 
       {flags.length > 0 && (
         <section className="section no-print">

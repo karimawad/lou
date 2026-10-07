@@ -30,6 +30,7 @@ export function Start() {
         </div>
         <ul className="checklist">
           <li><strong>Your final T1 General</strong>, the Canadian return you filed, as a PDF from your tax software or CRA My Account. It shows your income and the Canadian tax you paid, which is what your US return is built from. For most people it is the only tax document you need.</li>
+          <li><strong>Your Canadian bank and investment account details</strong>, if your accounts held more than US$10,000 in total at any point in the year. For each account: the bank or broker's name and address, the account number, and the highest and year-end balance (your December statement and a look through the year's statements will do). The US asks for these on an FBAR and, for larger balances, Form 8938. If you are not sure whether you need them, Lou tells you once you have entered your accounts.</li>
           <li><strong>Social Security numbers</strong> for you, your spouse and any children you claim.</li>
         </ul>
         <p className="small muted" style={{ maxWidth: '62ch' }}>

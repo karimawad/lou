@@ -6,7 +6,7 @@ const BASE = process.argv[2] || 'http://localhost:5179/app/';
 
 const slip = (id, type, boxes) => ({ id, type, owner: 'taxpayer', payer: 'Maple Co', year: 2024, boxes, reads: {}, edited: [], confirmed: true });
 const y2024 = {
-  step: 'questions', filingStatus: 'single', spouseIsUsPerson: null, livedInCanadaAllYear: true, digitalAssets: false, accountsOver10k: null, docs: [],
+  step: 'accounts', filingStatus: 'single', spouseIsUsPerson: null, livedInCanadaAllYear: true, digitalAssets: false, accountsOver10k: null, docs: [],
   dependents: [{ firstName: 'Ava', lastName: 'Lee', ssn: '', relationship: 'Daughter', dateOfBirth: '2019-02-01', hasValidSsn: true, usPerson: true, livedWithYouOverHalfYear: true }],
   slips: [slip('t4', 'T4', { '14': 90000 }), { ...slip('noa', 'NOA', { '15000': 90000, '23600': 90000, '42000': 11000, '42800': 6000 }) }],
   elections: { feie: 'no', canadianSocialSecurityExempt: true, useAdjustmentException: true },
@@ -43,7 +43,7 @@ const state = {
   const s25 = await page.evaluate(() => JSON.parse(localStorage.getItem('lou:v1')));
   console.log('2025 started from', s25.carryFrom, '| status', s25.filingStatus, '| dependents', s25.dependents.map((d) => d.firstName).join(','),
     '| accounts', s25.accounts.map((a) => `${a.institution} ${a.accountNumber} max ${a.maxValueCad} carried ${a.carried}${a.registered ? ` start ${a.registered.startValueCad}` : ''}`).join('; '));
-  await page.evaluate(() => { const s = JSON.parse(localStorage.getItem('lou:v1')); s.step = 'questions'; localStorage.setItem('lou:v1', JSON.stringify(s)); });
+  await page.evaluate(() => { const s = JSON.parse(localStorage.getItem('lou:v1')); s.step = 'accounts'; localStorage.setItem('lou:v1', JSON.stringify(s)); });
   await page.reload();
   await page.waitForTimeout(500);
   console.log('2025 notes:', (await page.locator('.callout strong').allTextContents()).filter((t) => /Copied|Bring/.test(t)).join(' | '));
@@ -61,7 +61,7 @@ const state = {
   console.log('2023 About you offer:', (await page.locator('.callout strong').allTextContents()).filter((t) => /Bring/.test(t)).join(' | '));
   await page.getByRole('button', { name: 'Add it' }).click();
   await page.waitForTimeout(800); // let Lou's autosave run before the script edits the saved state
-  await page.evaluate(() => { const s = JSON.parse(localStorage.getItem('lou:v1')); s.step = 'questions'; s.slips = []; localStorage.setItem('lou:v1', JSON.stringify(s)); });
+  await page.evaluate(() => { const s = JSON.parse(localStorage.getItem('lou:v1')); s.step = 'accounts'; s.slips = []; localStorage.setItem('lou:v1', JSON.stringify(s)); });
   await page.reload();
   const offer = page.locator('.callout', { hasText: 'Bring in your accounts' });
   console.log('2023 accounts offer:', (await offer.innerText()).replace(/\s+/g, ' ').slice(0, 200));

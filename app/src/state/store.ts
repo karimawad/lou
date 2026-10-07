@@ -13,13 +13,14 @@ import type { FilingStatus, TaxYear } from '../tax/years';
 import { seedYear } from './carry';
 import type { ReviewSnap } from './staleness';
 
-export type StepId = 'start' | 'you' | 'slips' | 'review' | 'questions' | 'results' | 'catchup';
+export type StepId = 'start' | 'you' | 'slips' | 'review' | 'questions' | 'accounts' | 'results' | 'catchup';
 export const STEPS: { id: StepId; label: string }[] = [
   { id: 'start', label: 'Tax year' },
   { id: 'you', label: 'About you' },
   { id: 'slips', label: 'Your slips' },
   { id: 'review', label: 'Check the numbers' },
   { id: 'questions', label: 'A few questions' },
+  { id: 'accounts', label: 'Your Canadian accounts' },
   { id: 'results', label: 'Your US return' },
 ];
 

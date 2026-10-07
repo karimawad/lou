@@ -78,6 +78,10 @@ async function run(name, viewport) {
   await page.getByRole('button', { name: 'Continue' }).click();
 
   if (YEAR === 2025) await page.getByRole('radio', { name: /^Shares of companies/ }).check();
+  if (files.length) await page.getByRole('group', { name: /Form 2555\) on a past/ }).getByLabel('No').check(); // asked only with wages
+  await shot('5-questions');
+  await page.getByRole('button', { name: /Next: your Canadian accounts/ }).click();
+  await page.waitForTimeout(300);
   await page.getByRole('button', { name: 'Add an account' }).click();
   await page.getByLabel('Institution', { exact: true }).fill('RBC Royal Bank');
   await page.getByLabel('Account number').fill('1234567');
@@ -85,8 +89,7 @@ async function run(name, viewport) {
   await page.getByLabel(/Balance on Dec 31/).fill('18000');
   await page.getByLabel(/Balance on Dec 31/).blur();
   await page.getByLabel('Institution street address').fill('200 Bay St');
-  if (files.length) await page.getByRole('group', { name: /Form 2555\) on a past/ }).getByLabel('No').check(); // asked only with wages
-  await shot('5-questions');
+  await shot('6-accounts');
   await page.getByRole('button', { name: 'See my US return' }).click();
   await page.waitForTimeout(500);
   await shot('6-results-locked');

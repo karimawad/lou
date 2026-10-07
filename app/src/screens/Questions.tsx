@@ -2,9 +2,7 @@ import { useMemo, useState } from 'react';
 import { incomeSlips, withSlipAnswer } from '../state/t1';
 import { autoCarryover, toReturnInput } from '../state/toInput';
 import { computeReturn } from '../tax/compute';
-import { AccountsSection } from './AccountsSection';
 import { BusinessSection } from './BusinessSection';
-import { FundsSection } from './FundsSection';
 import { SalesSection } from './SalesSection';
 import { Feie2555Section } from './Feie2555Section';
 import { parseAmount } from '../extract/amount';
@@ -44,10 +42,8 @@ export function Questions() {
   const setAnswer = (slip: SlipRecord, patch: Partial<SlipAnswers>) =>
     update((s) => withSlipAnswer(s, slip, patch));
 
-  const carried = [...state.accounts.filter((a) => a.carried).map((a) => a.institution || 'an account'),
-    ...(state.businesses ?? []).filter((b) => b.carried).map((b) => b.name || 'a business'),
-    ...(state.pficFunds ?? []).filter((f) => f.carried).map((f) => f.name || 'a fund')];
-  const ready = carried.length === 0 && (state.accounts.length > 0 || state.noAccounts) && dividendSlips.every((s) => s.answers?.dividendSource) && rrspFromT1.every((s) => s.answers?.rrspKind);
+  const carried = (state.businesses ?? []).filter((b) => b.carried).map((b) => b.name || 'a business');
+  const ready = carried.length === 0 && dividendSlips.every((s) => s.answers?.dividendSource) && rrspFromT1.every((s) => s.answers?.rrspKind);
 
   return (
     <div className="page">
@@ -152,10 +148,6 @@ export function Questions() {
 
       <BusinessSection />
 
-      <AccountsSection />
-
-      <FundsSection />
-
       <SalesSection />
 
 
@@ -196,8 +188,8 @@ export function Questions() {
         <button type="button" className="btn btn-ghost" onClick={() => go('review')}><Back size={18} /> Back</button>
         <span className="spacer" />
         {!ready && <span className="small muted">{carried.length ? `Add this year's figures for ${carried.join(', ')}` : 'Answer the questions above to continue'}</span>}
-        <button type="button" className="btn btn-primary" disabled={!ready} onClick={() => go('results')}>
-          See my US return <Arrow size={18} />
+        <button type="button" className="btn btn-primary" disabled={!ready} onClick={() => go('accounts')}>
+          Next: your Canadian accounts <Arrow size={18} />
         </button>
       </div>
     </div>

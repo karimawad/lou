@@ -66,7 +66,7 @@ export function Catchup() {
           {screening.canProceed && (
             <>
               <ReturnsSection plan={plan} state={state} payDate={c.mailDate || today} onOpen={(y, step) => { openYear(y as TaxYear); go(step); }} />
-              <AccountsSection plan={plan} summaries={summaries} state={state} onOpen={(y) => { openYear(y as TaxYear); go('questions'); }} />
+              <AccountsSection plan={plan} summaries={summaries} state={state} onOpen={(y) => { openYear(y as TaxYear); go('accounts'); }} />
               <StatementSection summaries={summaries} c={c} set={set} />
               <MailSection plan={plan} state={state} summaries={summaries} c={c} set={set} today={today} entitled={entitled} />
             </>

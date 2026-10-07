@@ -4,7 +4,7 @@ import './brand.css';
 import { AppProvider, useApp } from './state/context';
 import { PwaBanners } from './screens/Install';
 import { LicenseNotice } from './screens/Unlock';
-import { YourDataCard, YourDataDialog } from './screens/YourData';
+import { SaveLine, YourDataCard, YourDataDialog } from './screens/YourData';
 import { STEPS, type AppState, type StepId } from './state/store';
 import { Mark, Check } from './ui/icons';
 import { Start } from './screens/Start';
@@ -14,6 +14,7 @@ import { Review } from './screens/Review';
 import { Questions } from './screens/Questions';
 import { Results } from './screens/Results';
 import { Catchup } from './screens/Catchup';
+import { YourAccounts } from './screens/YourAccounts';
 import { YearSwitcher } from './YearSwitcher';
 import { Footer } from './ui/Footer';
 import { TAX_YEARS, type TaxYear } from './tax/years';
@@ -29,6 +30,7 @@ export function reachable(s: AppState): Record<StepId, boolean> {
     slips: youDone,
     review: youDone && hasSlips,
     questions: youDone && allConfirmed,
+    accounts: youDone && allConfirmed,
     results: youDone && allConfirmed,
     catchup: true,
   };
@@ -40,7 +42,7 @@ function Shell() {
   const idx = STEPS.findIndex((x) => x.id === state.step);
   const [dataOpen, setDataOpen] = useState(false);
 
-  const Screen = { start: Start, you: You, slips: Slips, review: Review, questions: Questions, results: Results, catchup: Catchup }[state.step];
+  const Screen = { start: Start, you: You, slips: Slips, review: Review, questions: Questions, accounts: YourAccounts, results: Results, catchup: Catchup }[state.step];
   const catchingUp = state.step === 'catchup';
 
   return (
@@ -94,6 +96,7 @@ function Shell() {
             <span className="muted">{catchingUp ? 'Catch-up filing' : `Step ${idx + 1} of ${STEPS.length} · ${STEPS[idx].label}`}</span>
             <button type="button" className="linkish" onClick={() => setDataOpen(true)}>Your data</button>
           </div>
+          <SaveLine />
           <div className="progress" aria-hidden="true"><span style={{ width: `${catchingUp ? 100 : ((idx + 1) / STEPS.length) * 100}%` }} /></div>
         </header>
         <main className="main">

@@ -89,6 +89,7 @@
     border-bottom: 1px solid var(--line);
   }
   .topbar-row { display: flex; align-items: center; justify-content: space-between; gap: var(--s-3); font-size: var(--text-sm); }
+  .save-line { display: flex; flex-wrap: wrap; align-items: center; gap: var(--s-2); font-size: var(--text-xs); color: var(--ink-2); }
   .progress { height: 3px; border-radius: 3px; background: var(--line); overflow: hidden; }
   .progress > span { display: block; height: 100%; background: var(--accent); transition: width 300ms var(--ease); }
   .main { padding: var(--s-5) var(--s-4) var(--s-7); }
@@ -432,6 +433,9 @@ details.more[open] summary { margin-bottom: var(--s-3); }
 .data-card p { margin: 0; color: var(--ink-2); }
 .data-card-title { display: flex; align-items: center; gap: var(--s-2); font-weight: 600; }
 .data-card-title svg { color: var(--accent); }
+.save-status { display: grid; gap: 2px; }
+.save-status p { font-size: var(--text-sm); }
+.save-status .save-warn { color: var(--warn, var(--ink)); font-weight: 600; }
 
 .data-dialog {
   width: min(560px, calc(100vw - 32px)); max-height: calc(100dvh - 48px);

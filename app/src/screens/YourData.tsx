@@ -3,7 +3,7 @@
 
 import { useEffect, useRef, useState } from 'react';
 import { useApp } from '../state/context';
-import { folderSupported } from '../state/folderSync';
+import { chooseFolder, folderSupported, reconnectFolder, useFolderStatus } from '../state/folderSync';
 import { installHint, usePwa } from '../pwa';
 import { Lock } from '../ui/icons';
 import { BackupPanel, FolderSync } from './Backup';
@@ -11,11 +11,49 @@ import { InstallLou } from './Install';
 import { LicenseSection } from './Unlock';
 
 /** Small status card for the rail: says where the data lives and opens the full panel. */
+/** One line for the phone top bar (the rail is hidden there): what has been saved, and when. */
+export function SaveLine() {
+  const { savedAt } = useApp();
+  const folder = useFolderStatus();
+  const time = (t: number) => new Date(t).toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' });
+  const paused = folder.kind === 'needs-permission' || folder.kind === 'error';
+  return (
+    <div className="save-line" role="status" aria-live="polite">
+      <span className="sync-dot" aria-hidden="true" />
+      <span>{savedAt ? `Saved in this browser at ${time(savedAt)}` : 'Saves in this browser as you go'}
+        {folder.kind === 'connected' && folder.savedAt ? ` · and to ${folder.folder} at ${time(folder.savedAt)}` : ''}
+        {paused ? ' · folder saving paused' : ''}</span>
+      {folder.kind === 'none' && <button type="button" className="linkish" onClick={() => void chooseFolder()}>Save to a folder</button>}
+      {paused && <button type="button" className="linkish" onClick={() => void (folder.kind === 'error' ? chooseFolder() : reconnectFolder())}>Fix</button>}
+    </div>
+  );
+}
+
 export function YourDataCard({ onOpen }: { onOpen: () => void }) {
+  const { savedAt } = useApp();
+  const folder = useFolderStatus();
+  const time = (t: number) => new Date(t).toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' });
   return (
     <div className="data-card">
       <div className="data-card-title"><Lock size={16} /> Saved on this device only</div>
       <p>No account, nothing uploaded.</p>
+      {/* Peace of mind: always say what has been saved, and when. */}
+      <div className="save-status" role="status" aria-live="polite">
+        <p><span className="sync-dot" aria-hidden="true" /> {savedAt ? `Saved in this browser at ${time(savedAt)}` : 'Saves in this browser as you go'}</p>
+        {folder.kind === 'connected' && (
+          <p><span className="sync-dot" aria-hidden="true" /> {folder.saving ? 'Saving to ' : folder.savedAt ? `Saved to ${folder.folder} at ${time(folder.savedAt)}` : 'Saving automatically to '}{!folder.savedAt || folder.saving ? <strong>{folder.folder}</strong> : null}</p>
+        )}
+        {folder.kind === 'needs-permission' && <p className="save-warn">Your browser paused saving to {folder.folder}.</p>}
+        {folder.kind === 'error' && <p className="save-warn">{folder.message}</p>}
+      </div>
+      {folder.kind === 'none' && (
+        <>
+          <p className="small">Also keep a copy on your computer?</p>
+          <button type="button" className="btn btn-primary btn-sm" onClick={() => void chooseFolder()}>Save automatically…</button>
+        </>
+      )}
+      {folder.kind === 'needs-permission' && <button type="button" className="btn btn-primary btn-sm" onClick={() => void reconnectFolder()}>Keep saving to {folder.folder}</button>}
+      {folder.kind === 'error' && <button type="button" className="btn btn-primary btn-sm" onClick={() => void chooseFolder()}>Choose a folder…</button>}
       <button type="button" className="btn btn-secondary btn-sm" onClick={onOpen}>Your data</button>
     </div>
   );

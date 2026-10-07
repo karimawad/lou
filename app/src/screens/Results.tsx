@@ -51,7 +51,7 @@ export function Results() {
     ...(state.businesses ?? []).filter((b) => b.carried).map((b) => b.name || 'a business'),
     ...(state.pficFunds ?? []).filter((f) => f.carried).map((f) => f.name || 'a fund')];
   if (carried.length) flags.unshift({ id: 'carried', severity: 'block', title: `Add this year's figures for ${carried.join(', ')}`,
-    detail: `Lou copied ${carried.length === 1 ? 'it' : 'them'} from another year, but balances, income and distributions are different every year. Go back to A few questions and fill in ${year}'s figures.` });
+    detail: `Lou copied ${carried.length === 1 ? 'it' : 'them'} from another year, but balances, income and distributions are different every year. Go back to the questions or Your Canadian accounts step and fill in ${year}'s figures.` });
   if (looksQuebec(state)) flags.unshift({ id: 'quebec', severity: 'block', title: QUEBEC_TITLE, detail: QUEBEC_DETAIL });
   if (!hasNoa) flags.unshift({ id: 'no-noa', severity: 'block', title: 'Add your Notice of Assessment',
     detail: "Without it Lou can't claim the foreign tax credit, so the tax shown here is far too high. Go back to Your slips and add it." });
@@ -109,7 +109,7 @@ export function Results() {
   return (
     <div className="page">
       <div className="head no-print">
-        <p className="eyebrow">Step 6</p>
+        <p className="eyebrow">Step 7</p>
         <h1 id="main-heading" tabIndex={-1}>Your {year} US return</h1>
       </div>
 
@@ -285,7 +285,7 @@ export function Results() {
       </section>
 
       <div className="actions">
-        <button type="button" className="btn btn-ghost" onClick={() => go('questions')}><Back size={18} /> Back</button>
+        <button type="button" className="btn btn-ghost" onClick={() => go('accounts')}><Back size={18} /> Back</button>
         <span className="spacer" />
       </div>
     </div>

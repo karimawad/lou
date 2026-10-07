@@ -55,7 +55,13 @@ await page.waitForTimeout(800);
 await page.screenshot({ path: `${OUT}/questions${process.env.MOBILE ? '-mobile' : ''}.png`, fullPage: true });
 const overflow = await page.evaluate(() => document.documentElement.scrollWidth - window.innerWidth);
 if (overflow > 1) errors.push(`horizontal overflow ${overflow}px`);
-for (const h of ['Self-employment', 'Canadian mutual funds and ETFs', 'Sales of investments', 'Your Canadian accounts']) {
+for (const h of ['Self-employment', 'Sales of investments']) {
+  if (!(await page.getByRole('heading', { name: h }).count())) errors.push(`missing section: ${h}`);
+}
+await page.getByRole('button', { name: /Next: your Canadian accounts/ }).click();
+await page.waitForTimeout(500);
+await page.screenshot({ path: `${OUT}/accounts${process.env.MOBILE ? '-mobile' : ''}.png`, fullPage: true });
+for (const h of ['Canadian mutual funds and ETFs', 'Your Canadian accounts']) {
   if (!(await page.getByRole('heading', { name: h }).count())) errors.push(`missing section: ${h}`);
 }
 await page.getByRole('button', { name: 'See my US return' }).click();

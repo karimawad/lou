@@ -298,3 +298,9 @@ with filled IRS PDFs (1040, Sch 1, 1-A, 2, 3, B, 8812, 1116 per category) and a 
   (negative), the rest on line 8. `Form1116.carryback` + warn flag `carryback-<cat>` tell the user to amend the prior year (1040-X, revised 1116: line 10 and 24 up,
   Schedule 3 line 1 up, same refund). Prior year not in Lou: old info flag, line 7 = 0. The prior year's review snapshot has `back`, so it is flagged "review again".
   NOT built: Form 1040-X; the prior year's other effects (child credit limits, AMT, AMT FTC carryback) are not recomputed; 2023 -> 2022 (no 2022 rules).
+
+## Steps (2026-10-07)
+
+- Seven steps now: Tax year, About you, Your slips, Check the numbers, A few questions, **Your Canadian accounts** (`screens/YourAccounts.tsx`: AccountsSection
+  + FundsSection, gated on accounts entered or "none" and no copied-but-unfilled items), Your US return. Start lists bank/account details as "have these ready" (FBAR, Form 8938).
+  Saved `step: 'questions'` still valid. Scripts updated (walkthrough, sections-check, carry-check).

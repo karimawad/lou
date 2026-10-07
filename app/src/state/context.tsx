@@ -15,6 +15,8 @@ interface Ctx {
   restore: (state: AppState, blobs: { key: string; blob: Blob }[]) => Promise<void>;
   /** Tax years the saved keys unlock, or null while they are being checked. */
   entitled: number[] | null;
+  /** When the work was last saved in this browser (null until the first save of this visit). */
+  savedAt: number | null;
   /** Adds a pasted or emailed key. Resolves with the years it unlocks, or what is wrong with it. */
   addKey: (text: string) => Promise<{ ok: true; years: number[] } | { ok: false; message: string }>;
   /** A message about a key that arrived with the page address (from the thank-you page or an email link). */
@@ -30,6 +32,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
   const latest = useRef(state);
   latest.current = state;
   const [entitled, setEntitled] = useState<number[] | null>(() => (state.licenses.length ? null : []));
+  const [savedAt, setSavedAt] = useState<number | null>(null);
   const [licenseNotice, setLicenseNotice] = useState<{ ok: boolean; text: string } | null>(null);
 
   // Check the saved keys on this device (no network).
@@ -43,7 +46,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
   // Auto-save shortly after each change.
   useEffect(() => {
     window.clearTimeout(timer.current);
-    timer.current = window.setTimeout(() => saveState(state), 300);
+    timer.current = window.setTimeout(() => { saveState(state); setSavedAt(Date.now()); }, 300);
     return () => window.clearTimeout(timer.current);
   }, [state]);
 
@@ -96,7 +99,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
     window.scrollTo({ top: 0 });
   }, []);
 
-  return <AppCtx.Provider value={{ state, update, go, openYear, reset, restore, entitled, addKey, licenseNotice, dismissLicenseNotice: () => setLicenseNotice(null) }}>{children}</AppCtx.Provider>;
+  return <AppCtx.Provider value={{ state, update, go, openYear, reset, restore, entitled, savedAt, addKey, licenseNotice, dismissLicenseNotice: () => setLicenseNotice(null) }}>{children}</AppCtx.Provider>;
 }
 
 export function useApp(): Ctx {

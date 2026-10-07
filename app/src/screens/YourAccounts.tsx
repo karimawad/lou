@@ -16,7 +16,7 @@ export function YourAccounts() {
         <p className="eyebrow">Step 6</p>
         <h1 id="main-heading" tabIndex={-1}>Your Canadian accounts</h1>
         <p className="lede">The US wants to know about Canadian bank and investment accounts, even when they earn nothing. Lou uses what you enter here to tell you
-          whether you must file an FBAR (a separate online report to FinCEN) and Form 8938, and to fill Form 8621 for any mutual funds or ETFs. Have your statements handy.</p>
+          whether you must file an FBAR (a separate online report to FinCEN) and Form 8938, and to fill Form 8621 for any mutual funds or ETFs. List every account in your name: bank, investment, RRSP, RRIF, TFSA, RESP and FHSA. Your monthly statements show the highest balance.</p>
       </div>
 
       <AccountsSection />

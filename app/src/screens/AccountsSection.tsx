@@ -50,12 +50,6 @@ export function AccountsSection() {
 
   return (
     <section className="section">
-      <div className="section-head">
-        <h2>Your Canadian accounts</h2>
-        <p>List every account in your name: bank accounts, investment accounts, RRSP, RRIF, TFSA, RESP and FHSA. Lou uses the
-          balances to tell you whether you need an FBAR and Form 8938, and prepares both. Your monthly statements show the highest balance.</p>
-      </div>
-
       {offer && (
         <CarryOffer section="accounts" from={offer.year} what={['account', 'accounts']}
           names={offer.items.map((a) => `${a.institution || 'an institution'} ${ACCOUNT_KIND_LABEL[a.kind]}${a.accountNumber ? ` ${a.accountNumber}` : ''}`)}

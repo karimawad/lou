@@ -51,6 +51,7 @@ page.on('pageerror', (e) => errors.push(e.message));
 await page.goto(BASE);
 await page.evaluate((s) => localStorage.setItem('lou:v1', JSON.stringify(s)), state);
 await page.reload();
+await page.locator('.rail .steps button', { hasText: 'A few questions' }).dispatchEvent('click'); // the rail is hidden on phones
 await page.waitForTimeout(800);
 await page.screenshot({ path: `${OUT}/questions${process.env.MOBILE ? '-mobile' : ''}.png`, fullPage: true });
 const overflow = await page.evaluate(() => document.documentElement.scrollWidth - window.innerWidth);

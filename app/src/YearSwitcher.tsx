@@ -36,7 +36,7 @@ export function YearSwitcher() {
       <ul>
         {statuses.map((y) => (
           <li key={y.year}>
-            <button type="button" className="year-link" aria-current={state.year === y.year ? 'true' : undefined} onClick={() => openYear(y.year)}>
+            <button type="button" className="year-link" aria-current={state.year === y.year && state.step !== 'home' && state.step !== 'catchup' ? 'true' : undefined} onClick={() => openYear(y.year)}>
               <span className="num">{y.year}</span>
               <span className={`year-status ${y.tone}`}>{y.label}</span>
             </button>

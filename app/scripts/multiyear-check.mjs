@@ -11,6 +11,7 @@ await page.goto(BASE);
 await page.evaluate(() => localStorage.setItem('lou:v1', JSON.stringify({ version: 1, step: 'slips', year: 2025, filingStatus: 'single',
   taxpayer: { firstName: 'Sam', lastName: 'Lee', ssn: '123-45-6789', dateOfBirth: '1985-05-01' }, slips: [], docs: [], years: {} })));
 await page.reload();
+await page.locator('.rail .steps').getByRole('button', { name: 'Your slips' }).click();
 await page.locator('main input[type=file]').first().setInputFiles([resolve('src/extract/__fixtures__/t4-2025-fillable.pdf'), resolve('src/extract/__fixtures__/t4-2024-fillable.pdf')]);
 await page.getByText(/Added to your 2024 return/).waitFor({ timeout: 60000 });
 const jobs = await page.locator('.list-meta').allTextContents();

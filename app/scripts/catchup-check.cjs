@@ -37,6 +37,7 @@ const state = {
   await page.goto(BASE);
   await page.evaluate((s) => localStorage.setItem('lou:v1', JSON.stringify(s)), state);
   await page.reload();
+  await page.getByRole('button', { name: /^(Continue catch-up filing|Catch up on missed years)/ }).click();
   await page.waitForSelector('h1:has-text("Catch up on missed")');
   console.log('years table:', (await page.locator('.ledger').first().innerText()).replace(/\s+/g, ' ').slice(0, 260));
 

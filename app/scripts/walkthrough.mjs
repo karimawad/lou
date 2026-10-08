@@ -27,9 +27,8 @@ async function run(name, viewport) {
   await page.goto(BASE);
   await page.evaluate(() => localStorage.clear());
   await page.reload();
-  await shot('1-start');
-  await page.getByRole('radio', { name: new RegExp('^' + (process.env.YEAR ?? '2025')) }).check();
-  await page.getByRole('button', { name: 'Continue', exact: true }).click();
+  await shot('1-home');
+  await page.getByRole('button', { name: `Start ${process.env.YEAR ?? '2025'}` }).click();
 
   await page.getByLabel('First name and middle initial').fill('Sam');
   await page.getByLabel('Last name', { exact: true }).fill('Lee');

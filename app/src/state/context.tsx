@@ -2,6 +2,7 @@ import { createContext, useCallback, useContext, useEffect, useRef, useState, ty
 import { checkKey, cleanKey, problemText, yearsCovered } from '../license/key';
 import { clearAllData, initialState, loadState, putBlob, saveState, switchYear, type AppState, type StepId } from './store';
 import type { TaxYear } from '../tax/years';
+import { yearCard } from './dashboard';
 import { loadFolder, useFolderAutosave } from './folderSync';
 
 interface Ctx {
@@ -60,7 +61,11 @@ export function AppProvider({ children }: { children: ReactNode }) {
     requestAnimationFrame(() => document.getElementById('main-heading')?.focus());
   }, []);
   const openYear = useCallback((year: TaxYear) => {
-    setState((s) => switchYear(s, year));
+    // From Home or Catch-up a year link opens that year's own page, at the first thing still to do.
+    setState((s) => {
+      const next = switchYear(s, year);
+      return s.step === 'home' || s.step === 'catchup' ? { ...next, step: yearCard(next, year, new Set()).next } : next;
+    });
     window.scrollTo({ top: 0 });
   }, []);
   const reset = useCallback(async () => {

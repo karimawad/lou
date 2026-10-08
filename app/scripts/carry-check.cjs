@@ -43,8 +43,10 @@ const state = {
   const s25 = await page.evaluate(() => JSON.parse(localStorage.getItem('lou:v1')));
   console.log('2025 started from', s25.carryFrom, '| status', s25.filingStatus, '| dependents', s25.dependents.map((d) => d.firstName).join(','),
     '| accounts', s25.accounts.map((a) => `${a.institution} ${a.accountNumber} max ${a.maxValueCad} carried ${a.carried}${a.registered ? ` start ${a.registered.startValueCad}` : ''}`).join('; '));
-  await page.evaluate(() => { const s = JSON.parse(localStorage.getItem('lou:v1')); s.step = 'accounts'; localStorage.setItem('lou:v1', JSON.stringify(s)); });
+  await page.waitForTimeout(800); // let autosave run before editing the saved state
+  await page.evaluate(() => { const s = JSON.parse(localStorage.getItem('lou:v1')); s.slips = [{ id: 'x', type: 'T4', owner: 'taxpayer', payer: 'x', boxes: {}, reads: {}, edited: [], confirmed: true }]; localStorage.setItem('lou:v1', JSON.stringify(s)); });
   await page.reload();
+  await page.locator('.rail .steps').getByRole('button', { name: 'Your Canadian accounts' }).click();
   await page.waitForTimeout(500);
   console.log('2025 notes:', (await page.locator('.callout strong').allTextContents()).filter((t) => /Copied|Bring/.test(t)).join(' | '));
   console.log('2025 see-return disabled before:', await page.getByRole('button', { name: 'See my US return' }).isDisabled(),
@@ -61,8 +63,9 @@ const state = {
   console.log('2023 About you offer:', (await page.locator('.callout strong').allTextContents()).filter((t) => /Bring/.test(t)).join(' | '));
   await page.getByRole('button', { name: 'Add it' }).click();
   await page.waitForTimeout(800); // let Lou's autosave run before the script edits the saved state
-  await page.evaluate(() => { const s = JSON.parse(localStorage.getItem('lou:v1')); s.step = 'accounts'; s.slips = []; localStorage.setItem('lou:v1', JSON.stringify(s)); });
+  await page.evaluate(() => { const s = JSON.parse(localStorage.getItem('lou:v1')); s.slips = [{ id: 'x', type: 'T4', owner: 'taxpayer', payer: 'x', boxes: {}, reads: {}, edited: [], confirmed: true }]; localStorage.setItem('lou:v1', JSON.stringify(s)); });
   await page.reload();
+  await page.locator('.rail .steps').getByRole('button', { name: 'Your Canadian accounts' }).click();
   const offer = page.locator('.callout', { hasText: 'Bring in your accounts' });
   console.log('2023 accounts offer:', (await offer.innerText()).replace(/\s+/g, ' ').slice(0, 200));
   await offer.getByRole('button', { name: 'Add them' }).click();

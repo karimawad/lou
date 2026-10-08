@@ -12,6 +12,7 @@ await page.goto(BASE);
 await page.evaluate(() => localStorage.setItem('lou:v1', JSON.stringify({ version: 1, step: 'slips', year: 2025, filingStatus: 'single',
   taxpayer: { firstName: 'Sam', lastName: 'Lee', ssn: '123-45-6789', dateOfBirth: '1985-05-01' }, slips: [], docs: [] })));
 await page.reload();
+await page.locator('.rail .steps').getByRole('button', { name: 'Your slips' }).click();
 const FIXTURE = process.argv[3] ?? 't4-2025-photo.jpg';
 await page.locator('main input[type=file]').first().setInputFiles(resolve('src/extract/__fixtures__/' + FIXTURE));
 await page.getByText(/Found a slip|No slip found|couldn't/).first().waitFor({ timeout: 120000 });

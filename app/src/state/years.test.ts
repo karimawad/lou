@@ -140,6 +140,25 @@ describe('doing an earlier year after a later one', () => {
   });
 });
 
+describe('2025, then 2024, then 2023', () => {
+  it('a year looks the same whichever year is open, and reviewing clears the flag for good', () => {
+    let s = withYear(base(), 2025);
+    s = { ...s, reviewed: { 2025: reviewSnapshot(s, 2025)! } };
+    s = withYear(s, 2024);
+    s = { ...s, reviewed: { ...s.reviewed, 2024: reviewSnapshot(s, 2024)! } };
+    s = withYear(s, 2023);
+    s = { ...s, reviewed: { ...s.reviewed, 2023: reviewSnapshot(s, 2023)! } };
+    // 2023 is open: 2024 must already see 2023's carry-in (the open year used to be invisible to a nested lookup).
+    expect(staleYears(s).map((x) => x.year).sort()).toEqual([2024, 2025]);
+    for (const st of staleYears(s)) s = { ...s, reviewed: { ...s.reviewed, [st.year]: reviewSnapshot(s, st.year)! } };
+    expect(staleYears(s)).toEqual([]);
+    for (const y of [2025, 2024, 2023] as const) {
+      s = switchYear(s, y);
+      expect(staleYears(s)).toEqual([]);
+    }
+  });
+});
+
 describe('carryback to the prior year (IRC 904(c))', () => {
   /** A year with the given Canadian tax (CAD) on 100,000 of wages. */
   const taxed = (state: AppState, year: 2023 | 2024 | 2025, federal: number, provincial: number): AppState => {

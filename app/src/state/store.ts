@@ -137,7 +137,13 @@ export function yearData(state: AppState, year: TaxYear): YearData | undefined {
 /** A full state with `year` active (used to compute other years without switching the UI). */
 export function stateForYear(state: AppState, year: TaxYear): AppState | null {
   const d = yearData(state, year);
-  return d ? { ...state, ...d, year } : null;
+  if (!d) return null;
+  // The active year's data lives flat on `state`; put it away in `years` so code that looks at a neighbouring year
+  // from the returned state (autoCarryover: the year before, staleness: the year after) still finds it.
+  const years = { ...state.years };
+  if (state.year && state.year !== year) years[state.year] = yearData(state, state.year);
+  delete years[year];
+  return { ...state, ...d, year, years };
 }
 
 /** Puts the active year's data away and loads (or starts) another year. */

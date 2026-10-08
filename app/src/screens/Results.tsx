@@ -124,7 +124,7 @@ export function Results() {
           <>
             <p className="small muted">You owe the IRS</p>
             <div className="verdict-amount owe">{fmtUsd(owe)}</div>
-            <p>{owe === r.f1040['23'] ? 'This is the net investment income tax, which the foreign tax credit cannot reduce.' : 'Your Canadian tax does not fully cover your US tax on this income. The breakdown below shows where it comes from.'}</p>
+            <p>{owe === r.f1040['23'] ? `This is the net investment income tax: 3.8% of your interest and dividends (${fmtUsd(r.f8960['12'] ?? 0)}), because your income is above ${fmtUsd(r.f8960['14'] ?? 0)}. The foreign tax credit cannot reduce it, so even a few dollars of interest costs about 4 cents on the dollar.` : 'Your Canadian tax does not fully cover your US tax on this income. The breakdown below shows where it comes from.'}</p>
           </>
         ) : (
           <>

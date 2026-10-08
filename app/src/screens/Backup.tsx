@@ -120,7 +120,7 @@ export function FolderSync({ compact = false }: { compact?: boolean }) {
       {st.kind === 'none' && (
         <>
           {!compact && <p className="small muted">Lou can also save automatically to a folder on this computer (for example Documents/Taxes) after every change: one
-            file it keeps up to date, plus a dated copy each day. Restore either one with "Restore from a backup".</p>}
+            file it keeps up to date, plus a dated copy for today and the day before (older copies are deleted so your folder does not fill up). Restore either one with "Restore from a backup".</p>}
           <div><button type="button" className={btn} onClick={() => void chooseFolder()}>{!compact && <FolderIcon />} Save automatically to a folder…</button></div>
         </>
       )}

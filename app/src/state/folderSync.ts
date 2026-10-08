@@ -1,7 +1,8 @@
 // Automatic saving to a folder the user picks (Chrome and Edge on a computer: File System Access API).
 // Lou keeps the folder handle in this browser's IndexedDB and, after each change, writes
-// "Lou-autosave.lou" plus one dated copy per day ("Lou-backup-YYYY-MM-DD.lou"), in the same format
-// as a backup file, so either can be restored anywhere. Nothing is sent anywhere.
+// "Lou-autosave.lou" (overwritten every time) plus one dated copy per day ("Lou-backup-YYYY-MM-DD.lou", overwritten
+// all day). Only the newest KEEP_DATED dated copies stay; older ones Lou made are deleted so the folder never fills up.
+// Same format as a backup file, so either can be restored anywhere. Nothing is sent anywhere.
 
 import { useEffect, useRef, useSyncExternalStore } from 'react';
 import { backupFileName, createBackup } from './backup';
@@ -12,11 +13,25 @@ interface DirHandle {
   name: string;
   queryPermission(o: { mode: 'readwrite' }): Promise<Perm>;
   requestPermission(o: { mode: 'readwrite' }): Promise<Perm>;
+  entries(): AsyncIterable<[string, { kind: 'file' | 'directory' }]>;
+  removeEntry(name: string): Promise<void>;
   getFileHandle(name: string, o: { create: boolean }): Promise<{ createWritable(): Promise<{ write(d: Blob | string): Promise<void>; close(): Promise<void> }> }>;
 }
 
 export const AUTOSAVE_NAME = 'Lou-autosave.lou';
 const HANDLE_KEY = '__folder';
+const KEEP_DATED = 2;
+const DATED = /^Lou-backup-\d{4}-\d{2}-\d{2}\.lou$/;
+
+/** Deletes the oldest dated copies Lou wrote (only names Lou itself makes), keeping the newest few. A failure here never blocks a save. */
+async function pruneDated(h: DirHandle) {
+  try {
+    const names: string[] = [];
+    for await (const [name, e] of h.entries()) if (e.kind === 'file' && DATED.test(name)) names.push(name);
+    names.sort(); // the date in the name sorts oldest first
+    for (const name of names.slice(0, Math.max(0, names.length - KEEP_DATED))) await h.removeEntry(name);
+  } catch { /* leave the files alone */ }
+}
 
 export type FolderStatus =
   | { kind: 'unsupported' }
@@ -76,6 +91,7 @@ export async function writeToFolder(state: AppState) {
       await w.write(text);
       await w.close();
     }
+    await pruneDated(handle);
     set({ kind: 'connected', folder, savedAt: Date.now() });
   } catch (e) {
     const denied = e instanceof DOMException && (e.name === 'NotAllowedError' || e.name === 'SecurityError');

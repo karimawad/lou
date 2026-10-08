@@ -17,3 +17,6 @@ research/cra/
 releases
 current
 current.new
+
+# Backups contain SSNs and tax data: never commit
+*.lou

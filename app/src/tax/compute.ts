@@ -456,6 +456,10 @@ export function computeScenario(input: ReturnInput, withFeie: boolean): ReturnRe
   const niitAddBack = sum(f2555.map((f) => f.lines['42'] - (f.lines['43'] > 0 ? f.lines['44'] * (f.lines['42'] / f.lines['43']) : 0)));
   const f8960 = computeNiit(status, f1040, dollars(niitAddBack), dollars(sum(taxed.filter((i) => i.slipType === 'PFIC' && i.usLine === 's1_8z').map((i) => i.usd))));
   schedule2['12'] = f8960['17'] ?? 0;
+  const pensionIncome = f1040['5b'] ?? 0;
+  if (pensionIncome > 0 && (f1040['11a'] + dollars(niitAddBack)) > NIIT_THRESHOLD[status]) flags.push({ id: 'niit-pension', severity: 'info',
+    title: 'Net investment income tax: foreign pension and RRSP payments not counted',
+    detail: `Your income is above the $${NIIT_THRESHOLD[status].toLocaleString('en-US')} line for the 3.8% net investment income tax (Form 8960). Lou counted interest, dividends and similar income only. Annuity payments can count too, and the exemption in the rules names US retirement plans, not RRSPs or RRIFs. Lou leaves your $${pensionIncome.toLocaleString('en-US')} of foreign pension and RRSP income out because no IRS ruling settles it. Ask a tax professional if it matters to you; the tax would be 3.8% of that amount at most.` });
   // Interest on the section 1291 deferred tax (Form 8621 line 16f) -> line 17p.
   schedule2['17p'] = dollars(sum(pfic.map((p) => p.interest)));
   schedule2['18'] = schedule2['17p'];

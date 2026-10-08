@@ -2,31 +2,17 @@
 
 import { useMemo } from 'react';
 import { useApp } from './state/context';
-import { stateForYear, type AppState } from './state/store';
-import { toReturnInput } from './state/toInput';
-import { computeReturn } from './tax/compute';
-import { TAX_YEARS, type TaxYear } from './tax/years';
-import { fmtUsd } from './ui/kit';
-import { staleYears } from './state/staleness';
-
-function yearStatus(state: AppState, year: TaxYear): { label: string; tone: 'muted' | 'progress' | 'ready' } {
-  const s = stateForYear(state, year);
-  if (!s || (!s.slips.length && !s.filingStatus)) return { label: 'Not started', tone: 'muted' };
-  const ready = s.slips.length > 0 && s.slips.every((x) => x.confirmed) && s.slips.some((x) => x.type === 'NOA');
-  if (!ready) return { label: `${s.slips.length} slip${s.slips.length === 1 ? '' : 's'}, in progress`, tone: 'progress' };
-  const input = toReturnInput(s);
-  if (!input) return { label: 'In progress', tone: 'progress' };
-  const r = computeReturn(input).best;
-  return { label: r.refund > 0 ? `Refund ${fmtUsd(r.refund)}` : r.refund < 0 ? `Owes ${fmtUsd(-r.refund)}` : 'Ready, $0 owed', tone: 'ready' };
-}
+import { resultLine, yearCards } from './state/dashboard';
 
 export function YearSwitcher() {
   const { state, openYear } = useApp();
   const statuses = useMemo(() => {
-    const stale = new Set(staleYears(state).map((x) => x.year));
-    return TAX_YEARS.map((y) => {
-      const st = yearStatus(state, y);
-      return stale.has(y) ? { year: y, label: `Review again, ${st.label.toLowerCase()}`, tone: 'progress' as const } : { year: y, ...st };
+    // Same words as the Home cards (state/dashboard.ts), so the two never disagree.
+    return yearCards(state).map((c) => {
+      const result = resultLine(c.refund);
+      const label = c.status === 'ready' && result ? `Ready, ${result.toLowerCase()}` : c.label;
+      const tone = c.status === 'not-started' ? 'muted' as const : c.status === 'ready' || c.status === 'filed' ? 'ready' as const : 'progress' as const;
+      return { year: c.year, label, tone };
     });
   }, [state]);
   if (!state.year) return null;

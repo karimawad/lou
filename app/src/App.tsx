@@ -6,7 +6,8 @@ import { PwaBanners } from './screens/Install';
 import { LicenseNotice } from './screens/Unlock';
 import { SaveLine, YourDataCard, YourDataDialog } from './screens/YourData';
 import { STEPS, type AppState, type StepId } from './state/store';
-import { Mark, Check } from './ui/icons';
+import { Mark, Check, HomeIcon } from './ui/icons';
+import { Home } from './screens/Home';
 import { Start } from './screens/Start';
 import { You } from './screens/You';
 import { Slips } from './screens/Slips';
@@ -25,6 +26,7 @@ export function reachable(s: AppState): Record<StepId, boolean> {
   const hasSlips = s.slips.length > 0;
   const allConfirmed = hasSlips && s.slips.every((x) => x.confirmed);
   return {
+    home: true,
     start: true,
     you: !!s.year,
     slips: youDone,
@@ -42,8 +44,9 @@ function Shell() {
   const idx = STEPS.findIndex((x) => x.id === state.step);
   const [dataOpen, setDataOpen] = useState(false);
 
-  const Screen = { start: Start, you: You, slips: Slips, review: Review, questions: Questions, accounts: YourAccounts, results: Results, catchup: Catchup }[state.step];
+  const Screen = { home: Start, start: Start, you: You, slips: Slips, review: Review, questions: Questions, accounts: YourAccounts, results: Results, catchup: Catchup }[state.step];
   const catchingUp = state.step === 'catchup';
+  const home = state.step === 'home';
 
   return (
     <div className="shell">
@@ -55,6 +58,11 @@ function Shell() {
             <div className="brand-sub">Canadian slips to US tax forms</div>
           </div>
         </div>
+
+        <button type="button" className="step-link" onClick={() => go('home')} aria-current={home ? 'page' : undefined} style={{ marginBottom: 'var(--s-3)' }}>
+          <span className="step-dot" aria-hidden="true"><HomeIcon size={12} /></span>
+          Home
+        </button>
 
         <YearSwitcher />
 
@@ -93,16 +101,17 @@ function Shell() {
                 {TAX_YEARS.map((y) => <option key={y} value={y}>{y}</option>)}
               </select>
             )}
-            <span className="muted">{catchingUp ? 'Catch-up filing' : `Step ${idx + 1} of ${STEPS.length} · ${STEPS[idx].label}`}</span>
+            <span className="muted">{home ? 'Home' : catchingUp ? 'Catch-up filing' : `Step ${idx + 1} of ${STEPS.length} · ${STEPS[idx].label}`}</span>
+            {!home && <button type="button" className="linkish" onClick={() => go('home')}>Home</button>}
             <button type="button" className="linkish" onClick={() => setDataOpen(true)}>Your data</button>
           </div>
           <SaveLine />
-          <div className="progress" aria-hidden="true"><span style={{ width: `${catchingUp ? 100 : ((idx + 1) / STEPS.length) * 100}%` }} /></div>
+          <div className="progress" aria-hidden="true"><span style={{ width: `${catchingUp ? 100 : home ? 0 : ((idx + 1) / STEPS.length) * 100}%` }} /></div>
         </header>
         <main className="main">
           <PwaBanners />
           <LicenseNotice />
-          <Screen />
+          {home ? <Home onOpenData={() => setDataOpen(true)} /> : <Screen />}
           <Footer />
         </main>
       </div>

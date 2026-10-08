@@ -18,6 +18,7 @@ export const Info = (p: P) => (<svg {...base(p)}><circle cx="10" cy="10" r="7.5"
 export const Stop = (p: P) => (<svg {...base(p)}><circle cx="10" cy="10" r="7.5" /><path d="M10 6v5M10 13.8v.01" /></svg>);
 export const Arrow = (p: P) => (<svg {...base(p)}><path d="M4 10h12M11 5l5 5-5 5" /></svg>);
 export const Back = (p: P) => (<svg {...base(p)}><path d="M16 10H4M9 5l-5 5 5 5" /></svg>);
+export const HomeIcon = (p: P) => (<svg {...base(p)}><path d="M3.5 9 10 3.5 16.5 9M5 8v8h10V8" /></svg>);
 export const Plus = (p: P) => (<svg {...base(p)}><path d="M10 4v12M4 10h12" /></svg>);
 export const Trash = (p: P) => (<svg {...base(p)}><path d="M3.5 5.5h13M8 5.5V4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v1.5M5 5.5l.8 10a1.5 1.5 0 0 0 1.5 1.4h5.4a1.5 1.5 0 0 0 1.5-1.4l.8-10" /></svg>);
 export const Download = (p: P) => (<svg {...base(p)}><path d="M10 3v9.5M6 8.5l4 4 4-4" /><path d="M3.5 13v2.5a1 1 0 0 0 1 1h11a1 1 0 0 0 1-1V13" /></svg>);

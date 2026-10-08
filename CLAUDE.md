@@ -312,3 +312,12 @@ with filled IRS PDFs (1040, Sch 1, 1-A, 2, 3, B, 8812, 1116 per category) and a 
 - Share bar per post: X, LinkedIn, Facebook, Bluesky, Reddit, Email links (work without JS) + Copy link / device share sheet (`share.js`, same-origin).
   Per-section `#` anchor links. Link previews use `image:` (1200x630) when set, else the app icon; no default social card yet.
 - Blog is in the top nav and footer of every guide page and the landing page.
+
+## Home dashboard (2026-10-08)
+
+- `StepId` 'home' (not in `STEPS`): `screens/Home.tsx`, pure card logic in `state/dashboard.ts` (`yearCards`, tested in `dashboard.test.ts`).
+  Everyone lands on Home (`context.tsx`). Home also holds Who Lou is for / Have these ready (open on a first visit, closed fold after), install and restore; Start is now only the year choice. 6 milestones incl. A few questions (`questionsPending`). Rail "Home" button + topbar "Home" link.
+- One card per `TAX_YEARS` entry (grows when a year is added there). Status: not-started / progress (6 milestones) / ready / review (stale carry-in) / filed.
+  Refund or owes shows only when all milestones are done. Output links (Filled forms, Mapping guide `#mapping-guide`, FBAR worksheet `#fbar-worksheet`) show a lock without a key.
+- "Mark as filed" (Karim, 2026-10-08): per-year `filed: {date, method, fbar}` in `YEAR_KEYS`, set with `patchYear`. It is the user's own record only; Lou files nothing.
+- Side cards: catch-up filing, backup/save status, key status. Not built: due-date countdown (Karim did not pick it), Visual browser check of Home.

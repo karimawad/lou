@@ -14,7 +14,7 @@ export function FbarWorksheet({ state }: { state: AppState }) {
   if (!filers.length) return null;
 
   return (
-    <details className="section fold">
+    <details className="section fold" id="fbar-worksheet">
       <summary>
         <span><span className="fold-title">FBAR worksheet</span>
           <span className="fold-meta">Every value FinCEN asks for, account by account</span></span>

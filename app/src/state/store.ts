@@ -13,7 +13,7 @@ import type { FilingStatus, TaxYear } from '../tax/years';
 import { seedYear } from './carry';
 import type { ReviewSnap } from './staleness';
 
-export type StepId = 'start' | 'you' | 'slips' | 'review' | 'questions' | 'accounts' | 'results' | 'catchup';
+export type StepId = 'home' | 'start' | 'you' | 'slips' | 'review' | 'questions' | 'accounts' | 'results' | 'catchup';
 export const STEPS: { id: StepId; label: string }[] = [
   { id: 'start', label: 'Tax year' },
   { id: 'you', label: 'About you' },
@@ -57,6 +57,15 @@ export interface SlipRecord {
   fromT1Line?: string;
 }
 
+/** The user's own record that a year's return went out (Home dashboard). Lou never files anything. */
+export interface FiledInfo {
+  /** YYYY-MM-DD */
+  date: string;
+  method: 'mail' | 'other';
+  /** Also filed the FBAR for this year with FinCEN. */
+  fbar: boolean;
+}
+
 export interface AppState {
   version: 1;
   step: StepId;
@@ -92,6 +101,8 @@ export interface AppState {
   capitalLossCarryover: CapitalLossCarryover | null;
   /** The year this one was started from (accounts, businesses, ... were copied from it), if any. */
   carryFrom: TaxYear | null;
+  /** Set when the user marks the year as filed (Home dashboard). */
+  filed: FiledInfo | null;
   /** "Bring in from another year" offers the user turned down, by section. */
   carryDismissed: string[];
   /** Other tax years' data, put away while this year is active (multi-year workspace). */
@@ -112,7 +123,7 @@ export interface AppState {
 export const YEAR_KEYS = [
   'step', 'filingStatus', 'dependents', 'spouseIsUsPerson', 'livedInCanadaAllYear', 'digitalAssets', 'accountsOver10k', 'docs', 'slips',
   'elections', 'carryover', 'feieFacts', 'feie2555', 'accounts', 'noAccounts', 'businesses', 'sales', 'pficFunds', 'capitalLossCarryover',
-  'carryFrom', 'carryDismissed',
+  'carryFrom', 'carryDismissed', 'filed',
 ] as const;
 export type YearData = Pick<AppState, (typeof YEAR_KEYS)[number]>;
 
@@ -159,6 +170,13 @@ export function switchYear(state: AppState, year: TaxYear): AppState {
   return { ...state, ...next, year, years };
 }
 
+/** Changes fields of one year's data, whether it is the active year or put away. A year never started is left alone. */
+export function patchYear(state: AppState, year: TaxYear, patch: Partial<YearData>): AppState {
+  if (state.year === year) return { ...state, ...patch };
+  const d = state.years[year];
+  return d ? { ...state, years: { ...state.years, [year]: { ...d, ...patch } } } : state;
+}
+
 /** Adds slips/docs to another year's workspace without switching to it. */
 export function addToYear(state: AppState, year: TaxYear, docs: DocRecord[], slips: SlipRecord[]): AppState {
   if (state.year === year) return { ...state, docs: [...state.docs, ...docs], slips: [...state.slips, ...slips] };
@@ -196,6 +214,7 @@ export function initialState(): AppState {
     capitalLossCarryover: null,
     carryFrom: null,
     carryDismissed: [],
+    filed: null,
     years: {},
     catchup: emptyCatchup(),
     licenses: [],
@@ -213,6 +232,12 @@ const RECORD_KEYS = ['elections', 'carryover', 'feieFacts', 'feie2555'] as const
 function fixYearShape(o: Record<string, unknown>, base: Record<string, unknown>) {
   for (const k of LIST_KEYS) o[k] = Array.isArray(o[k]) ? (o[k] as unknown[]).filter(isObj) : base[k] ?? [];
   for (const k of RECORD_KEYS) o[k] = isObj(o[k]) ? { ...(base[k] as object), ...(o[k] as object) } : base[k];
+  o.filed = sanitizeFiled(o.filed);
+}
+
+function sanitizeFiled(v: unknown): FiledInfo | null {
+  if (!isObj(v) || typeof v.date !== 'string' || !/^\d{4}-\d{2}-\d{2}$/.test(v.date)) return null;
+  return { date: v.date, method: v.method === 'other' ? 'other' : 'mail', fbar: v.fbar === true };
 }
 
 /**
@@ -226,7 +251,7 @@ export function sanitizeState(raw: unknown): AppState {
   fixYearShape(out, base as unknown as Record<string, unknown>);
   for (const k of ['taxpayer', 'spouse', 'address'] as const) out[k] = isObj(out[k]) ? { ...base[k], ...(out[k] as object) } : base[k];
   out.licenses = Array.isArray(out.licenses) ? out.licenses.filter((x): x is string => typeof x === 'string' && x.length > 0 && x.length < 4000) : [];
-  if (!STEPS.some((s) => s.id === out.step) && out.step !== 'catchup') out.step = 'start';
+  if (!STEPS.some((s) => s.id === out.step) && out.step !== 'catchup' && out.step !== 'home') out.step = 'start';
   out.catchup = sanitizeCatchup(out.catchup);
   const fin = (x: unknown) => (typeof x === 'number' && Number.isFinite(x) ? x : 0);
   out.reviewed = Object.fromEntries(Object.entries(isObj(out.reviewed) ? out.reviewed : {})

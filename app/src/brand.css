@@ -138,3 +138,31 @@ details.more { border-top: 1px solid var(--ink); }
 
 /* Contrast: status text on the yellow "current year" row must stay readable (found by the accessibility audit). */
 .year-link[aria-current='true'] .year-status { color: var(--ink); font-weight: 600; }
+
+/* ---------- Home dashboard ---------- */
+.year-cards { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--s-5); grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); }
+.year-card { display: flex; flex-direction: column; gap: var(--s-3); padding: var(--s-5); background: var(--surface); border: 1.5px solid var(--ink); min-width: 0; }
+.year-card.ready, .year-card.review { box-shadow: var(--shadow); }
+.year-card.not-started { background: transparent; border-style: dashed; border-color: var(--line-strong); }
+.year-card-top { display: flex; align-items: center; justify-content: space-between; gap: var(--s-3); }
+.year-card h2 { font-size: var(--text-2xl); font-weight: 900; font-stretch: 90%; margin: 0; }
+.year-result { font-family: var(--mono); font-size: var(--text-xl); font-weight: 700; color: var(--blue); margin: 0; }
+.meter { display: grid; grid-auto-flow: column; grid-auto-columns: 1fr; gap: 3px; }
+.meter span { height: 6px; background: var(--sunk); border: 1px solid var(--line); }
+.meter span.on { background: var(--ink); border-color: var(--ink); }
+.todo { margin: 0; padding-left: 1.1em; display: grid; gap: 2px; font-size: var(--text-sm); color: var(--ink-2); }
+.out-links { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: var(--s-2) var(--s-4); font-size: var(--text-sm); }
+.out-links .linkish { display: inline-flex; align-items: center; gap: 4px; }
+.year-card-actions { margin-top: auto; padding-top: var(--s-2); display: flex; flex-wrap: wrap; align-items: center; gap: var(--s-2); }
+.file-form { display: grid; gap: var(--s-3); padding: var(--s-3); border: 1px solid var(--line-strong); background: var(--paper); }
+.file-form label { display: grid; gap: 4px; font-size: var(--text-sm); font-weight: 600; }
+.file-form .check-row { display: flex; align-items: center; gap: var(--s-2); font-weight: 400; }
+.file-actions { display: flex; gap: var(--s-2); }
+.home-side { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--s-4); grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+.side-card { display: flex; flex-direction: column; align-items: flex-start; gap: var(--s-2); padding: var(--s-4); border: 1px solid var(--line-strong); background: var(--surface); }
+.side-card h2 { font-size: var(--text-base); font-weight: 800; margin: 0; }
+.side-card p { margin: 0; font-size: var(--text-sm); color: var(--ink-2); }
+.side-card .btn { margin-top: auto; }
+@media (prefers-reduced-motion: no-preference) {
+  .year-card { transition: transform 160ms var(--ease), box-shadow 160ms var(--ease); }
+}

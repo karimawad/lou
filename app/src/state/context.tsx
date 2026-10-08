@@ -27,7 +27,7 @@ interface Ctx {
 const AppCtx = createContext<Ctx | null>(null);
 
 export function AppProvider({ children }: { children: ReactNode }) {
-  const [state, setState] = useState<AppState>(() => loadState());
+  const [state, setState] = useState<AppState>(() => { return { ...loadState(), step: 'home' as const }; });
   const timer = useRef<number | undefined>(undefined);
   const latest = useRef(state);
   latest.current = state;

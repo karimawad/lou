@@ -257,8 +257,9 @@ export function You() {
           hint="The IRS asks everyone this on page 1. Simply owning crypto you didn't sell or receive is a No."
           value={state.digitalAssets} onChange={(v) => set((s) => ({ ...s, digitalAssets: v }))} />
         {state.digitalAssets === true && (
-          <Callout tone="warn" title="Crypto sales need Form 8949">
-            <p>Lou doesn't fill Form 8949 for crypto yet. Lou will mark the box and remind you to add the sales.</p>
+          <Callout tone="info" title="Crypto and NFT sales go on Form 8949">
+            <p>Lou ticks the box and, in A few questions, lets you type in each sale or swap. Lou then fills Form 8949 and Schedule D. Lou does not read
+              exchange files yet, and does not enter income from staking, mining or airdrops: your results page tells you where that goes.</p>
           </Callout>
         )}
         {err('digital') && <p className="error-text">{err('digital')}</p>}

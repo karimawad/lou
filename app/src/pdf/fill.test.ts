@@ -325,6 +325,39 @@ describe('capital gains, PFIC and TFSA forms', () => {
   }
 });
 
+describe('Form 8949 digital asset boxes', () => {
+  const base = (year: 2025 | 2024): ReturnInput => ({
+    ...input, year, slips: [{ id: 't4', type: 'T4', owner: 'taxpayer', payer: 'Maple Co', boxes: { '14': 100000 } }],
+    assessments: [{ owner: 'taxpayer', totalIncome: 110000, netIncome: 110000, netFederalTax: 15000, provincialTax: 9000 }],
+    sales: [
+      { id: 's1', owner: 'taxpayer', description: '100 sh Royal Bank', acquired: '2019-03-15', sold: `${year}-06-02`, proceedsCad: 17500, costCad: 9800 },
+      { id: 's2', owner: 'taxpayer', description: '50 sh Shopify', acquired: `${year}-01-10`, sold: `${year}-05-20`, proceedsCad: 4000, costCad: 5000 },
+      { id: 'd1', owner: 'taxpayer', description: '0.5 BTC', acquired: `${year}-01-10`, sold: `${year}-05-20`, proceedsCad: 40000, costCad: 30000, digital: true },
+      { id: 'd2', owner: 'taxpayer', description: '10 ETH', acquired: '2020-02-03', sold: `${year}-08-20`, proceedsCad: 30000, costCad: 5000, digital: true },
+    ],
+  });
+  const checked = async (bytes: Uint8Array, names: string[]) => {
+    const form = (await PDFDocument.load(bytes)).getForm();
+    return names.map((n) => form.getCheckBox(n).isChecked());
+  };
+  it('2025: digital sales get box I (short-term) and box L (long-term) on their own copy', async () => {
+    const inp = base(2025);
+    const forms = await fillReturn(inp, computeReturn(inp).best, load);
+    const copies = forms.filter((f) => f.id.startsWith('8949') && f.id !== '8949stmt');
+    expect(copies.map((f) => f.id)).toEqual(['8949', '8949-2']);
+    const m = (await import('./mapsIntl')).f8949Map(2025);
+    const boxes = (i: number) => [0, 1, 2, 3, 4, 5].map((k) => m.parts[i].box.replace(/\[2\]$/, `[${k}]`));
+    // Copy 1: shares, box C and box F. Copy 2: digital assets, box I and box L.
+    expect((await checked(copies[0].bytes, [...boxes(0), ...boxes(1)])).map(Number)).toEqual([0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0]);
+    expect((await checked(copies[1].bytes, [...boxes(0), ...boxes(1)])).map(Number)).toEqual([0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1]);
+  }, 60000);
+  it('2024: the form has no digital box, so digital sales share box C and F', async () => {
+    const inp = base(2024);
+    const forms = await fillReturn(inp, computeReturn(inp).best, load);
+    expect(forms.filter((f) => f.id.startsWith('8949') && f.id !== '8949stmt').map((f) => f.id)).toEqual(['8949']);
+  }, 60000);
+});
+
 describe('Form 3520 package without withdrawals', () => {
   it('drops the beneficiary statement page and still merges', async () => {
     const inp: ReturnInput = {

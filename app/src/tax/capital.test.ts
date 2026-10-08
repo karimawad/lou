@@ -22,6 +22,11 @@ describe('Form 8949 row', () => {
     expect(row.longTerm).toBe(true);
     expect(flags).toEqual([]);
   });
+  it('carries the digital asset flag onto the row', () => {
+    const row = saleRow({ id: 's', owner: 'taxpayer', description: '0.5 BTC', acquired: '2024-01-10', sold: '2025-05-20', proceedsCad: 40000, costCad: 30000, digital: true }, [])!;
+    expect(row.digital).toBe(true);
+    expect(saleRow({ id: 's', owner: 'taxpayer', description: 'x', acquired: '2024-01-10', sold: '2025-05-20', proceedsCad: 1, costCad: 1 }, [])!.digital).toBeUndefined();
+  });
   it('asks for a rate before 2007-05-01', () => {
     const flags: Flag[] = [];
     expect(saleRow({ id: 's', owner: 'taxpayer', description: 'old', acquired: '2005-01-10', sold: '2025-06-02', proceedsCad: 1, costCad: 1 }, flags)).toBeNull();

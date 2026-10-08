@@ -23,6 +23,8 @@ export interface CapitalSale {
   accountId?: string;
   /** Units of a Canadian fund: handled as a PFIC disposition (Form 8621), not on Form 8949 directly. */
   pficFundId?: string;
+  /** A sale or swap of crypto, an NFT or another digital asset: Form 8949 box I / L for 2025, box C / F before (see i8949). */
+  digital?: boolean;
   /** CAD per USD, when a date is outside Lou's bundled rates. */
   acquiredRate?: number;
   soldRate?: number;
@@ -37,6 +39,7 @@ export interface Form8949Row {
   gain: number;
   longTerm: boolean;
   owner: 'taxpayer' | 'spouse';
+  digital?: boolean;
   /** Rates used (for the attached computation). */
   acquiredRate?: number;
   soldRate?: number;
@@ -60,7 +63,7 @@ export function saleRow(s: CapitalSale, flags: Flag[]): Form8949Row | null {
   }
   const proceeds = dollars(s.proceedsCad / b.rate);
   const basis = dollars(s.costCad / a.rate);
-  return { description: s.description, acquired: s.acquired, sold: s.sold, proceeds, basis, gain: proceeds - basis, longTerm: isLongTerm(s.acquired, s.sold), owner: s.owner, acquiredRate: a.rate, soldRate: b.rate };
+  return { description: s.description, acquired: s.acquired, sold: s.sold, proceeds, basis, gain: proceeds - basis, longTerm: isLongTerm(s.acquired, s.sold), owner: s.owner, ...(s.digital ? { digital: true } : {}), acquiredRate: a.rate, soldRate: b.rate };
 }
 
 export interface CapitalLossCarryover { shortTerm: number; longTerm: number }

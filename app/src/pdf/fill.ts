@@ -295,21 +295,26 @@ export async function fillReturn(input: ReturnInput, r: ReturnResult, load: Load
     } else if (D.lines['16'] < 0) f.check(r.f1040['3a'] > 0 ? 'l22Yes' : 'l22No');
     out.push({ id: 'schD', title: 'Schedule D', bytes: await f.save() });
 
-    // Form 8949: box C (short-term) and box F (long-term); extra copies when rows overflow.
+    // Form 8949: box C (short-term) and box F (long-term). 2025 adds box I / L for digital assets (the 2023 and 2024 forms
+    // have no digital box: i8949 says C / F). Each page carries ONE box, so a different box means a different copy.
     const m = f8949Map(input.year);
-    const st = D.rows.filter((x) => !x.longTerm);
-    const lt = D.rows.filter((x) => x.longTerm);
     const per = m.parts[0].rows.length;
-    const copies = Math.max(Math.ceil(st.length / per), Math.ceil(lt.length / per), 1);
+    const chunks = (rows: typeof D.rows) => [false, true].flatMap((dig) => {
+      const mine = input.year === 2025 ? rows.filter((x) => !!x.digital === dig) : (dig ? [] : rows);
+      return Array.from({ length: Math.ceil(mine.length / per) }, (_, k) => ({ box: dig && input.year === 2025 ? 5 : 2, rows: mine.slice(k * per, (k + 1) * per) }));
+    });
+    const pages = [chunks(D.rows.filter((x) => !x.longTerm)), chunks(D.rows.filter((x) => x.longTerm))];
+    const copies = Math.max(pages[0].length, pages[1].length, 1);
     for (let c = 0; c < copies; c++) {
       const doc = await PDFDocument.load(await load(base + m.file));
       const form = doc.getForm();
       const set = (name: string, v: string) => setFitted(form.getField(name) as PDFTextField, v);
-      for (const [i, rows] of [st.slice(c * per, (c + 1) * per), lt.slice(c * per, (c + 1) * per)].entries()) {
+      for (const [i, pg] of pages.entries()) {
         const part = m.parts[i];
         set(part.name, full); set(part.ssn, ssn);
+        const rows = pg[c]?.rows ?? [];
         if (!rows.length) continue;
-        (form.getField(part.box) as PDFCheckBox).check();
+        (form.getField(part.box.replace(/\[2\]$/, `[${pg[c].box}]`)) as PDFCheckBox).check();
         rows.forEach((x, k) => {
           const cells = [x.description, x.acquired === 'VARIOUS' ? 'VARIOUS' : usDate(x.acquired), usDate(x.sold), money(x.proceeds), money(x.basis), '', '', x.gain < 0 ? `(${money(-x.gain)})` : money(x.gain)];
           cells.forEach((v, col) => set(part.rows[k][col], v));

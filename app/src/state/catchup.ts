@@ -40,7 +40,6 @@ export function yearReadiness(state: AppState, year: number): YearReadiness {
   if (looksQuebec(s)) blockers.push(QUEBEC_TITLE + '.');
   if (!s.slips.some((x) => x.type === 'NOA')) blockers.push('Add your Notice of Assessment.');
   if ([...s.accounts, ...s.businesses, ...s.pficFunds].some((x) => x.carried)) blockers.push(`Fill in ${year}'s figures for the accounts, businesses or funds copied from another year.`);
-  if (s.digitalAssets) blockers.push('Add your digital asset sales.');
   const input = toReturnInput(s);
   if (!input) {
     if (!blockers.length) blockers.push('Answer the remaining questions.');

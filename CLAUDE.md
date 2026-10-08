@@ -321,3 +321,19 @@ with filled IRS PDFs (1040, Sch 1, 1-A, 2, 3, B, 8812, 1116 per category) and a 
   Refund or owes shows only when all milestones are done. Output links (Filled forms, Mapping guide `#mapping-guide`, FBAR worksheet `#fbar-worksheet`) show a lock without a key.
 - "Mark as filed" (Karim, 2026-10-08): per-year `filed: {date, method, fbar}` in `YEAR_KEYS`, set with `patchYear`. It is the user's own record only; Lou files nothing.
 - Side cards: catch-up filing, backup/save status, key status. Not built: due-date countdown (Karim did not pick it), Visual browser check of Home.
+
+## Future builds (not started)
+
+- "Remind me next year" calendar file (2026-10-08): client-side `.ics` download (Home + after Results download) with yearly events (slips arrive Jan/Feb,
+  Apr 15, Jun 15 abroad, Oct 15 extension + FBAR), each linking to `/app/`. No email, no server, nothing leaves the device. Karim said to note it, not build yet.
+
+## Digital assets (2026-10-08, Karim chose "option 2": manual entry, nobody blocked)
+
+- Answering Yes to the page 1 digital asset question no longer blocks Results or catch-up. Sales and swaps are typed into the same sales list with
+  `CapitalSale.digital` ("Add a crypto or NFT sale" in A few questions). Same dates/FX/Schedule D path as shares.
+- Form 8949: **2025** has boxes G-L; digital sales with no 1099-DA/1099-B go in **box I (short-term) / box L (long-term)**, never C/F (i8949-2025 "Digital Assets").
+  One box per page, so digital rows get their own copy (`pdf/fill.ts` chunks by box). **2023/2024 forms have no digital box**: i8949 2023/2024 keep box C/F
+  (research/irs-pdfs/prior-i8949/). Schedule D line 3/10 already read "Box C or I" / "Box F or L".
+- Results shows a warn flag (not a block): income from digital assets is NOT entered by Lou (payment for work = wages/Schedule C; staking/mining/airdrops = Schedule 1
+  line 8v for 2024/2025, line 8z for 2023, per i1040 Digital Assets). No FBAR/8938 for crypto, no lot matching.
+- Option 3 (CSV import from exchanges, lot matching/FIFO, staking income, NFT royalties, FBAR/8938 treatment) still to be reviewed.

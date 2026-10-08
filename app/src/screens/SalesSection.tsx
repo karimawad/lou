@@ -36,9 +36,12 @@ export function SalesSection() {
   return (
     <section className="section">
       <div className="section-head">
-        <h2>Sales of investments</h2>
+        <h2>Sales of investments{state.digitalAssets ? ' and digital assets' : ''}</h2>
         <p>Shares, ETFs and fund units you sold in {year}, from your T5008 slips or your broker's realized gains report. The US needs the
           date you bought and the date you sold each one, because each amount is converted at the exchange rate on its own date.</p>
+        {state.digitalAssets && (
+          <p>Crypto and NFT sales go here too. A swap of one coin for another counts as a sale of the coin you gave up, so enter it as a sale.</p>
+        )}
       </div>
 
       {sales.map((x, i) => {
@@ -46,11 +49,12 @@ export function SalesSection() {
         return (
           <div key={x.id} style={box}>
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-              <strong>Sale {i + 1}{x.slipId ? ' · from a T5008' : ''}</strong>
+              <strong>{x.digital ? 'Digital asset sale' : 'Sale'} {i + 1}{x.slipId ? ' · from a T5008' : ''}</strong>
               <button type="button" className="btn btn-ghost btn-sm" onClick={() => setSales(sales.filter((y) => y.id !== x.id))}><Trash size={16} /> Remove</button>
             </div>
             <div className="grid-3">
-              <TextInput label="What you sold" placeholder="100 shares Royal Bank" value={x.description} onChange={(t) => set(x.id, { description: t })} />
+              <TextInput label="What you sold" placeholder={x.digital ? '0.5 BTC, transaction ID if you have it' : '100 shares Royal Bank'}
+                hint={x.digital ? 'The coin or NFT name or symbol, the exact units, and the transaction ID if available (Form 8949 instructions).' : undefined} value={x.description} onChange={(t) => set(x.id, { description: t })} />
               {married && (
                 <Field label="Whose?" htmlFor={`so-${x.id}`}>
                   <select id={`so-${x.id}`} className="input" value={x.owner} onChange={(e) => set(x.id, { owner: e.target.value as CapitalSale['owner'] })}>
@@ -61,9 +65,9 @@ export function SalesSection() {
               )}
               <TextInput label="Date bought" type="date" value={x.acquired} onChange={(t) => set(x.id, { acquired: t })} />
               <TextInput label="Date sold" type="date" value={x.sold} onChange={(t) => set(x.id, { sold: t })} />
-              <MoneyField label="Proceeds (CAD)" hint={x.slipId ? 'T5008 box 21.' : undefined} value={x.proceedsCad} onChange={(n) => set(x.id, { proceedsCad: n })} />
-              <MoneyField label="Cost of the shares sold (CAD)" hint={x.slipId ? 'T5008 box 20. See the note below about average cost.' : 'What you paid, including commissions.'} value={x.costCad} onChange={(n) => set(x.id, { costCad: n })} />
-              <Field label="Held where?" htmlFor={`sw-${x.id}`}>
+              <MoneyField label="Proceeds (CAD)" hint={x.slipId ? 'T5008 box 21.' : x.digital ? 'What you received, in CAD, on the sale date. For a swap, the market value of what you received.' : undefined} value={x.proceedsCad} onChange={(n) => set(x.id, { proceedsCad: n })} />
+              <MoneyField label={x.digital ? 'What you paid for it (CAD)' : 'Cost of the shares sold (CAD)'} hint={x.slipId ? 'T5008 box 20. See the note below about average cost.' : 'What you paid, including fees. If you got it as income, what it was worth when you got it.'} value={x.costCad} onChange={(n) => set(x.id, { costCad: n })} />
+              {!x.digital && <Field label="Held where?" htmlFor={`sw-${x.id}`}>
                 <select id={`sw-${x.id}`} className="input" value={x.pficFundId ? `fund:${x.pficFundId}` : x.accountId ?? ''}
                   onChange={(e) => {
                     const v = e.target.value;
@@ -73,7 +77,7 @@ export function SalesSection() {
                   {shelters.map((a) => <option key={a.id} value={a.id}>{a.kind.toUpperCase()} at {a.institution || 'an institution'}</option>)}
                   {(state.pficFunds ?? []).map((f) => <option key={f.id} value={`fund:${f.id}`}>Units of {f.name || 'a fund'} (fund list)</option>)}
                 </select>
-              </Field>
+              </Field>}
             </div>
             {early && (
               <div className="grid-3">
@@ -85,12 +89,30 @@ export function SalesSection() {
         );
       })}
 
-      <div>
+      <div style={{ display: 'flex', flexWrap: 'wrap', gap: 'var(--s-3)' }}>
         <button type="button" className="btn btn-secondary btn-sm"
           onClick={() => setSales([...sales, { id: uid(), owner: 'taxpayer', description: '', acquired: '', sold: '', proceedsCad: 0, costCad: 0 }])}>
           <Plus size={16} /> Add a sale
         </button>
+        {state.digitalAssets && (
+          <button type="button" className="btn btn-secondary btn-sm"
+            onClick={() => setSales([...sales, { id: uid(), owner: 'taxpayer', description: '', acquired: '', sold: '', proceedsCad: 0, costCad: 0, digital: true }])}>
+            <Plus size={16} /> Add a crypto or NFT sale
+          </button>
+        )}
       </div>
+      {state.digitalAssets && !sales.some((x) => x.digital) && (
+        <Callout tone="info" title="No crypto or NFT sales?">
+          <p>If you only received digital assets (for example staking rewards, an airdrop, or payment for work) and sold or swapped none,
+            you have nothing to add here. That income is not a sale, and Lou does not enter it for you yet. See the note on your results page.</p>
+        </Callout>
+      )}
+      {sales.some((x) => x.digital) && (
+        <Callout tone="warn" title="Check your crypto records">
+          <p>Lou uses the cost and dates you type. Crypto often has many purchases, transfers between wallets and swaps. Make sure each sale lists
+            the units you really sold, with the cost of those units. Lou does not match lots for you.</p>
+        </Callout>
+      )}
 
       {sales.length > 0 && (
         <Callout tone="info" title="Bought the same shares more than once?">

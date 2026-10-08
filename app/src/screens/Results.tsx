@@ -57,8 +57,13 @@ export function Results() {
     detail: "Without it Lou can't claim the foreign tax credit, so the tax shown here is far too high. Go back to Your slips and add it." });
   if (r.needsForm8833) flags.push({ id: '8833', severity: 'info', title: 'Form 8833 is included to explain your CPP/OAS',
     detail: "Your return treats CPP/QPP/OAS as exempt under the US-Canada treaty. Strictly, disclosure isn't required for social security (Treas. Reg. 301.6114-1(c)(1)(iv) waives it), but Lou includes Form 8833 so the IRS can see why that income isn't on your return." });
-  if (state.digitalAssets) flags.push({ id: 'crypto', severity: 'block', title: 'Add your digital asset sales',
-    detail: 'You answered Yes to the digital asset question. Sales go on Form 8949 and Schedule D, which Lou does not fill yet.' });
+  if (state.digitalAssets) {
+    const entered = (state.sales ?? []).filter((x) => x.digital).length;
+    flags.push({ id: 'crypto', severity: 'warn', title: entered ? 'Check your digital asset records' : 'Digital assets: check what you need to add',
+      detail: `${entered ? `Lou put ${entered} digital asset sale${entered === 1 ? '' : 's'} on Form 8949 and Schedule D, using the dates and amounts you typed in. ` : 'You answered Yes to the digital asset question but entered no sales. '}`
+        + 'Lou does not enter income from digital assets: payment for work goes where that income belongs (wages or Schedule C), and other ordinary income such as staking, mining or airdrops goes on Schedule 1, ' + (year === 2023 ? 'line 8z (Other income, with a description)' : 'line 8v') + ' (Instructions for Form 1040, Digital Assets). '
+        + 'If you have any, add it by hand before you sign. Lou does not add crypto to the FBAR or Form 8938, and does not match purchase lots for you.' });
+  }
   const accounts = state.accounts.length ? analyzeAccounts(year, input.filingStatus, state.accounts, { spouseIsUsPerson: state.spouseIsUsPerson ?? undefined }) : null;
   const fbarDue = accounts ? accounts.fbar.some((f) => f.required) : state.accountsOver10k === true;
   if (accounts?.f8938.required) flags.push({ id: '8938', severity: 'info', title: 'Form 8938 is included',

@@ -1,0 +1,987 @@
+2023                                                                  Department of the Treasury
+                                                                      Internal Revenue Service
+Instructions for Form 8949
+
+Sales and Other Dispositions of Capital Assets
+
+Section references are to the Internal Revenue Code unless            · The sale or exchange of a capital asset not reported on
+otherwise noted.
+                                                                      another form or schedule.
+Future Developments
+                                                                      · Gains from involuntary conversions (other than from casualty
+For the latest information about developments related to Form
+8949 and its instructions, such as legislation enacted after they     or theft) of capital assets not used in your trade or business.
+were published, go to IRS.gov/Form8949.
+                                                                      · Nonbusiness bad debts.
+What's New                                                            · Worthlessness of a security.
+                                                                      · The election to defer capital gain invested in a qualified
+New code P. Use code "P" to report gain or loss on the sale or
+exchange by a nonresident alien individual, foreign trust, foreign    opportunity fund (QOF).
+estate, or foreign corporation of an interest in a partnership that
+is engaged in a U. S. trade or business. Code P will apply to Part    · The disposition of interests in QOFs.
+I and Part II, as applicable, of Form 8949.
+                                                                          If you are filing a joint return, complete as many copies of
+General Instructions                                                  Form 8949 as you need to report all of your and your spouse's
+                                                                      transactions. You and your spouse may list your transactions on
+File Form 8949 with the Schedule D for the return you are filing.     separate forms or you may combine them. However, you must
+This includes Schedule D of Forms 1040, 1040-SR, 1041, 1065,          include on your Schedule D the totals from all Forms 8949 for
+8865, 1120, 1120-S, 1120-C, 1120-F, 1120-FSC, 1120-H,                 both you and your spouse.
+1120-IC-DISC, 1120-L, 1120-ND, 1120-PC, 1120-POL,
+1120-REIT, 1120-RIC, and 1120-SF; and certain Forms 990-T.            Corporations and partnerships. Corporations and
+                                                                      partnerships use Form 8949 to report the following.
+Complete Form 8949 before you complete line 1b, 2, 3, 8b, 9, or
+10 of Schedule D.                                                     · The sale or exchange of a capital asset not reported on
+
+Purpose of Form                                                       another form or schedule.
+
+Use Form 8949 to report sales and exchanges of capital assets.        · Gain or loss on the sale or exchange by a foreign corporation
+Form 8949 allows you and the IRS to reconcile amounts that
+were reported to you and the IRS on Forms 1099-B or 1099-S            of an interest in a partnership that is engaged in a U.S. trade or
+(or substitute statements) with the amounts you report on your        business.
+return. If you receive Forms 1099-B or 1099-S (or substitute
+statements), always report the proceeds (sales price) shown on        · Sale of stock of a specified 10%-owned foreign corporation,
+the form (or statement) in column (d) of Form 8949. If Form
+1099-B (or substitute statement) shows that the cost or other         adjusted for the dividends-received deduction under section
+basis was reported to the IRS, always report the basis shown on       245A, but only if the sale would otherwise generate a loss.
+that form (or statement) in column (e). If any correction or
+adjustment to these amounts is needed, make it in column (g).         · Nonbusiness bad debts.
+See How To Complete Form 8949, Columns (f) and (g), later, for        · Undistributed long-term capital gains from Form 2439.
+details about these adjustments.                                      · Worthlessness of a security.
+                                                                      · The election to defer capital gain invested in a QOF.
+    If all Forms 1099-B (or all substitute statements) you received   · The disposition of interests in QOFs.
+show basis was reported to the IRS and no correction or
+adjustment is needed, you may not need to file Form 8949. See             Corporations also use Form 8949 to report their share of gain
+Exception 1 under the instructions for line 1, later.                 (or loss) from a partnership, estate, or trust.
+
+    If you received a Schedule A to Form 8971 for property and            For corporations and partnerships meeting certain criteria, an
+Part 2, column C, of the Schedule A indicates that the property       exception to some of the normal requirements for completing
+increased the estate tax liability, you will be required to report a  Form 8949 has been provided. See Special provision for certain
+basis consistent with the final estate tax value of the property      corporations, partnerships, securities dealers, and other
+reported in Part 2, column E, of the schedule. See Schedule A to      qualified entities under the instructions for line 1, later.
+Form 8971--Consistent basis reporting under Column (e)--Cost
+or Other Basis, later, for more information on consistent basis       Estates and trusts. Estates and trusts (including non-grantor
+reporting and the amount you will report on Form 8949.                trusts) use Form 8949 to report the following.
+
+Individuals. Individuals use Form 8949 to report the following.       · Gain or loss on the sale or exchange by a foreign trust or
+
+· The sale or exchange of a capital asset reported on a Form          estate of an interest in a partnership that is engaged in a U.S.
+                                                                      trade or business.
+1099-K.
+                                                                      · The sale or exchange of a capital asset not reported on
+· Gain or loss on the sale or exchange by a nonresident alien
+                                                                      another form or schedule.
+individual of an interest in a partnership that is engaged in a U.S.
+trade or business.                                                    · Nonbusiness bad debts.
+                                                                      · Worthlessness of a security.
+                                                                      · The election to defer capital gain invested in a QOF.
+                                                                      · The disposition of interests in QOFs.
+
+                                                                      Schedule D. Use Schedule D for the following purposes.
+
+                                                                      · To figure the overall gain (or loss) from transactions reported
+
+                                                                      on Form 8949.
+
+                                                                      · To report a gain from Form 6252 or Part I of Form 4797.
+                                                                      · To report a gain (or loss) from Form 4684, 6781, or 8824.
+                                                                      · To report capital gain distributions not reported directly on
+
+                                                                      Form 1040 or 1040-SR, line 7 (or effectively connected capital
+                                                                      gain distributions not reported directly on Form 1040-NR, line 7).
+
+                                                                      · To report a capital loss carryover from the previous tax year to
+
+                                                                      the current tax year.
+
+Jan 11, 2024  Cat. No. 59421Z
+· To report your share of a gain (or loss) from a partnership, S     Short-Term or Long-Term
+
+corporation, estate, or trust. (However, corporations report this    Separate your capital gains and losses according to how long
+type of gain (or loss) on Form 8949.)                                you held or owned the property.
+
+· To report certain transactions you don't have to report on Form        The holding period for short-term capital gains and losses is
+                                                                     generally 1 year or less. Taxpayers that hold certain partnership
+8949, such as transactions reported to you on a Form 1099-B (or      interests in connection with the performance of services may be
+substitute statement) showing basis was reported to the IRS and      subject to different holding period rules. See the Schedule D
+for which you have no adjustments, as explained under                instructions for more information. Report these transactions on
+Exception 1, later.                                                  Part I of Form 8949 (or line 1a of Schedule D if you can use
+                                                                     Exception 1 under the instructions for line 1, later).
+    Individuals, estates, and trusts also use Schedule D to report
+undistributed long-term capital gains from Form 2439.                    The holding period for long-term captal gains and losses is
+                                                                     generally more than 1 year. Taxpayers that hold certain
+Additional information. See the instructions for the                 partnership interests in connection with the performance of
+Schedule D you are filing for detailed information about other       services may be subject to different holding period rules. See the
+topics, including the following.                                     Schedule D instructions for more information. Report these
+                                                                     transactions on Part II of Form 8949 (or line 8a of Schedule D if
+· Other forms you may have to file.                                  you can use Exception 1 under the instructions for line 1, later).
+· The definition of capital asset.
+· Certain digital assets, such as Bitcoin. Also, see the                 To figure the holding period, begin counting on the day after
+                                                                     you received the property and include the day you disposed of it.
+Instructions for Form 1040 and IRS.gov/VirtualCurrencyFAQs.
+                                                                         Generally, if you disposed of property that you acquired by
+· Reporting capital gain distributions, undistributed capital        inheritance, report the disposition as a long-term gain (or loss)
+                                                                     regardless of how long you held the property.
+gains, the sale of a main home, the sale of capital assets held for
+personal use, or the sale of a partnership interest.                     A nonbusiness bad debt must be treated as a short-term
+                                                                     capital loss. See Pub. 550 for what qualifies as a nonbusiness
+· Capital losses, nondeductible losses, and losses from wash         bad debt and how to enter it on Part I of Form 8949.
+
+sales.                                                               Form 1099-B. If you received a Form 1099-B (or substitute
+                                                                     statement) for a transaction, box 2 may help you determine
+· Traders in securities.                                             whether your gain (or loss) is short term, long term, or subject to
+· Short sales.                                                       special rules. If box 2 is blank and code X is in the "Applicable
+· Gain or loss from options.                                         checkbox on Form 8949" box near the top of Form 1099-B, your
+· Installment sales.                                                 broker doesn't know whether your gain (or loss) is short term or
+· Demutualization of life insurance companies.                       long term. Use your own records to determine whether your gain
+· Exclusion or rollover of gain from the sale of qualified small     (or loss) is short term or long term.
+
+business (QSB) stock.                                                Corporation's Gains and Losses From
+                                                                     Partnerships, Estates, or Trusts
+· Any other rollover of gain.
+· Exclusion of gain from the sale or exchange of DC Zone             Report a corporation's share of capital gains and losses from
+                                                                     investments in partnerships, estates, or trusts on the appropriate
+assets or qualified community assets.                                part of Form 8949. Report a net short-term capital gain (or loss)
+                                                                     on Part I (with box C checked) and a net long-term capital gain
+· Deferral of gain invested in a QOF.                                (or loss) on Part II (with box F checked). In column (a), enter
+· Certain other items that get special treatment.                    "From Schedule K-1 (Form 1065)" or "From Schedule K-1 (Form
+· Special reporting rules for corporations, partnerships, estates,   1041)," whichever applies; enter the gain (or loss) in column (h);
+                                                                     and leave all other columns blank.
+and trusts in certain situations.
+                                                                         If more than one Schedule K-1 is received, report each on a
+    For more information about reporting on Forms 6252, 4797,        separate row. Include additional identifying information, such as
+4684, 6781, and 8824, see the instructions for those forms. See      "Partnership X."
+Pub. 544 and Pub. 550 for more details.
+                                                                     Section 1061 Reporting
+Basis and Recordkeeping
+                                                                     Section 1061 recharacterizes certain long-term capital gains of a
+Basis is the amount of your investment in property for tax           partner that holds one or more applicable partnership interests
+purposes. The basis of property you buy is usually its cost. You     as short-term capital gains. An applicable partnership interest is
+need to know your basis to figure any gain (or loss) on the sale     an interest in a partnership that is transferred to or held by a
+or other disposition of the property. You must keep accurate         taxpayer, directly or indirectly, in connection with the
+records that show the basis and, if applicable, adjusted basis of    performance of substantial services by the taxpayer or any other
+your property. Your records should show the purchase price,          related person, in an applicable trade or business. See Section
+including commissions; increases to basis, such as the cost of       1061 Reporting Guidance FAQs for reporting of section 1061
+improvements; and decreases to basis, such as depreciation,          recharacterization amounts on the Form 8949.
+nondividend distributions on stock, and stock splits.
+                                                                     Digital Assets
+    For more information on basis, see Column (e)--Cost or
+Other Basis, later, and the following publications.                  A digital asset is a digital representation of value that is recorded
+                                                                     on a cryptographically secured distributed ledger or any similar
+· Pub. 550, Investment Income and Expenses.                          technology. A digital asset is treated as property, and general tax
+· Pub. 551, Basis of Assets.                                         principles that apply to property transactions apply to
+                                                                     transactions using digital assets, including how to figure your
+    If you lost or didn't keep records to determine your basis in
+securities, contact your broker for help. If you receive a Form                                           Instructions for Form 8949 (2023)
+1099-B (or substitute statement), your broker may have reported
+your basis for these securities in box 1e.
+
+          The IRS partners with companies that offer Form 8949
+          software that can import trades from many brokerage
+          firms and accounting software that can help you keep
+track of your adjusted basis in securities. To find out more, go to
+IRS.gov/Efile.
+
+2
+holding period for short-term and long-term capital gains and                If you are attaching multiple Forms 8949 to your return, attach
+losses explained earlier under Short-Term or Long-Term. Digital          the Form(s) 8949 that lists code "Z" in column (f) first.
+assets include property that has been referred to as "convertible
+virtual currency," "cryptocurrency," and "non-fungible tokens." If a         If you received a Form 1099-B for a transaction, the
+particular asset has the characteristics of a digital asset, it will be  "Applicable checkbox on Form 8949" box near the top of that
+treated as a digital asset for federal income tax purposes. For          form may help you determine which box to check on the Part I
+more information on the tax treatment of digital assets, see             where you report that transaction. A substitute statement you get
+Notice 2014-21 (as modified by Notice 2023-34), Rev. Rul.                instead of Form 1099-B may also tell you which box to check.
+2019-24, Rev. Rul. 2023-14, and IRS.gov/VirtualCurrencyFAQs.
+For more information on the tax treatment of property                       Box A. Report on a Part I with box A checked all short-term
+transactions and on short-term and long-term capital gains and           transactions reported to you on Form 1099-B (or substitute
+losses, see Pub. 544.                                                    statement) with an amount shown for cost or other basis unless
+                                                                         the statement indicates that amount wasn't reported to the IRS. If
+Rounding Off to Whole Dollars                                            your statement shows cost or other basis but indicates it wasn't
+                                                                         reported to the IRS (for example, if box 12 of Form 1099-B isn't
+You can round off cents to whole dollars on Form 8949. If you do         checked), see Box B below.
+round to whole dollars, round all amounts. To round, drop cent
+amounts under 50 cents and increase cent amounts over 49                           If you don't need to make any adjustments to the basis
+cents to the next dollar. For example, $1.49 becomes $1 and
+$1.50 becomes $2.                                                         TIP or type of gain (or loss) reported to you on Form 1099-B
+
+Specific Instructions                                                              (or substitute statement) or to your gain (or loss) for any
+                                                                         transactions for which basis has been reported to the IRS
+Report short-term gains and losses on Part I. Report long-term           (normally reported on Form 8949 with box A checked), you don't
+gains and losses on Part II.                                             have to include those transactions on Form 8949. Instead, you
+                                                                         can report summary information for those transactions directly
+Line 1                                                                   on Schedule D. For more information, see Exception 1, later.
+
+Enter all sales and exchanges of capital assets, including stocks,          Box B. Report on a Part I with box B checked all short-term
+bonds, and real estate (if not reported on line 1a or 8a of              transactions reported to you on Form 1099-B (or substitute
+Schedule D or on Form 4684, 4797, 6252, 6781, or 8824).                  statement) without an amount shown for cost or other basis or
+Include these transactions even if you didn't receive a Form             showing that cost or other basis wasn't reported to the IRS. If
+1099-B or 1099-S (or substitute statement) for the transaction.          your statement shows cost or other basis for the transaction was
+However, if the property you sold was your main home, see Sale           reported to the IRS (for example, if box 12 of Form 1099-B is
+of Your Home in the Instructions for Schedule D (Form 1040).             checked), see Box A above.
+
+    Enter all losses from the disposition of a portion of a MACRS           Box C. Report on a Part I with box C checked all short-term
+asset not used in a trade or business but held for investment or         transactions for which you can't check box A or B because you
+for use in a not-for-profit activity. If you have a gain from the        didn't receive a Form 1099-B (or substitute statement).
+partial disposition of a MACRS asset, see Disposition of
+Depreciable Property Not Used in Trade or Business in the Form           Part II. Use a separate Part II for each type of long-term
+4797 instructions.                                                       transaction described in the text for one of the boxes (D, E, or F)
+                                                                         at the top of Part II. Include on each Part II only transactions
+    If you received a Form 1099-K reporting proceeds from the            described in the text for the box you check (D, E, or F). Check
+sale of personal property that resulted in gain, that transaction is     only one box on each Part II. For example, if you check box D,
+taxable and must be entered on Form 8949. Loss on the sale of            include on that Part II only long-term transactions reported to you
+personal property is not deductible, and generally should not be         on a statement showing basis was reported to the IRS. Complete
+reported on Form 8949. However, if you receive a Form 1099-K             as many copies of Part II as you need to report all transactions of
+reporting proceeds from the sale of personal property that               each type (D, E, or F).
+resulted in a loss, you should report the loss with an offsetting
+entry. You can do this either on Form 1040, Schedule 1, Part 1,              If you are attaching multiple Forms 8949 to your return, attach
+or on Form 8949, by entering an adjustment when reporting the            the Form(s) 8949 that lists code "Z" for investments in a QOF in
+proceeds and basis of the property, as follows. Enter "L" in             column (f) first.
+column (f) as the code explaining the loss is nondeductible.
+Then enter the amount of the nondeductible loss as a positive                If you received a Form 1099-B for a transaction, the
+number in column (g). Enter the proceeds in column (d), enter            "Applicable checkbox on Form 8949" box near the top of that
+the cost basis in column (e), enter "L" in column (f), and enter in      form may help you determine which box to check on the Part II
+column (g) the amount of the adjustment that will result in $0 as        where you report that transaction. A substitute statement you get
+the gain or loss in column (h).                                          instead of Form 1099-B may also tell you which box to check.
+
+    Enter the details of each transaction on a separate row                 Box D. Report on a Part II with box D checked all long-term
+(unless one of the Exceptions to reporting each transaction on a         transactions reported to you on Form 1099-B (or substitute
+separate row, described later, applies to you).                          statement) with an amount shown for cost or other basis unless
+                                                                         the statement indicates that amount wasn't reported to the IRS. If
+Part I. Use a separate Part I for each type of short-term                your statement shows cost or other basis but indicates it wasn't
+transaction described in the text for one of the boxes (A, B, or C)      reported to the IRS (for example, if box 12 of Form 1099-B isn't
+at the top of Part I. Include on each Part I only transactions           checked), see Box E below.
+described in the text for the box you check (A, B, or C). Check
+only one box on each Part I. For example, if you check box A,                      If you don't need to make any adjustments to the basis
+include on that Part I only short-term transactions reported to you
+on a statement showing basis was reported to the IRS. Complete            TIP or type of gain (or loss) reported to you on Form 1099-B
+as many copies of Part I as you need to report all transactions of
+each type (A, B, or C).                                                            (or substitute statement) or to your gain (or loss) for any
+                                                                         transactions for which basis has been reported to the IRS
+Instructions for Form 8949 (2023)                                        (normally reported on Form 8949 with box D checked), you don't
+                                                                         have to include those transactions on Form 8949. Instead, you
+                                                                         can report summary information for those transactions directly
+                                                                         on Schedule D. For more information, see Exception 1, later.
+
+                                                                            Box E. Report on a Part II with box E checked all long-term
+                                                                         transactions reported to you on Form 1099-B (or substitute
+
+                                                                                                                                                             3
+statement) without an amount shown for cost or other basis or               Don't enter "Available upon request" and summary totals in
+showing that cost or other basis wasn't reported to the IRS. If         lieu of reporting the details of each transaction on Part I or II or
+your statement shows cost or other basis for the transaction was        attached statements.
+reported to the IRS (for example, if box 12 of Form 1099-B is
+checked), see Box D above.                                                        Exception 2 is not available for the election to defer
+
+   Box F. Report on a Part II with box F checked all long-term           ! eligible gain by investing in a QOF. Taxpayers who elect
+transactions for which you can't check box D or E because you
+didn't receive a Form 1099-B (or substitute statement).                 CAUTION to defer eligible gain must report the details of each
+                                                                        investment in a QOF on Form 8949 in the manner described
+    You don't need to complete and file an entire copy of Form          under How To Report an Election To Defer Tax on Eligible Gain
+8949 (Parts I and II) if you can check a single box to describe all     Invested in a QOF, later.
+your transactions. In that case, complete and file either Part I or II
+and check the box that describes the transactions. Otherwise,              Special provision for certain corporations, partnerships,
+complete a separate Part I or II for each category of your              securities dealers, and other qualified entities. This special
+transactions, as described above.                                       provision applies to certain corporations, partnerships, securities
+                                                                        dealers, and nonprofit organizations. Individual taxpayers aren't
+    Include on your Schedule D the totals from all your Parts I and     eligible except in rare circumstances.
+II. Form 8949 and Schedule D explain how to do this.
+                                                                            You may enter summary totals instead of reporting the details
+Exceptions to reporting each transaction on a separate                  of each transaction on a separate row of Part I or II or on
+row. There are exceptions to the rule that you must report each         attached statements if:
+of your transactions on a separate row of Part I or II. Any
+taxpayer who qualifies can use Exception 1 or Exception 2                   1. You file Form 1120-S or 1065, or are a taxpayer exempt
+below. Taxpayers who file Form 1120-S or Form 1065 and other            from receiving Form 1099-B, such as a corporation or exempt
+qualified entities should see Special provision for certain             organization, under Regulations section 1.6045-1(c)(3)(i)(B);
+corporations, partnerships, securities dealers, and other               and
+qualified entities, later.
+                                                                            2. You must report more than five transactions for that part.
+   Exception 1. Form 8949 isn't required for certain
+transactions. You may be able to aggregate those transactions               If this provision applies to you, enter the summary totals on
+and report them directly on either line 1a (for short-term              line 1. For short-term transactions, check box C at the top of Part
+transactions) or line 8a (for long-term transactions) of                I even if the summary totals include transactions described in the
+Schedule D. This option applies only to transactions (other than        text for box A or B. For long-term transactions, check box F at the
+sales of collectibles) for which:                                       top of Part II even if the summary totals include transactions
+                                                                        described in the text for box D or E. Enter "Available upon
+· You received a Form 1099-B (or substitute statement) that             request" in column (a). Leave columns (b) and (c) blank. Enter
+                                                                        "M" in column (f). If other codes also apply, enter all of them in
+shows basis was reported to the IRS and doesn't show any                column (f). Enter the totals that apply in columns (d), (e), (g), and
+adjustments in box 1f or 1g;                                            (h).
+
+· The Ordinary box in box 2 isn't checked;                                  Don't use a separate row for the totals from each broker.
+· You don't need to make any adjustments to the basis or type           Instead, enter the summary totals from all brokers on a single
+                                                                        row of Part I (with box C checked) or Part II (with box F checked).
+of gain (or loss) reported on Form 1099-B (or substitute
+statement), or to your gain (or loss); and                                        This special provision is not available for the election to
+
+· You aren't electing to defer income due to an investment in a          ! defer eligible gain by investing in a QOF. Taxpayers who
+
+QOF and aren't terminating deferral from an investment in a             CAUTION elect to defer eligible gain must report the details of each
+QOF.                                                                    investment in a QOF on Form 8949 in the manner described
+                                                                        under How To Report an Election To Defer Tax on Eligible Gain
+    If you choose to report these transactions directly on              Invested in a QOF, later.
+Schedule D, you don't need to include them on Form 8949 and
+don't need to attach a statement. For more information, see the         E-file. If you e-file your return but choose not to report each
+Schedule D instructions.                                                transaction on a separate row on the electronic return, you must
+                                                                        attach Form 8949 to Form 8453 (or the appropriate form in the
+    If you qualify to use Exception 1 and also qualify to use           Form 8453 series) and mail the forms to the IRS. (However, you
+Exception 2, you can use both. Report the transactions that             can't attach a paper Form 8949 to Form 8453-FE.) You can
+qualify for Exception 1 directly on either line 1a or 8a of             attach one or more statements containing all the same
+Schedule D, whichever applies. Report the rest of your                  information as Form 8949, instead of attaching Form 8949, if the
+transactions as explained in Exception 2.                               statements are in a format similar to Form 8949.
+
+   Exception 2. Instead of reporting each of your transactions              However, this doesn't apply to transactions that qualify for
+on a separate row of Part I or II, you can report them on an            Exception 1 or the Special provision for certain corporations,
+attached statement containing all the same information as Parts I       partnerships, securities dealers, and other qualified entities,
+and II and in a similar format (that is, description of property,       earlier. In those cases, an attachment, a statement, or Form
+dates of acquisition and disposition, proceeds, basis, adjustment       8453 isn't required.
+and code(s), and gain (or loss)). Use as many attached
+statements as you need. Enter the combined totals from all your         Charitable gift annuity. If you are the beneficiary of a
+attached statements on Parts I and II with the appropriate box          charitable gift annuity and receive a Form 1099-R showing an
+checked.                                                                amount in box 3, report the box 3 amount on a Part II with box F
+                                                                        checked. Enter "Form 1099-R" in column (a). Enter the box 3
+    For example, report on Part I with box B checked all                amount in column (d). Also, complete column (h).
+short-term gains and losses from transactions your broker
+reported to you on a statement showing basis wasn't reported to         Form 2438. Enter any net short-term capital gain from line 4 of
+the IRS. Enter the name of the broker followed by the words "see        Form 2438 on a Part I with box C checked. Enter "Net short-term
+attached statement" in column (a). Leave columns (b) and (c)            capital gain from Form 2438, line 4" in column (a), enter the gain
+blank. Enter "M" in column (f). If other codes also apply, enter all    in column (h), and leave all other columns blank.
+of them in column (f). Enter the totals that apply in columns (d),
+(e), (g), and (h). If you have statements from more than one
+broker, report the totals from each broker on a separate row.
+
+4                                                                       Instructions for Form 8949 (2023)
+    Enter any amount from line 12 of Form 2438 on a Part II with           how long you held the stock). Enter the taxable part of the
+box F checked. Enter "Undistributed capital gains not designated           distribution in columns (d) and (h). Each payer of a nondividend
+(from Form 2438)" in column (a), enter the amount of the gain in           distribution should send you a Form 1099-DIV showing the
+column (h), and leave all other columns blank.                             amount of the distribution in box 3.
+
+Form 2439. Corporations and partnerships report undistributed              Dispositions of depreciable property not used in a trade or
+long-term capital gains from Form 2439 on a Part II with box F             business. Report on Form 8949 a loss from the sale or
+checked. Enter "From Form 2439" in column (a), enter the gain in           exchange of depreciable property not used in a trade or
+column (h), and leave all other columns blank. Individuals report          business but held for investment or for use in a not-for-profit
+undistributed long-term capital gains from Form 2439 on line 11            activity. If you have a gain from the sale of such property, see
+of Schedule D (Form 1040). Estates and trusts report those                 Disposition of Depreciable Property Not Used in Trade or
+amounts on line 11 of Schedule D (Form 1041).                              Business in the Form 4797 instructions.
+
+Schedule P (Form 1040-NR). A nonresident alien individual,                 Other gains (or losses) where sales price or basis isn't
+foreign trust, or foreign estate that sells or exchanges an interest       known. If you have another gain (or loss) for which you don't
+in a partnership engaged in a U.S. trade or business reports               know the sales price or basis (such as a long-term capital gain
+recognized effectively connected capital gain (or loss) on a Part          from Form 8621), enter a description of the gain (or loss) in
+I, if short term capital gain (or loss) and Part II, if long term capital  column (a) on a Part I with box C checked or Part II with box F
+gain (or loss), checking box (C) on Part I or box (F) on Part II, as       checked (depending on how long you held the property). If you
+applicable. Enter "From Schedule P (Form 1040-NR)" in column               have a gain, enter it in columns (d) and (h). If you have a loss,
+(a), enter the code "P" in column (f), and enter the gain (or loss)        enter it in columns (e) and (h). Complete any other columns you
+in column (h) with all other columns filled in.                            can.
+
+Schedule P (Form 1120-F). A foreign corporation that sells or              Column (a)--Description of Property
+exchanges an interest in a partnership engaged in a U.S. trade
+or business reports recognized effectively connected capital gain          For stock, include the number of shares. You can use stock ticker
+(or loss) on a Part I, if short term capital gain (or loss) and Part II,   symbols or abbreviations to describe the property as long as
+if long term capital gain (or loss), checking box (C) on Part I or         they are based on the descriptions of the property as shown on
+box (F) on Part II, as applicable. Enter "From Schedule P (Form            Form 1099-B or 1099-S (or substitute statement).
+1120-F)" in column (a), enter the code "P" in column (f), and
+enter the gain (or loss) in column (h) with all other columns filled           For a digital asset, include the full name or an abbreviated
+in.                                                                        symbol of the digital asset and the exact units sold or disposed
+                                                                           of in the transaction, and include the sale transaction ID number,
+Contingent payment debt instruments. If you sell a taxable                 if available.
+contingent payment debt instrument subject to the
+noncontingent bond method at a gain, your gain is ordinary                 Column (b)--Date Acquired
+income (interest income), even if you hold the debt instrument as
+a capital asset. If you sell a taxable contingent payment debt             Enter in this column the date you acquired the property. Enter the
+instrument subject to the noncontingent bond method at a loss,             trade date for stocks and bonds you purchased on an exchange
+your loss is an ordinary loss to the extent of your prior original         or over-the-counter market. For a short sale, enter the date you
+issue discount (OID) inclusions on the debt instrument. If the             acquired the property delivered to the broker or lender to close
+debt instrument is a capital asset, treat any loss that is more than       the short sale. For property you previously elected to treat as
+your prior OID inclusions as a capital loss. See Regulations               having been sold and reacquired on January 1, 2001 (or January
+section 1.1275-4(b) for exceptions to these rules.                         2, 2001, for readily tradable stock), enter the date of the deemed
+                                                                           sale and reacquisition.
+    If you received a Form 1099-B (or substitute statement)
+reporting the sale of a taxable contingent payment debt                        If you received a Form 1099-B (or substitute statement),
+instrument subject to the noncontingent bond method and the                box 1b may help you determine when you acquired the property.
+Ordinary box in box 2 is checked, an adjustment may be
+required. See the Worksheet for Contingent Payment Debt                    Inherited property. Generally, if you disposed of property that
+Instrument Adjustment in Column (g), later, to figure the                  you acquired by inheritance, report the sale or exchange on a
+adjustment to enter in column (g).                                         Part II with the appropriate box checked (D, E, or F). Enter
+                                                                           "INHERITED" in column (b).
+    See Pub. 550 or Pub. 1212 for more details on any special
+rules or adjustments that might apply.                                     Stock acquired on various dates. If you sold a block of stock
+                                                                           (or similar property) that you acquired through several different
+Net asset value (NAV) method for money market funds. If                    purchases, you may report the sale on one row and enter
+you have a capital gain (or loss) determined under the NAV                 "VARIOUS" in column (b). However, you must still report the
+method with respect to shares in a money market fund, enter the            short-term gain (or loss) on the sale on Part I and the long-term
+name of the fund followed by "(NAV)" in column (a) on a Part I             gain (or loss) on Part II.
+with box C checked. Enter the net gain (or loss) in column (h).
+Leave all other columns blank. No long-term capital gain (or               Column (c)--Date Sold or Disposed Of
+loss) can be entered under the NAV method.
+                                                                           Enter in this column the date you sold or disposed of the
+Nondividend distributions. Distributions from a corporation                property. Use the trade date for stocks and bonds traded on an
+with respect to its stock that are a return of your cost (or other         exchange or over-the-counter market. For a short sale, enter the
+basis) aren't taxed until you recover your cost (or other basis),          date you delivered the property to the broker or lender to close
+determined on a share-by-share basis. Reduce your cost (or                 the short sale.
+other basis) in a share by the distributions allocable to such
+share. After you have recovered your entire cost (or other basis)              If you received a Form 1099-B (or substitute statement),
+in a share, any later nondividend distribution allocable to that           box 1c may help you determine when you sold or disposed of the
+share is taxable as a capital gain. Enter the name of the payer of         property.
+any taxable nondividend distributions in column (a) on a Part I
+with box C checked or Part II with box F checked (depending on             Column (d)--Proceeds (Sales Price)
+
+Instructions for Form 8949 (2023)                                          Follow the instructions below that apply to your transaction(s).
+
+                                                                                                                                                               5
+You didn't receive a Form 1099-B or 1099-S (or substitute                 E, of the Schedule A to figure your basis in the property and Part
+statement). If you didn't receive a Form 1099-B or 1099-S (or             2, column C, of the Schedule A indicates that the property
+substitute statement) for a transaction, enter in column (d) the          increased the estate tax liability of the decedent, you may be
+net proceeds. The net proceeds equal the gross proceeds minus             subject to a penalty equal to 20% of any resulting underpayment
+any selling expenses (such as broker's fees, commissions, and             of tax because the basis reported isn't consistent with the final
+state and local transfer taxes). If you sold a call option and it was     estate tax value of the property.
+exercised, you adjust the sales price of the property sold under
+the option for any option premiums (as instructed under Gain or               For more details, see Pub. 551; Pub. 550; or the instructions
+Loss From Options in the Instructions for Schedule D (Form                for Form 8971 and Schedule A, available at IRS.gov/Form8971.
+1040)).
+                                                                          Adjustments to basis. Before you can figure any gain (or loss)
+You received a Form 1099-B or 1099-S (or substitute state-                on a sale, exchange, or other disposition of property, you must
+ment). If you received a Form 1099-B or 1099-S (or substitute             usually make certain adjustments (increases and decreases) to
+statement) for a transaction, enter in column (d) the proceeds            the basis of the property. Increase the basis of your property by
+shown on the form or statement you received. If there are any             capital improvements. Decrease it by depreciation, amortization,
+selling expenses or option premiums that aren't reflected on the          and depletion. Other adjustments may be necessary for your
+form or statement you received (by an adjustment to either the            property. See Pub. 551 for more information.
+proceeds or basis shown), enter "E" in column (f) and the
+necessary adjustment in column (g). See the example under                     If you sold shares of stock, adjust your basis in each share,
+Column (g)--Amount of Adjustment, later.                                  but not below zero, by subtracting all the nondividend
+                                                                          distributions allocable to such shares that were received before
+    If the proceeds you received were more than shown on Form             the sale and that reduced your cost (or other basis) in such
+1099-B or 1099-S (or substitute statement), enter the correct             shares. Also, adjust your basis for any stock splits. See Pub. 550
+proceeds in column (d). This might happen if, for example, box 4          for details. See Form 1099-B and How To Complete Form 8949,
+on Form 1099-S is checked.                                                Columns (f) and (g), later, for the adjustment you must make if
+                                                                          you received a Form 1099-B (or substitute statement) and the
+    You shouldn't have received a Form 1099-B (or substitute              basis shown in box 1e is incorrect.
+statement) for a transaction merely representing the return of
+your original investment in a nontransferable obligation, such as             Increase the cost or other basis of a taxable OID debt
+a savings bond or a certificate of deposit. But if you did, report        instrument by the amount of OID that you have included in gross
+the proceeds shown on Form 1099-B (or substitute statement) in            income for that instrument. See Pub. 550 for details.
+both columns (d) and (e).
+                                                                              Increase the cost or other basis of a tax-exempt OID debt
+Column (e)--Cost or Other Basis                                           instrument by the amount of tax-exempt OID that accrued on the
+                                                                          debt instrument while held by you. See Pub. 550 for details.
+The basis of property you buy is usually its cost, including the
+purchase price and any costs of purchase, such as                             If you elect to currently include in income the market discount
+commissions. You may not be able to use the actual cost as the            on a bond, increase the basis of the bond by the market discount
+basis if you inherited the property, got it as a gift, or received it in  that has been included in income for that bond. See Pub. 550 for
+a tax-free exchange or involuntary conversion or in connection            details.
+with a "wash sale." If you don't use the actual cost, attach an
+explanation of your basis.                                                    If you elect to amortize bond premium on a taxable bond,
+                                                                          reduce the basis of the bond by any bond premium amortization
+    The basis of property acquired by gift is generally the basis of      allowed as either an offset to interest income or as a deduction
+the property in the hands of the donor. The basis of inherited            for that bond. Reduce the basis of a tax-exempt bond by any
+property is generally the fair market value at the date of death.         bond premium amortization for that bond. See Pub. 550 for
+See Pub. 551 for details.                                                 details.
+
+    If you elected to recognize gain on property held on January              If a charitable contribution deduction is allowable because of
+1, 2001, your basis in the property is its closing market price or        a bargain sale of property to a charitable organization, you must
+fair market value, whichever applies, on the date of the deemed           allocate your basis in the property between the part sold and the
+sale and reacquisition, whether the deemed sale resulted in a             part contributed based on the fair market value of each. See
+gain or an unallowed loss.                                                Pub. 544 for details.
+
+Schedule A to Form 8971--Consistent basis reporting. If                       For compensatory options granted after 2013, the basis
+you received a Schedule A to Form 8971 from an executor of an             information reported to you on Form 1099-B (or substitute
+estate or other person required to file an estate tax return and          statement) won't reflect any amount you included in income
+you are a beneficiary who receives (or is to receive) property            upon grant or exercise of the option. Increase your basis by any
+from that estate, you will be required to report a basis consistent       amount you included in income upon grant or exercise of the
+with the final estate tax value of the property if Part 2, column C,      option. For compensatory options granted before 2014, any
+of the Schedule A you received indicates that the property                basis information reported to you on Form 1099-B (or substitute
+increased the estate tax liability of the decedent. In this case,         statement) may or may not reflect any amount you included in
+first use an amount that is equal to or less than the final estate        income upon grant or exercise of the option; therefore, the basis
+tax value listed in Part 2, column E, of the Schedule A. This             may need to be adjusted. If the basis information reported to you
+amount is your initial basis in the property. You then adjust your        on Form 1099-B (or substitute statement) doesn't reflect an
+initial basis in the property, as described under Adjustments to          amount you included in income upon grant or exercise of the
+basis, later. The resulting amount is entered in column (e) of            option, increase your basis by the amount you included in
+Form 8949.                                                                income upon grant or exercise of the option. See Pub. 525 for
+                                                                          more information.
+          If you received a supplemental Schedule A to Form
+                                                                              Solely for purposes of calculating a loss on the sale of the
+ TIP 8971, use the most recently dated supplemental                       stock of a specified 10%-owned foreign corporation, if a
+                                                                          corporate shareholder received an actual or constructive
+          Schedule A to determine your initial basis.                     dividend after December 31, 2017, and that dividend qualified
+                                                                          for the 100% dividends-received deduction, the shareholder
+   Penalties for inconsistent basis reporting. If you use an
+initial basis that is more than the amount listed in Part 2, column                                            Instructions for Form 8949 (2023)
+
+6
+must reduce its basis in the controlled foreign corporation stock   shown on Form 1099-B (or substitute statement) isn't correct,
+in the amount of the dividend received, but not below zero.         see How To Complete Form 8949, Columns (f) and (g), later, for
+                                                                    the adjustment you must make.
+Average basis. You can use the average basis method to
+determine the basis of shares of stock if the shares are identical      If box 5 of Form 1099-B (or substitute statement) is checked,
+to each other, you acquired them at different prices and left them  the property sold wasn't a covered security.
+in an account with a custodian or agent, and either:
+                                                                        For noncovered securities, enter the correct basis of the
+· They are shares in a mutual fund (or other regulated              property in column (e) if:
+
+investment company);                                                · No basis is shown on Form 1099-B (or substitute statement),
+
+· They are shares you hold in connection with a dividend            or
+
+reinvestment plan (DRP), and all the shares you hold in             · The basis shown wasn't reported to the IRS.
+connection with the DRP are treated as covered securities
+(defined below); or                                                 If the basis shown wasn't reported to the IRS, see How To
+                                                                    Complete Form 8949, Columns (f) and (g), later, for further
+· You acquired them after 2011 in connection with a DRP.            information about how to report the correct basis.
+
+Shares are identical if they have the same CUSIP number,            Column (f)--Code
+except that shares of stock in a DRP aren't identical to shares of
+stock that aren't in a DRP, even if they have the same CUSIP        In order to explain any adjustment to gain (or loss) in column (g),
+number. (CUSIP numbers are security identification numbers.)        enter the appropriate code(s) in column (f). See How To
+                                                                    Complete Form 8949, Columns (f) and (g), later. If more than
+    If you are using the average basis method and received a        one code applies, enter all the codes that apply in alphabetical
+Form 1099-B (or substitute statement) that shows an incorrect       order (for example, "BOQ"). Don't separate the codes by a space
+basis, enter "B" in column (f), enter the basis shown on Form       or comma.
+1099-B (or substitute statement) in column (e), and see How To
+Complete Form 8949, Columns (f) and (g), later. For details on      Column (g)--Amount of Adjustment
+making the election and figuring average basis, see section
+1012, Pub. 550, and Regulations section 1.1012-1(e).                Enter in this column any necessary adjustments to gain (or loss).
+                                                                    Enter negative amounts in parentheses. Also, enter a code in
+Form 1099-B. If the property you sold was a covered security,       column (f) to explain the adjustment. See How To Complete
+its basis should be shown in box 1e of the Form 1099-B (or          Form 8949, Columns (f) and (g), later.
+substitute statement) you received from your broker. Generally, a
+covered security is any of the following.                           More than one code. If you entered more than one code in
+                                                                    column (f) on the same row, enter the net adjustment in column
+· Stock you acquired after 2010 (generally after 2011, if in a      (g). For example, if one adjustment is $5,000 and another is
+                                                                    ($1,000), enter $4,000 ($5,000 - $1,000).
+mutual fund or other regulated investment company, or acquired
+through a DRP).                                                         Example. You sold your main home in 2023 for $320,000
+                                                                    and received a Form 1099-S showing the $320,000 gross
+· Certain stock held in a mutual fund or in connection with a       proceeds. The home's basis was $100,000. You had selling
+                                                                    expenses of $20,000 that weren't included on your Form 1099-S.
+DRP for which a single-account election is in effect.               Under the tests described in Sale of Your Home in the
+                                                                    Instructions for Schedule D (Form 1040), you can exclude the
+· Certain debt instruments you acquired after 2013.                 entire $200,000 gain from income. On Form 8949, Part II, check
+· Certain options, warrants, and stock rights you granted or        box F at the top. Complete columns (a), (b), and (c). Enter
+                                                                    $320,000 in column (d) and $100,000 in column (e). Enter "EH"
+acquired after 2013.                                                in column (f). In column (g), enter $220,000 ($20,000 selling
+                                                                    expenses + $200,000 exclusion) as a negative number. Put it in
+· A securities future contract you entered into after 2013.         parentheses to show it is negative. In column (h), enter -0-
+· Variable rate debt instruments acquired after 2015.               ($320,000 - $100,000 - $220,000). If this is your only
+· Inflation-indexed debt instruments acquired after 2015.           transaction on this Part II, enter $320,000 in column (d) on
+· Contingent payment debt instruments acquired after 2015.          line 10 of Schedule D (Form 1040), $100,000 in column (e),
+· Convertible debt instruments acquired after 2015.                 ($220,000) in column (g), and -0- in column (h).
+· Options on debt instruments with payments denominated in
+
+(or determined by reference to) a currency other than the U.S.
+dollar and granted or acquired after 2015.
+
+· Options issued as part of investment units and granted or
+
+acquired after 2015.
+
+    For more information on covered securities, see section
+6045(g) and Regulations section 1.6045-1.
+
+    For covered securities, enter the basis shown on Form
+1099-B (or substitute statement) in column (e). If the basis
+
+Instructions for Form 8949 (2023)                                   7
+             How To Complete Form 8949, Columns (f) and (g)
+
+For most transactions, you don't need to complete columns (f) and (g) and can leave them blank. You may need to complete columns
+(f) and (g) if you got a Form 1099-B or 1099-S (or substitute statement) that is incorrect, if you are excluding or postponing a capital
+gain, if you have a disallowed loss, or in certain other situations. Details are in the table below. If you enter more than one code in
+column (f), see More than one code in the instructions for column (g) above.
+
+   IF . . .                                    THEN enter this code                   AND. . .
+                                                   in column (f) . . .
+
+You received a Form 1099-B (or substitute                               · If this transaction is reported on a Part I with box B
+statement) and the basis shown in box 1e is
+incorrect                                                               checked at the top or if this transaction is reported on a Part
+
+                                                                        II with box E checked at the top, enter the correct basis in
+
+                                                                        column (e), and enter -0- in column (g).
+
+                                                                        · If this transaction is reported on a Part I with box A
+
+                                                                        checked at the top or if this transaction is reported on a Part
+
+                                               B                        II with box D checked at the top, enter the basis shown on
+
+                                                                        Form 1099-B (or substitute statement) in column (e), even
+
+                                                                        though that basis is incorrect. Correct the error by entering
+
+                                                                        an adjustment in column (g). To figure the adjustment
+
+                                                                        needed, see the Worksheet for Basis Adjustments in
+
+                                                                        Column (g), later. Also, see Example 4--Adjustment for
+
+                                                                        incorrect basis in the instructions for column (h), later.
+
+You received a Form 1099-B (or substitute                               Report the transaction on the correct part of Form 8949,
+statement) and the type of gain (or loss)                               and enter -0- in column (g) on that part of the form if there
+shown in box 2 is incorrect                                             are no adjustments needed for the transaction.
+
+ TIP                                           T
+
+              If you received a Form 1099-B                             Report the transaction on Form 8949 as you would if you
+(or substitute statement) with the Ordinary
+box in box 2 checked and the security is a                              were the actual owner, but also enter any resulting gain as
+taxable contingent payment debt instrument
+subject to the noncontingent bond method,                               a negative adjustment (in parentheses) in column (g) or any
+enter code "O" for the transaction in column
+(f) of the appropriate part of Form 8949 and                            resulting loss as a positive adjustment in column (g). As a
+complete the Worksheet for Contingent
+Payment Debt Instrument Adjustment in          N                        result of this adjustment, the amount in column (h) should
+Column (g), later, to figure the amount to
+enter in column (g).                                                    be zero. However, if you received capital gain distributions
+You received a Form 1099-B or 1099-S (or
+substitute statement) as a nominee for the                              as a nominee, report them instead, as described under
+actual owner of the property
+                                                                        Capital Gain Distributions in the Instructions for Schedule D
+You sold or exchanged your main home at a
+gain, must report the sale or exchange on                               (Form 1040).
+Part II of Form 8949 (as explained in Sale of
+Your Home in the Instructions for                                       Report the sale or exchange on Form 8949 as you would if
+Schedule D (Form 1040)), and can exclude
+some or all of the gain                                                 you weren't taking the exclusion. Then enter the amount of
+
+                                               H                        excluded (nontaxable) gain as a negative number (in
+                                                                        parentheses) in column (g). See the example in the
+
+                                                                        instructions for column (g).
+
+8                                                                                     Instructions for Form 8949 (2023)
+IF . . .                                      THEN enter this code                  AND. . .
+                                                  in column (f) . . .
+
+You received a Form 1099-B (or substitute                              Use the Worksheet for Accrued Market Discount
+statement) showing accrued market
+discount in box 1f                                                     Adjustment in Column (g), later, to figure the amount to
+
+                                                                       enter in column (g). However:
+
+                                                                       · If you received a partial payment of principal on a bond,
+
+                                                                       don't use the worksheet. Instead, enter the smaller of the
+
+                                                                       accrued market discount or your proceeds in column (g).
+
+                                                                       Also, report it as interest on your tax return.
+
+                                              D                        · If you chose to include market discount in income
+
+                                                                       currently, enter -0- in column (g). Before figuring your gain
+
+                                                                       (or loss), increase your basis in the bond by the market
+
+                                                                       discount you have included in income for all years. See the
+
+                                                                       instructions for code B above.
+
+                                                                       If the disposition of a market discount bond results in a loss
+
+                                                                       subject to the wash sale rules, enter "W" in column (f) and
+
+                                                                       follow the instructions for code W below.
+
+You sold or exchanged QSB stock and can                                Report the sale or exchange on Form 8949 as you would if
+exclude part of the gain
+                                                                       you weren't taking the exclusion and enter the amount of
+
+                                              Q                        the exclusion as a negative number (in parentheses) in
+                                                                       column (g). However, if the transaction is reported as an
+
+                                                                       installment sale, see Gain from an installment sale of QSB
+
+                                                                       stock in the Instructions for Schedule D (Form 1040).
+
+You can exclude all or part of your gain                               Report the sale or exchange on Form 8949 as you would if
+under the rules explained in the Schedule D
+instructions for DC Zone assets or qualified  X                        you weren't taking the exclusion. Then enter the amount of
+community assets                                                       the exclusion as a negative number (in parentheses) in
+
+                                                                       column (g).
+
+You are electing to postpone all or part of                            Report the sale or exchange on Form 8949 as you would if
+your gain under the rules explained in the
+Schedule D instructions for any rollover of                            you weren't making the election. Then enter the amount of
+gain (for example, rollover of gain from QSB
+stock)                                        R                        postponed gain as a negative number (in parentheses) in
+
+                                                                       column (g).
+
+You have a nondeductible loss from a wash                              Report the sale or exchange on Form 8949 and enter the
+sale
+                                                                       amount of the nondeductible loss as a positive number in
+
+                                                                       column (g). See the Schedule D instructions for more
+
+                                                                       information about wash sales generally and Pub. 550 for
+
+                                                                       more information on wash sales involving substantially
+
+                                                                       similar stock or securities. If you received a Form 1099-B
+
+                                              W                        (or substitute statement) and the amount of nondeductible
+                                                                       wash sale loss shown in box 1g is incorrect, enter the
+
+                                                                       correct amount of the nondeductible loss as a positive
+
+                                                                       number in column (g). If the amount of the nondeductible
+
+                                                                       loss is less than the amount shown on Form 1099-B (or
+
+                                                                       substitute statement), attach a statement explaining the
+
+                                                                       difference. If no part of the loss is a nondeductible loss from
+
+                                                                       a wash sale transaction, enter -0- in column (g).
+
+You have a nondeductible loss other than a                             Report the sale or exchange on Form 8949 and enter the
+loss indicated by code W
+                                              L                        amount of the nondeductible loss as a positive number in
+                                                                       column (g). See Nondeductible Losses in the Instructions
+
+                                                                       for Schedule D (Form 1040).
+
+Instructions for Form 8949 (2023)                                                                                                       9
+    IF . . .                                  THEN enter this code                         AND. . .
+                                                  in column (f) . . .
+
+You received a Form 1099-B or 1099-S (or                               Enter in column (d) the proceeds shown on the form or
+substitute statement) for a transaction and
+there are selling expenses or option                                   statement you received. Enter in column (e) any cost or
+premiums that aren't reflected on the form
+or statement by an adjustment to either the                            other basis shown on Form 1099-B or 1099-S (or substitute
+proceeds or basis shown
+                                                                       statement). In column (g), enter as a negative number (in
+
+                                                                       parentheses) any selling expenses and option premium
+
+                                              E                        that you paid (and that aren't reflected on the form or
+
+                                                                       statement you received) and enter as a positive number
+
+                                                                       any option premium that you received (and that isn't
+
+                                                                       reflected on the form or statement you received). For more
+
+                                                                       information about option premiums, see Gain or Loss From
+
+                                                                       Options in the Instructions for Schedule D (Form 1040).
+
+You had a loss from the sale, exchange, or                      See Small Business (Section 1244) Stock in the
+worthlessness of small business (section                        Schedule D (Form 1040) instructions.
+1244) stock and the total loss is more than   S
+the maximum amount that can be treated as
+an ordinary loss
+
+You disposed of collectibles (see the         C                        Enter -0- in column (g). Report the disposition on Form
+Schedule D instructions)                                               8949 as you would report any sale or exchange.
+
+You report multiple transactions on a single                           See Exception 2 and Special provision for certain
+row, as described in Exception 2 or Special
+provision for certain corporations,                                    corporations, partnerships, securities dealers, and other
+partnerships, securities dealers, and other
+qualified entities under Exceptions to                                 qualified entities under Exceptions to reporting each
+reporting each transaction on a separate
+row, earlier                                  M                        transaction on a separate row, earlier. Enter -0- in column
+
+                                                                       (g) unless an adjustment is required because of another
+
+                                                                       code.
+
+You are electing to postpone all or part of                            See How To Report an Election To Defer Tax on Eligible
+your gain under the rules explained in the
+Schedule D instructions for investments in    Z                        Gain Invested in a QOF, later.
+QOFs
+
+You are reporting your gain from a QOF                                 See How To Report Gain Previously Deferred in a QOF
+investment that you deferred in a prior tax
+year                                          Y                        Investment, later.
+
+You are a nonresident alien individual,                                Report on Form 8949 the gain or loss on the sale or
+foreign trust, foreign estate, or foreign
+corporation who sold or exchanged an                                   exchange by a nonresident alien individual, foreign trust,
+interest in a partnership engaged in a U.S.
+trade or business                                                      foreign estate, or foreign corporation of an interest in a
+
+                                                                       partnership that is engaged in a U.S. trade or business.
+
+                                              P                        Enter in column (g) any adjustment resulting from the
+
+                                                                       application of Regulations section 1.864(c)(8)-1(b) and (c).
+
+                                                                       If you are required to file Schedule P (Form 1040-NR), see
+
+                                                                       the instructions for lines 9 and 17. If you are required to file
+
+                                                                       Schedule P (Form 1120-F), see the instructions for line 9.
+
+You have an adjustment not explained          O                        Enter the appropriate adjustment amount in column (g).
+earlier in this column                                                 See the instructions for column (g).
+
+None of the other statements in this column Leave columns (f) and (g) blank.
+apply because you have no adjustments
+
+Column (h)--Gain (or Loss)                                                Example 3--Adjustment. Column (d) is $6,000, column (e)
+                                                                      is $2,000, and column (g) is ($1,000). Enter $3,000 in column
+Figure gain (or loss) on each row. First, subtract the cost or other  (h).
+basis in column (e) from the proceeds (sales price) in column
+(d). Then take into account any adjustments in column (g). Enter          Example 4--Adjustment for incorrect basis. You sold
+the gain (or loss) in column (h). Enter negative amounts in           stock for $1,000. You had owned the stock for 3 months. Your
+parentheses.                                                          correct basis for the stock is $100, but you receive a Form
+                                                                      1099-B that shows your basis is $900 and shows your broker
+    Example 1--Gain. Column (d) is $6,000 and column (e) is           reported that basis to the IRS. Enter $900 on line 1 of the
+$2,000. Enter $4,000 in column (h).                                   Worksheet for Basis Adjustments in Column (g), later. Enter
+                                                                      $100 on line 2 of the worksheet. Because line 1 is larger than
+    Example 2--Loss. Column (d) is $6,000 and column (e) is           line 2, leave line 3 blank and enter $800 ($900 - $100) as a
+$8,000. Enter ($2,000) in column (h).                                 positive number on line 4. Also, enter $800 in column (g) of Part I
+
+10                                                                                         Instructions for Form 8949 (2023)
+Worksheet for Basis Adjustments in Column (g)                         Keep for Your Records
+
+If the basis shown on Form 1099-B (or substitute statement) isn't correct, do the following.
+
+· If the basis wasn't reported to the IRS, enter the correct basis in column (e) and enter -0- in column (g) (unless you must make an adjustment for some other reason).
+
+You don't need to complete this worksheet.
+
+· If the basis was reported to the IRS, enter the reported basis shown on Form 1099-B (or substitute statement) in column (e) and use this worksheet to figure the
+
+adjustment to include in column (g).
+
+1. Enter the cost or other basis shown on Form 1099-B (or substitute statement) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1.
+
+2. Enter the correct cost or other basis . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2.
+
+3. If line 1 is larger than line 2, leave this line blank and go to line 4. If line 2 is larger than line 1, subtract line 1 from line 2. Enter the
+     result here and in column (g) as a negative number (in parentheses) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3.
+
+4. If line 1 is larger than line 2, subtract line 2 from line 1. Enter the result here and in column (g) as a positive number . . . . . . . . 4.
+
+with box A checked at the top. Enter "B" in column (f). Enter             Example 6--Digital asset. You are a self-employed
+$1,000 in column (d) and $900 in column (e). To figure your gain      attorney who performs legal services for a client. The client gives
+(or loss), subtract $900 from $1,000. Combine the result, $100,       you one unit of digital asset A as payment for services. At the
+with the $800 adjustment in column (g). Your gain is $900 ($100       time of the payment, the fair market value of one unit of digital
++ $800). Enter $900 in column (h).                                    asset A is $10,000. You report $10,000 in self-employment
+                                                                      income (the fair market value of one unit of digital asset A). Two
+    Example 5--Digital asset. You purchased one unit of digital       months later, when the fair market value of one unit of digital
+asset A on June 1, 2020, for $1,000. On June 1, 2023, you use a       asset A is $12,000, you decide to sell it. You must report a
+platform for trading digital assets to exchange your unit of digital  short-term capital gain of $2,000, which is the difference
+asset A for one unit of digital asset B with a fair market value of   between the sales price ($12,000) and your basis in one unit of
+$3,000. You must report a long-term capital gain of $2,000.           digital asset A ($10,000).
+
+Worksheet for Accrued Market Discount Adjustment in Column (g)        Keep for Your Records
+
+If you received a Form 1099-B (or substitute statement) reporting the sale or retirement of a market discount bond, enter code "D" for the transaction in column (f) of the
+appropriate part of Form 8949 and complete this worksheet to figure the amount to enter in column (g). If, in addition, any of the amounts shown on Form 1099-B (or
+substitute statement) are incorrect, see How To Complete Form 8949, Columns (f) and (g), earlier, for information on how to correct those amounts. Use the corrected
+amounts when completing this worksheet.
+
+1. Enter the proceeds from box 1d of Form 1099-B (or substitute statement) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1.
+2. Enter the basis from box 1e of Form 1099-B (or substitute statement) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2.
+3. Subtract line 2 from line 1. If zero or less, enter -0- . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3.
+4. Enter the accrued market discount from box 1f of Form 1099-B (or substitute statement) . . . . . . . . . . . . . . . . . . . . . . . . . . 4.
+5. Enter the smaller of line 3 or line 4, or, if lines 3 and 4 are the same, enter the amount from line 3. This is the amount of your gain
+
+     that is ordinary income. Enter it as a negative amount (in parentheses) in Form 8949, column (g). Also, report it as interest income
+     on your tax return. If zero or less, enter -0- . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5.
+
+Worksheet for Contingent Payment Debt Instrument                      Keep for Your Records
+Adjustment in Column (g)
+
+If you received a Form 1099-B (or substitute statement) reporting the sale of a taxable contingent payment debt instrument subject to the noncontingent bond method,
+enter code "O" for the transaction in column (f) of the appropriate part of Form 8949 and complete this worksheet to figure the amount to enter in column (g). If, in addition,
+any of the amounts shown on Form 1099-B (or substitute statement) are incorrect, see How To Complete Form 8949, Columns (f) and (g), earlier, for information on how
+to correct those amounts. Use the corrected amounts when completing this worksheet. Don't use this worksheet if there are no remaining contingent payments on the
+debt instrument as of the sale, exchange, or retirement of the instrument. See Regulations section 1.1275-4(b)(8)(iii).
+
+1. Enter the proceeds from box 1d of Form 1099-B (or substitute statement) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1.
+2. Enter the basis from box 1e of Form 1099-B (or substitute statement) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2.
+3. Subtract line 2 from line 1 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3.
+4. If line 3 is more than zero, enter the number from line 3. This is the amount of your gain that is ordinary income. Enter this amount
+
+     as a negative amount (in parentheses) in Form 8949, column (g), and enter "O" in column (f). Also, report it as interest income on
+     your tax return . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4.
+5. If line 3 is less than zero, enter the total amount of OID on this debt instrument that you included in income for the entire period
+     that you held the debt instrument . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5.
+6. Enter the total amount of net negative adjustments on the debt instrument that you took into account as ordinary losses over the
+     entire period that you held the debt instrument. Enter this amount as a negative amount (in parentheses) . . . . . . . . . . . . . . . 6.
+7. Add lines 5 and 6 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7.
+8. Enter the amount from line 3 as a positive amount . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8.
+9. Enter the smaller of line 7 or line 8. This is the amount of your loss that is an ordinary loss. Enter it as a positive amount in Form
+     8949, column (g), and enter "O" in column (f). Also, report it as an ordinary loss on your tax return . . . . . . . . . . . . . . . . . . . . 9.
+
+Instructions for Form 8949 (2023)                                                                                                                                            11
+How To Report an Election To Defer Tax on                                Reporting the deferral election. Each QOF investment of
+Eligible Gain Invested in a Qualified Opportunity                        section 1231 gains will use two separate rows in Part II
+Fund (QOF)                                                               (long-term transactions) of Form 8949.
+
+          For more information on QOFs, see Pub. 544.                    · For the first row, in column (a), write "QOF INVESTMENT
+
+ TIP                                                                     FROM FORM 4797." Leave columns (b) through (e) blank. Enter
+                                                                         code "O" in column (f), and in column (g) report the amount of
+    If you elect to defer tax on an eligible gain by investing in a      the QOF investment from Form 4797 as a positive number. For
+QOF, report the eligible gain on the form and in the manner              example, if ($75,000) was reported in column (g) of Form 4797,
+otherwise instructed. For example, individual taxpayers would            report $75,000 in column (g) of Form 8949.
+report gain from the sale of stock on Form 8949 and Schedule D
+(Form 1040). If the gain is reported on Form 8949, do not make           · For the second row, in column (a), enter only the EIN of the
+any adjustments for the deferral in column (g).
+                                                                         QOF investment. In column (b), enter the date of the QOF
+    Report the deferral of the eligible gain on its own row of Form      investment. Leave columns (c), (d), and (e) blank. Enter code "Z"
+8949 in Part I with box C checked or Part II with box F checked          in column (f) and the amount of the deferred gain as a negative
+(depending on whether the gain being deferred is short term or           number (in parentheses) in column (g).
+long term). If you made multiple investments in different QOFs or
+in the same QOF on different dates, use a separate row for each          Reporting the inclusion. Each inclusion will use two separate
+investment. If you invested eligible gains of the same character         rows in Part II.
+(but from different transactions) on the same date into the same
+QOF, you can group those investments on the same row. In                 · For the first row, in column (a), write "QOF INCLUSION
+column (a), enter only the employer identification number (EIN)
+of the QOF into which you invested. In column (b), enter the date        EVENT FROM SECTION 1231 GAINS." Leave columns (b)
+you invested in the QOF. Leave columns (c), (d), and (e) blank.          through (e) blank. Enter code "O" in column (f), and in column (g)
+Enter code "Z" in column (f) and the amount of the deferred gain         report the amount of the included section 1231 gains to Form
+as a negative number (in parentheses) in column (g).                     4797 as a negative number (in parentheses). For example,
+                                                                         $75,000 inclusion of section 1231 gains was reported in column
+    Your investment in a QOF can be used to defer only long-term         (g) of Form 4797, report ($75,000) in column (g) of Form 8949.
+gain, only short-term gain, or a combination of both short-term
+and long-term gain. You do not need to trace or allocate the             · For the second row, enter the EIN of the QOF investment in
+funds invested in a QOF to the specific gain being deferred, but
+the investment in the QOF must have occurred within the                  column (a). Complete columns (b) and (c). Leave (d) and (e)
+180-day period beginning on the date the deferred gain was               blank. Enter code "Y" in column (f), and in column (g) enter the
+realized. If you realized both short-term and long-term gains            amount of previously deferred gain as a positive number.
+during the 180-day period, you can choose how much of each
+gain to defer by reporting the deferral in Part I or Part II, as         How To Report Gain Previously Deferred in a
+applicable. The character of the eligible gain will survive the          QOF Investment
+investment in the QOF. When you recognize the eligible gain
+(either when you sell or exchange or otherwise dispose of your           If you sold or exchanged your investment in a QOF during the tax
+investment in the QOF or December 31, 2026, whichever is                 year, you must report the amount of eligible gain that you
+earlier), the gain you recognize will be the same character as the       previously deferred and that you are now recognizing. Report the
+gain you deferred.                                                       gain from each investment on its own row. Check box C in Part I
+                                                                         or check box F in Part II depending on whether the gain is short
+          If you are attaching multiple Forms 8949 to your return,       term or long term. The gain you recognize will be the same
+                                                                         character as the gain you deferred. Put the EIN of the QOF
+ TIP attach the Form(s) 8949 that lists code "Z" in column (f)           investment you are selling in column (a). Complete columns (b),
+                                                                         (c), (d), and (e). Enter code "Y" in column (f), and enter the
+          first.                                                         amount of previously deferred gain as a positive number in
+                                                                         column (g).
+          If you elect to defer tax on an eligible gain by investing in
+                                                                                   If you disposed of your investment in a QOF, you will also
+ TIP a QOF, you will need to complete a Form 8997 for each
+                                                                          TIP need to complete Form 8997. See the instructions for
+          year you hold the investment and for the year you
+dispose of the investment. If you have held that investment for                    Form 8997 for more information.
+more than 5 years, see the instructions for Form 8997 for
+additional information regarding the basis of that investment.           Line 2
+
+How To Report Eligible Gains From Section 1231                           The total of the amounts in column (h) of line 2 of all your Forms
+Property                                                                 8949 should equal the amount you get by combining columns
+                                                                         (d), (e), and (g) on the corresponding line of Schedule D (Form
+Taxpayers deferring eligible gains from section 1231 property,           1040). For example, the total of the amounts in column (h) of
+including gains from installment sales and like-kind exchanges,          line 2 of all your Forms 8949 with box A checked should equal
+by investing in a QOF must report the deferral election on Form          the amount you get by combining columns (d), (e), and (g) on
+8949 in the tax year of the deferral. Likewise, taxpayers selling or     line 1b of Schedule D. The total of the amounts in column (h) of
+exchanging a QOF investment must report the inclusion of the             line 2 of all your Forms 8949 with box E checked should equal
+eligible gain on Form 8949.                                              the amount you get by combining columns (d), (e), and (g) on
+                                                                         line 9 of Schedule D.
+
+12                                                                       Instructions for Form 8949 (2023)
+

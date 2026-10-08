@@ -4,7 +4,7 @@ LF = chr(10)
 import frame
 from frame import page, guide_body, related, SITE, UPDATED_ISO, esc, sections, final
 from registry import GUIDES
-import pages_accounts, pages_topics, pages_core
+import pages_accounts, pages_topics, pages_core, blog
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "..", "app", "public")
@@ -75,6 +75,12 @@ write("/faq/", page(path="/faq/", title="Lou FAQ: US taxes from Canada, privacy,
       body=faq_body, crumbs=[("Lou", "/"), ("FAQ", "/faq/")], schema_extra=[faqld], og_type="website"))
 urls.insert(1, "/faq/")
 
+# ---------------------------------------------------------------- blog
+blog_urls = []
+blog.build_all(write, blog_urls)
+os.makedirs(os.path.join(OUT, "blog"), exist_ok=True)
+shutil.copy(os.path.join(HERE, "share.js"), os.path.join(OUT, "blog", "share.js"))
+
 # ---------------------------------------------------------------- assets, sitemap
 os.makedirs(os.path.join(OUT, "guides", "fonts"), exist_ok=True)
 if os.path.isdir(FONTS_SRC):
@@ -87,8 +93,10 @@ sm = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitem
 for u in existing + urls:
     lm = f"<lastmod>{UPDATED_ISO}</lastmod>" if u not in existing[1:] else ""
     sm.append(f"  <url><loc>{SITE}{u}</loc>{lm}</url>")
+for u, lm in blog_urls:
+    sm.append(f"  <url><loc>{SITE}{u}</loc>" + (f"<lastmod>{lm}</lastmod>" if lm else "") + "</url>")
 sm.append("</urlset>")
 shutil.copy(os.path.join(HERE, "guides.css"), os.path.join(OUT, "guides", "guides.css"))
 with open(os.path.join(OUT, "sitemap.xml"), "w", newline=LF) as f:
     f.write("\n".join(sm) + "\n")
-print("built", len(urls), "pages")
+print("built", len(urls), "pages,", len(blog_urls), "blog pages")

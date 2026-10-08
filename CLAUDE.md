@@ -304,3 +304,11 @@ with filled IRS PDFs (1040, Sch 1, 1-A, 2, 3, B, 8812, 1116 per category) and a 
 - Seven steps now: Tax year, About you, Your slips, Check the numbers, A few questions, **Your Canadian accounts** (`screens/YourAccounts.tsx`: AccountsSection
   + FundsSection, gated on accounts entered or "none" and no copied-but-unfilled items), Your US return. Start lists bank/account details as "have these ready" (FBAR, Form 8938).
   Saved `step: 'questions'` still valid. Scripts updated (walkthrough, sections-check, carry-check).
+
+## Blog (2026-10-08)
+
+- Posts are Markdown in `guides-src/posts/*.md` (front matter format at the top of `guides-src/blog.py`); `python guides-src/build.py` writes `/blog/`,
+  each post, `/blog/feed.xml` (RSS), `/blog/share.js` and sitemap entries. `draft: true` skips a post. The build fails on em dashes and AI-tell words.
+- Share bar per post: X, LinkedIn, Facebook, Bluesky, Reddit, Email links (work without JS) + Copy link / device share sheet (`share.js`, same-origin).
+  Per-section `#` anchor links. Link previews use `image:` (1200x630) when set, else the app icon; no default social card yet.
+- Blog is in the top nav and footer of every guide page and the landing page.

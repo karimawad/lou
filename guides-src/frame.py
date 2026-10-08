@@ -53,7 +53,7 @@ def related(slugs, guides):
     lis = "".join(f'<li><a href="/guides/{s}/">{guides[s]["short"]}</a></li>' for s in slugs)
     return f'<ul class="related">{lis}</ul>'
 
-NAV_ITEMS = [("/guides/", "Guides"), ("/faq/", "FAQ"), ("/guides/catch-up-filing/", "Catch up")]
+NAV_ITEMS = [("/guides/", "Guides"), ("/blog/", "Blog"), ("/faq/", "FAQ"), ("/guides/catch-up-filing/", "Catch up")]
 
 def nav(active):
     links = []
@@ -67,7 +67,7 @@ def nav(active):
 FOOT = ('<footer class="foot"><p>Lou is a tax-preparation tool, not a substitute for individualized professional tax advice. '
         'These guides explain general rules for US citizens and green card holders who live in Canada; they are not advice for your situation. '
         'Not affiliated with the IRS or the CRA.</p>'
-        '<nav aria-label="About Lou"><a href="/guides/">Guides</a><a href="/faq/">FAQ</a><a href="/legal/terms.html">Terms</a>'
+        '<nav aria-label="About Lou"><a href="/guides/">Guides</a><a href="/blog/">Blog</a><a href="/faq/">FAQ</a><a href="/legal/terms.html">Terms</a>'
         '<a href="/legal/privacy.html">Privacy</a><a href="/legal/notices.html">Notices</a><a href="/support/">Report a problem</a>'
         '<a href="mailto:info@bigtimedesign.ca">Contact</a></nav>'
         '<span>&copy; 2026 Big Time Design and Communication Inc.</span></footer>')
@@ -79,19 +79,27 @@ def final(line1, line2, note):
 DEFAULT_FINAL = final("Already did your Canadian taxes?", "Let Lou do the US paperwork.",
                       "Free to try. $49 CAD plus tax covers your 2023, 2024 and 2025 returns; each new tax year after that is $49. Your documents stay on your device.")
 
-def page(*, path, title, h1, description, code, kicker, lede, body, crumbs, schema_extra=None, final_html=None, active=None, og_type="article"):
+def page(*, path, title, h1, description, code, kicker, lede, body, crumbs, schema_extra=None, final_html=None, active=None, og_type="article",
+         published=None, modified=None, right=None, og_image=None, head_extra="", schema_type="Article", body_end=""):
     url = SITE + path
     ld = [{
         "@context": "https://schema.org", "@type": "BreadcrumbList",
         "itemListElement": [{"@type": "ListItem", "position": i + 1, "name": n, "item": SITE + h} for i, (n, h) in enumerate(crumbs)],
     }]
     if og_type == "article":
-        ld.append({"@context": "https://schema.org", "@type": "Article", "headline": h1, "description": description,
-                   "url": url, "mainEntityOfPage": url, "dateModified": UPDATED_ISO, "datePublished": UPDATED_ISO,
-                   "inLanguage": "en", "author": ORG, "publisher": ORG})
+        art = {"@context": "https://schema.org", "@type": schema_type, "headline": h1, "description": description,
+               "url": url, "mainEntityOfPage": url, "dateModified": modified or published or UPDATED_ISO,
+               "datePublished": published or UPDATED_ISO, "inLanguage": "en", "author": ORG, "publisher": ORG}
+        if og_image:
+            art["image"] = og_image if og_image.startswith("http") else SITE + og_image
+        ld.append(art)
     if schema_extra:
         ld.extend(schema_extra)
     ld_html = "\n".join('<script type="application/ld+json">%s</script>' % json.dumps(x, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/") for x in ld)
+    right_label, right_value = right or ("Updated", UPDATED_TXT)
+    image = og_image or "/icons/icon-512.png"
+    image = image if image.startswith("http") else SITE + image
+    card = "summary_large_image" if og_image else "summary"
     crumb_html = "".join(f'<li><a href="{h}">{n}</a></li>' if i < len(crumbs) - 1 else f'<li aria-current="page">{n}</li>' for i, (n, h) in enumerate(crumbs))
     return f"""<!doctype html>
 <html lang="en">
@@ -111,8 +119,11 @@ def page(*, path, title, h1, description, code, kicker, lede, body, crumbs, sche
 <meta property="og:title" content="{esc(h1)}" />
 <meta property="og:description" content="{esc(description)}" />
 <meta property="og:url" content="{url}" />
-<meta property="og:image" content="{SITE}/icons/icon-512.png" />
-<meta name="twitter:card" content="summary" />
+<meta property="og:image" content="{image}" />
+<meta name="twitter:card" content="{card}" />
+<meta name="twitter:title" content="{esc(h1)}" />
+<meta name="twitter:description" content="{esc(description)}" />
+{head_extra}
 {ld_html}
 </head>
 <body>
@@ -124,7 +135,7 @@ def page(*, path, title, h1, description, code, kicker, lede, body, crumbs, sche
 <header class="head">
   <div class="l"><div class="fn">{kicker}<b>{code}</b></div></div>
   <div class="m"><span class="dot d1" aria-hidden="true"></span><span class="dot d2" aria-hidden="true"></span><h1>{h1}</h1><p class="lede">{lede}</p></div>
-  <div class="r"><small>Updated</small><b>{UPDATED_TXT}</b></div>
+  <div class="r"><small>{right_label}</small><b>{right_value}</b></div>
 </header>
 <nav class="crumbs" aria-label="Breadcrumb"><ol>{crumb_html}</ol></nav>
 <main id="main">
@@ -134,6 +145,7 @@ def page(*, path, title, h1, description, code, kicker, lede, body, crumbs, sche
 {FOOT}
 </div>
 </div>
+{body_end}
 </body>
 </html>
 """

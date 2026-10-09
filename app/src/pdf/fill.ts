@@ -241,7 +241,8 @@ export async function fillReturn(input: ReturnInput, r: ReturnResult, load: Load
     f.check((input.accounts?.length ?? 0) > 0 || input.foreignAccountsOver10k !== false ? 'foreignAccountYes' : 'foreignAccountNo');
     f.check(input.foreignAccountsOver10k === false ? 'fbarRequiredNo' : 'fbarRequiredYes');
     f.text('country', 'Canada');
-    f.check('foreignTrustNo');
+    // Line 8: Yes when a TFSA/FHSA is reported on Form 3520 (the owner is treated as grantor of the trust).
+    f.check(r.trusts.length > 0 ? 'foreignTrustYes' : 'foreignTrustNo');
     out.push({ id: 'schB', title: 'Schedule B', bytes: await f.save() });
   }
 

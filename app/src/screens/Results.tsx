@@ -82,10 +82,11 @@ export function Results() {
       const forms = await fillReturn(input, r);
       // The 1040 package and the Form 3520 package are mailed to different IRS addresses.
       const bytes = kind === 'review' ? await reviewPackage(forms)
+        : kind === 'guide' ? await (await import('../pdf/readingGuide')).buildReadingGuide(input, r, new Date().toISOString().slice(0, 10))
         : kind === 'combined' ? await mergeForms(forms.filter((f) => !f.packet))
         : kind === 'packet3520' ? await mergeForms(forms.filter((f) => f.packet === '3520'))
         : forms.find((f) => f.id === kind)!.bytes;
-      const name = kind === 'review' ? `Review-package-${year}-${input.taxpayer.lastName || 'Lou'}.pdf` : kind === 'combined' ? `US-return-${year}-${input.taxpayer.lastName || 'Lou'}.pdf` : kind === 'packet3520' ? `Form-3520-${year}-${input.taxpayer.lastName || 'Lou'}.pdf` : `${kind}-${year}.pdf`;
+      const name = kind === 'guide' ? `How-to-read-${year}-${input.taxpayer.lastName || 'Lou'}.pdf` : kind === 'review' ? `Review-package-${year}-${input.taxpayer.lastName || 'Lou'}.pdf` : kind === 'combined' ? `US-return-${year}-${input.taxpayer.lastName || 'Lou'}.pdf` : kind === 'packet3520' ? `Form-3520-${year}-${input.taxpayer.lastName || 'Lou'}.pdf` : `${kind}-${year}.pdf`;
       const url = URL.createObjectURL(new Blob([bytes as BlobPart], { type: 'application/pdf' }));
       Object.assign(document.createElement('a'), { href: url, download: name }).click();
       setTimeout(() => URL.revokeObjectURL(url), 10000);
@@ -223,6 +224,10 @@ export function Results() {
             <div className="download-row">
               <div><div className="list-title">Review package for a tax professional</div><div className="list-meta">Every number with where it came from and the rule behind it, your answers, every warning, the filled forms and your documents. For a CPA or enrolled agent to check before you sign.</div></div>
               <button type="button" className="btn btn-secondary" disabled={building || !hasNoa} onClick={() => download('review')}><Download size={18} /> Download PDF</button>
+            </div>
+            <div className="download-row">
+              <div><div className="list-title">How to read this return</div><div className="list-meta">One short note for anyone checking your forms: why there are regular and AMT Forms 1116, where the total tax comes from, and what the foreign account answers mean. Send it with your return PDF. Do not mail it to the IRS.</div></div>
+              <button type="button" className="btn btn-secondary" disabled={building || !hasNoa} onClick={() => download('guide')}><Download size={18} /> Download PDF</button>
             </div>
             <details className="more">
               <summary>Download forms one at a time</summary>

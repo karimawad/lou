@@ -15,6 +15,7 @@ import { DISPLAY_ORDER, F1040_LABELS, f1040Line } from '../screens/lines';
 import { confidenceOf } from '../screens/provenance';
 import { SLIP_LABEL } from '../screens/slipLabels';
 import type { FilledForm } from './fill';
+import { readingGuideNotes, writeReadingGuide } from './readingGuide';
 
 export interface SourcePage { doc: string; page: number; png: Uint8Array }
 
@@ -142,6 +143,8 @@ export async function buildReviewPackage(p: PackageInput): Promise<Uint8Array> {
   L.row(r.refund >= 0 ? 'Refund' : 'Amount owed', usd(Math.abs(r.refund)), { bold: true });
   L.text(`Foreign tax credit vs. foreign earned income exclusion: ${r.usedFeie ? 'the exclusion (Form 2555) is used' : 'the credit (Form 1116) is used'} (taxpayer's choice: ${state.elections.feie === 'auto' ? 'let Lou compare' : state.elections.feie === 'yes' ? 'exclusion' : 'credit only'}).`, { gap: 2 });
   L.text(`Forms: ${p.forms.map((f) => f.title).join(', ')}.`);
+
+  writeReadingGuide(L, readingGuideNotes(input, r));
 
   // ---- Every number ----
   L.heading('Every number and where it came from');
